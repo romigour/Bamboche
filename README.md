@@ -2,7 +2,7 @@
 
 Jeux de soirée sur un seul téléphone, qu'on se passe de main en main. Application web installable (PWA), qui fonctionne hors ligne, sans compte ni serveur.
 
-Jeu disponible : **Time Up**. Bientôt : Blindtest, Hipster, Undercover.
+Jeux disponibles : **Time Up** et **Blindtest** (le Blindtest a besoin d'Internet pour la musique). Bientôt : Hipster, Undercover.
 
 ## Lancer en local
 
@@ -64,3 +64,19 @@ La charte graphique (couleurs, polices, boutons) est dans `src/lib/theme/tokens.
 ## Mots du Time Up
 
 `src/games/timeup/words.json` : liste de `{ "text", "category" }`. Catégories autorisées : Célébrité, Personnage, Objet, Lieu, Animal, Film & série. Le test `words.test.ts` refuse les doublons (accents et majuscules ignorés).
+
+## Playlists du Blindtest
+
+Une playlist intégrée vient d'un export CSV d'[Exportify](https://exportify.app/). On ne garde que les titres qui ont un extrait de 30 s.
+
+1. Exporter la playlist Spotify avec Exportify (fichier `.csv`).
+2. La convertir :
+
+```bash
+npm run import-playlist -- "chemin/vers/export.csv" annees-80 "Années 80" "Les tubes des années 80"
+```
+
+3. Le script écrit `src/games/blindtest/playlists/annees-80.json` et liste les titres écartés.
+4. Ajouter l'import de ce JSON dans `src/games/blindtest/playlists/index.ts` (tableau `playlists`), puis retirer son nom de la liste « Bientôt » de `screens/Playlist.svelte`.
+
+Les extraits et les pochettes sont lus depuis les serveurs de Spotify : ils ne sont jamais mis en cache par l'app.
