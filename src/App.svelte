@@ -1,8 +1,5 @@
-<main>
-  <h1>Bamboche</h1>
-</main>
+<script lang="ts">
+  import Home from './screens/Home.svelte';
+</script>
 
-<style>
-  main { flex: 1; display: grid; place-items: center; }
-  h1 { font-size: 48px; color: var(--pop); }
-</style>
+<Home playerCount={0} onopen={() => {}} onplayers={() => {}} />
