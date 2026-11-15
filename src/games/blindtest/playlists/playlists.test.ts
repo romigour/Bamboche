@@ -1,5 +1,6 @@
 import { expect, test } from 'vitest';
 import { blindtest } from '../module';
+import type { Track } from '../types';
 import { playlistById, playlists } from './index';
 
 const maxTracks = Math.max(
@@ -37,4 +38,23 @@ test.each(playlists.map((p) => [p.id, p] as const))('la playlist « %s » est jo
 
 test('les ids de playlists sont uniques', () => {
   expect(new Set(playlists.map((p) => p.id)).size).toBe(playlists.length);
+});
+
+const shownYear = (t: Track) => t.annee_corrigee ?? t.year;
+
+test.each([
+  ['annees-2000-fr', 2000, 2009, [] as string[]],
+  ['rap-fr', 1990, 2009, ["Poussière d'empire", 'Quand je partirai', 'A chaque jour suffit sa peine']], // vraiment sortis en 2010-2013
+])('les années affichées de « %s » restent dans la période annoncée', (id, from, to, exceptions) => {
+  const outside = playlistById(id)!
+    .tracks.filter((t) => !exceptions.some((e) => t.displayTitle.startsWith(e)))
+    .filter((t) => shownYear(t)! < from || shownYear(t)! > to)
+    .map((t) => `${t.displayTitle} (${shownYear(t)})`);
+  expect(outside).toEqual([]);
+});
+
+test.each(playlists.map((p) => [p.id, p] as const))('« %s » : une année corrigée est plus ancienne que celle de Spotify', (_id, p) => {
+  for (const t of p.tracks.filter((t) => t.annee_corrigee !== undefined)) {
+    expect(t.annee_corrigee).toBeLessThan(t.year!);
+  }
 });

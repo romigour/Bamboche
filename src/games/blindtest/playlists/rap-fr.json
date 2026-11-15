@@ -691,7 +691,8 @@
    "preview": "https://p.scdn.co/mp3-preview/a1c026ec8ce6f6c345a1e9b583dc0c52c24085ec?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 240813,
    "isrc": "FROPF0800030",
-   "popularity": 55
+   "popularity": 55,
+   "annee_corrigee": 2007
   },
   {
    "id": "spotify:track:4HNH7bIAIscir2rVqVi2eV",
@@ -706,7 +707,8 @@
    "preview": "https://p.scdn.co/mp3-preview/67abc7b732c1bf4c9d39b673fdf9785914f9cb8d?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 139226,
    "isrc": "FR6V80834388",
-   "popularity": 0
+   "popularity": 0,
+   "annee_corrigee": 1996
   },
   {
    "id": "spotify:track:7njnsewQzFssYI6F1RGwhn",
@@ -796,7 +798,8 @@
    "preview": "https://p.scdn.co/mp3-preview/6f5c94ba19d97181331a1045a547668162e09dba?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 286200,
    "isrc": "FR0U91000344",
-   "popularity": 0
+   "popularity": 0,
+   "annee_corrigee": 1999
   },
   {
    "id": "spotify:track:19IDhEC95smtBYVx7iXvPD",
@@ -842,7 +845,8 @@
    "preview": "https://p.scdn.co/mp3-preview/11a1b6383de2f8f57747be37995a687374c2ac2b?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 248853,
    "isrc": "FR7U60900170",
-   "popularity": 0
+   "popularity": 0,
+   "annee_corrigee": 2009
   },
   {
    "id": "spotify:track:2rKILkEJB20rf6RLLmtDQm",
@@ -903,7 +907,8 @@
    "preview": "https://p.scdn.co/mp3-preview/f7f15b653b08259871a24b0e4e91352ef2be250c?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 372773,
    "isrc": "SR8W10500070",
-   "popularity": 48
+   "popularity": 48,
+   "annee_corrigee": 1996
   },
   {
    "id": "spotify:track:71LR7mxKLDCaF3Se2erosU",
@@ -933,7 +938,8 @@
    "preview": "https://p.scdn.co/mp3-preview/2f2f7c9ef3f29b8ca583c5592b987bbb1b99214e?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 260400,
    "isrc": "FRY689802940",
-   "popularity": 48
+   "popularity": 48,
+   "annee_corrigee": 1997
   },
   {
    "id": "spotify:track:29f6hufsY5ULe3NGXZhzBs",
@@ -982,7 +988,8 @@
    "preview": "https://p.scdn.co/mp3-preview/b077098f31e51fd8dcdb98ba60fa566d68e9af96?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 241480,
    "isrc": "FR6V80371606",
-   "popularity": 52
+   "popularity": 52,
+   "annee_corrigee": 1999
   },
   {
    "id": "spotify:track:0Frv8qzBuCVh6F6nTNenLB",
@@ -1029,7 +1036,8 @@
    "preview": "https://p.scdn.co/mp3-preview/0f9679941083a3b9abf52a86041b619363ae50d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 247880,
    "isrc": "FRZ050500218",
-   "popularity": 50
+   "popularity": 50,
+   "annee_corrigee": 2005
   },
   {
    "id": "spotify:track:5IOBAfIeu5xwLqhFeXoZhr",
@@ -1246,7 +1254,8 @@
    "preview": "https://p.scdn.co/mp3-preview/14fe42484ce46fe29eafedeb20cb8be17c94d521?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 250133,
    "isrc": "FRY689802420",
-   "popularity": 51
+   "popularity": 51,
+   "annee_corrigee": 1998
   },
   {
    "id": "spotify:track:6v2rO2OZwbdLduQepA8JJ7",
@@ -1277,7 +1286,8 @@
    "preview": "https://p.scdn.co/mp3-preview/f3da37b9161a84c141c8386a5134fb4289a7fcc8?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 249053,
    "isrc": "FR7U60900020",
-   "popularity": 0
+   "popularity": 0,
+   "annee_corrigee": 2009
   },
   {
    "id": "spotify:track:05UwuEvxES9nTPRU8AD2Yb",
@@ -1292,7 +1302,8 @@
    "preview": "https://p.scdn.co/mp3-preview/d4296389589a489f9d78669f0388cf2075a5f1a9?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 227133,
    "isrc": "FR86U0100120",
-   "popularity": 36
+   "popularity": 36,
+   "annee_corrigee": 2001
   },
   {
    "id": "spotify:track:27pZBXbNTr3jnNXXs77m9K",
@@ -1309,7 +1320,8 @@
    "preview": "https://p.scdn.co/mp3-preview/89b138d28b02eef293c6d54e6d671fe0c3be9a37?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 235466,
    "isrc": "FRZ080201100",
-   "popularity": 0
+   "popularity": 0,
+   "annee_corrigee": 2002
   },
   {
    "id": "spotify:track:7KcQYUU14y4UGOaHW0r2T5",
@@ -1324,7 +1336,8 @@
    "preview": "https://p.scdn.co/mp3-preview/cf64ef45b15774be7ceefc47d1c38cdaae139096?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 233920,
    "isrc": "FRY681400328",
-   "popularity": 40
+   "popularity": 40,
+   "annee_corrigee": 1995
   },
   {
    "id": "spotify:track:5sZYXYVANndLBLfJNY9bDD",
@@ -1440,7 +1453,8 @@
    "preview": "https://p.scdn.co/mp3-preview/cbdce32e5342501c64bc177538227e7f0003401a?cid=9950ac751e34487dbbe027c4fd7f8e99",
    "durationMs": 238626,
    "isrc": "FRZ089000220",
-   "popularity": 36
+   "popularity": 36,
+   "annee_corrigee": 1990
   },
   {
    "id": "spotify:track:0vIDmQVcdN5xoKXCTzTciu",
