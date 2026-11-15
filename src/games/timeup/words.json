@@ -40,7 +40,131 @@
   "category": "Célébrité"
  },
  {
+  "text": "Jean Dujardin",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Stromae",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Mylène Farmer",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Thomas Pesquet",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Teddy Riner",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Antoine Griezmann",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Jean-Jacques Goldman",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Charles de Gaulle",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Coco Chanel",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Molière",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Jeanne d’Arc",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Albert Einstein",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Michael Jackson",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Madonna",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Elvis Presley",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Beyoncé",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Léonard de Vinci",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Mozart",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Picasso",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Cléopâtre",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Jules César",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Louis XIV",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Gad Elmaleh",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Florent Pagny",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Angèle",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Tony Parker",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Usain Bolt",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Serena Williams",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Charlie Chaplin",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Marilyn Monroe",
+  "category": "Célébrité"
+ },
+ {
   "text": "Astérix",
+  "category": "Personnage"
+ },
+ {
+  "text": "Obélix",
   "category": "Personnage"
  },
  {
@@ -80,6 +204,122 @@
   "category": "Personnage"
  },
  {
+  "text": "Mario",
+  "category": "Personnage"
+ },
+ {
+  "text": "Sherlock Holmes",
+  "category": "Personnage"
+ },
+ {
+  "text": "Batman",
+  "category": "Personnage"
+ },
+ {
+  "text": "Superman",
+  "category": "Personnage"
+ },
+ {
+  "text": "Blanche-Neige",
+  "category": "Personnage"
+ },
+ {
+  "text": "Pinocchio",
+  "category": "Personnage"
+ },
+ {
+  "text": "Le Père Noël",
+  "category": "Personnage"
+ },
+ {
+  "text": "Dracula",
+  "category": "Personnage"
+ },
+ {
+  "text": "Zorro",
+  "category": "Personnage"
+ },
+ {
+  "text": "Bob l’éponge",
+  "category": "Personnage"
+ },
+ {
+  "text": "Homer Simpson",
+  "category": "Personnage"
+ },
+ {
+  "text": "Garfield",
+  "category": "Personnage"
+ },
+ {
+  "text": "Schtroumpf",
+  "category": "Personnage"
+ },
+ {
+  "text": "Lucky Luke",
+  "category": "Personnage"
+ },
+ {
+  "text": "Gaston Lagaffe",
+  "category": "Personnage"
+ },
+ {
+  "text": "Wonder Woman",
+  "category": "Personnage"
+ },
+ {
+  "text": "Hulk",
+  "category": "Personnage"
+ },
+ {
+  "text": "Peter Pan",
+  "category": "Personnage"
+ },
+ {
+  "text": "Le Capitaine Crochet",
+  "category": "Personnage"
+ },
+ {
+  "text": "Gollum",
+  "category": "Personnage"
+ },
+ {
+  "text": "Yoda",
+  "category": "Personnage"
+ },
+ {
+  "text": "Elsa",
+  "category": "Personnage"
+ },
+ {
+  "text": "Shérif Woody",
+  "category": "Personnage"
+ },
+ {
+  "text": "Buzz l’Éclair",
+  "category": "Personnage"
+ },
+ {
+  "text": "Le Chat Botté",
+  "category": "Personnage"
+ },
+ {
+  "text": "Rémi sans famille",
+  "category": "Personnage"
+ },
+ {
+  "text": "Arsène Lupin",
+  "category": "Personnage"
+ },
+ {
+  "text": "Barbie",
+  "category": "Personnage"
+ },
+ {
+  "text": "Sonic",
+  "category": "Personnage"
+ },
+ {
   "text": "Brosse à dents",
   "category": "Objet"
  },
@@ -109,6 +349,134 @@
  },
  {
   "text": "Sèche-cheveux",
+  "category": "Objet"
+ },
+ {
+  "text": "Aspirateur",
+  "category": "Objet"
+ },
+ {
+  "text": "Machine à laver",
+  "category": "Objet"
+ },
+ {
+  "text": "Ventilateur",
+  "category": "Objet"
+ },
+ {
+  "text": "Lunettes de soleil",
+  "category": "Objet"
+ },
+ {
+  "text": "Montgolfière",
+  "category": "Objet"
+ },
+ {
+  "text": "Raquette de tennis",
+  "category": "Objet"
+ },
+ {
+  "text": "Skateboard",
+  "category": "Objet"
+ },
+ {
+  "text": "Guitare",
+  "category": "Objet"
+ },
+ {
+  "text": "Piano",
+  "category": "Objet"
+ },
+ {
+  "text": "Micro-ondes",
+  "category": "Objet"
+ },
+ {
+  "text": "Fer à repasser",
+  "category": "Objet"
+ },
+ {
+  "text": "Bougie",
+  "category": "Objet"
+ },
+ {
+  "text": "Ballon de foot",
+  "category": "Objet"
+ },
+ {
+  "text": "Casque audio",
+  "category": "Objet"
+ },
+ {
+  "text": "Appareil photo",
+  "category": "Objet"
+ },
+ {
+  "text": "Hamac",
+  "category": "Objet"
+ },
+ {
+  "text": "Boussole",
+  "category": "Objet"
+ },
+ {
+  "text": "Baguette magique",
+  "category": "Objet"
+ },
+ {
+  "text": "Couronne",
+  "category": "Objet"
+ },
+ {
+  "text": "Sablier",
+  "category": "Objet"
+ },
+ {
+  "text": "Parachute",
+  "category": "Objet"
+ },
+ {
+  "text": "Ciseaux",
+  "category": "Objet"
+ },
+ {
+  "text": "Tondeuse",
+  "category": "Objet"
+ },
+ {
+  "text": "Brouette",
+  "category": "Objet"
+ },
+ {
+  "text": "Escalier",
+  "category": "Objet"
+ },
+ {
+  "text": "Ascenseur",
+  "category": "Objet"
+ },
+ {
+  "text": "Pyjama",
+  "category": "Objet"
+ },
+ {
+  "text": "Chaussette",
+  "category": "Objet"
+ },
+ {
+  "text": "Masque de plongée",
+  "category": "Objet"
+ },
+ {
+  "text": "Échelle",
+  "category": "Objet"
+ },
+ {
+  "text": "Cadenas",
+  "category": "Objet"
+ },
+ {
+  "text": "Réveil",
   "category": "Objet"
  },
  {
@@ -144,6 +512,94 @@
   "category": "Lieu"
  },
  {
+  "text": "Arc de Triomphe",
+  "category": "Lieu"
+ },
+ {
+  "text": "Louvre",
+  "category": "Lieu"
+ },
+ {
+  "text": "Statue de la Liberté",
+  "category": "Lieu"
+ },
+ {
+  "text": "Grande Muraille de Chine",
+  "category": "Lieu"
+ },
+ {
+  "text": "Venise",
+  "category": "Lieu"
+ },
+ {
+  "text": "Hôpital",
+  "category": "Lieu"
+ },
+ {
+  "text": "École",
+  "category": "Lieu"
+ },
+ {
+  "text": "Prison",
+  "category": "Lieu"
+ },
+ {
+  "text": "Cinéma",
+  "category": "Lieu"
+ },
+ {
+  "text": "Supermarché",
+  "category": "Lieu"
+ },
+ {
+  "text": "Aéroport",
+  "category": "Lieu"
+ },
+ {
+  "text": "Zoo",
+  "category": "Lieu"
+ },
+ {
+  "text": "Château de Versailles",
+  "category": "Lieu"
+ },
+ {
+  "text": "Montagne",
+  "category": "Lieu"
+ },
+ {
+  "text": "Désert",
+  "category": "Lieu"
+ },
+ {
+  "text": "Igloo",
+  "category": "Lieu"
+ },
+ {
+  "text": "Phare",
+  "category": "Lieu"
+ },
+ {
+  "text": "Cirque",
+  "category": "Lieu"
+ },
+ {
+  "text": "Bibliothèque",
+  "category": "Lieu"
+ },
+ {
+  "text": "Stade",
+  "category": "Lieu"
+ },
+ {
+  "text": "Camping",
+  "category": "Lieu"
+ },
+ {
+  "text": "Pôle Nord",
+  "category": "Lieu"
+ },
+ {
   "text": "Girafe",
   "category": "Animal"
  },
@@ -172,6 +628,118 @@
   "category": "Animal"
  },
  {
+  "text": "Éléphant",
+  "category": "Animal"
+ },
+ {
+  "text": "Lion",
+  "category": "Animal"
+ },
+ {
+  "text": "Crocodile",
+  "category": "Animal"
+ },
+ {
+  "text": "Serpent",
+  "category": "Animal"
+ },
+ {
+  "text": "Singe",
+  "category": "Animal"
+ },
+ {
+  "text": "Dauphin",
+  "category": "Animal"
+ },
+ {
+  "text": "Requin",
+  "category": "Animal"
+ },
+ {
+  "text": "Hibou",
+  "category": "Animal"
+ },
+ {
+  "text": "Poule",
+  "category": "Animal"
+ },
+ {
+  "text": "Vache",
+  "category": "Animal"
+ },
+ {
+  "text": "Cochon",
+  "category": "Animal"
+ },
+ {
+  "text": "Mouton",
+  "category": "Animal"
+ },
+ {
+  "text": "Papillon",
+  "category": "Animal"
+ },
+ {
+  "text": "Abeille",
+  "category": "Animal"
+ },
+ {
+  "text": "Araignée",
+  "category": "Animal"
+ },
+ {
+  "text": "Grenouille",
+  "category": "Animal"
+ },
+ {
+  "text": "Tortue",
+  "category": "Animal"
+ },
+ {
+  "text": "Lapin",
+  "category": "Animal"
+ },
+ {
+  "text": "Chameau",
+  "category": "Animal"
+ },
+ {
+  "text": "Koala",
+  "category": "Animal"
+ },
+ {
+  "text": "Panda",
+  "category": "Animal"
+ },
+ {
+  "text": "Zèbre",
+  "category": "Animal"
+ },
+ {
+  "text": "Hérisson",
+  "category": "Animal"
+ },
+ {
+  "text": "Castor",
+  "category": "Animal"
+ },
+ {
+  "text": "Perroquet",
+  "category": "Animal"
+ },
+ {
+  "text": "Méduse",
+  "category": "Animal"
+ },
+ {
+  "text": "Taupe",
+  "category": "Animal"
+ },
+ {
+  "text": "Loup",
+  "category": "Animal"
+ },
+ {
   "text": "Titanic",
   "category": "Film & série"
  },
@@ -196,7 +764,99 @@
   "category": "Film & série"
  },
  {
-  "text": "Bienvenue chez les Ch’tis",
+  "text": "Bienvenue chez les Ch’\tis",
+  "category": "Film & série"
+ },
+ {
+  "text": "Intouchables",
+  "category": "Film & série"
+ },
+ {
+  "text": "Le Dîner de cons",
+  "category": "Film & série"
+ },
+ {
+  "text": "La Grande Vadrouille",
+  "category": "Film & série"
+ },
+ {
+  "text": "Les Visiteurs",
+  "category": "Film & série"
+ },
+ {
+  "text": "Le Seigneur des anneaux",
+  "category": "Film & série"
+ },
+ {
+  "text": "Jurassic Park",
+  "category": "Film & série"
+ },
+ {
+  "text": "Retour vers le futur",
+  "category": "Film & série"
+ },
+ {
+  "text": "E.T.",
+  "category": "Film & série"
+ },
+ {
+  "text": "Toy Story",
+  "category": "Film & série"
+ },
+ {
+  "text": "La Reine des neiges",
+  "category": "Film & série"
+ },
+ {
+  "text": "Les Simpson",
+  "category": "Film & série"
+ },
+ {
+  "text": "Game of Thrones",
+  "category": "Film & série"
+ },
+ {
+  "text": "Stranger Things",
+  "category": "Film & série"
+ },
+ {
+  "text": "Kaamelott",
+  "category": "Film & série"
+ },
+ {
+  "text": "Casa de papel",
+  "category": "Film & série"
+ },
+ {
+  "text": "Indiana Jones",
+  "category": "Film & série"
+ },
+ {
+  "text": "James Bond",
+  "category": "Film & série"
+ },
+ {
+  "text": "Le Fabuleux Destin d’Amélie Poulain",
+  "category": "Film & série"
+ },
+ {
+  "text": "Les Choristes",
+  "category": "Film & série"
+ },
+ {
+  "text": "OSS 117",
+  "category": "Film & série"
+ },
+ {
+  "text": "Taxi",
+  "category": "Film & série"
+ },
+ {
+  "text": "Ratatouille",
+  "category": "Film & série"
+ },
+ {
+  "text": "Le Monde de Nemo",
   "category": "Film & série"
  }
 ]
