@@ -102,6 +102,7 @@
         id="son"
         type="button"
         role="switch"
+        aria-label="Sons et vibrations"
         class="switch"
         aria-checked={$soundOn}
         onclick={() => {

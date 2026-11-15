@@ -15,7 +15,7 @@
   }: {
     color: string;
     eyebrow?: string;
-    title: string;
+    title?: string;
     subtitle?: string;
     actionLabel: string;
     onaction: () => void;
@@ -28,7 +28,7 @@
   {#if top}<div class="top">{@render top()}</div>{/if}
   <div class="mid">
     {#if eyebrow}<span class="eyebrow">{eyebrow}</span>{/if}
-    <h1>{title}</h1>
+    {#if title}<h1>{title}</h1>{/if}
     {#if subtitle}<p>{subtitle}</p>{/if}
     {#if children}{@render children()}{/if}
   </div>

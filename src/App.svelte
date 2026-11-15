@@ -6,6 +6,7 @@
   import GameSettings from './screens/GameSettings.svelte';
   import Home from './screens/Home.svelte';
   import Players from './screens/Players.svelte';
+  import TimeUpApp from './games/timeup/TimeUpApp.svelte';
 
   const back = (fallback = '/') => navigate($route.query.retour || fallback);
   const settingsGame = $derived(
@@ -19,6 +20,12 @@
   <Players onback={() => back()} />
 {:else if settingsGame}
   {#key settingsGame.id}<GameSettings game={settingsGame} onback={() => back(settingsGame.route)} />{/key}
+{:else if $route.path === '/timeup'}
+  {#key $route.query.etape}
+    <TimeUpApp initialStep={$route.query.etape === 'mode' ? 'mode' : 'teams'} onhome={() => navigate('/')} />
+  {/key}
+{:else if $route.path === '/timeup/partie'}
+  <p style="padding: 40px; text-align: center">Partie lancée (écrans de jeu : Task 10)</p>
 {:else}
   <Home
     playerCount={$players.length}

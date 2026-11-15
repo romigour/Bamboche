@@ -1,0 +1,202 @@
+[
+ {
+  "text": "Zinédine Zidane",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Céline Dion",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Johnny Hallyday",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Kylian Mbappé",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Omar Sy",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Édith Piaf",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Napoléon",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Marie Curie",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Victor Hugo",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Louis de Funès",
+  "category": "Célébrité"
+ },
+ {
+  "text": "Astérix",
+  "category": "Personnage"
+ },
+ {
+  "text": "Harry Potter",
+  "category": "Personnage"
+ },
+ {
+  "text": "Mickey",
+  "category": "Personnage"
+ },
+ {
+  "text": "Shrek",
+  "category": "Personnage"
+ },
+ {
+  "text": "Pikachu",
+  "category": "Personnage"
+ },
+ {
+  "text": "Spider-Man",
+  "category": "Personnage"
+ },
+ {
+  "text": "Le Petit Prince",
+  "category": "Personnage"
+ },
+ {
+  "text": "Cendrillon",
+  "category": "Personnage"
+ },
+ {
+  "text": "Tintin",
+  "category": "Personnage"
+ },
+ {
+  "text": "Dark Vador",
+  "category": "Personnage"
+ },
+ {
+  "text": "Brosse à dents",
+  "category": "Objet"
+ },
+ {
+  "text": "Parapluie",
+  "category": "Objet"
+ },
+ {
+  "text": "Trottinette",
+  "category": "Objet"
+ },
+ {
+  "text": "Grille-pain",
+  "category": "Objet"
+ },
+ {
+  "text": "Boule disco",
+  "category": "Objet"
+ },
+ {
+  "text": "Télécommande",
+  "category": "Objet"
+ },
+ {
+  "text": "Tire-bouchon",
+  "category": "Objet"
+ },
+ {
+  "text": "Sèche-cheveux",
+  "category": "Objet"
+ },
+ {
+  "text": "Tour Eiffel",
+  "category": "Lieu"
+ },
+ {
+  "text": "Mont-Saint-Michel",
+  "category": "Lieu"
+ },
+ {
+  "text": "Disneyland",
+  "category": "Lieu"
+ },
+ {
+  "text": "Plage",
+  "category": "Lieu"
+ },
+ {
+  "text": "Boulangerie",
+  "category": "Lieu"
+ },
+ {
+  "text": "Pyramides",
+  "category": "Lieu"
+ },
+ {
+  "text": "Piscine",
+  "category": "Lieu"
+ },
+ {
+  "text": "Fête foraine",
+  "category": "Lieu"
+ },
+ {
+  "text": "Girafe",
+  "category": "Animal"
+ },
+ {
+  "text": "Pingouin",
+  "category": "Animal"
+ },
+ {
+  "text": "Kangourou",
+  "category": "Animal"
+ },
+ {
+  "text": "Escargot",
+  "category": "Animal"
+ },
+ {
+  "text": "Pieuvre",
+  "category": "Animal"
+ },
+ {
+  "text": "Paresseux",
+  "category": "Animal"
+ },
+ {
+  "text": "Flamant rose",
+  "category": "Animal"
+ },
+ {
+  "text": "Titanic",
+  "category": "Film & série"
+ },
+ {
+  "text": "Le Roi Lion",
+  "category": "Film & série"
+ },
+ {
+  "text": "Les Bronzés",
+  "category": "Film & série"
+ },
+ {
+  "text": "Star Wars",
+  "category": "Film & série"
+ },
+ {
+  "text": "Astérix et Obélix : Mission Cléopâtre",
+  "category": "Film & série"
+ },
+ {
+  "text": "Friends",
+  "category": "Film & série"
+ },
+ {
+  "text": "Bienvenue chez les Ch’tis",
+  "category": "Film & série"
+ }
+]
