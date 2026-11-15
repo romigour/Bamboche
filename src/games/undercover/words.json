@@ -1,0 +1,718 @@
+[
+  {
+    "a": "Plage",
+    "b": "Piscine"
+  },
+  {
+    "a": "Café",
+    "b": "Thé"
+  },
+  {
+    "a": "Chat",
+    "b": "Chien"
+  },
+  {
+    "a": "Guitare",
+    "b": "Violon"
+  },
+  {
+    "a": "Ski",
+    "b": "Snowboard"
+  },
+  {
+    "a": "Pizza",
+    "b": "Tarte"
+  },
+  {
+    "a": "Beurre",
+    "b": "Margarine"
+  },
+  {
+    "a": "Pomme",
+    "b": "Poire"
+  },
+  {
+    "a": "Orange",
+    "b": "Mandarine"
+  },
+  {
+    "a": "Fraise",
+    "b": "Framboise"
+  },
+  {
+    "a": "Citron",
+    "b": "Lime"
+  },
+  {
+    "a": "Tomate",
+    "b": "Poivron"
+  },
+  {
+    "a": "Carotte",
+    "b": "Radis"
+  },
+  {
+    "a": "Pomme de terre",
+    "b": "Patate douce"
+  },
+  {
+    "a": "Pain",
+    "b": "Brioche"
+  },
+  {
+    "a": "Croissant",
+    "b": "Pain au chocolat"
+  },
+  {
+    "a": "Gâteau",
+    "b": "Tarte"
+  },
+  {
+    "a": "Glace",
+    "b": "Sorbet"
+  },
+  {
+    "a": "Chocolat",
+    "b": "Caramel"
+  },
+  {
+    "a": "Miel",
+    "b": "Confiture"
+  },
+  {
+    "a": "Riz",
+    "b": "Pâtes"
+  },
+  {
+    "a": "Soupe",
+    "b": "Velouté"
+  },
+  {
+    "a": "Omelette",
+    "b": "Crêpe"
+  },
+  {
+    "a": "Jambon",
+    "b": "Saucisson"
+  },
+  {
+    "a": "Fromage",
+    "b": "Yaourt"
+  },
+  {
+    "a": "Lait",
+    "b": "Crème"
+  },
+  {
+    "a": "Vin",
+    "b": "Bière"
+  },
+  {
+    "a": "Cidre",
+    "b": "Champagne"
+  },
+  {
+    "a": "Eau",
+    "b": "Limonade"
+  },
+  {
+    "a": "Jus",
+    "b": "Sirop"
+  },
+  {
+    "a": "Couteau",
+    "b": "Fourchette"
+  },
+  {
+    "a": "Cuillère",
+    "b": "Louche"
+  },
+  {
+    "a": "Assiette",
+    "b": "Bol"
+  },
+  {
+    "a": "Verre",
+    "b": "Tasse"
+  },
+  {
+    "a": "Bouteille",
+    "b": "Carafe"
+  },
+  {
+    "a": "Poêle",
+    "b": "Casserole"
+  },
+  {
+    "a": "Four",
+    "b": "Micro-ondes"
+  },
+  {
+    "a": "Frigo",
+    "b": "Congélateur"
+  },
+  {
+    "a": "Table",
+    "b": "Bureau"
+  },
+  {
+    "a": "Chaise",
+    "b": "Tabouret"
+  },
+  {
+    "a": "Canapé",
+    "b": "Fauteuil"
+  },
+  {
+    "a": "Lit",
+    "b": "Hamac"
+  },
+  {
+    "a": "Oreiller",
+    "b": "Coussin"
+  },
+  {
+    "a": "Couverture",
+    "b": "Couette"
+  },
+  {
+    "a": "Rideau",
+    "b": "Store"
+  },
+  {
+    "a": "Tapis",
+    "b": "Moquette"
+  },
+  {
+    "a": "Lampe",
+    "b": "Bougie"
+  },
+  {
+    "a": "Miroir",
+    "b": "Fenêtre"
+  },
+  {
+    "a": "Porte",
+    "b": "Portail"
+  },
+  {
+    "a": "Maison",
+    "b": "Appartement"
+  },
+  {
+    "a": "Château",
+    "b": "Palais"
+  },
+  {
+    "a": "Église",
+    "b": "Cathédrale"
+  },
+  {
+    "a": "Mer",
+    "b": "Océan"
+  },
+  {
+    "a": "Lac",
+    "b": "Étang"
+  },
+  {
+    "a": "Rivière",
+    "b": "Fleuve"
+  },
+  {
+    "a": "Montagne",
+    "b": "Colline"
+  },
+  {
+    "a": "Forêt",
+    "b": "Jungle"
+  },
+  {
+    "a": "Désert",
+    "b": "Savane"
+  },
+  {
+    "a": "Île",
+    "b": "Presqu'île"
+  },
+  {
+    "a": "Volcan",
+    "b": "Geyser"
+  },
+  {
+    "a": "Pluie",
+    "b": "Neige"
+  },
+  {
+    "a": "Orage",
+    "b": "Tempête"
+  },
+  {
+    "a": "Brouillard",
+    "b": "Nuage"
+  },
+  {
+    "a": "Soleil",
+    "b": "Lune"
+  },
+  {
+    "a": "Étoile",
+    "b": "Planète"
+  },
+  {
+    "a": "Printemps",
+    "b": "Automne"
+  },
+  {
+    "a": "Été",
+    "b": "Hiver"
+  },
+  {
+    "a": "Chapeau",
+    "b": "Casquette"
+  },
+  {
+    "a": "Écharpe",
+    "b": "Foulard"
+  },
+  {
+    "a": "Gants",
+    "b": "Moufles"
+  },
+  {
+    "a": "Pull",
+    "b": "Gilet"
+  },
+  {
+    "a": "Chemise",
+    "b": "Polo"
+  },
+  {
+    "a": "Jean",
+    "b": "Pantalon"
+  },
+  {
+    "a": "Jupe",
+    "b": "Robe"
+  },
+  {
+    "a": "Chaussette",
+    "b": "Collant"
+  },
+  {
+    "a": "Basket",
+    "b": "Botte"
+  },
+  {
+    "a": "Sandale",
+    "b": "Tongs"
+  },
+  {
+    "a": "Montre",
+    "b": "Bracelet"
+  },
+  {
+    "a": "Bague",
+    "b": "Collier"
+  },
+  {
+    "a": "Lunettes",
+    "b": "Lentilles"
+  },
+  {
+    "a": "Sac",
+    "b": "Valise"
+  },
+  {
+    "a": "Parapluie",
+    "b": "Imperméable"
+  },
+  {
+    "a": "Voiture",
+    "b": "Camion"
+  },
+  {
+    "a": "Moto",
+    "b": "Scooter"
+  },
+  {
+    "a": "Vélo",
+    "b": "Trottinette"
+  },
+  {
+    "a": "Train",
+    "b": "Tramway"
+  },
+  {
+    "a": "Avion",
+    "b": "Hélicoptère"
+  },
+  {
+    "a": "Bateau",
+    "b": "Sous-marin"
+  },
+  {
+    "a": "Bus",
+    "b": "Métro"
+  },
+  {
+    "a": "Taxi",
+    "b": "Uber"
+  },
+  {
+    "a": "Aéroport",
+    "b": "Gare"
+  },
+  {
+    "a": "Route",
+    "b": "Autoroute"
+  },
+  {
+    "a": "Pont",
+    "b": "Tunnel"
+  },
+  {
+    "a": "Feu",
+    "b": "Panneau"
+  },
+  {
+    "a": "Médecin",
+    "b": "Infirmier"
+  },
+  {
+    "a": "Dentiste",
+    "b": "Opticien"
+  },
+  {
+    "a": "Professeur",
+    "b": "Instituteur"
+  },
+  {
+    "a": "Boulanger",
+    "b": "Pâtissier"
+  },
+  {
+    "a": "Boucher",
+    "b": "Charcutier"
+  },
+  {
+    "a": "Pompier",
+    "b": "Policier"
+  },
+  {
+    "a": "Pilote",
+    "b": "Chauffeur"
+  },
+  {
+    "a": "Acteur",
+    "b": "Chanteur"
+  },
+  {
+    "a": "Peintre",
+    "b": "Sculpteur"
+  },
+  {
+    "a": "Écrivain",
+    "b": "Poète"
+  },
+  {
+    "a": "Roman",
+    "b": "Bande dessinée"
+  },
+  {
+    "a": "Journal",
+    "b": "Magazine"
+  },
+  {
+    "a": "Livre",
+    "b": "Cahier"
+  },
+  {
+    "a": "Stylo",
+    "b": "Crayon"
+  },
+  {
+    "a": "Gomme",
+    "b": "Correcteur"
+  },
+  {
+    "a": "Règle",
+    "b": "Équerre"
+  },
+  {
+    "a": "Ciseaux",
+    "b": "Cutter"
+  },
+  {
+    "a": "Colle",
+    "b": "Scotch"
+  },
+  {
+    "a": "Ordinateur",
+    "b": "Tablette"
+  },
+  {
+    "a": "Téléphone",
+    "b": "Talkie-walkie"
+  },
+  {
+    "a": "Télévision",
+    "b": "Cinéma"
+  },
+  {
+    "a": "Radio",
+    "b": "Podcast"
+  },
+  {
+    "a": "Piano",
+    "b": "Orgue"
+  },
+  {
+    "a": "Batterie",
+    "b": "Tambour"
+  },
+  {
+    "a": "Flûte",
+    "b": "Clarinette"
+  },
+  {
+    "a": "Trompette",
+    "b": "Trombone"
+  },
+  {
+    "a": "Concert",
+    "b": "Festival"
+  },
+  {
+    "a": "Chanson",
+    "b": "Poème"
+  },
+  {
+    "a": "Danse",
+    "b": "Gymnastique"
+  },
+  {
+    "a": "Football",
+    "b": "Rugby"
+  },
+  {
+    "a": "Tennis",
+    "b": "Badminton"
+  },
+  {
+    "a": "Basket",
+    "b": "Handball"
+  },
+  {
+    "a": "Natation",
+    "b": "Plongée"
+  },
+  {
+    "a": "Course",
+    "b": "Marathon"
+  },
+  {
+    "a": "Boxe",
+    "b": "Judo"
+  },
+  {
+    "a": "Golf",
+    "b": "Pétanque"
+  },
+  {
+    "a": "Cartes",
+    "b": "Dés"
+  },
+  {
+    "a": "Échecs",
+    "b": "Dames"
+  },
+  {
+    "a": "Puzzle",
+    "b": "Mots croisés"
+  },
+  {
+    "a": "Cirque",
+    "b": "Théâtre"
+  },
+  {
+    "a": "Zoo",
+    "b": "Aquarium"
+  },
+  {
+    "a": "Musée",
+    "b": "Bibliothèque"
+  },
+  {
+    "a": "Parc",
+    "b": "Jardin"
+  },
+  {
+    "a": "Plage",
+    "b": "Camping"
+  },
+  {
+    "a": "Hôtel",
+    "b": "Auberge"
+  },
+  {
+    "a": "Restaurant",
+    "b": "Cantine"
+  },
+  {
+    "a": "Marché",
+    "b": "Supermarché"
+  },
+  {
+    "a": "Banque",
+    "b": "Poste"
+  },
+  {
+    "a": "Hôpital",
+    "b": "Clinique"
+  },
+  {
+    "a": "École",
+    "b": "Collège"
+  },
+  {
+    "a": "Lion",
+    "b": "Tigre"
+  },
+  {
+    "a": "Loup",
+    "b": "Renard"
+  },
+  {
+    "a": "Ours",
+    "b": "Panda"
+  },
+  {
+    "a": "Cheval",
+    "b": "Âne"
+  },
+  {
+    "a": "Vache",
+    "b": "Chèvre"
+  },
+  {
+    "a": "Mouton",
+    "b": "Chèvre"
+  },
+  {
+    "a": "Cochon",
+    "b": "Sanglier"
+  },
+  {
+    "a": "Poule",
+    "b": "Canard"
+  },
+  {
+    "a": "Aigle",
+    "b": "Faucon"
+  },
+  {
+    "a": "Corbeau",
+    "b": "Pigeon"
+  },
+  {
+    "a": "Requin",
+    "b": "Dauphin"
+  },
+  {
+    "a": "Crocodile",
+    "b": "Alligator"
+  },
+  {
+    "a": "Grenouille",
+    "b": "Crapaud"
+  },
+  {
+    "a": "Papillon",
+    "b": "Abeille"
+  },
+  {
+    "a": "Fourmi",
+    "b": "Araignée"
+  },
+  {
+    "a": "Escargot",
+    "b": "Limace"
+  },
+  {
+    "a": "Rose",
+    "b": "Tulipe"
+  },
+  {
+    "a": "Arbre",
+    "b": "Buisson"
+  },
+  {
+    "a": "Savon",
+    "b": "Shampoing"
+  },
+  {
+    "a": "Brosse à dents",
+    "b": "Dentifrice"
+  },
+  {
+    "a": "Parfum",
+    "b": "Déodorant"
+  },
+  {
+    "a": "Douche",
+    "b": "Baignoire"
+  },
+  {
+    "a": "Serviette",
+    "b": "Gant de toilette"
+  },
+  {
+    "a": "Balai",
+    "b": "Aspirateur"
+  },
+  {
+    "a": "Marteau",
+    "b": "Tournevis"
+  },
+  {
+    "a": "Clou",
+    "b": "Vis"
+  },
+  {
+    "a": "Échelle",
+    "b": "Escabeau"
+  },
+  {
+    "a": "Mariage",
+    "b": "Baptême"
+  },
+  {
+    "a": "Anniversaire",
+    "b": "Noël"
+  },
+  {
+    "a": "Cadeau",
+    "b": "Surprise"
+  },
+  {
+    "a": "Roi",
+    "b": "Empereur"
+  },
+  {
+    "a": "Sorcier",
+    "b": "Magicien"
+  },
+  {
+    "a": "Pirate",
+    "b": "Corsaire"
+  },
+  {
+    "a": "Fantôme",
+    "b": "Vampire"
+  },
+  {
+    "a": "Dragon",
+    "b": "Dinosaure"
+  }
+]
