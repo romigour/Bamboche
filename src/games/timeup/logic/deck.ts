@@ -1,7 +1,7 @@
 import { shuffle, type Rng } from '../../../lib/random';
 import type { Card, WordEntry } from '../../../lib/teams';
 
-const key = (s: string) => s.trim().toLocaleLowerCase('fr').normalize('NFD').replace(/\p{M}/gu, '');
+import { normalizeWord as key } from '../../../lib/normalize';
 
 /** Tire n cartes aux textes uniques (insensible à la casse et aux accents). */
 export function drawQuickCards(words: WordEntry[], n: number, rng?: Rng): Card[] {
