@@ -20,10 +20,19 @@ export function startUndercover(s: UndercoverState): void {
 
 const PHASES = ['deal', 'talk', 'vote', 'reveal', 'mrwhite', 'end', 'scores', 'podium'];
 
+const ROLES = ['civil', 'undercover', 'mrwhite'];
+
 export function loadSavedUndercover(): UndercoverState | null {
   const s = load<Partial<UndercoverState> | null>(KEY, null);
   if (!s || s.version !== 1 || !PHASES.includes(s.phase as string)) return null;
   if (!Array.isArray(s.players)) return null;
+  if (!Array.isArray(s.eliminated) || !Array.isArray(s.usedPairs) || typeof s.gameNumber !== 'number') return null;
+  if (!s.roles || typeof s.roles !== 'object' || !s.totals || typeof s.totals !== 'object') return null;
+  for (const p of s.players) {
+    if (!p || typeof p.id !== 'string' || typeof p.name !== 'string') return null;
+    if (!ROLES.includes(s.roles[p.id])) return null;
+  }
+  if ((s.phase === 'reveal' || s.phase === 'mrwhite') && s.eliminated.length === 0) return null;
   if (s.phase === 'deal' && (typeof s.dealIndex !== 'number' || s.dealIndex < 0 || s.dealIndex >= s.players.length)) return null;
   return s as UndercoverState;
 }

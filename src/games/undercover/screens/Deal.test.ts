@@ -64,3 +64,35 @@ test('un tap immédiat sur le bouton final est ignoré, puis accepté après le 
   await fireEvent.click(screen.getByRole('button', { name: "J'ai retenu" }));
   expect(onseen).toHaveBeenCalledOnce();
 });
+
+test('sans onquit : pas de bouton Quitter', () => {
+  render(Deal, { name: 'Léa', word: 'Plage', onseen: () => {} });
+  expect(screen.queryByRole('button', { name: 'Quitter' })).toBeNull();
+});
+
+test('avec onquit : Quitter, confirmation, puis onquit appelé une fois, sans jamais montrer le mot', async () => {
+  const onquit = vi.fn();
+  render(Deal, { name: 'Léa', word: 'Plage', onseen: () => {}, onquit });
+  await fireEvent.click(screen.getByRole('button', { name: 'Quitter' }));
+  expect(screen.getByText('Quitter la série ?')).toBeInTheDocument();
+  expect(screen.getByText('Les scores seront perdus.')).toBeInTheDocument();
+  expect(onquit).not.toHaveBeenCalled();
+  await fireEvent.click(screen.getByRole('button', { name: 'Oui, quitter' }));
+  expect(onquit).toHaveBeenCalledOnce();
+  expect(document.body.textContent).not.toContain('Plage');
+});
+
+test('Non, on continue : retour à « Passe le téléphone »', async () => {
+  render(Deal, { name: 'Léa', word: 'Plage', onseen: () => {}, onquit: () => {} });
+  await fireEvent.click(screen.getByRole('button', { name: 'Quitter' }));
+  await fireEvent.click(screen.getByRole('button', { name: 'Non, on continue' }));
+  expect(screen.getByText('Léa')).toBeInTheDocument();
+  expect(voir()).toBeInTheDocument();
+});
+
+test("l'écran du mot n'a pas de bouton Quitter", async () => {
+  render(Deal, { name: 'Léa', word: 'Plage', onseen: () => {}, onquit: () => {} });
+  vi.advanceTimersByTime(1000);
+  await fireEvent.click(voir());
+  expect(screen.queryByRole('button', { name: 'Quitter' })).toBeNull();
+});

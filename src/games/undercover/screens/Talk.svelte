@@ -2,6 +2,7 @@
   import BigButton from '../../../lib/ui/BigButton.svelte';
   import IconButton from '../../../lib/ui/IconButton.svelte';
   import Screen from '../../../lib/ui/Screen.svelte';
+  import { deadTime } from './deadTime';
 
   /** Tour de parole : qui commence, puis l'ordre de table. */
   let {
@@ -15,6 +16,7 @@
     onvote: () => void;
     onpause: () => void;
   } = $props();
+  const guard = deadTime();
 </script>
 
 <Screen color="undercover" title="Manche {round}">
@@ -26,7 +28,7 @@
     {#each order as p (p.id)}<li>{p.name}</li>{/each}
   </ol>
   {#snippet footer()}
-    <BigButton variant="pop" onclick={onvote}>Passer au vote</BigButton>
+    <BigButton variant="pop" onclick={guard(onvote)}>Passer au vote</BigButton>
   {/snippet}
 </Screen>
 

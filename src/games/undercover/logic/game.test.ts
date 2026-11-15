@@ -199,6 +199,27 @@ describe('Mr White', () => {
   });
 });
 
+describe('Mr White : cas combinés', () => {
+  test('raté avec 2 civils + undercover en jeu : la partie continue', () => {
+    // p3 et p4 éliminés avant (civils) : restent p1 (Mr White), p2 civil... on force l'état
+    const s: UndercoverState = { ...inVote('p2', 'p5', 'p1'), eliminated: ['p4'] };
+    const r = mrWhiteGuess(afterReveal(eliminate(s, 'p1')), false);
+    expect(alive(r).sort()).toEqual(['p2', 'p3', 'p5']);
+    expect(r.phase).toBe('talk');
+    expect(r.round).toBe(2);
+  });
+  test("undercover éliminé d'abord, puis Mr White trouve le mot : Mr White gagne", () => {
+    const a = afterReveal(eliminate(inVote('p2', 'p5', 'p1'), 'p5'));
+    expect(a.phase).toBe('talk');
+    const b = afterReveal(eliminate({ ...a, phase: 'vote' }, 'p1'));
+    expect(b.phase).toBe('mrwhite');
+    const w = mrWhiteGuess(b, true);
+    expect(w.phase).toBe('end');
+    expect(w.winner).toBe('mrwhite');
+    expect(w.gained).toEqual({ p1: 6, p2: 0, p3: 0, p4: 0, p5: 0 });
+  });
+});
+
 describe('série', () => {
   test('nextGame et finishSeries', () => {
     const e = afterReveal(eliminate(inVote(), 'p5'));

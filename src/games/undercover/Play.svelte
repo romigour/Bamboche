@@ -3,8 +3,7 @@
   import { rankScores } from '../../lib/ranking';
   import { navigate } from '../../lib/router';
   import { TEAM_COLORS } from '../../lib/teams';
-  import PodiumView from '../../lib/ui/PodiumView.svelte';
-  import { keepAwake, releaseAwake } from '../../lib/wakelock';
+    import { keepAwake, releaseAwake } from '../../lib/wakelock';
   import {
     afterReveal,
     alive,
@@ -25,6 +24,7 @@
   import Deal from './screens/Deal.svelte';
   import GameEnd from './screens/GameEnd.svelte';
   import MrWhiteGuess from './screens/MrWhiteGuess.svelte';
+  import Podium from './screens/Podium.svelte';
   import PauseSheet from './screens/PauseSheet.svelte';
   import Reveal from './screens/Reveal.svelte';
   import Scores from './screens/Scores.svelte';
@@ -69,7 +69,7 @@
     {/key}
   {:else if s.phase === 'deal'}
     {#key s.players[s.dealIndex].id}
-      <Deal name={s.players[s.dealIndex].name} word={wordOf(s, s.players[s.dealIndex].id)} onseen={() => apply((x) => seeWord(x))} />
+      <Deal name={s.players[s.dealIndex].name} word={wordOf(s, s.players[s.dealIndex].id)} onseen={() => apply((x) => seeWord(x))} onquit={quit} />
     {/key}
   {:else if s.phase === 'talk'}
     <Talk
@@ -104,7 +104,7 @@
   {:else if s.phase === 'scores'}
     <Scores {s} onnext={() => apply((x) => nextGame(x, words))} onfinish={() => apply(finishSeries)} />
   {:else if s.phase === 'podium'}
-    <PodiumView
+    <Podium
       ranking={rankScores(s.players.map((p) => ({ id: p.id, total: s.totals[p.id] ?? 0 }))).map((r) => {
         const i = s.players.findIndex((p) => p.id === r.id);
         return { ...r, name: s.players[i].name, color: TEAM_COLORS[i % TEAM_COLORS.length] };

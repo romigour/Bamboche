@@ -23,3 +23,12 @@ test('chaque mot de words.json tient dans le budget de largeur (sauf plancher)',
     }
   }
 });
+
+test('aucun segment sans espace de words.json ne dépasse 14 caractères (jamais le plancher de 36 px)', () => {
+  for (const p of words) {
+    for (const w of [p.a, p.b]) {
+      const longest = Math.max(...w.split(/\s+/).map((s) => s.length));
+      expect(longest, w).toBeLessThanOrEqual(14);
+    }
+  }
+});

@@ -39,6 +39,17 @@ test('refuse les états invalides', () => {
     { ...s, players: 'x' },
     { ...s, phase: 'deal', dealIndex: 5 },
     { ...s, phase: 'deal', dealIndex: -1 },
+    { ...s, eliminated: undefined },
+    { ...s, usedPairs: 'x' },
+    { ...s, roles: null },
+    { ...s, totals: null },
+    { ...s, gameNumber: '1' },
+    { ...s, players: [{ id: 1, name: 'A' }, ...s.players.slice(1)] },
+    { ...s, players: [{ id: 'a' }, ...s.players.slice(1)] },
+    { ...s, roles: { ...s.roles, a: 'zzz' } },
+    { ...s, roles: { b: 'civil' } },
+    { ...s, phase: 'reveal', eliminated: [] },
+    { ...s, phase: 'mrwhite', eliminated: [] },
   ]) {
     save('undercover:game', bad);
     expect(loadSavedUndercover()).toBeNull();
