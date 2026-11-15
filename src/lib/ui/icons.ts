@@ -1,5 +1,5 @@
 export type IconName =
-  | 'play' | 'back' | 'settings' | 'users' | 'timer' | 'music' | 'disc' | 'eyeoff'
+  | 'play' | 'back' | 'settings' | 'users' | 'timer' | 'music' | 'disc' | 'eye' | 'eyeoff'
   | 'check' | 'cross' | 'pause' | 'plus' | 'minus' | 'shuffle' | 'chevron' | 'trash' | 'edit'
   | 'undo' | 'trophy' | 'volume' | 'volumeoff' | 'skip' | 'home' | 'refresh';
 
@@ -13,6 +13,7 @@ export const ICONS: Record<IconName, { d: string; circles?: [number, number, num
   timer: { d: 'M12 10v3.5l2.5 2M9.5 2.5h5', circles: [[12, 13.5, 7.5]] },
   music: { d: 'M9 18V5l11-2v13', circles: [[6, 18, 3], [17, 16, 3]] },
   disc: { d: '', circles: [[12, 12, 8.5], [12, 12, 2.5]] },
+  eye: { d: 'M3 12s4-6 9-6 9 6 9 6-4 6-9 6-9-6-9-6', circles: [[12, 12, 3]] },
   eyeoff: { d: 'M3 3l18 18M10.6 6.1A9.8 9.8 0 0 1 12 6c5 0 9 6 9 6a17 17 0 0 1-2.6 3.2M6.6 6.6C4.3 8.1 3 12 3 12s4 6 9 6c1.6 0 3-.4 4.3-1.1' },
   check: { d: 'M5 12.5l4.5 4.5L19 7' },
   cross: { d: 'M6 6l12 12M18 6L6 18' },

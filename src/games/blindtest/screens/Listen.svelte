@@ -47,6 +47,8 @@
   let offline = $state(false);
   let toast = $state('');
   let paused = $state(false);
+  /** Réponse affichée pour vérifier avant d'attribuer le point ; repart masquée à chaque extrait. */
+  let showAnswer = $state(false);
   let toastTimer: ReturnType<typeof setTimeout> | undefined;
   let poll: ReturnType<typeof setInterval> | undefined;
   const offs: (() => void)[] = [];
@@ -126,17 +128,28 @@
   </div>
 
   <div class="mid">
-    <div class="disc" class:on={playing}>
-      <div class="bars" aria-hidden="true">
-        {#each [48, 88, 64, 96, 40, 72] as h, i}<span style:height="{h}px" style:animation-delay="{i * 0.12}s"></span>{/each}
+    {#if showAnswer}
+      <div class="answer">
+        <div class="a-title">{track.displayTitle}</div>
+        <div class="a-artist">{track.artists.join(', ')}</div>
+        {#if track.year}<span class="a-year">{track.annee_corrigee ?? track.year}</span>{/if}
       </div>
-    </div>
+    {:else}
+      <div class="disc" class:on={playing}>
+        <div class="bars" aria-hidden="true">
+          {#each [48, 88, 64, 96, 40, 72] as h, i}<span style:height="{h}px" style:animation-delay="{i * 0.12}s"></span>{/each}
+        </div>
+      </div>
+    {/if}
     {#if !playing && pos === 0}
       <BigButton variant="pop" onclick={() => start(0)}><Icon name="play" size={22} />Lancer l'extrait</BigButton>
     {:else}
       <div class="ask">
         <div class="q">Qui chante ?</div>
         <div class="sub">Le premier qui crie titre et artiste marque.</div>
+        <button type="button" class="peek" onclick={() => (showAnswer = !showAnswer)}>
+          <Icon name={showAnswer ? 'eyeoff' : 'eye'} size={18} />{showAnswer ? 'Masquer la réponse' : 'Voir la réponse'}
+        </button>
       </div>
     {/if}
     <div class="progress">
@@ -218,6 +231,12 @@
   .ask { display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; }
   .q { font-family: var(--font-display); font-weight: 700; font-size: 28px; }
   .sub { font-size: 15px; color: var(--texte-doux); }
+  .peek { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 6px 10px; font-size: 14px; font-weight: 800; color: var(--texte-doux); text-decoration: underline; }
+  /* même hauteur que le disque pour que l'écran ne saute pas */
+  .answer { width: 100%; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; }
+  .a-title { font-family: var(--font-display); font-weight: 700; font-size: 28px; line-height: 1.05; overflow-wrap: anywhere; }
+  .a-artist { font-size: 18px; font-weight: 800; color: var(--blindtest); overflow-wrap: anywhere; }
+  .a-year { height: 34px; padding: 0 14px; border-radius: 999px; background: var(--surface); font-family: var(--font-display); font-weight: 700; font-size: 18px; display: inline-flex; align-items: center; }
   .progress { width: 100%; display: flex; flex-direction: column; gap: 6px; }
   .track { height: 12px; border-radius: 999px; background: var(--surface-plus); overflow: hidden; }
   .fill { height: 100%; border-radius: 999px; background: var(--blindtest); transition: width 0.15s linear; }

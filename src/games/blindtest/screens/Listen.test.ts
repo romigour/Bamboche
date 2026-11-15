@@ -116,3 +116,25 @@ test('sans connexion, « Retour à l’accueil » garde la partie', async () => 
   expect(onhome).toHaveBeenCalledOnce();
   expect(onquit).not.toHaveBeenCalled();
 });
+
+test('la réponse est masquée par défaut, puis s’affiche et se masque au bouton', async () => {
+  const { source } = setup();
+  const show = await screen.findByRole('button', { name: 'Voir la réponse' });
+  expect(screen.queryByText('Poker Face')).toBeNull();
+  await fireEvent.click(show);
+  expect(screen.getByText('Poker Face')).toBeTruthy();
+  expect(screen.getByText('Lady Gaga')).toBeTruthy();
+  expect(screen.getByText('2008')).toBeTruthy();
+  expect(source.pause).not.toHaveBeenCalled();
+  expect(source.stop).not.toHaveBeenCalled();
+  await fireEvent.click(screen.getByRole('button', { name: 'Masquer la réponse' }));
+  expect(screen.queryByText('Poker Face')).toBeNull();
+});
+
+test('réponse affichée : choisir une équipe attribue toujours le point', async () => {
+  const { onaward } = setup();
+  await fireEvent.click(await screen.findByRole('button', { name: 'Voir la réponse' }));
+  later();
+  await fireEvent.click(screen.getByRole('button', { name: 'Léa' }));
+  expect(onaward).toHaveBeenCalledWith('A');
+});
