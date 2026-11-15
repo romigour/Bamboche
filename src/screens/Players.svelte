@@ -4,6 +4,8 @@
   import { addPlayer, players, removePlayer, renamePlayer } from '../lib/players';
   import Icon from '../lib/ui/Icon.svelte';
   import IconButton from '../lib/ui/IconButton.svelte';
+  import { checkForUpdate, updateStatus } from '../lib/update';
+  import { versionLabel } from '../lib/version';
 
   let { onback, extra }: { onback: () => void; extra?: Snippet } = $props();
 
@@ -34,6 +36,15 @@
       editingId = null;
     }
   }
+  const UPDATE_MESSAGES: Partial<Record<typeof $updateStatus, string>> = {
+    unsupported: 'Indisponible',
+    checking: 'Recherche…',
+    upToDate: 'Bamboche est à jour',
+    offline: 'Pas de connexion',
+    error: 'Impossible de vérifier',
+  };
+  const updateMessage = $derived(UPDATE_MESSAGES[$updateStatus] ?? versionLabel());
+
   function focusOnMount(node: HTMLInputElement) {
     node.focus();
     node.select();
@@ -110,6 +121,21 @@
           tap();
         }}><span></span></button
       >
+    </div>
+    <div class="pref update">
+      <span class="pref-icon"><Icon name="refresh" size={24} /></span>
+      <div class="update-text">
+        <button
+          type="button"
+          class="update-btn"
+          disabled={$updateStatus === 'checking' || $updateStatus === 'unsupported'}
+          onclick={() => {
+            tap();
+            checkForUpdate();
+          }}>{$updateStatus === 'available' ? 'Installer la mise à jour' : 'Rechercher une mise à jour'}</button
+        >
+        <span class="update-msg" aria-live="polite">{updateMessage}</span>
+      </div>
     </div>
   </section>
 
@@ -207,6 +233,10 @@
   .pref { display: flex; align-items: center; gap: 12px; background: var(--surface); border-radius: 18px; padding: 12px 14px; }
   .pref-icon { color: var(--pop); display: flex; }
   .pref label { flex-grow: 1; font-family: var(--font-display); font-weight: 600; font-size: 18px; }
+  .update-text { flex-grow: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .update-btn { text-align: left; font-family: var(--font-display); font-weight: 600; font-size: 18px; }
+  .update-btn:disabled { cursor: default; opacity: 0.6; }
+  .update-msg { font-size: 14px; color: var(--texte-doux); }
   .switch {
     width: 60px;
     height: 36px;
