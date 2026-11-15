@@ -9,6 +9,9 @@
   import { scores as btScores } from './games/blindtest/logic/game';
   import { playlistById } from './games/blindtest/playlists';
   import { abandonBlindtest, loadSavedBlindtest } from './games/blindtest/session';
+  import { abandonUndercover, loadSavedUndercover, resumeLines } from './games/undercover/session';
+  import UndercoverApp from './games/undercover/UndercoverApp.svelte';
+  import UndercoverPlay from './games/undercover/Play.svelte';
   import { getActiveGame } from './lib/activeGame';
   import { installAudioUnlock } from './lib/feedback';
   import { players } from './lib/players';
@@ -47,6 +50,11 @@
       if (pl) lines.push(pl.name);
       return { game: gameById('blindtest')!, lines, route: '/blindtest/partie', abandon: abandonBlindtest };
     }
+    if (active?.gameId === 'undercover') {
+      const s = loadSavedUndercover();
+      if (!s) return null;
+      return { game: gameById('undercover')!, lines: resumeLines(s), route: '/undercover/partie', abandon: abandonUndercover };
+    }
     return null;
   }
   let refresh = $state(0);
@@ -74,6 +82,10 @@
   {/key}
 {:else if $route.path === '/blindtest/partie'}
   <BlindtestPlay />
+{:else if $route.path === '/undercover'}
+  <UndercoverApp onhome={() => navigate('/')} />
+{:else if $route.path === '/undercover/partie'}
+  <UndercoverPlay />
 {:else}
   <Home
     playerCount={$players.length}

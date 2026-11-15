@@ -18,8 +18,15 @@ test('Time Up est disponible pour 4 joueurs minimum (2 équipes de 2)', () => {
   expect(t.route).toBe('/timeup');
 });
 
-test('Hipster et Undercover sont « bientôt »', () => {
-  for (const id of ['hipster', 'undercover']) expect(gameById(id)!.status).toBe('bientot');
+test('Undercover est disponible, route /undercover, 3 joueurs minimum', () => {
+  const u = gameById('undercover')!;
+  expect(u.status).toBe('disponible');
+  expect(u.route).toBe('/undercover');
+  expect(u.players.min).toBe(3);
+});
+
+test('Hipster est « bientôt »', () => {
+  expect(gameById('hipster')!.status).toBe('bientot');
 });
 
 test('le Blindtest est disponible avec ses réglages', () => {

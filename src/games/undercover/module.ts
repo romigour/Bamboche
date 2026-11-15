@@ -6,7 +6,7 @@ export const undercover: GameModule = {
   color: 'undercover',
   icon: 'eyeoff',
   players: { min: 3, max: 20 },
-  status: 'bientot',
+  status: 'disponible',
   route: '/undercover',
   settings: [],
 };

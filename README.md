@@ -2,7 +2,7 @@
 
 Jeux de soirée sur un seul téléphone, qu'on se passe de main en main. Application web installable (PWA), qui fonctionne hors ligne, sans compte ni serveur.
 
-Jeux disponibles : **Time Up** et **Blindtest** (le Blindtest a besoin d'Internet pour la musique). Bientôt : Hipster, Undercover.
+Jeux disponibles : **Time Up**, **Blindtest** (qui a besoin d'Internet pour la musique) et **Undercover**. Bientôt : Hipster.
 
 ## Lancer en local
 
@@ -80,3 +80,7 @@ npm run import-playlist -- "chemin/vers/export.csv" annees-80 "Années 80" "Les 
 4. Ajouter l'import de ce JSON dans `src/games/blindtest/playlists/index.ts` (tableau `playlists`), puis retirer son nom de la liste « Bientôt » de `screens/Playlist.svelte`.
 
 Les extraits et les pochettes sont lus depuis les serveurs de Spotify : ils ne sont jamais mis en cache par l'app.
+
+## Paires de l'Undercover
+
+Les paires de mots sont dans `src/games/undercover/words.json` : une liste d'objets `{ "a": "…", "b": "…" }`. Le test refuse les doublons (accents, majuscules et ordre des deux mots ignorés).
