@@ -11,7 +11,7 @@
   /** « Quelle musique ? » : playlist, nombre d'extraits, durée d'écoute. */
   let { onback, onstart }: { onback: () => void; onstart: (playlistId: string) => void } = $props();
 
-  const SOON = ['Années 80', 'Rap FR'];
+  const SOON = ['Années 80'];
   let selected = $state(playlists[0].id);
   let values = $state(getSettings(blindtest));
   const opts = (key: string, unit = '') => {

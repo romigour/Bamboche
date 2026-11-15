@@ -1,0 +1,1508 @@
+{
+ "id": "rap-fr",
+ "name": "Rap FR",
+ "description": "Le rap français des années 90-2000",
+ "color": "blindtest",
+ "tracks": [
+  {
+   "id": "spotify:track:19wTIVLYwubMX8XZppB6lH",
+   "title": "Laisse pas traîner ton fils",
+   "displayTitle": "Laisse pas traîner ton fils",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "Suprême NTM",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b0af6c9d26487cf55ba0efd6",
+   "preview": "https://p.scdn.co/mp3-preview/19f297c564e36d615920d7ba8a654d8a9380a6b5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 238040,
+   "isrc": "FRZ089801020",
+   "popularity": 59
+  },
+  {
+   "id": "spotify:track:0LZ90308GB1Tp05STjabeC",
+   "title": "Gravé dans la roche",
+   "displayTitle": "Gravé dans la roche",
+   "artists": [
+    "SNIPER"
+   ],
+   "album": "Gravé dans la roche",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c20c2d775a423e281cb66f47",
+   "preview": "https://p.scdn.co/mp3-preview/398665ccd5df24f5b67d2cd96f7ad8586ad8632a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 285893,
+   "isrc": "FR29U0300003",
+   "popularity": 67
+  },
+  {
+   "id": "spotify:track:18lEJ1SEujElAbdRGjNTZh",
+   "title": "Tonton du bled",
+   "displayTitle": "Tonton du bled",
+   "artists": [
+    "113",
+    "Rim'K"
+   ],
+   "album": "Tonton du bled",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732c9546d1dd3c1c0e5649885f",
+   "preview": "https://p.scdn.co/mp3-preview/75d3b0178caf23afcbab20072a3dc719caad7b33?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 293613,
+   "isrc": "FR04Q9900075",
+   "popularity": 57
+  },
+  {
+   "id": "spotify:track:6uVR5AdnVtKkaaXn61CLKS",
+   "title": "L'amour du risque - Extrait de la bande originale du film \"Taxi\"",
+   "displayTitle": "L'amour du risque - Extrait de la bande originale du film \"Taxi\"",
+   "artists": [
+    "Fonky Family"
+   ],
+   "album": "L'amour du risque (Extrait de la bande originale du film \"Taxi\")",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a74288aa33e65ddb0f9c5614",
+   "preview": "https://p.scdn.co/mp3-preview/837a5b30415b55ea8137d988f12b5e519cc597e8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 365266,
+   "isrc": "FRQ298000040",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:16etD0jjMNdKsHByc48tOY",
+   "title": "Samuraï",
+   "displayTitle": "Samuraï",
+   "artists": [
+    "Shurik'n"
+   ],
+   "album": "Où je vis",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27381cdd711ca547415ee31b94b",
+   "preview": "https://p.scdn.co/mp3-preview/04a2702e8e740ad1e2bac1ddee034d217f86905f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 231373,
+   "isrc": "FRY689802660",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:3jqBLwtTiUYismDiZgAgPE",
+   "title": "Petit frère",
+   "displayTitle": "Petit frère",
+   "artists": [
+    "IAM"
+   ],
+   "album": "L'école du micro d'argent",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27365716918209ccc6bac2af278",
+   "preview": "https://p.scdn.co/mp3-preview/9fc688296afacd165491693b9ce231fc3534ff18?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 285933,
+   "isrc": "FRY689700510",
+   "popularity": 62
+  },
+  {
+   "id": "spotify:track:4hElE1DmCfpoFVjczvfB5U",
+   "title": "Le bilan",
+   "displayTitle": "Le bilan",
+   "artists": [
+    "Nèg' Marrons"
+   ],
+   "album": "Le Bilan",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f56ad11665130bfe13311329",
+   "preview": "https://p.scdn.co/mp3-preview/87b006af406f3ce4620a45b47ec5bf5b96b28aef?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 263533,
+   "isrc": "FRZ080000190",
+   "popularity": 65
+  },
+  {
+   "id": "spotify:track:4rt87mfQdJ9wKYkBrRggVF",
+   "title": "Le son des bandits",
+   "displayTitle": "Le son des bandits",
+   "artists": [
+    "Psy 4 De La Rime",
+    "Saleem"
+   ],
+   "album": "Block Party",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27304d4f7d0afdf4217a1bff5f4",
+   "preview": "https://p.scdn.co/mp3-preview/1a5d5d0949dfa3cea97803f48a12fa4bfdcda6e5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 296386,
+   "isrc": "FR17T0200410",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:3ee6eXqZqJo3DJEiBr1SHs",
+   "title": "Le son qui tue (avec Natty)",
+   "displayTitle": "Le son qui tue (avec Natty)",
+   "artists": [
+    "Rohff",
+    "Natty"
+   ],
+   "album": "la fierte des notres",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733036510c958b08bd039912d2",
+   "preview": "https://p.scdn.co/mp3-preview/1bdf59abba0b6e14b65158470ff0ffc1fe9213ee?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 224200,
+   "isrc": "FRY680400077",
+   "popularity": 58
+  },
+  {
+   "id": "spotify:track:4qvBTiDDRmhz1et9g0zOkX",
+   "title": "Belsunce Breakdown",
+   "displayTitle": "Belsunce Breakdown",
+   "artists": [
+    "Bouga"
+   ],
+   "album": "Comme un aimant (Version 1) [Bande originale du film]",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e757ce1e3f98ed86de925942",
+   "preview": "https://p.scdn.co/mp3-preview/1550fa4b98e5da7a2ecbb7c35f14c4c7426a6191?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 239986,
+   "isrc": "FR17T0000010",
+   "popularity": 41
+  },
+  {
+   "id": "spotify:track:4G01edX97eZlCmEbYewboU",
+   "title": "Ma Benz (feat. Lord Kossity)",
+   "displayTitle": "Ma Benz",
+   "artists": [
+    "Suprême NTM",
+    "Lord Kossity"
+   ],
+   "album": "Suprême NTM",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b0af6c9d26487cf55ba0efd6",
+   "preview": "https://p.scdn.co/mp3-preview/71a12065b91bf47202aea9a9f6bb49c3f7eadd0d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 247093,
+   "isrc": "FRZ089801090",
+   "popularity": 59
+  },
+  {
+   "id": "spotify:track:68VptzWEeq3mJZtxLZVxCo",
+   "title": "Mystère et suspense",
+   "displayTitle": "Mystère et suspense",
+   "artists": [
+    "Fonky Family"
+   ],
+   "album": "Art de rue",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c22ae6f4279b03bd5a13d6ef",
+   "preview": "https://p.scdn.co/mp3-preview/e6156552a8f8441fa8ea96d6a1d63955edc81563?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 331066,
+   "isrc": "FRZ080100300",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:1RWXFHOJ6XjK8a9pitucrX",
+   "title": "That's My People",
+   "displayTitle": "That's My People",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "Suprême NTM",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b0af6c9d26487cf55ba0efd6",
+   "preview": "https://p.scdn.co/mp3-preview/92aaf660a069db9d1812eebea15e840c32abc5eb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 251306,
+   "isrc": "FRZ089801110",
+   "popularity": 58
+  },
+  {
+   "id": "spotify:track:6k8ynYPD7SjWpDShcImkz1",
+   "title": "Du ferme",
+   "displayTitle": "Du ferme",
+   "artists": [
+    "La Fouine"
+   ],
+   "album": "Mes Repères",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27366258ab58e57f7565f52d56b",
+   "preview": "https://p.scdn.co/mp3-preview/d0be6ac953abfe0aae48ef093963aeaf49fa0484?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 232853,
+   "isrc": "FRZ080802271",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:78ujFEl6ZHZF8wRy7dYo0T",
+   "title": "Bad Boys de Marseille, Pt. 2 (feat. Shurik'n)",
+   "displayTitle": "Bad Boys de Marseille, Pt. 2",
+   "artists": [
+    "Akhenaton",
+    "Fonky Family",
+    "Shurik'n"
+   ],
+   "album": "Métèque et mat",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27353c8de0c78ce0190baabad92",
+   "preview": "https://p.scdn.co/mp3-preview/954d87ccc105482eba4bcb000847fc328cd4c008?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 223133,
+   "isrc": "FRY689610004",
+   "popularity": 57
+  },
+  {
+   "id": "spotify:track:2I5S4UqzgMdooPBc31EmgX",
+   "title": "L'empire du côté obscur",
+   "displayTitle": "L'empire du côté obscur",
+   "artists": [
+    "IAM"
+   ],
+   "album": "L'école du micro d'argent",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27365716918209ccc6bac2af278",
+   "preview": "https://p.scdn.co/mp3-preview/57f1ba55fc6baeaa5bda97b461d2a3dd0f7869d6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 261733,
+   "isrc": "FRY689700530",
+   "popularity": 59
+  },
+  {
+   "id": "spotify:track:6Xo7NrY0dDj6pQQ2XIph1Y",
+   "title": "Art de rue",
+   "displayTitle": "Art de rue",
+   "artists": [
+    "Fonky Family"
+   ],
+   "album": "Art de rue",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c22ae6f4279b03bd5a13d6ef",
+   "preview": "https://p.scdn.co/mp3-preview/13108ada2c7ab6d14807b6a231d07902c716514e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 313800,
+   "isrc": "FRZ080100270",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:2dfahYnct5aULxIVSQ6sv7",
+   "title": "Au summum",
+   "displayTitle": "Au summum",
+   "artists": [
+    "113"
+   ],
+   "album": "113 Dans L'Urgence",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27370eef7ad91548eba0c458014",
+   "preview": "https://p.scdn.co/mp3-preview/7a3a928ec935cb28662370ede3eab957af1cdec0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 291226,
+   "isrc": "FRZ080300035",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:1Vf09Cxf2jqSkU6sfueYAq",
+   "title": "La Boulette (Génération Nan Nan)",
+   "displayTitle": "La Boulette (Génération Nan Nan)",
+   "artists": [
+    "Diam's"
+   ],
+   "album": "Dans Ma Bulle",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730c945348847382dde8622c17",
+   "preview": "https://p.scdn.co/mp3-preview/cbb195b66e7ad8a322992ebfd2323db9576ba1b4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 231440,
+   "isrc": "FRZ110500432",
+   "popularity": 64
+  },
+  {
+   "id": "spotify:track:63Mv2ORJ7QmKRuZ8bUWCiv",
+   "title": "Une époque formidable",
+   "displayTitle": "Une époque formidable",
+   "artists": [
+    "Sinik"
+   ],
+   "album": "La main sur le cœur",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27380f8e1fad516fdfb63b966ca",
+   "preview": "https://p.scdn.co/mp3-preview/de727305128c820390fd1658c530cb5c93add79c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 282200,
+   "isrc": "FR5U20400001",
+   "popularity": 58
+  },
+  {
+   "id": "spotify:track:1NNAoUoADTegqQqbKOyIQv",
+   "title": "Seine Saint-Denis Style",
+   "displayTitle": "Seine Saint-Denis Style",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "Suprême NTM",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b0af6c9d26487cf55ba0efd6",
+   "preview": "https://p.scdn.co/mp3-preview/9c7a0a793a7f265f013de91cf688878e5698dc24?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 200240,
+   "isrc": "FRZ089801030",
+   "popularity": 54
+  },
+  {
+   "id": "spotify:track:3JjnCqQwWlgIz5ty1ByAbO",
+   "title": "Pour ceux",
+   "displayTitle": "Pour ceux",
+   "artists": [
+    "Mafia K'1 Fry"
+   ],
+   "album": "La cerise sur le ghetto",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273aa538d54c20242fa2b91594c",
+   "preview": "https://p.scdn.co/mp3-preview/6b80925acb56cde0e7ac7559317bf099041f975c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 367493,
+   "isrc": "FRZ080300090",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:0b8eEO4zkuXD25rTPP7Uwp",
+   "title": "Les flammes du mal",
+   "displayTitle": "Les flammes du mal",
+   "artists": [
+    "Passi"
+   ],
+   "album": "Ma 6-t va crack-er (Edition spéciale 10 ans)",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730919806c442bc43dd58fa64c",
+   "preview": "https://p.scdn.co/mp3-preview/8f0f9136e00ac637cc31dbf1c2758f20d90e67fb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 249933,
+   "isrc": "FRW889700005",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:76a47vlZKvdJeotrpMYuvQ",
+   "title": "Angela",
+   "displayTitle": "Angela",
+   "artists": [
+    "Saian Supa Crew"
+   ],
+   "album": "Klr",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a771cd488bdecd284416451d",
+   "preview": "https://p.scdn.co/mp3-preview/ca13bf709351813d17bda7e51247dc7b8e4235af?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 226840,
+   "isrc": "FRS639900064",
+   "popularity": 59
+  },
+  {
+   "id": "spotify:track:3qZC3kSB1ZiM6MTkwJhtfI",
+   "title": "Qui peut me stopper ?",
+   "displayTitle": "Qui peut me stopper ?",
+   "artists": [
+    "La Fouine"
+   ],
+   "album": "Aller Retour",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732f9acd477f2d3fc21bb13a4d",
+   "preview": "https://p.scdn.co/mp3-preview/49ce155c2b93130e02daea83ba1459f57be3f271?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 257026,
+   "isrc": "FRZ050700150",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:1efBNlkIwBbccMBXHoJBZN",
+   "title": "Pitbull",
+   "displayTitle": "Pitbull",
+   "artists": [
+    "Booba"
+   ],
+   "album": "Ouest Side",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730629318fc3855cd75c5664b2",
+   "preview": "https://p.scdn.co/mp3-preview/6ae7d4aeb0e598644ef0090676a4129a4451a415?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 229706,
+   "isrc": "FR8R60580080",
+   "popularity": 59
+  },
+  {
+   "id": "spotify:track:7y95KJIQzhg2HzFUAldqzp",
+   "title": "Jour de paix (feat. Black Rénégat)",
+   "displayTitle": "Jour de paix",
+   "artists": [
+    "113",
+    "Black Rénégat"
+   ],
+   "album": "113 Degrés",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737024a738bca6791bee53e14b",
+   "preview": "https://p.scdn.co/mp3-preview/96265f93370884893ab240e85b5ee6267350f3c4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 246520,
+   "isrc": "FRZ050500213",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:7zMadnaXuQyDuhfrPkKfme",
+   "title": "C'est arrivé près d'chez toi (feat. Jaeyez)",
+   "displayTitle": "C'est arrivé près d'chez toi",
+   "artists": [
+    "Suprême NTM",
+    "Jaeyez"
+   ],
+   "album": "Suprême NTM",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b0af6c9d26487cf55ba0efd6",
+   "preview": "https://p.scdn.co/mp3-preview/7f42e3fa663f689eaf65d8c52e190e15b8b7ce9c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 242026,
+   "isrc": "FRZ089801070",
+   "popularity": 49
+  },
+  {
+   "id": "spotify:track:5DCxMQMmW3UFZUj1QtUvVc",
+   "title": "Tombé pour elle (feat. Amel Bent)",
+   "displayTitle": "Tombé pour elle",
+   "artists": [
+    "La Fouine",
+    "Amel Bent"
+   ],
+   "album": "Aller Retour",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732f9acd477f2d3fc21bb13a4d",
+   "preview": "https://p.scdn.co/mp3-preview/69f8cffc13b1712a5c1509b11af20a70111ea655?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 278640,
+   "isrc": "FRZ050700152",
+   "popularity": 67
+  },
+  {
+   "id": "spotify:track:4c9Jr4uNgWBORZc5UUiwDz",
+   "title": "Quand je partirai",
+   "displayTitle": "Quand je partirai",
+   "artists": [
+    "La Fouine"
+   ],
+   "album": "Drôle de parcours",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a5d675381d14229efd1f9615",
+   "preview": "https://p.scdn.co/mp3-preview/15a4bf2951ba6d9bfdffa6ac6d9bf8336db32b94?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 250400,
+   "isrc": "FRZ081200646",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:0cYWbbg4wZoIq1iwnhytor",
+   "title": "Dr. Hannibal",
+   "displayTitle": "Dr. Hannibal",
+   "artists": [
+    "Don Choa"
+   ],
+   "album": "Vapeurs toxiques",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a5ce1d50d7a73123825f512a",
+   "preview": "https://p.scdn.co/mp3-preview/a17e2e16cde5bfed3d398b9c07714fee5ce66102?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 284933,
+   "isrc": "FRZ080200387",
+   "popularity": 47
+  },
+  {
+   "id": "spotify:track:6HjJ7gNwslUqgfTiqfTP1C",
+   "title": "Je danse le Mia",
+   "displayTitle": "Je danse le Mia",
+   "artists": [
+    "IAM"
+   ],
+   "album": "Platinum",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d47de68e2bc3f7abf897dc09",
+   "preview": "https://p.scdn.co/mp3-preview/492cd28ddda7d5ce91757116a63a054ae6a12d1f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 267240,
+   "isrc": "FRY689310074",
+   "popularity": 37
+  },
+  {
+   "id": "spotify:track:0yFCrb2x6KTwZjY90Z7iIP",
+   "title": "Banlieusards",
+   "displayTitle": "Banlieusards",
+   "artists": [
+    "Kery James"
+   ],
+   "album": "À l'ombre du show business",
+   "year": 2008,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738f75d650a005474ff701e8d5",
+   "preview": "https://p.scdn.co/mp3-preview/f841d30d034da41a412619606b224c7f6ac6876d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 469026,
+   "isrc": "FR42W0800029",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:6Ww5r82aRfiOHsCz7NMIAP",
+   "title": "Lune de miel (feat. Zaho)",
+   "displayTitle": "Lune de miel",
+   "artists": [
+    "Don Choa",
+    "Zaho"
+   ],
+   "album": "Jungle de béton",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734beac591b50250f571f9695c",
+   "preview": "https://p.scdn.co/mp3-preview/2d5a2f0fe423d46c1013fb885a506e2584090a9d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 236386,
+   "isrc": "FRZ050700874",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:1HeO50DPnC1LSuonAYlu5j",
+   "title": "J'Pète Les Plombs - Intro",
+   "displayTitle": "J'Pète Les Plombs - Intro",
+   "artists": [
+    "disiz"
+   ],
+   "album": "Le Poisson Rouge",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731f8eb733baad61deb622a83f",
+   "preview": "https://p.scdn.co/mp3-preview/fd0097ee7cc3263747d3f4068363fb180f4c150f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 224346,
+   "isrc": "FRU210080810",
+   "popularity": 47
+  },
+  {
+   "id": "spotify:track:2F1Pqkb1eOltUBLgAB1NFa",
+   "title": "Un ange dans le ciel - Live à Paris-Bercy 2008",
+   "displayTitle": "Un ange dans le ciel",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "On est encore là - Bercy 2008 (Live)",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737c6a0379e908a01b5eeea8bd",
+   "preview": "https://p.scdn.co/mp3-preview/c431cc59aab5e7b81bad186b36f51d67fa64fe2e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 273240,
+   "isrc": "FRZ080901214",
+   "popularity": 46
+  },
+  {
+   "id": "spotify:track:0Cd53XO6vGuMCi3BhvVzeN",
+   "title": "Comme des fous ! (feat. JoeyStarr)",
+   "displayTitle": "Comme des fous !",
+   "artists": [
+    "Fat Cap",
+    "Jaeyez",
+    "JoeyStarr"
+   ],
+   "album": "Maxi Boss # 1",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738ec4da1a5d5a8ff8d40330a1",
+   "preview": "https://p.scdn.co/mp3-preview/033259697a781bd4e6aa3f90e17b0e2794b0ba78?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 242800,
+   "isrc": "FR11R0000005",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:2OSlE5PLO9L8ITDMQsXahG",
+   "title": "Tout le monde debout (feat. Mr. Vegas)",
+   "displayTitle": "Tout le monde debout",
+   "artists": [
+    "Nèg' Marrons",
+    "Mr. Vegas"
+   ],
+   "album": "Héritage",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273aa1c454ed67c160dd030bcdc",
+   "preview": "https://p.scdn.co/mp3-preview/c97be30eb63ca2068f6510d407edd9c0f7b4df16?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 215680,
+   "isrc": "FRZ080300265",
+   "popularity": 47
+  },
+  {
+   "id": "spotify:track:5NfigFlUBUEBgMFOq1rfkB",
+   "title": "Boulbi",
+   "displayTitle": "Boulbi",
+   "artists": [
+    "Booba"
+   ],
+   "album": "Ouest Side",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730629318fc3855cd75c5664b2",
+   "preview": "https://p.scdn.co/mp3-preview/9da9a7512b45b691584ae87c0cf16741488decd4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 243026,
+   "isrc": "FR8R60580120",
+   "popularity": 57
+  },
+  {
+   "id": "spotify:track:2uMb8n60MeFa6bjjjCzL49",
+   "title": "Respect (feat. Vinia Mojica)",
+   "displayTitle": "Respect",
+   "artists": [
+    "Alliance Ethnik",
+    "Vinia Mojica"
+   ],
+   "album": "Simple Et Funky",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273375684e4397bb8b01e933501",
+   "preview": "https://p.scdn.co/mp3-preview/2f109e0eab33fde38e65783fab5e58a6f689d27d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 274533,
+   "isrc": "FRZ119511392",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:3Rf1L0UWxTHp4Vr5jGLGQS",
+   "title": "A chaque jour suffit sa peine",
+   "displayTitle": "A chaque jour suffit sa peine",
+   "artists": [
+    "Nessbeal"
+   ],
+   "album": "Ne2S",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f01f92e210829a88e29736ae",
+   "preview": "https://p.scdn.co/mp3-preview/4b7b275612d5559f43922a87b5d3f4a1a4424fb5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 215893,
+   "isrc": "FRZ081000202",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:71YiZdoYawPjLbdWcbUEBk",
+   "title": "Sales gosses",
+   "displayTitle": "Sales gosses",
+   "artists": [
+    "Dadoo"
+   ],
+   "album": "France History X",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733ed9687aade5daceb9ed3787",
+   "preview": "https://p.scdn.co/mp3-preview/f8eb2e203d85cabb54775fdda13168700b80e01b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 229586,
+   "isrc": "FRZ080300048",
+   "popularity": 45
+  },
+  {
+   "id": "spotify:track:230WQfgxWrDowOttZT7Lhq",
+   "title": "Mon papa à moi est un gangster",
+   "displayTitle": "Mon papa à moi est un gangster",
+   "artists": [
+    "Stomy Bugsy"
+   ],
+   "album": "Le calibre qu'il te faut",
+   "year": 1996,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737b28476ee66bf6d3b086ec03",
+   "preview": "https://p.scdn.co/mp3-preview/4dadc2db017fd67505da9ba5b54f7270e7590f6e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 361240,
+   "isrc": "FRZ089602640",
+   "popularity": 47
+  },
+  {
+   "id": "spotify:track:0t4J6vsfIb5wtYcSdht9yy",
+   "title": "La fièvre",
+   "displayTitle": "La fièvre",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "Paris sous les bombes",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b7529d768d924491b0695aa6",
+   "preview": "https://p.scdn.co/mp3-preview/022e80baaacffbd46dd9f3f4336e2f8f3bab3969?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 245560,
+   "isrc": "FRZ089500340",
+   "popularity": 52
+  },
+  {
+   "id": "spotify:track:0XZUo8Rds5wEp3UwyXER6J",
+   "title": "Molotov 4",
+   "displayTitle": "Molotov 4",
+   "artists": [
+    "Sefyu"
+   ],
+   "album": "Suis-Je Le Gardien de Mon Frere?",
+   "year": 2008,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fa19e172d300aab9991f0206",
+   "preview": "https://p.scdn.co/mp3-preview/a1c026ec8ce6f6c345a1e9b583dc0c52c24085ec?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 240813,
+   "isrc": "FROPF0800030",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:4HNH7bIAIscir2rVqVi2eV",
+   "title": "La haine",
+   "displayTitle": "La haine",
+   "artists": [
+    "Cut Killer"
+   ],
+   "album": "HH Classics, Vol. 1",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734d6be8227209155d5c0f83be",
+   "preview": "https://p.scdn.co/mp3-preview/67abc7b732c1bf4c9d39b673fdf9785914f9cb8d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 139226,
+   "isrc": "FR6V80834388",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:7njnsewQzFssYI6F1RGwhn",
+   "title": "Sans rémission",
+   "displayTitle": "Sans rémission",
+   "artists": [
+    "Fonky Family"
+   ],
+   "album": "Si Dieu veut....",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273dc1128d7bb0a19bf940bd0b4",
+   "preview": "https://p.scdn.co/mp3-preview/5fa849fb26da60c715d6808d50f7507a24e68cdb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 323160,
+   "isrc": "FRQ299700003",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:3DTl0VOkyprQN95ljYlHDj",
+   "title": "Dans ma rue - High for the Chronic !",
+   "displayTitle": "Dans ma rue - High for the Chronic !",
+   "artists": [
+    "Doc Gynéco"
+   ],
+   "album": "Première consultation (Edition 20ème anniversaire)",
+   "year": 1996,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27323bdc54dc2acc8d0c2f99b3f",
+   "preview": "https://p.scdn.co/mp3-preview/ed396df76cb04bf18faacb8e074641ec18a03b0f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 241080,
+   "isrc": "FRZ111600123",
+   "popularity": 51
+  },
+  {
+   "id": "spotify:track:1p3Xdm0lPy9EQ3OtISAkcE",
+   "title": "Les jeunes de l'univers",
+   "displayTitle": "Les jeunes de l'univers",
+   "artists": [
+    "Rocca"
+   ],
+   "album": "Entre deux mondes",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27333032d53fdd85277ce15832c",
+   "preview": "https://p.scdn.co/mp3-preview/1537ab67ef897807d165968edc3e74002ce2c23f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 264333,
+   "isrc": "FRR619780460",
+   "popularity": 47
+  },
+  {
+   "id": "spotify:track:58Arr6iHateTNo56hEre3k",
+   "title": "C.B.R.",
+   "displayTitle": "C.B.R.",
+   "artists": [
+    "Mafia K'1 Fry"
+   ],
+   "album": "La cerise sur le ghetto",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273aa538d54c20242fa2b91594c",
+   "preview": "https://p.scdn.co/mp3-preview/18e075b2972af5730b23f046c99c65e68b9ea7d9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 343706,
+   "isrc": "FRZ080300098",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:3CWOfo577AauyqtupMX4XE",
+   "title": "La vie de rêve - Bande originale du film Taxi",
+   "displayTitle": "La vie de rêve - Bande originale du film Taxi",
+   "artists": [
+    "Le 3ème Oeil"
+   ],
+   "album": "La vie de rêve (Bande originale du film Taxi)",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27372246e26f22346e7b95293b7",
+   "preview": "https://p.scdn.co/mp3-preview/af5b131bbefe9e4e9696a771cc5956b27422a890?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 260573,
+   "isrc": "FRQ298000010",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:2ngQWInvmJS2BieyK0l5Dg",
+   "title": "Civilisé",
+   "displayTitle": "Civilisé",
+   "artists": [
+    "Lunatic"
+   ],
+   "album": "Mauvais œil",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ce41c9ba4adee1aec4a2b102",
+   "preview": "https://p.scdn.co/mp3-preview/6f5c94ba19d97181331a1045a547668162e09dba?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 286200,
+   "isrc": "FR0U91000344",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:19IDhEC95smtBYVx7iXvPD",
+   "title": "Balance",
+   "displayTitle": "Balance",
+   "artists": [
+    "Mafia K'1 Fry"
+   ],
+   "album": "La cerise sur le ghetto",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273aa538d54c20242fa2b91594c",
+   "preview": "https://p.scdn.co/mp3-preview/c187979b3741beadde67bc36ee91b3b5d970b75b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 291666,
+   "isrc": "FRZ080300097",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:1QGduy28tqYqerWEdcgw1z",
+   "title": "Marginal",
+   "displayTitle": "Marginal",
+   "artists": [
+    "113"
+   ],
+   "album": "113 Degrés",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737024a738bca6791bee53e14b",
+   "preview": "https://p.scdn.co/mp3-preview/2ca8a79fedd5860239ddad3ffa4aae696e01019f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 202306,
+   "isrc": "FRZ050500194",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:6uVzfibKnRIfDBByubw3bB",
+   "title": "Wati bon son (feat. Dry)",
+   "displayTitle": "Wati bon son",
+   "artists": [
+    "Sexion d'Assaut",
+    "Dry"
+   ],
+   "album": "Best of",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273599d7d7ee70c772d1255776f",
+   "preview": "https://p.scdn.co/mp3-preview/11a1b6383de2f8f57747be37995a687374c2ac2b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 248853,
+   "isrc": "FR7U60900170",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2rKILkEJB20rf6RLLmtDQm",
+   "title": "Tout n'est pas si facile",
+   "displayTitle": "Tout n'est pas si facile",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "Paris sous les bombes",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b7529d768d924491b0695aa6",
+   "preview": "https://p.scdn.co/mp3-preview/17e2c771f723fd2c5800048064d0ce6dcd88f9de?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 290866,
+   "isrc": "FRZ089500230",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:1gE53zdBxM2IgzkUMacOLE",
+   "title": "Hymne à la racaille",
+   "displayTitle": "Hymne à la racaille",
+   "artists": [
+    "Le 3ème Oeil"
+   ],
+   "album": "Hier, aujourd'hui, demain",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c668d4cac9b3ec2e0386cdeb",
+   "preview": "https://p.scdn.co/mp3-preview/c04c210e360a6d68537a34deefe3683fb2f6c8a4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 253466,
+   "isrc": "FRQ299800337",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:0cCi1Gf9lHNf6s17GwreLa",
+   "title": "La rage",
+   "displayTitle": "La rage",
+   "artists": [
+    "Keny Arkana"
+   ],
+   "album": "Entre ciment et belle étoile",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27301481d03c32d8ef0f44eac7e",
+   "preview": "https://p.scdn.co/mp3-preview/c29b91bb6735a82c4b5627c6bf0805d91eeca66d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 242266,
+   "isrc": "FR6P10601220",
+   "popularity": 49
+  },
+  {
+   "id": "spotify:track:0v2cSbA4bBrY82wDYjk1Vt",
+   "title": "Undaground connexion",
+   "displayTitle": "Undaground connexion",
+   "artists": [
+    "Assassin",
+    "Supernatural"
+   ],
+   "album": "Perles rares (1989 - 2002)",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734d8251ed6dded2e9b884f4c8",
+   "preview": "https://p.scdn.co/mp3-preview/f7f15b653b08259871a24b0e4e91352ef2be250c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 372773,
+   "isrc": "SR8W10500070",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:71LR7mxKLDCaF3Se2erosU",
+   "title": "Métèque",
+   "displayTitle": "Métèque",
+   "artists": [
+    "JoeyStarr"
+   ],
+   "album": "Gare Au Jaguarr",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27324965ca9ee4430b88b44fbbc",
+   "preview": "https://p.scdn.co/mp3-preview/c37ca6d0400c824e7189652867a3c070c3621e82?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 189666,
+   "isrc": "FRZ050600400",
+   "popularity": 44
+  },
+  {
+   "id": "spotify:track:5QSGPhlzVUIqYjmjEANDdm",
+   "title": "Boxe avec les mots",
+   "displayTitle": "Boxe avec les mots",
+   "artists": [
+    "Ärsenik"
+   ],
+   "album": "Quelques gouttes suffisent",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733efc356a6fb48b72fc97ec5e",
+   "preview": "https://p.scdn.co/mp3-preview/2f2f7c9ef3f29b8ca583c5592b987bbb1b99214e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 260400,
+   "isrc": "FRY689802940",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:29f6hufsY5ULe3NGXZhzBs",
+   "title": "J'fais mon job à plein temps",
+   "displayTitle": "J'fais mon job à plein temps",
+   "artists": [
+    "Busta Flex"
+   ],
+   "album": "Busta Flex",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273bf9520348e7fb6321ed9adb5",
+   "preview": "https://p.scdn.co/mp3-preview/52d4d543f952c2dc2784eef465ea05a7f84b7ae4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 240466,
+   "isrc": "FRZ049701193",
+   "popularity": 45
+  },
+  {
+   "id": "spotify:track:0QhIunsWVE4vPpUkdceE10",
+   "title": "Si triste",
+   "displayTitle": "Si triste",
+   "artists": [
+    "Le 3ème Oeil"
+   ],
+   "album": "Avec le coeur ou rien",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d89dca34cb8f5e8a303a3b02",
+   "preview": "https://p.scdn.co/mp3-preview/3e54a0f05a5ab60da582977e21f5bf925432bb6f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 274480,
+   "isrc": "FRZ080104200",
+   "popularity": 38
+  },
+  {
+   "id": "spotify:track:7hpGE5NHxTK5umouUBw20v",
+   "title": "Partis de rien",
+   "displayTitle": "Partis de rien",
+   "artists": [
+    "Scred Connexion",
+    "Fabe",
+    "Haroun",
+    "Mokless",
+    "Koma"
+   ],
+   "album": "Scred Selexion 99/2000 (1)",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736eeb076b09987044ed63e9c5",
+   "preview": "https://p.scdn.co/mp3-preview/b077098f31e51fd8dcdb98ba60fa566d68e9af96?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 241480,
+   "isrc": "FR6V80371606",
+   "popularity": 52
+  },
+  {
+   "id": "spotify:track:0Frv8qzBuCVh6F6nTNenLB",
+   "title": "Cherche pas à comprendre",
+   "displayTitle": "Cherche pas à comprendre",
+   "artists": [
+    "Fonky Family"
+   ],
+   "album": "Si Dieu veut....",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273dc1128d7bb0a19bf940bd0b4",
+   "preview": "https://p.scdn.co/mp3-preview/69d15823c4b6f7897f5a4f6b5cae42e70356442d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 325533,
+   "isrc": "FRQ299700002",
+   "popularity": 46
+  },
+  {
+   "id": "spotify:track:5BZStvvOd4aqiolKql1BT7",
+   "title": "Bye Bye (feat. Imane D.)",
+   "displayTitle": "Bye Bye",
+   "artists": [
+    "Ménélik",
+    "Imane D."
+   ],
+   "album": "Je me souviens",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273aa008a14499c9ce1c0d8ab14",
+   "preview": "https://p.scdn.co/mp3-preview/2e9ad4a3dd4af414f37a36f6551cd109deda0d5b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 223693,
+   "isrc": "FRZ089701220",
+   "popularity": 45
+  },
+  {
+   "id": "spotify:track:64izC95Dt56IvrmMvPx2RI",
+   "title": "Partir loin (feat. Taliani)",
+   "displayTitle": "Partir loin",
+   "artists": [
+    "113",
+    "Taliani"
+   ],
+   "album": "Partir Loin",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738b411e0875b724e7f52a82e5",
+   "preview": "https://p.scdn.co/mp3-preview/0f9679941083a3b9abf52a86041b619363ae50d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 247880,
+   "isrc": "FRZ050500218",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:5IOBAfIeu5xwLqhFeXoZhr",
+   "title": "Medley Thugs / Interlude (feat. Kool Shen & Nysay)",
+   "displayTitle": "Medley Thugs / Interlude",
+   "artists": [
+    "Les Sages Poètes de la rue",
+    "Kool Shen",
+    "Nysay"
+   ],
+   "album": "Après l'orage",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733f757fb3eaff40c2c246df7a",
+   "preview": "https://p.scdn.co/mp3-preview/85766f5a1a8c934ef34527efedc30340a1904dec?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 336066,
+   "isrc": "FRZ050200079",
+   "popularity": 34
+  },
+  {
+   "id": "spotify:track:53bynBvpUsAKoChPlM4yHR",
+   "title": "C'est dans la joie (feat. Patson) - Avec intro",
+   "displayTitle": "C'est dans la joie - Avec intro",
+   "artists": [
+    "Mokobé",
+    "Patson"
+   ],
+   "album": "Mon Afrique",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273cd632e8c0429f982c01fb2c3",
+   "preview": "https://p.scdn.co/mp3-preview/92f90c87f6db76796a7ab87306f7bca93d851e2c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 263146,
+   "isrc": "FRZ050700562",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:5pNfqfGQumhsK55RmjfeED",
+   "title": "Une princesse est morte",
+   "displayTitle": "Une princesse est morte",
+   "artists": [
+    "KDD"
+   ],
+   "album": "Résurrection",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e5a6c728d0613e08e7a29058",
+   "preview": "https://p.scdn.co/mp3-preview/0800e4afa384b5b3164ea9207647bfd15973e0ae?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 258133,
+   "isrc": "FRZ089800300",
+   "popularity": 41
+  },
+  {
+   "id": "spotify:track:2oHYUp3r57OvTt8ZyH5PDc",
+   "title": "J't'emmerde",
+   "displayTitle": "J't'emmerde",
+   "artists": [
+    "MC Jean Gab'1"
+   ],
+   "album": "Ma vie",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c066386d13a321b1d4271eea",
+   "preview": "https://p.scdn.co/mp3-preview/08c093793e3c80d9b04f8aeef0ad6f837ca63c89?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 323578,
+   "isrc": "FR2X41534883",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:24PxaqIrZ3cujSNRQDBa6m",
+   "title": "Bouge de là - Part. 1",
+   "displayTitle": "Bouge de là - Part. 1",
+   "artists": [
+    "MC Solaar"
+   ],
+   "album": "Bouge de là",
+   "year": 1991,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730c388d48ff0713bf3ec43e5f",
+   "preview": "https://p.scdn.co/mp3-preview/f432cd60660d7c982432d6a3c67133cfc2b723f6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 191466,
+   "isrc": "FRZ029101130",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:2VsJMuEheBTlA6CnBMfiUn",
+   "title": "Pass pass le oinj",
+   "displayTitle": "Pass pass le oinj",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "Paris sous les bombes",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b7529d768d924491b0695aa6",
+   "preview": "https://p.scdn.co/mp3-preview/6d676a0dfbe4ad6306d647c6ff4c81f9d7d7115e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 248973,
+   "isrc": "FRZ089500310",
+   "popularity": 41
+  },
+  {
+   "id": "spotify:track:1hURd7Fwb1YzA0asnn3qYA",
+   "title": "Le geste",
+   "displayTitle": "Le geste",
+   "artists": [
+    "KDD"
+   ],
+   "album": "Une couleur de plus au drapeau",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ce0aa9a2862a8d4db05564ca",
+   "preview": "https://p.scdn.co/mp3-preview/8eb7a0a885cfb326c2b8e2fd53e2f203efb8755a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 250560,
+   "isrc": "FRZ080000120",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:5H1ImxqSbUYI0H0BWwWCkx",
+   "title": "Ma génération (feat. Kalif, D2T, S.Téban & Ramon)",
+   "displayTitle": "Ma génération",
+   "artists": [
+    "Imhotep",
+    "Kalif",
+    "D2t",
+    "Steban",
+    "Ramón del Castillo"
+   ],
+   "album": "Chroniques de Mars (Volume 2)",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739153d8b12cbe36ea0ac72f10",
+   "preview": "https://p.scdn.co/mp3-preview/5fd23ec1785b60bf70668d2a7a9f727fe3f20c88?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 233346,
+   "isrc": "FRZ050700267",
+   "popularity": 31
+  },
+  {
+   "id": "spotify:track:3WFJgs5rzYbh8GdWukg56f",
+   "title": "Pose ton gun, Vol. 2",
+   "displayTitle": "Pose ton gun, Vol. 2",
+   "artists": [
+    "JoeyStarr"
+   ],
+   "album": "Gare Au Jaguarr",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27324965ca9ee4430b88b44fbbc",
+   "preview": "https://p.scdn.co/mp3-preview/bed37f15f12cb125a80941861d9bfaa372f0e02f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 266626,
+   "isrc": "FRZ050600398",
+   "popularity": 36
+  },
+  {
+   "id": "spotify:track:5IxrAtUWxUEWQoFztSKV75",
+   "title": "Hardcore",
+   "displayTitle": "Hardcore",
+   "artists": [
+    "Ideal J"
+   ],
+   "album": "Le combat continue",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fb77467cf66c2e0ffcee031f",
+   "preview": "https://p.scdn.co/mp3-preview/5fedd2cd9aa840cbc0df23709963d1d8be8d0dbe?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 309146,
+   "isrc": "FRR619880500",
+   "popularity": 46
+  },
+  {
+   "id": "spotify:track:3fXDFWMG5Qb0y7orJV2Ab5",
+   "title": "Dans la sono",
+   "displayTitle": "Dans la sono",
+   "artists": [
+    "Beat De Boul"
+   ],
+   "album": "Dans la sono",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730736e5d1055640d86b1a6dac",
+   "preview": "https://p.scdn.co/mp3-preview/a4b3a0cfd3f0ad6483c1bd51cf595c06c2a3bb1b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 222200,
+   "isrc": "FR0U91400251",
+   "popularity": 32
+  },
+  {
+   "id": "spotify:track:4Or4rIECXvExLB1ZimzFmj",
+   "title": "Il est fou ce monde",
+   "displayTitle": "Il est fou ce monde",
+   "artists": [
+    "Le Rat Luciano"
+   ],
+   "album": "Mode de vie - Béton style",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27343e08214cb08f225790bbf9f",
+   "preview": "https://p.scdn.co/mp3-preview/a048c5f69861cc7f0dfd241150d94bb931c4f1b0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 265040,
+   "isrc": "FRZ080003590",
+   "popularity": 40
+  },
+  {
+   "id": "spotify:track:592Lld6IKV3aRpi6xQD2j0",
+   "title": "Exercice de style",
+   "displayTitle": "Exercice de style",
+   "artists": [
+    "SNIPER"
+   ],
+   "album": "Exercice De Style",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e8ba25e41f2c0d9d6bdfc343",
+   "preview": "https://p.scdn.co/mp3-preview/af4ecf1d6b0218213acf4560fc31cee695b39567?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 280960,
+   "isrc": "FRZ089900660",
+   "popularity": 27
+  },
+  {
+   "id": "spotify:track:7qc55PpGecCorFqxLGurp3",
+   "title": "L'enfant seul - Remasterisé",
+   "displayTitle": "L'enfant seul",
+   "artists": [
+    "Oxmo Puccino"
+   ],
+   "album": "Opéra Puccino (Edition Collector)",
+   "year": 2018,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738b9e577d36c14f146c4e7a8d",
+   "preview": "https://p.scdn.co/mp3-preview/14fe42484ce46fe29eafedeb20cb8be17c94d521?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 250133,
+   "isrc": "FRY689802420",
+   "popularity": 51
+  },
+  {
+   "id": "spotify:track:6v2rO2OZwbdLduQepA8JJ7",
+   "title": "Poussière d'empire (feat. Indila)",
+   "displayTitle": "Poussière d'empire",
+   "artists": [
+    "Nessbeal",
+    "Indila"
+   ],
+   "album": "Ne2S",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f01f92e210829a88e29736ae",
+   "preview": "https://p.scdn.co/mp3-preview/b5b7f0219032da915f7b02fbb064400e3f4d40a0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 427293,
+   "isrc": "FRZ081000239",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:6HDaAgD4QxGO82zfBkXbt6",
+   "title": "T'es bête ou quoi ?",
+   "displayTitle": "T'es bête ou quoi ?",
+   "artists": [
+    "Sexion d'Assaut"
+   ],
+   "album": "Best of",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273599d7d7ee70c772d1255776f",
+   "preview": "https://p.scdn.co/mp3-preview/f3da37b9161a84c141c8386a5134fb4289a7fcc8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 249053,
+   "isrc": "FR7U60900020",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:05UwuEvxES9nTPRU8AD2Yb",
+   "title": "Chela",
+   "displayTitle": "Chela",
+   "artists": [
+    "Busta Flex"
+   ],
+   "album": "BOF Yamakasi",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b680173a8a0309cf6d7ba144",
+   "preview": "https://p.scdn.co/mp3-preview/d4296389589a489f9d78669f0388cf2075a5f1a9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 227133,
+   "isrc": "FR86U0100120",
+   "popularity": 36
+  },
+  {
+   "id": "spotify:track:27pZBXbNTr3jnNXXs77m9K",
+   "title": "Nous contre eux II",
+   "displayTitle": "Nous contre eux II",
+   "artists": [
+    "Sat",
+    "Rohff",
+    "Le Rat Luciano"
+   ],
+   "album": "Dans Mon Monde (Edition Definitive)",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27390fbd15ade8e6cbf21eca9c3",
+   "preview": "https://p.scdn.co/mp3-preview/89b138d28b02eef293c6d54e6d671fe0c3be9a37?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 235466,
+   "isrc": "FRZ080201100",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:7KcQYUU14y4UGOaHW0r2T5",
+   "title": "Sacrifice de poulets - Remasterisé",
+   "displayTitle": "Sacrifice de poulets",
+   "artists": [
+    "Ministere Amer"
+   ],
+   "album": "Les meilleurs dossiers (Best of)",
+   "year": 2014,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734eff918ae3115c99bef85d3c",
+   "preview": "https://p.scdn.co/mp3-preview/cf64ef45b15774be7ceefc47d1c38cdaae139096?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 233920,
+   "isrc": "FRY681400328",
+   "popularity": 40
+  },
+  {
+   "id": "spotify:track:5sZYXYVANndLBLfJNY9bDD",
+   "title": "Le retour du naturel : \"Ital session\" (feat. Soldat Jahman, Lil Saï, Kalif, Tony, Stone Black, Don Choa & R.E.D.K)",
+   "displayTitle": "Le retour du naturel : \"Ital session\"",
+   "artists": [
+    "Imhotep",
+    "Soldat Jahman",
+    "Lil Saï",
+    "Kalif",
+    "Tony",
+    "Stone Black",
+    "Don Choa",
+    "R.E.D.K."
+   ],
+   "album": "Chroniques de Mars (Volume 2)",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739153d8b12cbe36ea0ac72f10",
+   "preview": "https://p.scdn.co/mp3-preview/2bea1faab12f6d077387405bbd761504ffc19169?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 283040,
+   "isrc": "FRZ050700270",
+   "popularity": 30
+  },
+  {
+   "id": "spotify:track:3lALFEIbC2OxHCLbzNdzXx",
+   "title": "Dire que toutes ces meufs",
+   "displayTitle": "Dire que toutes ces meufs",
+   "artists": [
+    "Mala Malekal"
+   ],
+   "album": "B.O.S.S., Vol. 1",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d332a25cb8e25782d7ae0a12",
+   "preview": "https://p.scdn.co/mp3-preview/89d3cb3b9c84990db97439e0ff5477c22db3279e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 240493,
+   "isrc": "FRZ089900600",
+   "popularity": 28
+  },
+  {
+   "id": "spotify:track:6z3U8B83zhfPoH0j9CTCz8",
+   "title": "Qui veut la peau de mon Crew ? (feat. Kool Shen & Salif)",
+   "displayTitle": "Qui veut la peau de mon Crew ?",
+   "artists": [
+    "IV My People",
+    "Kool Shen",
+    "Salif"
+   ],
+   "album": "Le Clash (B.O.S.S. vs. IV My People)",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273484265f77cc6688c3c11a02a",
+   "preview": "https://p.scdn.co/mp3-preview/8577237dfb14a13abc6c94ee2c835fda41b171e7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 195893,
+   "isrc": "FRZ080100760",
+   "popularity": 37
+  },
+  {
+   "id": "spotify:track:4NKDSXHZNktcbOnSbw62aL",
+   "title": "Tout c'que t'as",
+   "displayTitle": "Tout c'que t'as",
+   "artists": [
+    "Lord Kossity"
+   ],
+   "album": "B.O.S.S., Vol. 1",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d332a25cb8e25782d7ae0a12",
+   "preview": "https://p.scdn.co/mp3-preview/7b97a6cc85d4472dd700eb69daf146049b1b2923?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 216266,
+   "isrc": "FRZ089900180",
+   "popularity": 29
+  },
+  {
+   "id": "spotify:track:36y6mIAOCB1MmzJlLhPeSR",
+   "title": "Emporté par l'élan (feat. Mino & Akhenaton)",
+   "displayTitle": "Emporté par l'élan",
+   "artists": [
+    "Imhotep",
+    "Mino",
+    "Akhenaton"
+   ],
+   "album": "Chroniques de Mars (Volume 2)",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739153d8b12cbe36ea0ac72f10",
+   "preview": "https://p.scdn.co/mp3-preview/d54a67e5152f0d002a04cb50d1b62ef33993aa4e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 212026,
+   "isrc": "FRZ050700283",
+   "popularity": 26
+  },
+  {
+   "id": "spotify:track:6PPN045WQmsLEvAYLeaQ7H",
+   "title": "Arrête-ca",
+   "displayTitle": "Arrête-ca",
+   "artists": [
+    "Mafia Trece"
+   ],
+   "album": "L' Envers Du Décor",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735bd9852adf14ada5dcb3f9fb",
+   "preview": "https://p.scdn.co/mp3-preview/b0aa7a09f8abada54b14a109760c584cf49d23ac?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 288533,
+   "isrc": "FRZ089901770",
+   "popularity": 35
+  },
+  {
+   "id": "spotify:track:4psJWxcTTXdW05ncFPwAfR",
+   "title": "Le monde de demain",
+   "displayTitle": "Le monde de demain",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "Authentik (25 ans Deluxe)",
+   "year": 1991,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737b5e39eda1b2b15b462a1b56",
+   "preview": "https://p.scdn.co/mp3-preview/cbdce32e5342501c64bc177538227e7f0003401a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 238626,
+   "isrc": "FRZ089000220",
+   "popularity": 36
+  },
+  {
+   "id": "spotify:track:0vIDmQVcdN5xoKXCTzTciu",
+   "title": "L'ombre sur la mesure",
+   "displayTitle": "L'ombre sur la mesure",
+   "artists": [
+    "La Rumeur"
+   ],
+   "album": "L'ombre sur la mesure",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a830a9d93f7603c3cbdbe672",
+   "preview": "https://p.scdn.co/mp3-preview/4db5b036b25540c7452ed825b9ca7f561c07b7f0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 198613,
+   "isrc": "FRZ110100683",
+   "popularity": 37
+  },
+  {
+   "id": "spotify:track:7EObjNyHzq9xSvg3M7nGdN",
+   "title": "Face aux passions (feat. Keny Arkana & L'Algérino)",
+   "displayTitle": "Face aux passions",
+   "artists": [
+    "Imhotep",
+    "Keny Arkana",
+    "L'Algérino"
+   ],
+   "album": "Chroniques de Mars (Volume 2)",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739153d8b12cbe36ea0ac72f10",
+   "preview": "https://p.scdn.co/mp3-preview/dcf6ac79fd3093c3d6f764b432eb053f9dedf498?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 282960,
+   "isrc": "FRZ050700278",
+   "popularity": 26
+  },
+  {
+   "id": "spotify:track:0T9QjpMwWYcsi9WyCjlJe6",
+   "title": "Pour toi le beur",
+   "displayTitle": "Pour toi le beur",
+   "artists": [
+    "Lionel D"
+   ],
+   "album": "Y'a pas de problème",
+   "year": 1990,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ecfb5e96acc094bd9ec7afce",
+   "preview": "https://p.scdn.co/mp3-preview/219b3d182a479c78e927fec0d984e12e69685bf6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 334640,
+   "isrc": "FRZ081900236",
+   "popularity": 29
+  },
+  {
+   "id": "spotify:track:0VHpIkbqZPnIKfUqEz0HdB",
+   "title": "Jimmy Punchline",
+   "displayTitle": "Jimmy Punchline",
+   "artists": [
+    "Orelsan"
+   ],
+   "album": "Perdu d'avance",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732abe5a5c92fcdca5d1ef9ce7",
+   "preview": "https://p.scdn.co/mp3-preview/60a882a727c5c14c7ec4059b51d464085603cd74?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 246265,
+   "isrc": "FR6F30900170",
+   "popularity": 51
+  }
+ ]
+}
