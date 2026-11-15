@@ -41,7 +41,7 @@ Le dossier `dist/` contient le site statique, service worker compris. Le site fo
 
 ## Déployer sur GitHub Pages
 
-Le workflow `.github/workflows/deploy.yml` teste, construit et publie le site à chaque push sur `main`. Une seule fois, dans le dépôt GitHub : **Settings → Pages → Source : GitHub Actions**.
+Le workflow `.github/workflows/deploy.yml` teste, construit et publie le site à chaque push sur `master`. Une seule fois, dans le dépôt GitHub : **Settings → Pages → Source : GitHub Actions**.
 
 ## Organisation
 
