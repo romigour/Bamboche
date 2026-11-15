@@ -1,0 +1,26 @@
+/* Charte Bamboche — valeurs du spec §6, ne pas modifier sans mettre à jour le spec. */
+:root {
+  --nuit: #1A1033;
+  --surface: #2A1D52;
+  --surface-plus: #3A2A6B;
+  --ligne: #4B3A80;
+  --texte: #FFFFFF;
+  --texte-doux: #C9BFEA;
+
+  --pop: #FFD23F;        --pop-ombre: #C99A00;
+  --timeup: #FF8A3D;     --timeup-ombre: #C85A14;
+  --blindtest: #FF5C9A;  --blindtest-ombre: #C42E6A;
+  --hipster: #3DD6D0;    --hipster-ombre: #1A9A95;
+  --undercover: #A98BFF; --undercover-ombre: #6E4FD6;
+  --ok: #4ADE80;         --ok-ombre: #1E9E50;
+  --ko: #FF6B6B;         --ko-ombre: #C02E2E;
+  --secondary: #3A2A6B;  --secondary-ombre: #120A26;
+
+  --font-display: 'Fredoka', system-ui, sans-serif;
+  --font-text: 'Nunito', system-ui, sans-serif;
+
+  --radius-btn: 22px;
+  --radius-card: 26px;
+  --shadow-depth: 6px;
+  --press-depth: 4px;
+}
