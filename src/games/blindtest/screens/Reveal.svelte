@@ -25,6 +25,11 @@
     onchange: (teamId: string | null) => void;
   } = $props();
 
+  /** Temps mort à l'ouverture : un double tap venu de l'écran d'écoute ne passe pas l'extrait. */
+  const openedAt = Date.now();
+  const goNext = () => {
+    if (Date.now() - openedAt >= 400) onnext();
+  };
   let coverFailed = $state(false);
   let editing = $state(false);
   const winnerId = $derived(s.winners[s.current] ?? null);
@@ -101,7 +106,7 @@
     <button type="button" class="fix" onclick={() => (editing = true)}>Erreur ? Changer qui a marqué</button>
   {/if}
 
-  <BigButton variant="pop" onclick={onnext}>
+  <BigButton variant="pop" onclick={goNext}>
     {last ? 'Voir le podium' : 'Extrait suivant'}<Icon name="chevron" size={22} stroke={3} />
   </BigButton>
 </div>

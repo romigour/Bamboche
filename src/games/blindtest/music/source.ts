@@ -24,6 +24,7 @@ export class PreviewSource implements MusicSource {
   private main: HTMLAudioElement;
   private spare: HTMLAudioElement | null = null;
   private timer: ReturnType<typeof setTimeout> | undefined;
+  private seq = 0;
   private ended = new Set<() => void>();
   private errors = new Set<() => void>();
 
@@ -57,7 +58,11 @@ export class PreviewSource implements MusicSource {
 
   play(url: string, fromMs = 0): Promise<void> {
     const el = this.main;
-    if (el.src !== url) el.src = url;
+    if (el.src !== url || el.error) {
+      // après une erreur (réseau coupé), même URL : il faut recharger, sinon play() échoue en boucle
+      el.src = url;
+      el.load?.();
+    }
     el.currentTime = fromMs / 1000;
     this.clearTimer();
     this.timer = setTimeout(() => this.fail(), LOAD_TIMEOUT_MS);
@@ -68,8 +73,10 @@ export class PreviewSource implements MusicSource {
     } catch (e) {
       started = Promise.reject(e);
     }
+    const seq = ++this.seq;
     return started.catch((e) => {
-      this.clearTimer();
+      // un refus tardif d'un extrait précédent ne doit pas annuler le délai de l'extrait courant
+      if (seq === this.seq) this.clearTimer();
       throw e;
     });
   }

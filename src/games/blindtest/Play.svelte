@@ -63,6 +63,10 @@
         onaward={(id) => apply((x) => award(x, id))}
         onskip={() => playCurrent(apply(skipCurrent))}
         onquit={quit}
+        onhome={() => {
+          source.stop();
+          navigate('/');
+        }}
       />
     {/key}
   {:else if s.phase === 'reveal' && track}

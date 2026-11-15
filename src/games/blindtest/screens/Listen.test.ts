@@ -42,11 +42,20 @@ const track: Track = {
   cover: '', preview: 'https://p/0', durationMs: 30000, isrc: '', popularity: 0,
 };
 
-afterEach(() => window.dispatchEvent(new Event('online')));
+afterEach(() => {
+  window.dispatchEvent(new Event('online'));
+  vi.useRealTimers();
+});
+
+/** Laisse passer le temps mort d'ouverture de l'écran (anti double tap d'un écran à l'autre). */
+function later() {
+  vi.setSystemTime(Date.now() + 1000);
+}
 
 function setup() {
+  vi.useFakeTimers({ toFake: ['Date'] });
   const source = fakeSource();
-  const props = { s, track, playlistName: 'Hits de toujours', source, onaward: vi.fn(), onskip: vi.fn(), onquit: vi.fn() };
+  const props = { s, track, playlistName: 'Hits de toujours', source, onaward: vi.fn(), onskip: vi.fn(), onquit: vi.fn(), onhome: vi.fn() };
   render(Listen, props);
   return props;
 }
@@ -54,6 +63,7 @@ function setup() {
 test('double tap sur un joueur : un seul point attribué, et la musique s’arrête', async () => {
   const { onaward, source } = setup();
   const btn = screen.getByRole('button', { name: 'Léa' });
+  later();
   await fireEvent.click(btn);
   await fireEvent.click(btn);
   expect(onaward).toHaveBeenCalledOnce();
@@ -63,6 +73,7 @@ test('double tap sur un joueur : un seul point attribué, et la musique s’arr�
 
 test('« Personne n’a trouvé » attribue à personne', async () => {
   const { onaward } = setup();
+  later();
   await fireEvent.click(screen.getByRole('button', { name: /Personne/ }));
   expect(onaward).toHaveBeenCalledWith(null);
 });
@@ -81,4 +92,27 @@ test('échec sans réseau : écran « Connexion requise », pas de saut', async 
   source.fail();
   expect(await screen.findByText('Connexion requise pour la musique')).toBeInTheDocument();
   expect(onskip).not.toHaveBeenCalled();
+});
+
+test('un tap juste à l’ouverture de l’écran est ignoré (double tap venu de l’écran précédent)', async () => {
+  const { onaward } = setup();
+  await fireEvent.click(screen.getByRole('button', { name: /Personne/ }));
+  expect(onaward).not.toHaveBeenCalled();
+});
+
+test('deux échecs de suite malgré « en ligne » : écran « Connexion requise »', async () => {
+  const { source, onskip } = setup();
+  source.fail();
+  source.fail();
+  expect(await screen.findByText('Connexion requise pour la musique')).toBeInTheDocument();
+  expect(onskip).toHaveBeenCalledOnce();
+});
+
+test('sans connexion, « Retour à l’accueil » garde la partie', async () => {
+  const { source, onhome, onquit } = setup();
+  window.dispatchEvent(new Event('offline'));
+  source.fail();
+  await fireEvent.click(await screen.findByRole('button', { name: /Retour à l’accueil|Retour à l'accueil/ }));
+  expect(onhome).toHaveBeenCalledOnce();
+  expect(onquit).not.toHaveBeenCalled();
 });

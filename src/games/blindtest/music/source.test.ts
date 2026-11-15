@@ -114,3 +114,27 @@ test('playing() reflète la lecture', () => {
   (made[0] as unknown as { paused: boolean }).paused = false;
   expect(src.playing()).toBe(true);
 });
+
+test('après une erreur, rejouer la même URL recharge l’extrait (Réessayer après coupure)', () => {
+  const { src, made } = setup();
+  void src.play('https://p/1');
+  (made[0] as unknown as { error: unknown }).error = { code: 4 };
+  void src.play('https://p/1');
+  expect(made[0].load).toHaveBeenCalled();
+});
+
+test('le refus tardif de l’ancien extrait n’annule pas le délai du remplaçant', async () => {
+  vi.useFakeTimers();
+  const { src, made } = setup();
+  const onError = vi.fn();
+  src.onError(onError);
+  let rejectA!: (e: Error) => void;
+  made[0].play.mockReturnValueOnce(new Promise<void>((_, rej) => (rejectA = rej)));
+  src.play('https://p/A').catch(() => {});
+  void src.play('https://p/B');
+  rejectA(new Error('AbortError'));
+  await Promise.resolve();
+  await Promise.resolve();
+  vi.advanceTimersByTime(LOAD_TIMEOUT_MS + 1);
+  expect(onError).toHaveBeenCalledOnce();
+});

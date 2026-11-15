@@ -21,6 +21,7 @@
     onaward,
     onskip,
     onquit,
+    onhome,
   }: {
     s: BlindtestState;
     track: Track;
@@ -29,7 +30,15 @@
     onaward: (teamId: string | null) => void;
     onskip: () => void;
     onquit: () => void;
+    /** retour à l'accueil en gardant la partie (elle sera proposée à la reprise) */
+    onhome: () => void;
   } = $props();
+
+  /** Temps mort à l'ouverture : un double tap venu de l'écran précédent ne compte pas. */
+  const GUARD_MS = 400;
+  const openedAt = Date.now();
+  /** Échecs de lecture de suite : au 2e, on soupçonne le réseau même si le téléphone se dit en ligne. */
+  let failures = 0;
 
   const limit = $derived(s.settings.listenSeconds * 1000);
   let pos = $state(0);
@@ -60,7 +69,8 @@
     offs.push(
       source.onError(() => {
         playing = false;
-        if (!isOnline()) {
+        failures += 1;
+        if (!isOnline() || failures >= 2) {
           offline = true;
           return;
         }
@@ -74,6 +84,7 @@
     poll = setInterval(() => {
       pos = Math.min(source.positionMs(), limit);
       playing = source.playing();
+      if (playing && source.positionMs() > 0) failures = 0;
       if (playing && source.positionMs() >= limit) {
         source.pause();
         playing = false;
@@ -87,7 +98,7 @@
   });
 
   function decide(teamId: string | null) {
-    if (decided) return;
+    if (decided || Date.now() - openedAt < GUARD_MS) return;
     decided = true;
     tap();
     source.stop();
@@ -163,7 +174,14 @@
   />
 {/if}
 {#if offline}
-  <Offline overlay onretry={() => start(0)} onhome={onquit} />
+  <Offline
+    overlay
+    onretry={() => {
+      failures = 0;
+      start(0);
+    }}
+    {onhome}
+  />
 {/if}
 
 <style>

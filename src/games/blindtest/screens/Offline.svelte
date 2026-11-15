@@ -18,13 +18,13 @@
     <h1>Connexion requise pour la musique</h1>
     <p>Les extraits sont lus depuis Internet. Active le wifi ou les données mobiles, puis réessaie.</p>
     {#if overlay}
-      <div class="note">La partie et les scores sont gardés.</div>
+      <div class="note">La partie et les scores sont gardés : tu pourras la reprendre depuis l'accueil.</div>
     {:else}
       <div class="note">Envie de jouer quand même ? <span class="tu">Time Up</span> marche sans réseau.</div>
     {/if}
   </div>
   <BigButton variant="pop" onclick={onretry}>Réessayer</BigButton>
-  <BigButton variant="secondary" size="md" onclick={onhome}>{overlay ? 'Quitter la partie' : "Retour à l'accueil"}</BigButton>
+  <BigButton variant="secondary" size="md" onclick={onhome}>Retour à l'accueil</BigButton>
 </div>
 
 <style>
