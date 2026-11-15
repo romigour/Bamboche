@@ -15,6 +15,17 @@
 
   let shown = $state(false);
 
+  /** Temps mort à chaque changement d'état : un double tap ne révèle pas le mot du joueur suivant ni ne valide sans lecture. */
+  let since = Date.now();
+  const guard = (fn: () => void) => () => {
+    if (Date.now() - since >= 400) fn();
+  };
+  const reveal = guard(() => {
+    shown = true;
+    since = Date.now();
+  });
+  const done = guard(() => onseen());
+
   // Réduit la taille des mots longs pour tenir sur 375 px de large.
   const wordSize = $derived(
     word === null ? 96 : word.length <= 7 ? 96 : word.length <= 10 ? 72 : word.length <= 13 ? 56 : 44,
@@ -28,10 +39,10 @@
     title={name}
     subtitle="Les autres, on ne regarde pas !"
     actionLabel="C'est moi, voir mon mot"
-    onaction={() => (shown = true)}
+    onaction={reveal}
   />
 {:else if word !== null}
-  <TransitionScreen color="var(--undercover)" actionLabel={doneLabel} onaction={onseen}>
+  <TransitionScreen color="var(--undercover)" actionLabel={doneLabel} onaction={done}>
     <span class="label">Ton mot</span>
     <span class="word" style:font-size="{wordSize}px">{word}</span>
   </TransitionScreen>
@@ -41,7 +52,7 @@
     title="Mr White"
     subtitle="Tu n'as pas de mot. Écoute et bluffe !"
     actionLabel="J'ai compris"
-    onaction={onseen}
+    onaction={done}
   />
 {/if}
 

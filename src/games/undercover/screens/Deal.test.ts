@@ -1,6 +1,11 @@
 import { fireEvent, render, screen } from '@testing-library/svelte';
-import { expect, test, vi } from 'vitest';
+import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import Deal from './Deal.svelte';
+
+beforeEach(() => vi.useFakeTimers({ toFake: ['Date'] }));
+afterEach(() => vi.useRealTimers());
+
+const voir = () => screen.getByRole('button', { name: "C'est moi, voir mon mot" });
 
 test('le mot est caché tant que le joueur ne touche pas', () => {
   render(Deal, { name: 'Léa', word: 'Plage', onseen: () => {} });
@@ -11,25 +16,51 @@ test('le mot est caché tant que le joueur ne touche pas', () => {
 test('le mot apparaît au tap puis onseen est appelé', async () => {
   const onseen = vi.fn();
   render(Deal, { name: 'Léa', word: 'Plage', onseen });
-  await fireEvent.click(screen.getByRole('button', { name: "C'est moi, voir mon mot" }));
+  vi.advanceTimersByTime(1000);
+  await fireEvent.click(voir());
   expect(screen.getByText('Plage')).toBeInTheDocument();
   expect(onseen).not.toHaveBeenCalled();
+  vi.advanceTimersByTime(1000);
   await fireEvent.click(screen.getByRole('button', { name: "J'ai retenu" }));
   expect(onseen).toHaveBeenCalledOnce();
 });
 
 test('doneLabel personnalisé', async () => {
   render(Deal, { name: 'Léa', word: 'Plage', onseen: () => {}, doneLabel: 'Fermer' });
-  await fireEvent.click(screen.getByRole('button', { name: "C'est moi, voir mon mot" }));
+  vi.advanceTimersByTime(1000);
+  await fireEvent.click(voir());
   expect(screen.getByRole('button', { name: 'Fermer' })).toBeInTheDocument();
 });
 
 test('Mr White : pas de mot', async () => {
   const onseen = vi.fn();
   render(Deal, { name: 'Max', word: null, onseen });
-  await fireEvent.click(screen.getByRole('button', { name: "C'est moi, voir mon mot" }));
+  vi.advanceTimersByTime(1000);
+  await fireEvent.click(voir());
   expect(screen.getByText('Mr White')).toBeInTheDocument();
   expect(screen.getByText("Tu n'as pas de mot. Écoute et bluffe !")).toBeInTheDocument();
+  vi.advanceTimersByTime(1000);
   await fireEvent.click(screen.getByRole('button', { name: "J'ai compris" }));
+  expect(onseen).toHaveBeenCalledOnce();
+});
+
+test('un tap juste au montage est ignoré, puis accepté après le temps mort', async () => {
+  render(Deal, { name: 'Léa', word: 'Plage', onseen: () => {} });
+  await fireEvent.click(voir());
+  expect(screen.queryByText('Plage')).toBeNull();
+  vi.advanceTimersByTime(1000);
+  await fireEvent.click(voir());
+  expect(screen.getByText('Plage')).toBeInTheDocument();
+});
+
+test('un tap immédiat sur le bouton final est ignoré, puis accepté après le temps mort', async () => {
+  const onseen = vi.fn();
+  render(Deal, { name: 'Léa', word: 'Plage', onseen });
+  vi.advanceTimersByTime(1000);
+  await fireEvent.click(voir());
+  await fireEvent.click(screen.getByRole('button', { name: "J'ai retenu" }));
+  expect(onseen).not.toHaveBeenCalled();
+  vi.advanceTimersByTime(1000);
+  await fireEvent.click(screen.getByRole('button', { name: "J'ai retenu" }));
   expect(onseen).toHaveBeenCalledOnce();
 });
