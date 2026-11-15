@@ -72,3 +72,8 @@ export function validateTeams(
 export function shortName(name: string): string {
   return name.replace(/^Les\s+/i, '');
 }
+
+/** Chacun pour soi : une équipe par joueur, à son nom, couleurs dans l'ordre de la palette. */
+export function soloTeams(players: { id: string; name: string }[]): TeamDraft[] {
+  return players.map((p, i) => ({ id: `solo-${p.id}`, name: p.name, color: TEAM_COLORS[i % TEAM_COLORS.length], playerIds: [p.id] }));
+}

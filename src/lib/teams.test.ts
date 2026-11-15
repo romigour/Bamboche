@@ -44,3 +44,11 @@ test('shortName retire « Les »', async () => {
   expect(shortName('Les Flamants')).toBe('Flamants');
   expect(shortName('Équipe 9')).toBe('Équipe 9');
 });
+
+test('soloTeams : une équipe par joueur, couleurs distinctes', async () => {
+  const { soloTeams } = await import('./teams');
+  const t = soloTeams([{ id: 'a', name: 'Léa' }, { id: 'b', name: 'Hugo' }, { id: 'c', name: 'Tom' }]);
+  expect(t.map((x) => x.name)).toEqual(['Léa', 'Hugo', 'Tom']);
+  expect(t.map((x) => x.playerIds)).toEqual([['a'], ['b'], ['c']]);
+  expect(new Set(t.map((x) => x.color)).size).toBe(3);
+});

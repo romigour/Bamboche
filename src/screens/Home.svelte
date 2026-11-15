@@ -2,6 +2,7 @@
   import { games } from '../games/registry';
   import type { GameModule } from '../games/types';
   import { tap } from '../lib/feedback';
+  import { online } from '../lib/online';
   import GameCard from '../lib/ui/GameCard.svelte';
   import Icon from '../lib/ui/Icon.svelte';
   import IconButton from '../lib/ui/IconButton.svelte';
@@ -36,7 +37,7 @@
 
   <div class="grid">
     {#each games as g (g.id)}
-      <GameCard game={g} onclick={() => onopen(g)} />
+      <GameCard game={g} note={g.id === 'blindtest' && !$online ? 'Connexion requise' : undefined} onclick={() => onopen(g)} />
     {/each}
   </div>
 

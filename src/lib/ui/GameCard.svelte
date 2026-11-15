@@ -3,7 +3,7 @@
   import { tap } from '../feedback';
   import Icon from './Icon.svelte';
 
-  let { game, onclick }: { game: GameModule; onclick?: () => void } = $props();
+  let { game, onclick, note }: { game: GameModule; onclick?: () => void; note?: string } = $props();
   const soon = $derived(game.status === 'bientot');
 </script>
 
@@ -28,7 +28,7 @@
     <div class="badge"><Icon name={game.icon} size={30} /></div>
     <div class="grow"></div>
     <div class="name">{game.name}</div>
-    <div class="meta">{game.players.min} joueurs et +</div>
+    <div class="meta">{note ?? `${game.players.min} joueurs et +`}</div>
   </button>
 {/if}
 
