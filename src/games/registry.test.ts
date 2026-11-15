@@ -18,8 +18,17 @@ test('Time Up est disponible pour 4 joueurs minimum (2 équipes de 2)', () => {
   expect(t.route).toBe('/timeup');
 });
 
-test('les trois autres jeux sont « bientôt »', () => {
-  for (const id of ['blindtest', 'hipster', 'undercover']) expect(gameById(id)!.status).toBe('bientot');
+test('Hipster et Undercover sont « bientôt »', () => {
+  for (const id of ['hipster', 'undercover']) expect(gameById(id)!.status).toBe('bientot');
+});
+
+test('le Blindtest est disponible avec ses réglages', () => {
+  const b = gameById('blindtest')!;
+  expect(b.status).toBe('disponible');
+  expect(b.route).toBe('/blindtest');
+  const byKey = Object.fromEntries(b.settings.map((x) => [x.key, x]));
+  expect(byKey.tracks).toMatchObject({ type: 'choice', options: [10, 15, 20], default: 15 });
+  expect(byKey.listenSeconds).toMatchObject({ type: 'choice', options: [10, 20, 30], default: 20 });
 });
 
 test('chaque réglage a un défaut dans ses options ou ses bornes', () => {

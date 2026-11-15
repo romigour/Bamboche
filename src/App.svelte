@@ -4,6 +4,9 @@
   import TimeUpApp from './games/timeup/TimeUpApp.svelte';
   import { totals } from './games/timeup/logic/game';
   import { abandonGame, loadSavedGame } from './games/timeup/session';
+  import { scores as btScores } from './games/blindtest/logic/game';
+  import { playlistById } from './games/blindtest/playlists';
+  import { abandonBlindtest, loadSavedBlindtest } from './games/blindtest/session';
   import { getActiveGame } from './lib/activeGame';
   import { installAudioUnlock } from './lib/feedback';
   import { players } from './lib/players';
@@ -22,15 +25,27 @@
   /** Proposition de reprise : chaque fois qu'on arrive sur l'accueil avec une partie sauvegardée. */
   function resumeOffer() {
     const active = getActiveGame();
-    if (!active || active.gameId !== 'timeup') return null;
-    const s = loadSavedGame(Date.now());
-    if (!s || !s.teams[s.currentTeam]) return null;
-    const score = totals(s)
-      .map((t) => `${shortName(s.teams.find((x) => x.id === t.teamId)?.name ?? '')} ${t.total}`)
-      .join(' – ');
-    const lines = [`Time Up · Manche ${s.round}`, score];
-    if (s.phase !== 'podium') lines.push(`Au tour des ${shortName(s.teams[s.currentTeam].name)}`);
-    return { game: gameById('timeup')!, lines };
+    if (active?.gameId === 'timeup') {
+      const s = loadSavedGame(Date.now());
+      if (!s || !s.teams[s.currentTeam]) return null;
+      const score = totals(s)
+        .map((t) => `${shortName(s.teams.find((x) => x.id === t.teamId)?.name ?? '')} ${t.total}`)
+        .join(' – ');
+      const lines = [`Time Up · Manche ${s.round}`, score];
+      if (s.phase !== 'podium') lines.push(`Au tour des ${shortName(s.teams[s.currentTeam].name)}`);
+      return { game: gameById('timeup')!, lines, route: '/timeup/partie', abandon: abandonGame };
+    }
+    if (active?.gameId === 'blindtest') {
+      const s = loadSavedBlindtest();
+      if (!s) return null;
+      const pts = btScores(s);
+      const score = s.teams.map((t) => `${shortName(t.name)} ${pts[t.id]}`).join(' – ');
+      const lines = [`Blindtest · Extrait ${s.current + 1} / ${s.queue.length}`, score];
+      const pl = playlistById(s.playlistId);
+      if (pl) lines.push(pl.name);
+      return { game: gameById('blindtest')!, lines, route: '/blindtest/partie', abandon: abandonBlindtest };
+    }
+    return null;
   }
   let refresh = $state(0);
   const offer = $derived.by(() => {
@@ -61,9 +76,9 @@
     <ResumeSheet
       game={offer.game}
       lines={offer.lines}
-      onresume={() => navigate('/timeup/partie')}
+      onresume={() => navigate(offer.route)}
       onabandon={() => {
-        abandonGame();
+        offer.abandon();
         refresh++;
       }}
     />

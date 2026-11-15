@@ -26,3 +26,30 @@ test('revenir à l’accueil pendant une partie propose de la reprendre, sans re
   await tick();
   expect(screen.getByText('Une partie est en cours')).toBeInTheDocument();
 });
+
+test('une partie de Blindtest sauvegardée est proposée sur l’accueil', async () => {
+  const { createBlindtest } = await import('./games/blindtest/logic/game');
+  const { startBlindtest } = await import('./games/blindtest/session');
+  navigate('/');
+  render(App);
+  startBlindtest(
+    createBlindtest(
+      [
+        { id: 'A', name: 'Léa', color: 'blindtest', playerIds: ['a'] },
+        { id: 'B', name: 'Hugo', color: 'hipster', playerIds: ['b'] },
+      ],
+      [
+        { id: 'a', name: 'Léa' },
+        { id: 'b', name: 'Hugo' },
+      ],
+      ['t0', 't1'],
+      'hits-de-toujours',
+      { tracks: 2, listenSeconds: 20 },
+    ),
+  );
+  await tick();
+  navigate('/');
+  await tick();
+  expect(screen.getByText('Une partie est en cours')).toBeInTheDocument();
+  expect(screen.getByText(/Blindtest · Extrait 1 \/ 2/)).toBeInTheDocument();
+});
