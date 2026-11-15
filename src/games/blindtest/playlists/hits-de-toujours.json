@@ -1,0 +1,4666 @@
+{
+ "id": "hits-de-toujours",
+ "name": "Hits de toujours",
+ "description": "Des années 50 à aujourd'hui",
+ "color": "blindtest",
+ "tracks": [
+  {
+   "id": "spotify:track:5jUA1njy3h6ynHLvPdEVHt",
+   "title": "Disco Inferno",
+   "displayTitle": "Disco Inferno",
+   "artists": [
+    "The Trammps"
+   ],
+   "album": "Disco Inferno",
+   "year": 1976,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27318afda762b8f42e5016e1155",
+   "preview": "https://p.scdn.co/mp3-preview/f55d2b24e8c11dc32e926ff058564a35b0d44bfa?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 659000,
+   "isrc": "USAT27600009",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:4OjJAGDDZTLlTNeOMBl7UM",
+   "title": "Volare (Nel Blu di Pinto di Blu)",
+   "displayTitle": "Volare (Nel Blu di Pinto di Blu)",
+   "artists": [
+    "Gipsy Kings"
+   ],
+   "album": "Mosaïque",
+   "year": 1989,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739c90ed4b52bdb183c60669ad",
+   "preview": "https://p.scdn.co/mp3-preview/fdeb36ea7a57e3bca57b3f7d05402e0d67f4d9bd?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 218520,
+   "isrc": "GBAAW0202208",
+   "popularity": 72
+  },
+  {
+   "id": "spotify:track:5JOVSWohrjXW0BFTboh8XO",
+   "title": "Don't Go",
+   "displayTitle": "Don't Go",
+   "artists": [
+    "Yazoo"
+   ],
+   "album": "Upstairs at Eric's",
+   "year": 1982,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e0c3e555afcd70597d605b8e",
+   "preview": "https://p.scdn.co/mp3-preview/459dcee22c84c6e4ce059bba3b62e7b3f093169f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 188466,
+   "isrc": "GBAJH9600227",
+   "popularity": 2
+  },
+  {
+   "id": "spotify:track:44AyOl4qVkzS48vBsbNXaC",
+   "title": "Can't Help Falling in Love",
+   "displayTitle": "Can't Help Falling in Love",
+   "artists": [
+    "Elvis Presley"
+   ],
+   "album": "Blue Hawaii",
+   "year": 1961,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b184226408f981e3dd17c606",
+   "preview": "https://p.scdn.co/mp3-preview/ddb3e782f04a42c4380d839e23a7e675a5b1f9ec?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 185877,
+   "isrc": "USRC16101350",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:5kqIPrATaCc2LqxVWzQGbk",
+   "title": "7 Years",
+   "displayTitle": "7 Years",
+   "artists": [
+    "Lukas Graham"
+   ],
+   "album": "Lukas Graham",
+   "year": 2016,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732d94d0f04e9a58d1654b760b",
+   "preview": "https://p.scdn.co/mp3-preview/ebf047925a6e9897b22a21bb38c06ce51cf2fcc5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 237300,
+   "isrc": "USWB11506516",
+   "popularity": 86
+  },
+  {
+   "id": "spotify:track:0fqlz0L5w16uQrELsFxTp0",
+   "title": "Andalouse",
+   "displayTitle": "Andalouse",
+   "artists": [
+    "Kendji Girac"
+   ],
+   "album": "Kendji",
+   "year": 2014,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ddf8f39ee77b8bf4bab68e20",
+   "preview": "https://p.scdn.co/mp3-preview/be7fd8edadcabe0c198dec3902f11d69a7fed6f2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 167373,
+   "isrc": "FRUM71401766",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:6IJmRILFspEP80BmmfAv2m",
+   "title": "Femme Like U",
+   "displayTitle": "Femme Like U",
+   "artists": [
+    "K.Maro"
+   ],
+   "album": "La Good life",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732bee19f83518f769d097eae9",
+   "preview": "https://p.scdn.co/mp3-preview/5eb4b863c22356d5131b140843cc59c5808ec873?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 248640,
+   "isrc": "FRZ160400064",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2W4ZxAHZAXOf6r65pCskGR",
+   "title": "Foule sentimentale",
+   "displayTitle": "Foule sentimentale",
+   "artists": [
+    "Alain Souchon"
+   ],
+   "album": "C'est déjà ça",
+   "year": 1993,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a037c1b32a26b4bcaa88b937",
+   "preview": "https://p.scdn.co/mp3-preview/8de86861b43512362a32d9e5afb72ae98a9a6a14?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 324906,
+   "isrc": "FRZ189310003",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:0rw4cx6eWOYTKhUqwyFLEb",
+   "title": "Sensualité",
+   "displayTitle": "Sensualité",
+   "artists": [
+    "Axelle Red"
+   ],
+   "album": "Sans plus attendre",
+   "year": 1993,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27350614d6fb448f23e7f050549",
+   "preview": "https://p.scdn.co/mp3-preview/17855192e24e9a930c589d09e66c203677c01f8a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 232000,
+   "isrc": "BEV019800211",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:51qi5dgc9CsotM87GmRkAX",
+   "title": "Don't Leave Me This Way",
+   "displayTitle": "Don't Leave Me This Way",
+   "artists": [
+    "Thelma Houston"
+   ],
+   "album": "Any Way You Like It",
+   "year": 1976,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732a6c14f88a39def98c642dec",
+   "preview": "https://p.scdn.co/mp3-preview/36816a403e3d0c2fbed38ef3c3ad0585312011c1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 342360,
+   "isrc": "USUM71303881",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:4MLBqAEzNN89o2M9h92Z26",
+   "title": "Get Back - Remastered 2009",
+   "displayTitle": "Get Back",
+   "artists": [
+    "The Beatles"
+   ],
+   "album": "Let It Be (Remastered 2009)",
+   "year": 1970,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1",
+   "preview": "https://p.scdn.co/mp3-preview/016bc7349bdedf2d8e0fb4b481378435ed3de400?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 189386,
+   "isrc": "GBAYE0601719",
+   "popularity": 70
+  },
+  {
+   "id": "spotify:track:3XJG4svqKswsr2ixWNgjg1",
+   "title": "Osez Joséphine",
+   "displayTitle": "Osez Joséphine",
+   "artists": [
+    "Alain Bashung"
+   ],
+   "album": "Osez Josephine",
+   "year": 1991,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739dfc37aad97be32f4527623e",
+   "preview": "https://p.scdn.co/mp3-preview/15dc98ef37938ed4df9a64402128de9db277e697?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 178173,
+   "isrc": "FRZ019101320",
+   "popularity": 49
+  },
+  {
+   "id": "spotify:track:1Gcv4C4s4aJTtm8THwEdFN",
+   "title": "En rouge et noir",
+   "displayTitle": "En rouge et noir",
+   "artists": [
+    "Jeanne Mas"
+   ],
+   "album": "Best of Jeanne Mas 2004",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c5507c90daae244b915f7655",
+   "preview": "https://p.scdn.co/mp3-preview/7eac56081606dec9c888288fd35b050fb08170ae?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 268240,
+   "isrc": "FRZ118603583",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:1MLKMv5W29K5E1JfeVloIl",
+   "title": "On Se Retrouvera",
+   "displayTitle": "On Se Retrouvera",
+   "artists": [
+    "Francis Lalanne"
+   ],
+   "album": "Best Of Francis Lalanne",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733b18d31a42f581512c5d493f",
+   "preview": "https://p.scdn.co/mp3-preview/0e784e2626d820af8c2f4729c71f5c04e50ffbe4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 155613,
+   "isrc": "FR6V80900339",
+   "popularity": 41
+  },
+  {
+   "id": "spotify:track:4sv1iemiMkkZVTUbV16C8L",
+   "title": "7 Seconds (feat. Neneh Cherry)",
+   "displayTitle": "7 Seconds",
+   "artists": [
+    "Youssou N'Dour",
+    "Neneh Cherry"
+   ],
+   "album": "The Guide (Wommat)",
+   "year": 1994,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a2c9d286243eb9609d2fe565",
+   "preview": "https://p.scdn.co/mp3-preview/27500bceb108687956d7536403f206531d0e5e4e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 306226,
+   "isrc": "USSM10021897",
+   "popularity": 69
+  },
+  {
+   "id": "spotify:track:6IwKcFdiRQZOWeYNhUiWIv",
+   "title": "No One",
+   "displayTitle": "No One",
+   "artists": [
+    "Alicia Keys"
+   ],
+   "album": "As I Am (Expanded Edition)",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ae33b6bc69fe5405f6884b7e",
+   "preview": "https://p.scdn.co/mp3-preview/291dc55ee456833dd35126d7035bf8a1997cfc6b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 253813,
+   "isrc": "USJAY0700190",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:64t4xQEURakazQaVKG7wFa",
+   "title": "Besoin de rien, envie de toi",
+   "displayTitle": "Besoin de rien, envie de toi",
+   "artists": [
+    "Peter & Sloane"
+   ],
+   "album": "C'est La Vie",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273dbccfbf201eba96f50ee0793",
+   "preview": "https://p.scdn.co/mp3-preview/76cd8d48b19cb999fe9548e64f88c5e297b770c2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 218373,
+   "isrc": "FRZ088400070",
+   "popularity": 1
+  },
+  {
+   "id": "spotify:track:11d9oUiwHuYt216EFA2tiz",
+   "title": "Ice Ice Baby",
+   "displayTitle": "Ice Ice Baby",
+   "artists": [
+    "Vanilla Ice"
+   ],
+   "album": "To The Extreme",
+   "year": 1990,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734bb0c02f38a183d19b410662",
+   "preview": "https://p.scdn.co/mp3-preview/cdc25c1ca13048f58ee1db08e49c916cef38ef6b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 271466,
+   "isrc": "USSB29000129",
+   "popularity": 69
+  },
+  {
+   "id": "spotify:track:318bvACza1ThxkbPqajFoe",
+   "title": "Fête de trop",
+   "displayTitle": "Fête de trop",
+   "artists": [
+    "Eddy de Pretto"
+   ],
+   "album": "Cure",
+   "year": 2018,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27398231b1d4e8701bbff7024b8",
+   "preview": "https://p.scdn.co/mp3-preview/d0705f4efb64482c32076d8c6bbf4a806ed66ed2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 156853,
+   "isrc": "FRUM71701482",
+   "popularity": 58
+  },
+  {
+   "id": "spotify:track:2G0GextMwZJLkNxcSZ7ZJ3",
+   "title": "(What A) Wonderful World - Mono",
+   "displayTitle": "(What A) Wonderful World",
+   "artists": [
+    "Sam Cooke"
+   ],
+   "album": "The Wonderful World Of Sam Cooke",
+   "year": 1960,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734fc6dd310e78dcdbf6130b2b",
+   "preview": "https://p.scdn.co/mp3-preview/f86b244689128f478f1e8b31a364341830ae754b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 128786,
+   "isrc": "USA171920056",
+   "popularity": 64
+  },
+  {
+   "id": "spotify:track:2ewjMyCbNv2X1dB2qIDCwD",
+   "title": "Θ. Macarena",
+   "displayTitle": "Θ. Macarena",
+   "artists": [
+    "Damso"
+   ],
+   "album": "Ipséité",
+   "year": 2017,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d8ab9910c70f649f1498ff61",
+   "preview": "https://p.scdn.co/mp3-preview/5aed0279ad0ae162d0bccc3999c4ce7b4f17858e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 206840,
+   "isrc": "FRUM71700380",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:2tpWsVSb9UEmDRxAl1zhX1",
+   "title": "Counting Stars",
+   "displayTitle": "Counting Stars",
+   "artists": [
+    "OneRepublic"
+   ],
+   "album": "Native",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739e2f95ae77cf436017ada9cb",
+   "preview": "https://p.scdn.co/mp3-preview/6316f6cf12631da62c5b786421b25e66c3ab4ea6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 257265,
+   "isrc": "USUM71301306",
+   "popularity": 90
+  },
+  {
+   "id": "spotify:track:7CgfBzAlEgR6gByRUBHD4W",
+   "title": "Be Bop A Lula",
+   "displayTitle": "Be Bop A Lula",
+   "artists": [
+    "Eddy Mitchell"
+   ],
+   "album": "Anthologie",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273611aa52dccec332ebbc572c2",
+   "preview": "https://p.scdn.co/mp3-preview/d471436548a7d75ddd5d374f4acb735168513d0e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 217960,
+   "isrc": "FRZ016300220",
+   "popularity": 5
+  },
+  {
+   "id": "spotify:track:18m3o2kmvnYJn2cCOZ4LD9",
+   "title": "On se connaît",
+   "displayTitle": "On se connaît",
+   "artists": [
+    "Youssoupha",
+    "Noémie"
+   ],
+   "album": "On se connaît",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27346236111f268c7326aa63f24",
+   "preview": "https://p.scdn.co/mp3-preview/e4466e5a61f68d28edc6c8470c261625ea297f82?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 273709,
+   "isrc": "FR6V81473516",
+   "popularity": 69
+  },
+  {
+   "id": "spotify:track:3jDdpx9PMlfMBS5tOBHFm9",
+   "title": "Return of the Mack",
+   "displayTitle": "Return of the Mack",
+   "artists": [
+    "Mark Morrison"
+   ],
+   "album": "Return of the Mack",
+   "year": 1996,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27301841d493ec3808242042c0f",
+   "preview": "https://p.scdn.co/mp3-preview/456989fb9b32c4525f0668676ad5067d20479b4a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 213093,
+   "isrc": "GBAHT0200668",
+   "popularity": 82
+  },
+  {
+   "id": "spotify:track:1Jaah2tmN9Hv81A87KZ1MU",
+   "title": "Torn",
+   "displayTitle": "Torn",
+   "artists": [
+    "Natalie Imbruglia"
+   ],
+   "album": "Left Of The Middle",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27384bb2b1e87d5ba0bac8871a2",
+   "preview": "https://p.scdn.co/mp3-preview/c35abb89d4f217aa1bb309faab7c7266cdb46c59?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 244666,
+   "isrc": "GBARL9700412",
+   "popularity": 83
+  },
+  {
+   "id": "spotify:track:6FxIFhVlOvI1wcXWe8LKei",
+   "title": "En feu",
+   "displayTitle": "En feu",
+   "artists": [
+    "Soprano"
+   ],
+   "album": "L'Everest (Deluxe Edition)",
+   "year": 2016,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27339505eb7ec495325624dabee",
+   "preview": "https://p.scdn.co/mp3-preview/7e00f9b1b55db9c5220c77eaa6426c7ba7e2ac7d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 205293,
+   "isrc": "FRZ111600467",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:6oWLiyRpo1ibp2vKNxHG0T",
+   "title": "Sweet Dreams (Are Made of This) - 2005 Remaster",
+   "displayTitle": "Sweet Dreams (Are Made of This)",
+   "artists": [
+    "Eurythmics",
+    "Annie Lennox",
+    "Dave Stewart"
+   ],
+   "album": "Sweet Dreams (Are Made Of This)",
+   "year": 1983,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273537c6843c6b64ba9d75ecbfc",
+   "preview": "https://p.scdn.co/mp3-preview/d69101dbd66295473706112d3edf978b70fc4550?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 216933,
+   "isrc": "GBARL0300589",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:0Gsj2iZerDbXbU0G1IHuB2",
+   "title": "Gold Digger",
+   "displayTitle": "Gold Digger",
+   "artists": [
+    "Kanye West",
+    "Jamie Foxx"
+   ],
+   "album": "Gold Digger",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737c3949134ab53c78218c4e22",
+   "preview": "https://p.scdn.co/mp3-preview/c07d8315fb8fc3a820a312e29961c96a2e7d7229?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 208040,
+   "isrc": "USUM70500143",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:0KMGxYKeUzK9wc5DZCt3HT",
+   "title": "If You Leave Me Now",
+   "displayTitle": "If You Leave Me Now",
+   "artists": [
+    "Chicago"
+   ],
+   "album": "Chicago X",
+   "year": 1976,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731de27f12958ceb8b1f65461a",
+   "preview": "https://p.scdn.co/mp3-preview/0c2f81d7582232eac12276cc093f67583b9a81d7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 235373,
+   "isrc": "USRH10285535",
+   "popularity": 80
+  },
+  {
+   "id": "spotify:track:7xkQdy0cy5ymoWT7nedvLz",
+   "title": "Whatcha Say",
+   "displayTitle": "Whatcha Say",
+   "artists": [
+    "Jason Derulo"
+   ],
+   "album": "Jason Derulo (International)",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273293e8055dd8814fcdf4742f7",
+   "preview": "https://p.scdn.co/mp3-preview/c38e8cf655b1b4ffe8d31d340dc9675f91e43f3b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 221253,
+   "isrc": "USWB10901504",
+   "popularity": 81
+  },
+  {
+   "id": "spotify:track:1EBRccpQwsdgKHDkzOgAtp",
+   "title": "Les jolies colonies de vacances",
+   "displayTitle": "Les jolies colonies de vacances",
+   "artists": [
+    "Pierre Perret"
+   ],
+   "album": "L'âge de pierre",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739e81b0c1c80c1917b0c33fb0",
+   "preview": "https://p.scdn.co/mp3-preview/0e3211d27770c3e05b15753f4f41f158c5467b6b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 229506,
+   "isrc": "FR1F07500570",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2dCmGcEOQrMQhMMS8Vj7Ca",
+   "title": "Super Freak",
+   "displayTitle": "Super Freak",
+   "artists": [
+    "Rick James"
+   ],
+   "album": "Street Songs (Deluxe Edition)",
+   "year": 1981,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27317f9e7e7784ed40b223e261c",
+   "preview": "https://p.scdn.co/mp3-preview/ef2c59a916249d860115a1fb2f99c0854a6b6b25?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 205466,
+   "isrc": "USMO18100048",
+   "popularity": 80
+  },
+  {
+   "id": "spotify:track:3HkJ0MJ8FZh8YNF4yf2kJc",
+   "title": "Vanina (Runaway)",
+   "displayTitle": "Vanina (Runaway)",
+   "artists": [
+    "Dave"
+   ],
+   "album": "Dave",
+   "year": 1975,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27360a87e20250c8a23ef2f4716",
+   "preview": "https://p.scdn.co/mp3-preview/fc1c82bb8f0106c6ce12dc245aef0d17b979a072?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 192133,
+   "isrc": "FRZ087400080",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:5QL80Me3mteyAW3MuDnerY",
+   "title": "Attention mesdames et messieurs",
+   "displayTitle": "Attention mesdames et messieurs",
+   "artists": [
+    "Michel Fugain & Le Big Bazar"
+   ],
+   "album": "Fais Comme L'Oiseau",
+   "year": 1972,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f1d78c3645bb499ad6c04d74",
+   "preview": "https://p.scdn.co/mp3-preview/ce8fa2af6ede5a3a4481a69b372d761e70d37338?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 182133,
+   "isrc": "FRV627200052",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:3L7RtEcu1Hw3OXrpnthngx",
+   "title": "Don't You Want Me",
+   "displayTitle": "Don't You Want Me",
+   "artists": [
+    "The Human League"
+   ],
+   "album": "Dare!",
+   "year": 1981,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735579d8a505c727349a203074",
+   "preview": "https://p.scdn.co/mp3-preview/37e6049e5c604a5a0b0c0c5ef68208f72e0fed38?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 236920,
+   "isrc": "GBAAA0200924",
+   "popularity": 77
+  },
+  {
+   "id": "spotify:track:1CgOx7wQjNc3J4PDWpMKV2",
+   "title": "Hélène",
+   "displayTitle": "Hélène",
+   "artists": [
+    "Roch Voisine"
+   ],
+   "album": "Helene",
+   "year": 1989,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d7fbb0a47698ead2beb5babc",
+   "preview": "https://p.scdn.co/mp3-preview/2fb36402c758c20cc17caa240e1ec78d05ac412e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 223533,
+   "isrc": "FR10F8900160",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:2UC5XnHA1Wn9FjQmbjNca9",
+   "title": "L'aventurier",
+   "displayTitle": "L'aventurier",
+   "artists": [
+    "Indochine"
+   ],
+   "album": "L'aventurier",
+   "year": 1982,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f80fe67d0f4293be5b8f5251",
+   "preview": "https://p.scdn.co/mp3-preview/b7d4161992a52362b36ba0134f5e681ae8a0712c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 231960,
+   "isrc": "FRZ058200040",
+   "popularity": 67
+  },
+  {
+   "id": "spotify:track:4cOdK2wGLETKBW3PvgPWqT",
+   "title": "Never Gonna Give You Up",
+   "displayTitle": "Never Gonna Give You Up",
+   "artists": [
+    "Rick Astley"
+   ],
+   "album": "Whenever You Need Somebody",
+   "year": 1987,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273baf89eb11ec7c657805d2da0",
+   "preview": "https://p.scdn.co/mp3-preview/40a780b231e5ed130483bec7917b6c9a4f8a4708?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 213573,
+   "isrc": "GBARL9300135",
+   "popularity": 7
+  },
+  {
+   "id": "spotify:track:3jjujdWJ72nww5eGnfs2E7",
+   "title": "Adore You",
+   "displayTitle": "Adore You",
+   "artists": [
+    "Harry Styles"
+   ],
+   "album": "Fine Line",
+   "year": 2019,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27325180571abce9472f61bd722",
+   "preview": "https://p.scdn.co/mp3-preview/81498ea28f7c8842c8c4d3e843356f079033b276?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 207139,
+   "isrc": "USSM11912588",
+   "popularity": 85
+  },
+  {
+   "id": "spotify:track:0PCGfA36HrVPmsBZJ57zOU",
+   "title": "Love Is All Around - From \"Four Weddings And A Funeral\"",
+   "displayTitle": "Love Is All Around",
+   "artists": [
+    "Wet Wet Wet"
+   ],
+   "album": "Picture This (20th Anniversary Edition)",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273cbea7e7a20a9df4b22dc5148",
+   "preview": "https://p.scdn.co/mp3-preview/db7bb0d198d775ed415e58199ca84ce23caa31e9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 246240,
+   "isrc": "GBF089400173",
+   "popularity": 71
+  },
+  {
+   "id": "spotify:track:3nvuPQTw2zuFAVuLsC9IYQ",
+   "title": "Nothing Compares 2 U",
+   "displayTitle": "Nothing Compares 2 U",
+   "artists": [
+    "Sinéad O'Connor"
+   ],
+   "album": "I Do Not Want What I Haven't Got",
+   "year": 1990,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736f6536c2e326fb2b42db90f8",
+   "preview": "https://p.scdn.co/mp3-preview/fa35b1b15254a5fc47426e720d7a1b9e8c0bf6d7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 280040,
+   "isrc": "GBAYK9000017",
+   "popularity": 2
+  },
+  {
+   "id": "spotify:track:5Aom4pV5XRvO33DrZ5bMLD",
+   "title": "Cendrillon",
+   "displayTitle": "Cendrillon",
+   "artists": [
+    "Téléphone"
+   ],
+   "album": "Platinum",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736e1c421b3bc835cda8a07a0f",
+   "preview": "https://p.scdn.co/mp3-preview/6bacf54932654c59c32515761639eb562fed6d27?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 238333,
+   "isrc": "GB0028225000",
+   "popularity": 47
+  },
+  {
+   "id": "spotify:track:7GHKA8GIMcND6c5nN1sFnD",
+   "title": "Sexbomb",
+   "displayTitle": "Sexbomb",
+   "artists": [
+    "Tom Jones",
+    "Mousse T."
+   ],
+   "album": "Reload",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27313b37e7dd8f09d2e3c99c826",
+   "preview": "https://p.scdn.co/mp3-preview/eb1e8867ee0c122f0f6bc36e10bd1eaa544ed228?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 211893,
+   "isrc": "GBBRL9970040",
+   "popularity": 69
+  },
+  {
+   "id": "spotify:track:4H1iMlEWKZmpKTHCZzDhju",
+   "title": "You Can't Hurry Love",
+   "displayTitle": "You Can't Hurry Love",
+   "artists": [
+    "The Supremes"
+   ],
+   "album": "Supremes A Go Go",
+   "year": 1966,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730f73f9ab4ae9a32ba7730448",
+   "preview": "https://p.scdn.co/mp3-preview/0305a9d06b075d265e6b1a4ad90d238f2569b0d2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 165426,
+   "isrc": "USMO16600346",
+   "popularity": 64
+  },
+  {
+   "id": "spotify:track:6XBaTMiZa77Du2XEl1RNaa",
+   "title": "Les sardines",
+   "displayTitle": "Les sardines",
+   "artists": [
+    "Patrick Sébastien"
+   ],
+   "album": "Pochette Surprise",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27396bb90149b37c96791752e45",
+   "preview": "https://p.scdn.co/mp3-preview/13a6cd343091c0d1404e6904c65d3cdadd823f44?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 233866,
+   "isrc": "FRE770600210",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:2SpEHTbUuebeLkgs9QB7Ue",
+   "title": "Jolene",
+   "displayTitle": "Jolene",
+   "artists": [
+    "Dolly Parton"
+   ],
+   "album": "Jolene",
+   "year": 1974,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273220f3b1f40e3276662155f16",
+   "preview": "https://p.scdn.co/mp3-preview/dd703b76c54a7467f6a78861aa1500b541b7e6b8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 163275,
+   "isrc": "USRN19600096",
+   "popularity": 79
+  },
+  {
+   "id": "spotify:track:616O2jmafiModH0RgonGqf",
+   "title": "Tu m'oublieras",
+   "displayTitle": "Tu m'oublieras",
+   "artists": [
+    "Larusso"
+   ],
+   "album": "Simplement",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b3198c6ee5eca87d8e649152",
+   "preview": "https://p.scdn.co/mp3-preview/54c62225ea5847eae4324c0dd43669be40be9e88?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 219760,
+   "isrc": "FRZ119900407",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:6GKfnB8wQhmCqsHmgDAkN4",
+   "title": "Casser la voix",
+   "displayTitle": "Casser la voix",
+   "artists": [
+    "Patrick Bruel"
+   ],
+   "album": "Alors regarde",
+   "year": 1989,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737b8420ca49fa8270c3cdd7c9",
+   "preview": "https://p.scdn.co/mp3-preview/71c20fbfd8f785d20a27b633651680511b10b240?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 279133,
+   "isrc": "FRZ058900070",
+   "popularity": 51
+  },
+  {
+   "id": "spotify:track:7bZknZ9h1Gnv1dEpiyAvso",
+   "title": "Butterfly",
+   "displayTitle": "Butterfly",
+   "artists": [
+    "Superbus"
+   ],
+   "album": "Wow",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273685091a957fbfc55ecf24a28",
+   "preview": "https://p.scdn.co/mp3-preview/6b9b65a552f1ef816dc27527889c7a059fb40812?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 232720,
+   "isrc": "FRZ030601030",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:0KMGf0ebdR8aazf1PoHEdb",
+   "title": "Guajira Guantanamera",
+   "displayTitle": "Guajira Guantanamera",
+   "artists": [
+    "Joseito Fernández"
+   ],
+   "album": "Guajira Guantanamera",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c29667a6c2cdbb57806d856f",
+   "preview": "https://p.scdn.co/mp3-preview/801588d9a5abd32485509391a3e8359f73beb7b6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 176800,
+   "isrc": "FR6V81371636",
+   "popularity": 44
+  },
+  {
+   "id": "spotify:track:4WB9OeauHXnGOMUK4s80gM",
+   "title": "Trop beau",
+   "displayTitle": "Trop beau",
+   "artists": [
+    "Lomepal"
+   ],
+   "album": "Jeannine",
+   "year": 2018,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27300c0bba714d6c46e47ab1d07",
+   "preview": "https://p.scdn.co/mp3-preview/a71d82d8d59fe2f7945454e4c677318ab2149167?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 244586,
+   "isrc": "FR9W11821792",
+   "popularity": 65
+  },
+  {
+   "id": "spotify:track:2fTsFCKRFQ5M0igJgabnLA",
+   "title": "Price Tag",
+   "displayTitle": "Price Tag",
+   "artists": [
+    "Jessie J",
+    "B.o.B"
+   ],
+   "album": "Who You Are (Platinum Edition)",
+   "year": 2011,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737805aebd5a39023d553ada3a",
+   "preview": "https://p.scdn.co/mp3-preview/71b3faabe9cf3b0d5613ba1dd110cbbbfde88e03?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 223053,
+   "isrc": "USUM71029357",
+   "popularity": 80
+  },
+  {
+   "id": "spotify:track:0RnCUYXa7jhgTXtiMXF2PQ",
+   "title": "You Make Me Feel (Mighty Real)",
+   "displayTitle": "You Make Me Feel (Mighty Real)",
+   "artists": [
+    "Sylvester"
+   ],
+   "album": "Step II",
+   "year": 1978,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c6619148196a323b2e41d6d4",
+   "preview": "https://p.scdn.co/mp3-preview/fd9a9ab4f76df58b59672c8340f9c8dfb4bb17f2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 400115,
+   "isrc": "USC4R2002968",
+   "popularity": 65
+  },
+  {
+   "id": "spotify:track:2CLeotsLhEUu0qkj56vbUj",
+   "title": "Il est cinq heures, Paris s'éveille",
+   "displayTitle": "Il est cinq heures, Paris s'éveille",
+   "artists": [
+    "Jacques Dutronc"
+   ],
+   "album": "Il est cinq heures",
+   "year": 1968,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734af2aea504a792071772f349",
+   "preview": "https://p.scdn.co/mp3-preview/75fbd82049323844d155503d0576aa770728951d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 175333,
+   "isrc": "FRZ196700050",
+   "popularity": 54
+  },
+  {
+   "id": "spotify:track:0gJvqi9QyASOCtJu99tytc",
+   "title": "Because of You",
+   "displayTitle": "Because of You",
+   "artists": [
+    "Kelly Clarkson"
+   ],
+   "album": "Breakaway",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273158c72ad0003cb37ca0c9eff",
+   "preview": "https://p.scdn.co/mp3-preview/0cd74a6a46dfee06ce4ad63c8cb0febdc10cd730?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 219493,
+   "isrc": "GBCTA0400265",
+   "popularity": 77
+  },
+  {
+   "id": "spotify:track:7APhfGjNSqcNiS0eXNVjcK",
+   "title": "Partir un jour",
+   "displayTitle": "Partir un jour",
+   "artists": [
+    "2 Be 3"
+   ],
+   "album": "L'essentiel",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273305ccf53db21c31d80bdd436",
+   "preview": "https://p.scdn.co/mp3-preview/a9e691c0fe7e8c9834ee34972ea86458cb67a12c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 218480,
+   "isrc": "FRZ119601280",
+   "popularity": 32
+  },
+  {
+   "id": "spotify:track:60nZcImufyMA1MKQY3dcCH",
+   "title": "Happy - From \"Despicable Me 2\"",
+   "displayTitle": "Happy",
+   "artists": [
+    "Pharrell Williams"
+   ],
+   "album": "G I R L",
+   "year": 2014,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e89d2c2a3db129062b3b4e4f",
+   "preview": "https://p.scdn.co/mp3-preview/5faf8a082e1cb3f18c10cc6aa85eeca1c7014263?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 233306,
+   "isrc": "USQ4E1300686",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:11mwFrKvLXCbcVGNxffGyP",
+   "title": "Genie In a Bottle",
+   "displayTitle": "Genie In a Bottle",
+   "artists": [
+    "Christina Aguilera"
+   ],
+   "album": "Christina Aguilera (Expanded Edition)",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f89996e214be1763b2a9e948",
+   "preview": "https://p.scdn.co/mp3-preview/06d1b4ae1b631b29bbfd8b9a66a37f18dd73713a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 217573,
+   "isrc": "USRC19900032",
+   "popularity": 85
+  },
+  {
+   "id": "spotify:track:5jE48hhRu8E6zBDPRSkEq7",
+   "title": "All About That Bass",
+   "displayTitle": "All About That Bass",
+   "artists": [
+    "Meghan Trainor"
+   ],
+   "album": "Title (Deluxe)",
+   "year": 2015,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737aef0a9ce5c2a75e77404b77",
+   "preview": "https://p.scdn.co/mp3-preview/b1c8b7852d553e5ebe39840e3bd2b9de96152ec0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 191488,
+   "isrc": "USSM11401317",
+   "popularity": 71
+  },
+  {
+   "id": "spotify:track:40vzD8a9bRImTVhOjD6Sxo",
+   "title": "Avec le temps",
+   "displayTitle": "Avec le temps",
+   "artists": [
+    "Léo Ferré"
+   ],
+   "album": "Thank You Ferre",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273765c07aab68f66129aa86bec",
+   "preview": "https://p.scdn.co/mp3-preview/fc7dde96e825eee69b9a4a5e03c25284f836b5e2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 265200,
+   "isrc": "FRZ017100110",
+   "popularity": 46
+  },
+  {
+   "id": "spotify:track:2mTiKaGdMPA4wfOGGUroE5",
+   "title": "When a Man Loves a Woman - Mono",
+   "displayTitle": "When a Man Loves a Woman",
+   "artists": [
+    "Percy Sledge"
+   ],
+   "album": "When a Man Loves a Woman (Mono)",
+   "year": 1966,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737beb45406a5cacb6df81045d",
+   "preview": "https://p.scdn.co/mp3-preview/59f1877a0699ee5d1601f07dde06b9d2f3339ba7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 173662,
+   "isrc": "USAT21403476",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:5IKLwqBQG6KU6MP2zP80Nu",
+   "title": "We Are Family - 1995 Remaster",
+   "displayTitle": "We Are Family",
+   "artists": [
+    "Sister Sledge"
+   ],
+   "album": "We Are Family (1995 Remaster)",
+   "year": 1979,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f66d92378b233aa8253e71d2",
+   "preview": "https://p.scdn.co/mp3-preview/c8e62c272be0fd81117f2059aaa6b5eaaa1e5b73?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 216733,
+   "isrc": "USAT20102166",
+   "popularity": 73
+  },
+  {
+   "id": "spotify:track:3XIEWK1V9n25PS9Vb6axj5",
+   "title": "Born to Be Alive - The Original",
+   "displayTitle": "Born to Be Alive - The Original",
+   "artists": [
+    "Patrick Hernandez"
+   ],
+   "album": "Born to Be Alive (The Original)",
+   "year": 1978,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b2622bac004d3ef8fac1095b",
+   "preview": "https://p.scdn.co/mp3-preview/5898691af1ed6722dfb6d16340d92a39e55e383d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 188133,
+   "isrc": "FRX957900007",
+   "popularity": 78
+  },
+  {
+   "id": "spotify:track:5MtzlELTZJtuXzFZGtUeun",
+   "title": "Avenir",
+   "displayTitle": "Avenir",
+   "artists": [
+    "Louane"
+   ],
+   "album": "Chambre 12",
+   "year": 2015,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27341214bd073e7ffb2bf01dd6a",
+   "preview": "https://p.scdn.co/mp3-preview/016c4f882a68cddc3d39a75668b0ca0dade2e9f6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 196653,
+   "isrc": "FRUM71402930",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2Cd9iWfcOpGDHLz6tVA3G4",
+   "title": "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground)",
+   "displayTitle": "Waka Waka (This Time for Africa)",
+   "artists": [
+    "Shakira",
+    "Freshlyground"
+   ],
+   "album": "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground)",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273752d2becbb91841a31c556b8",
+   "preview": "https://p.scdn.co/mp3-preview/27a5d61a1228675e100d89d3010e7c28a0750458?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 202626,
+   "isrc": "USSM11001353",
+   "popularity": 10
+  },
+  {
+   "id": "spotify:track:49X0LAl6faAusYq02PRAY6",
+   "title": "Lady (Hear Me Tonight)",
+   "displayTitle": "Lady (Hear Me Tonight)",
+   "artists": [
+    "Modjo"
+   ],
+   "album": "Modjo (Remastered)",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f74c5a565d9496f12b2a9a3c",
+   "preview": "https://p.scdn.co/mp3-preview/d1053e9ae7c7008a0d4755241204ed5019616ce0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 307153,
+   "isrc": "FR9W10100535",
+   "popularity": 85
+  },
+  {
+   "id": "spotify:track:01kVVoJQuWVqaOvRgRztJD",
+   "title": "Sing Hallelujah!",
+   "displayTitle": "Sing Hallelujah!",
+   "artists": [
+    "Dr. Alban"
+   ],
+   "album": "One Love",
+   "year": 1992,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b708f8e03128fb8984a61e7c",
+   "preview": "https://p.scdn.co/mp3-preview/7a3d1affa0fbca517e889c126a9a9bc5ffe3bfb6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 240933,
+   "isrc": "DEA819200295",
+   "popularity": 2
+  },
+  {
+   "id": "spotify:track:7JGmpugbdiVWskY1S3EmTY",
+   "title": "Tomber la chemise",
+   "displayTitle": "Tomber la chemise",
+   "artists": [
+    "Zebda"
+   ],
+   "album": "Essence Ordinaire",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735f67b481908daec0ebb0b356",
+   "preview": "https://p.scdn.co/mp3-preview/3a9eb0b745ec4a64a4a99d0e3b12c079b64f8fcb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 263800,
+   "isrc": "FRZ019800920",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:3vHswuqTNO0hIiW6am0tKB",
+   "title": "Les lacs du Connemara",
+   "displayTitle": "Les lacs du Connemara",
+   "artists": [
+    "Michel Sardou"
+   ],
+   "album": "Les Lacs Du Connemara",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738ce9b85d2c378387883c6cc0",
+   "preview": "https://p.scdn.co/mp3-preview/d17cb32d3ee2ec8aea8f31cad8ab146f6c12281c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 363533,
+   "isrc": "FR25F8100050",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:734dz1YaFITwawPpM25fSt",
+   "title": "Je veux",
+   "displayTitle": "Je veux",
+   "artists": [
+    "Zaz"
+   ],
+   "album": "Zaz",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733b5969aba116e8248a3e6369",
+   "preview": "https://p.scdn.co/mp3-preview/e85c65379feef07f5943541b92c6f412cbeae8be?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 215933,
+   "isrc": "FR2PY1000010",
+   "popularity": 72
+  },
+  {
+   "id": "spotify:track:3di5hcvxxciiqwMH1jarhY",
+   "title": "Set Fire to the Rain",
+   "displayTitle": "Set Fire to the Rain",
+   "artists": [
+    "Adele"
+   ],
+   "album": "21",
+   "year": 2011,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e63ac9f24aab9acc90f81960",
+   "preview": "https://p.scdn.co/mp3-preview/7157fc5b99c54f5e11803b888d20fdbb9e731949?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 242973,
+   "isrc": "GBBKS1000348",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:3K7Q9PHUWPTaknlbFPThn2",
+   "title": "Celebration",
+   "displayTitle": "Celebration",
+   "artists": [
+    "Kool & The Gang"
+   ],
+   "album": "Celebrate!",
+   "year": 1980,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273887b7c596249f628db6c6473",
+   "preview": "https://p.scdn.co/mp3-preview/1ba26bd1583538201bbd9c8b9d822b2d340eb301?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 298866,
+   "isrc": "USPR38007190",
+   "popularity": 75
+  },
+  {
+   "id": "spotify:track:6M7WQZ4tAG72j2xXxi2a1z",
+   "title": "Lollipop",
+   "displayTitle": "Lollipop",
+   "artists": [
+    "The Chordettes"
+   ],
+   "album": "The Chordettes",
+   "year": 2011,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27350f7cd18776e82374daf0e54",
+   "preview": "https://p.scdn.co/mp3-preview/5b984043645c6f4bf026a0e711fe49850f11ec91?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 131022,
+   "isrc": "GBGQH0907437",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:54X78diSLoUDI3joC2bjMz",
+   "title": "Purple Rain",
+   "displayTitle": "Purple Rain",
+   "artists": [
+    "Prince"
+   ],
+   "album": "Purple Rain",
+   "year": 1984,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d52bfb90ee8dfeda8378b99b",
+   "preview": "https://p.scdn.co/mp3-preview/81bd92ac70dc7b6dd32aabfb186fe67857147834?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 520786,
+   "isrc": "USWB10001880",
+   "popularity": 12
+  },
+  {
+   "id": "spotify:track:7idTMG6EKZy0531lIx8RJ5",
+   "title": "Rigoletto: \"La Donna E' Mobile\"",
+   "displayTitle": "Rigoletto: \"La Donna E' Mobile\"",
+   "artists": [
+    "Enrico Caruso"
+   ],
+   "album": "The Gramophone Classics, Vol. 1",
+   "year": 2011,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27363a72c4772ae4bd2f040e62a",
+   "preview": "https://p.scdn.co/mp3-preview/45bdc606154d82ca0ce0a2b425fa01b0e5d4b0bd?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 149333,
+   "isrc": "ITA731100419",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:6jS8cXW9QsiQKiQ3LFiM4n",
+   "title": "La Cintura",
+   "displayTitle": "La Cintura",
+   "artists": [
+    "Alvaro Soler"
+   ],
+   "album": "Mar de Colores (Versión Extendida)",
+   "year": 2019,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736ec316bda910fc33dacb6c22",
+   "preview": "https://p.scdn.co/mp3-preview/44cba510453463839c0f03df85a0fafc34d7851a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 204660,
+   "isrc": "DEUM71800524",
+   "popularity": 46
+  },
+  {
+   "id": "spotify:track:2IHaGyfxNoFPLJnaEg4GTs",
+   "title": "What Is Love - 7\" Mix",
+   "displayTitle": "What Is Love",
+   "artists": [
+    "Haddaway"
+   ],
+   "album": "The Album",
+   "year": 1993,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fe2466bf2316d66cf3d3249c",
+   "preview": "https://p.scdn.co/mp3-preview/c277f1ad35d5d13a49d602cd89ce928d3f1a01cd?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 270373,
+   "isrc": "DEA410500401",
+   "popularity": 8
+  },
+  {
+   "id": "spotify:track:6G9kANS3QfFMH7HdBdTHKo",
+   "title": "Il jouait du piano debout",
+   "displayTitle": "Il jouait du piano debout",
+   "artists": [
+    "France Gall"
+   ],
+   "album": "Évidemment",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732de2adc7ddb515f32350ab96",
+   "preview": "https://p.scdn.co/mp3-preview/339f03f94b899101faea80581a008321c9de7ddf?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 271826,
+   "isrc": "FRT198000300",
+   "popularity": 51
+  },
+  {
+   "id": "spotify:track:2fuCquhmrzHpu5xcA1ci9x",
+   "title": "Under Pressure - Remastered 2011",
+   "displayTitle": "Under Pressure",
+   "artists": [
+    "Queen",
+    "David Bowie"
+   ],
+   "album": "Hot Space (2011 Remaster)",
+   "year": 1982,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d254ca497999ae980a5a38c5",
+   "preview": "https://p.scdn.co/mp3-preview/17e919c8a08f5592cb20c770dba371be0706db3e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 248440,
+   "isrc": "GBUM71029622",
+   "popularity": 39
+  },
+  {
+   "id": "spotify:track:0RDUfBXGq7lhBAqlyu0UAy",
+   "title": "Pour un flirt",
+   "displayTitle": "Pour un flirt",
+   "artists": [
+    "Michel Delpech"
+   ],
+   "album": "Pour Un Flirt - Vol.1",
+   "year": 1993,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273722d2ad7e013bfb26631f257",
+   "preview": "https://p.scdn.co/mp3-preview/f70e348a52a3522f1610ef374f45e943c2a43bfb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 206160,
+   "isrc": "FRZ017100100",
+   "popularity": 57
+  },
+  {
+   "id": "spotify:track:5M93fqN6b9HNmfQGmXlqdu",
+   "title": "La femme chocolat",
+   "displayTitle": "La femme chocolat",
+   "artists": [
+    "Olivia Ruiz"
+   ],
+   "album": "La femme chocolat",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273997a620ce3e3ba3adac75b9d",
+   "preview": "https://p.scdn.co/mp3-preview/833b7f7cfffc8d2390b5ba58f6ac718e53467f7f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 171213,
+   "isrc": "FRZ020500810",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:0wAyDBh0ujohCsYeXBtDLF",
+   "title": "In the Mood - 2006 Remastered Version",
+   "displayTitle": "In the Mood",
+   "artists": [
+    "Glenn Miller"
+   ],
+   "album": "In the Mood",
+   "year": 1939,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a87aa1de3861b1a933a7c90c",
+   "preview": "https://p.scdn.co/mp3-preview/e76cb3b9030414ca5fc9b867c691fe8db728363e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 214093,
+   "isrc": "FR14F3900390",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2FO8AfQVGJsmxgg6RlI5jK",
+   "title": "Les brunes comptent pas pour des prunes",
+   "displayTitle": "Les brunes comptent pas pour des prunes",
+   "artists": [
+    "Lio"
+   ],
+   "album": "Les brunes comptent pas pour des prunes",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e74aabf5ed6c2e498c8024a0",
+   "preview": "https://p.scdn.co/mp3-preview/a89e3f4e2055335383cc0daf1250923184c3f244?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 189760,
+   "isrc": "FR6T50501906",
+   "popularity": 35
+  },
+  {
+   "id": "spotify:track:4BEWiTPV0v87mBryf7gdxK",
+   "title": "Dommage",
+   "displayTitle": "Dommage",
+   "artists": [
+    "Bigflo & Oli"
+   ],
+   "album": "La vraie vie",
+   "year": 2017,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736ed9b368c548fb1721adb06e",
+   "preview": "https://p.scdn.co/mp3-preview/3aa8f9baaa7a614a7587091fad34c7808cc8d34d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 238146,
+   "isrc": "FRUM71700696",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:0KM2y796j63t5RHhvRUxld",
+   "title": "Relax, Take It Easy",
+   "displayTitle": "Relax, Take It Easy",
+   "artists": [
+    "MIKA"
+   ],
+   "album": "Life In Cartoon Motion",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733408a925e0bcb7940f864a0e",
+   "preview": "https://p.scdn.co/mp3-preview/d2bb53ceb4bfc2a617ac012e6d7023ca54fecb8f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 270000,
+   "isrc": "USC7R0600114",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:5ZrDlcxIDZyjOzHdYW1ydr",
+   "title": "Barbie Girl",
+   "displayTitle": "Barbie Girl",
+   "artists": [
+    "Aqua"
+   ],
+   "album": "Aquarium (Special Edition)",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f5768db89dd8ac30fd0e414f",
+   "preview": "https://p.scdn.co/mp3-preview/e50666a04ed8364ec8f7cda1c8fe26f516c1da9c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 197960,
+   "isrc": "DKBKA9700403",
+   "popularity": 78
+  },
+  {
+   "id": "spotify:track:55txN6pmN5RAOjGPnINMlg",
+   "title": "Pas là",
+   "displayTitle": "Pas là",
+   "artists": [
+    "Vianney"
+   ],
+   "album": "Idées blanches (Édition deluxe)",
+   "year": 2015,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27352dcc4d2379c1427a62ac424",
+   "preview": "https://p.scdn.co/mp3-preview/cbf3efd5290d8350c6d8ed2d373497ec6644c9b6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 231000,
+   "isrc": "FR79W1400190",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:1DIXPcTDzTj8ZMHt3PDt8p",
+   "title": "Gangsta's Paradise",
+   "displayTitle": "Gangsta's Paradise",
+   "artists": [
+    "Coolio",
+    "L.V."
+   ],
+   "album": "Gangsta's Paradise",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737438996f6fe67c59d75d4e43",
+   "preview": "https://p.scdn.co/mp3-preview/2ea1ebd68120ba5c09cc491424d233f75b395937?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 240693,
+   "isrc": "USTB10400128",
+   "popularity": 88
+  },
+  {
+   "id": "spotify:track:6GYqOflskcZxPj8rkTZkOy",
+   "title": "That's Amore",
+   "displayTitle": "That's Amore",
+   "artists": [
+    "Dean Martin"
+   ],
+   "album": "That's Amore",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fd4bbafeee96b97a870863e6",
+   "preview": "https://p.scdn.co/mp3-preview/a4fdcfc0082deff08c5316747609d2eadc173781?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 185466,
+   "isrc": "USCA20100849",
+   "popularity": 46
+  },
+  {
+   "id": "spotify:track:3BovdzfaX4jb5KFQwoPfAw",
+   "title": "Beat It",
+   "displayTitle": "Beat It",
+   "artists": [
+    "Michael Jackson"
+   ],
+   "album": "Thriller",
+   "year": 1982,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+   "preview": "https://p.scdn.co/mp3-preview/05f62bc72e65a0b89b5b7544b4fe6efc2f363061?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 258296,
+   "isrc": "USSM19902990",
+   "popularity": 90
+  },
+  {
+   "id": "spotify:track:2fYYmPNwDaNpw1KRSxpQ5H",
+   "title": "Why",
+   "displayTitle": "Why",
+   "artists": [
+    "Annie Lennox"
+   ],
+   "album": "Diva",
+   "year": 1992,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273abd613e1f4e193ccc603210f",
+   "preview": "https://p.scdn.co/mp3-preview/1beee801b97dcd53a89e341c4a432e75310c6df5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 293838,
+   "isrc": "GBARL9200025",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:3MPmRgJHfD7CADCibQfNgG",
+   "title": "Eve lève-toi",
+   "displayTitle": "Eve lève-toi",
+   "artists": [
+    "Julie Pietri"
+   ],
+   "album": "Eve lève-toi",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731ee39992e8efd858a5860e02",
+   "preview": "https://p.scdn.co/mp3-preview/1a68a7065d41cc0108b5aa7effcb0cf4a0444662?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 272160,
+   "isrc": "FRZ088700160",
+   "popularity": 1
+  },
+  {
+   "id": "spotify:track:7iN1s7xHE4ifF5povM6A48",
+   "title": "Let It Be - Remastered 2009",
+   "displayTitle": "Let It Be",
+   "artists": [
+    "The Beatles"
+   ],
+   "album": "Let It Be (Remastered 2009)",
+   "year": 1970,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1",
+   "preview": "https://p.scdn.co/mp3-preview/31f65b6a613010f22316c7be335b62226cf2f263?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 243026,
+   "isrc": "GBAYE0601713",
+   "popularity": 81
+  },
+  {
+   "id": "spotify:track:3d9DChrdc6BOeFsbrZ3Is0",
+   "title": "Under the Bridge",
+   "displayTitle": "Under the Bridge",
+   "artists": [
+    "Red Hot Chili Peppers"
+   ],
+   "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+   "year": 1991,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273153d79816d853f2694b2cc70",
+   "preview": "https://p.scdn.co/mp3-preview/46b0229c06712c5b5e143724c0617e51a9b6e432?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 264306,
+   "isrc": "USWB19901576",
+   "popularity": 88
+  },
+  {
+   "id": "spotify:track:6naxalmIoLFWR0siv8dnQQ",
+   "title": "Oops!...I Did It Again",
+   "displayTitle": "Oops!...I Did It Again",
+   "artists": [
+    "Britney Spears"
+   ],
+   "album": "Oops!... I Did It Again",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c50b7d96737041f4bfd844d6",
+   "preview": "https://p.scdn.co/mp3-preview/66a5cf0f69b1bb1e8930821881b71756151c5f68?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 211160,
+   "isrc": "USJI10000100",
+   "popularity": 86
+  },
+  {
+   "id": "spotify:track:1qPbGZqppFwLwcBC1JQ6Vr",
+   "title": "Wonderwall",
+   "displayTitle": "Wonderwall",
+   "artists": [
+    "Oasis"
+   ],
+   "album": "(What's The Story) Morning Glory?",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732f2eeee9b405f4d00428d84c",
+   "preview": "https://p.scdn.co/mp3-preview/5c8cdfb43b6e9aa9b1914f41ee6349cda23cbf77?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 258906,
+   "isrc": "GBAAW9500189",
+   "popularity": 83
+  },
+  {
+   "id": "spotify:track:3CRDbSIZ4r5MsZ0YwxuEkn",
+   "title": "Stressed Out",
+   "displayTitle": "Stressed Out",
+   "artists": [
+    "Twenty One Pilots"
+   ],
+   "album": "Blurryface",
+   "year": 2015,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732df0d98a423025032d0db1f7",
+   "preview": "https://p.scdn.co/mp3-preview/d01bb6b4b9952d95d2609632474cda8e632e044d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 202333,
+   "isrc": "USAT21500597",
+   "popularity": 89
+  },
+  {
+   "id": "spotify:track:3FteycP8CaXS1MhjcXekVT",
+   "title": "Stop",
+   "displayTitle": "Stop",
+   "artists": [
+    "Spice Girls"
+   ],
+   "album": "Spiceworld",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f660420bcef3b16b4c7e5f2b",
+   "preview": "https://p.scdn.co/mp3-preview/802f76fab6211f6ec34175d0ef1fd64224dae92f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 204753,
+   "isrc": "GBAAA9710053",
+   "popularity": 70
+  },
+  {
+   "id": "spotify:track:1tqT6DhmsrtQgyCKUwotiw",
+   "title": "I Heard It Through The Grapevine",
+   "displayTitle": "I Heard It Through The Grapevine",
+   "artists": [
+    "Marvin Gaye"
+   ],
+   "album": "In The Groove",
+   "year": 1968,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273aff6573c5110e0732fbab3d8",
+   "preview": "https://p.scdn.co/mp3-preview/c0a09baf1364822c694b171b61db2f1480064bb6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 194293,
+   "isrc": "USMO19582697",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:5R8dQOPq8haW94K7mgERlO",
+   "title": "Poker Face",
+   "displayTitle": "Poker Face",
+   "artists": [
+    "Lady Gaga"
+   ],
+   "album": "The Fame",
+   "year": 2008,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273613aaa3ae566d9f36008aed0",
+   "preview": "https://p.scdn.co/mp3-preview/f34749678f9ada857c59266e8afbc0b39eeeb9aa?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 237200,
+   "isrc": "USUM70824409",
+   "popularity": 82
+  },
+  {
+   "id": "spotify:track:26CWyxnjmUf6n4GKX1QVuw",
+   "title": "Les sunlights des tropiques",
+   "displayTitle": "Les sunlights des tropiques",
+   "artists": [
+    "Gilbert Montagné"
+   ],
+   "album": "Liberté",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27373bff44ca801066e98eba059",
+   "preview": "https://p.scdn.co/mp3-preview/be68e8429f739d934fa1627a8b5ed63e6528ef01?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 237466,
+   "isrc": "FRZ068401750",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:2jY4XzyntBSe2ns2EwA2pL",
+   "title": "Tout le bonheur du monde",
+   "displayTitle": "Tout le bonheur du monde",
+   "artists": [
+    "Sinsémilia"
+   ],
+   "album": "Debout les yeux ouverts",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739fee7bf84eb6b34f5fcc14ea",
+   "preview": "https://p.scdn.co/mp3-preview/be9443b73ebbb2b4b1a2a48342e4833a8aa64e8f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 229426,
+   "isrc": "FR43T0402013",
+   "popularity": 58
+  },
+  {
+   "id": "spotify:track:6kWJvPfC4DgUpRsXKNa9z9",
+   "title": "All That She Wants",
+   "displayTitle": "All That She Wants",
+   "artists": [
+    "Ace of Base"
+   ],
+   "album": "The Sign",
+   "year": 1993,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fda5556cb6981c3113df6175",
+   "preview": "https://p.scdn.co/mp3-preview/eef43d18f73d83ff358852d874dd564f55e86932?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 211213,
+   "isrc": "SEVJH0803401",
+   "popularity": 83
+  },
+  {
+   "id": "spotify:track:4gphxUgq0JSFv2BCLhNDiE",
+   "title": "Jailhouse Rock",
+   "displayTitle": "Jailhouse Rock",
+   "artists": [
+    "Elvis Presley"
+   ],
+   "album": "Elvis' Golden Records",
+   "year": 1958,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27365e7f92b6667ac6cbb239845",
+   "preview": "https://p.scdn.co/mp3-preview/486852b4a04fc9287ee850344ee03ffeb190fb3c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 149232,
+   "isrc": "USRC15705223",
+   "popularity": 73
+  },
+  {
+   "id": "spotify:track:6wKjE3MUATWp50BP22ENR1",
+   "title": "La groupie du pianiste",
+   "displayTitle": "La groupie du pianiste",
+   "artists": [
+    "Michel Berger"
+   ],
+   "album": "Pour me comprendre (40 titres)",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736d30a1caeffe1d8e72654958",
+   "preview": "https://p.scdn.co/mp3-preview/2a8118e3012707eeaa4ec35f718e95953f5a2d6d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 280706,
+   "isrc": "FRT198000180",
+   "popularity": 52
+  },
+  {
+   "id": "spotify:track:7fLWUJpyNbEfrLFKLo8ymN",
+   "title": "Belle",
+   "displayTitle": "Belle",
+   "artists": [
+    "Patrick Fiori",
+    "Garou",
+    "Daniel Lavoie"
+   ],
+   "album": "Notre Dame de Paris - Comédie musicale (Complete Version In French)",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273eeef382d40b5d0fd98cac30c",
+   "preview": "https://p.scdn.co/mp3-preview/bcd52609a91eed396a0b4b67b86cb5164d8b85ee?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 294373,
+   "isrc": "FR6V89800260",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:73xsUbrW2JXv1ziLFe6VxG",
+   "title": "Un lapin",
+   "displayTitle": "Un lapin",
+   "artists": [
+    "Chantal Goya"
+   ],
+   "album": "Voulez-vous danser grand-mère / Allons chanter avec Mickey",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273879c59a7de99f4536fca4e4a",
+   "preview": "https://p.scdn.co/mp3-preview/e697242fc72b0c9aa91cc5f1797ef29b8496544f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 168840,
+   "isrc": "FRR837680020",
+   "popularity": 32
+  },
+  {
+   "id": "spotify:track:2tUBqZG2AbRi7Q0BIrVrEj",
+   "title": "I Wanna Dance with Somebody (Who Loves Me)",
+   "displayTitle": "I Wanna Dance with Somebody (Who Loves Me)",
+   "artists": [
+    "Whitney Houston"
+   ],
+   "album": "Whitney",
+   "year": 1987,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a520a167a62d5548cdb53101",
+   "preview": "https://p.scdn.co/mp3-preview/6d13b049b24af1bef77aa4d366c088c316ca1b65?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 292875,
+   "isrc": "USAR18700121",
+   "popularity": 86
+  },
+  {
+   "id": "spotify:track:2aEeghgUcnu75tzcolFMfs",
+   "title": "La Bamba - Single Version",
+   "displayTitle": "La Bamba",
+   "artists": [
+    "Ritchie Valens"
+   ],
+   "album": "Ritchie Valens",
+   "year": 1959,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273027a47865c8c6215aa72b9df",
+   "preview": "https://p.scdn.co/mp3-preview/b460e782da73afa26d3882db0cfb052e7cfe9947?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 126960,
+   "isrc": "USRH10402003",
+   "popularity": 69
+  },
+  {
+   "id": "spotify:track:63kzVzdblx4FzGx3ctmTPn",
+   "title": "La plus Belle pour Aller Danser",
+   "displayTitle": "La plus Belle pour Aller Danser",
+   "artists": [
+    "Sylvie Vartan"
+   ],
+   "album": "Le meilleur des années RCA",
+   "year": 1996,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e6eb00fc9a8e23da5acb0258",
+   "preview": "https://p.scdn.co/mp3-preview/fa64f4facdf5dbe31c07c14572c2b77a260b436b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 153933,
+   "isrc": "FRZ056400030",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:5KCH6zWcx5qUYbmp0uaaE7",
+   "title": "N'y pense plus",
+   "displayTitle": "N'y pense plus",
+   "artists": [
+    "Tayc"
+   ],
+   "album": "N'y pense plus",
+   "year": 2020,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27373bbf0c1a4ff9f5182e01595",
+   "preview": "https://p.scdn.co/mp3-preview/aeb66cb2123291cfb23b77869622fb80ba4a8746?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 212006,
+   "isrc": "FR8FB2002810",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:0lYBSQXN6rCTvUZvg9S0lU",
+   "title": "Let Me Love You",
+   "displayTitle": "Let Me Love You",
+   "artists": [
+    "DJ Snake",
+    "Justin Bieber"
+   ],
+   "album": "Encore",
+   "year": 2016,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273212d776c31027c511f0ee3bc",
+   "preview": "https://p.scdn.co/mp3-preview/7864c6e844bdf1438c355017ecab0daceccb82f9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 205946,
+   "isrc": "QMZSY1600015",
+   "popularity": 90
+  },
+  {
+   "id": "spotify:track:2QfiRTz5Yc8DdShCxG1tB2",
+   "title": "Johnny B. Goode",
+   "displayTitle": "Johnny B. Goode",
+   "artists": [
+    "Chuck Berry"
+   ],
+   "album": "Berry Is On Top",
+   "year": 1959,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a496dc8c33ca6d10668b3157",
+   "preview": "https://p.scdn.co/mp3-preview/214ca11106cbcdfe07ccd2d839c67c9b8949a5e2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 161560,
+   "isrc": "USMC15719963",
+   "popularity": 77
+  },
+  {
+   "id": "spotify:track:2Fxmhks0bxGSBdJ92vM42m",
+   "title": "bad guy",
+   "displayTitle": "bad guy",
+   "artists": [
+    "Billie Eilish"
+   ],
+   "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+   "year": 2019,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce",
+   "preview": "https://p.scdn.co/mp3-preview/3d1ec5e181c3427ead96e3be34d606e3fc522a71?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 194087,
+   "isrc": "USUM71900764",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:6DSvUZQdqtNfkJI4cAiUsM",
+   "title": "The Twist",
+   "displayTitle": "The Twist",
+   "artists": [
+    "Chubby Checker"
+   ],
+   "album": "Chubby Checker Classics",
+   "year": 1962,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d13f4d5f1d5d19f25783f505",
+   "preview": "https://p.scdn.co/mp3-preview/3dcc4b94d6ad31474aceceed3bb5b026fbd8b870?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 158866,
+   "isrc": "USI4R0502237",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:1c0zagykmGPDYuxJeDqZhJ",
+   "title": "World Hold on (Children of the Sky) [Radio Edit]",
+   "displayTitle": "World Hold on (Children of the Sky)",
+   "artists": [
+    "Bob Sinclar",
+    "Steve Edwards"
+   ],
+   "album": "World Hold on (Children of the Sky) [Radio Edit]",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a983f4b0da364d478225baf1",
+   "preview": "https://p.scdn.co/mp3-preview/f9486b488212fc55d3734861e5e89fdb01299bc9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 204230,
+   "isrc": "FR4E41811690",
+   "popularity": 4
+  },
+  {
+   "id": "spotify:track:386RUes7n1uM1yfzgeUuwp",
+   "title": "The Lazy Song",
+   "displayTitle": "The Lazy Song",
+   "artists": [
+    "Bruno Mars"
+   ],
+   "album": "Doo-Wops & Hooligans",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738a9eb5a1f701d1d367a5ea10",
+   "preview": "https://p.scdn.co/mp3-preview/9f8f349deb135ea833fbdd6803c21ef8103b1a29?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 189109,
+   "isrc": "USAT21001886",
+   "popularity": 83
+  },
+  {
+   "id": "spotify:track:3iSws76HjaU7k49EqJVTfF",
+   "title": "Sugar, Sugar",
+   "displayTitle": "Sugar, Sugar",
+   "artists": [
+    "The Archies"
+   ],
+   "album": "The Very Best Of \"The Archies\"",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27355ef4cc7e56a02c68c3abc0f",
+   "preview": "https://p.scdn.co/mp3-preview/278683ecf117709bfd10fbc042a03d3cb2d2f182?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 167186,
+   "isrc": "NLG620400826",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:0e3LOEZR3NwbbHFGPYr3uQ",
+   "title": "Poupée de cire, poupée de son",
+   "displayTitle": "Poupée de cire, poupée de son",
+   "artists": [
+    "France Gall"
+   ],
+   "album": "Chansons Françaises",
+   "year": 2020,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e4d44c850e72fc2f77ed4243",
+   "preview": "https://p.scdn.co/mp3-preview/ba42a6735a5e24d87cff3012ed7e960e0d29ad0e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 153346,
+   "isrc": "FRZ026500100",
+   "popularity": 52
+  },
+  {
+   "id": "spotify:track:57I5KhEpQFC9XBgKt6nklL",
+   "title": "On verra",
+   "displayTitle": "On verra",
+   "artists": [
+    "Nekfeu"
+   ],
+   "album": "Feu",
+   "year": 2015,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736ac7a439b043411a368f1a56",
+   "preview": "https://p.scdn.co/mp3-preview/928e54f29d2464c69d4d650ab2acf208248ee8b5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 211413,
+   "isrc": "FR9W11504756",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:3DamFFqW32WihKkTVlwTYQ",
+   "title": "Fireflies",
+   "displayTitle": "Fireflies",
+   "artists": [
+    "Owl City"
+   ],
+   "album": "Ocean Eyes",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273785d4e702802da500fc78b32",
+   "preview": "https://p.scdn.co/mp3-preview/43dc49fcebcb6d83f3dd0570044bc20b1d01f5a3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 228346,
+   "isrc": "USUM70972068",
+   "popularity": 82
+  },
+  {
+   "id": "spotify:track:2eF8pWbiivYsYRpbntYsnc",
+   "title": "Signed, Sealed, Delivered (I'm Yours)",
+   "displayTitle": "Signed, Sealed, Delivered (I'm Yours)",
+   "artists": [
+    "Stevie Wonder"
+   ],
+   "album": "Signed, Sealed And Delivered",
+   "year": 1970,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c5e9e847ca9c0982b4c91d4b",
+   "preview": "https://p.scdn.co/mp3-preview/9d87c04f6a608a83ef62f03ac99c72c7b31a563b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 161160,
+   "isrc": "USMO17082643",
+   "popularity": 3
+  },
+  {
+   "id": "spotify:track:0HqeTDZMGlYDmgGGVFQrSg",
+   "title": "Moves Like Jagger - Studio Recording From \"The Voice\" Performance",
+   "displayTitle": "Moves Like Jagger - Studio Recording From \"The Voice\" Performance",
+   "artists": [
+    "Maroon 5",
+    "Christina Aguilera"
+   ],
+   "album": "Moves Like Jagger",
+   "year": 2011,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273eb1311156748ee77974bead3",
+   "preview": "https://p.scdn.co/mp3-preview/abe25b3858dba227d11a7c5a87230165f8ccfc9d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 201240,
+   "isrc": "USUM71109132",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:3PAmkwQ0DsYNU4Z9sGlwiB",
+   "title": "Je m'voyais déjà",
+   "displayTitle": "Je m'voyais déjà",
+   "artists": [
+    "Charles Aznavour"
+   ],
+   "album": "Je m'voyais déjà",
+   "year": 1961,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f22cff50927f4f82e070dc5f",
+   "preview": "https://p.scdn.co/mp3-preview/678076500c54158c0c5afb2bbc0645b65bd302c0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 204786,
+   "isrc": "FRZ116000960",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2AKIesZ2VXARZkL7yldwUX",
+   "title": "Joe le taxi",
+   "displayTitle": "Joe le taxi",
+   "artists": [
+    "Vanessa Paradis"
+   ],
+   "album": "Vanessa Paradis Best of",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27397a76ab89238cb0fde7d0379",
+   "preview": "https://p.scdn.co/mp3-preview/48cce10bec2dd28f5ba5fb0fa876ebc779cca179?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 234906,
+   "isrc": "FRT208780010",
+   "popularity": 29
+  },
+  {
+   "id": "spotify:track:07VyIZXNfVS13AbebQDQWy",
+   "title": "En apesanteur - Single Version",
+   "displayTitle": "En apesanteur",
+   "artists": [
+    "Calogero"
+   ],
+   "album": "Calogero",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739077a047917cfdf0feade48e",
+   "preview": "https://p.scdn.co/mp3-preview/511f08320d02d2b0d186bbbd7be5f1443804222e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 203600,
+   "isrc": "FR85Q0180090",
+   "popularity": 61
+  },
+  {
+   "id": "spotify:track:2qGeC6tm9qwjQw0dNDMCzP",
+   "title": "Aimer à perdre la raison",
+   "displayTitle": "Aimer à perdre la raison",
+   "artists": [
+    "Jean Ferrat"
+   ],
+   "album": "Je ne chante pas pour passer le temps",
+   "year": 1975,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b1f48e08775e43e6a0810765",
+   "preview": "https://p.scdn.co/mp3-preview/eeb830d4c13a702574a13285c8222665bfc711d0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 141600,
+   "isrc": "FR62F8000910",
+   "popularity": 41
+  },
+  {
+   "id": "spotify:track:2Za2mUwmQoSxWPscaY2vxl",
+   "title": "Murder On The Dancefloor",
+   "displayTitle": "Murder On The Dancefloor",
+   "artists": [
+    "Sophie Ellis-Bextor"
+   ],
+   "album": "Read My Lips",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735c220c68056493c213084d0a",
+   "preview": "https://p.scdn.co/mp3-preview/340bdf7b29f2725f0353cb77cc8f6996cdc9fbe8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 230013,
+   "isrc": "GBAKW0100229",
+   "popularity": 5
+  },
+  {
+   "id": "spotify:track:32gpJnMZkRafZdQvU7ZzR7",
+   "title": "Lambada - Version 1989",
+   "displayTitle": "Lambada",
+   "artists": [
+    "Kaoma"
+   ],
+   "album": "Lambada (Version 1989)",
+   "year": 1989,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f486251b3e8a33c0e279499c",
+   "preview": "https://p.scdn.co/mp3-preview/57fe5b7279dee232f32f364511785d432f633cc6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 207466,
+   "isrc": "FR6V89602629",
+   "popularity": 44
+  },
+  {
+   "id": "spotify:track:6mB2CTqOIiF18RFSGBJM4X",
+   "title": "Le bal masqué",
+   "displayTitle": "Le bal masqué",
+   "artists": [
+    "La Compagnie Créole"
+   ],
+   "album": "Best Of: C'est bon pour le moral !",
+   "year": 2011,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733984e035d273705dcfc8e3c8",
+   "preview": "https://p.scdn.co/mp3-preview/26ed988e98245b01a00cbdc10cbdc056d5fb4561?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 309453,
+   "isrc": "FR58F8400270",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:3N4DI1vuTSX1tz7fa2NQZw",
+   "title": "Rehab",
+   "displayTitle": "Rehab",
+   "artists": [
+    "Amy Winehouse"
+   ],
+   "album": "Back To Black (Deluxe Edition)",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27376ffb5b5ab045d22c81235c1",
+   "preview": "https://p.scdn.co/mp3-preview/8d044d09dcb616082fe61a9d6d9f959cea339022?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 214946,
+   "isrc": "GBUM70603730",
+   "popularity": 69
+  },
+  {
+   "id": "spotify:track:5YfWtM9VGkkuDeoPfdgDf0",
+   "title": "Écris l'histoire",
+   "displayTitle": "Écris l'histoire",
+   "artists": [
+    "Grégory Lemarchal"
+   ],
+   "album": "Je deviens moi",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273cfd10ad4afd438d1ecc1283d",
+   "preview": "https://p.scdn.co/mp3-preview/cf6eeda32a9a58bfd026e9b5e86e4e31fda5b42b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 256973,
+   "isrc": "FRZ030500460",
+   "popularity": 58
+  },
+  {
+   "id": "spotify:track:6ouQVLPPEplvVA62uXh2ar",
+   "title": "Saga Africa (ambiance secousse)",
+   "displayTitle": "Saga Africa (ambiance secousse)",
+   "artists": [
+    "Yannick Noah"
+   ],
+   "album": "Black & What!",
+   "year": 1991,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f31f7cb284360e6922722d5e",
+   "preview": "https://p.scdn.co/mp3-preview/07c2470bc5a9132eac80bd35eafa7ae7c83f54b5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 228426,
+   "isrc": "FRX379100110",
+   "popularity": 41
+  },
+  {
+   "id": "spotify:track:6dHTkQYY3zdR9i9Nj0IGVW",
+   "title": "I Like To Move It (feat. The Mad Stuntman) - Erick \"More\" Album Mix",
+   "displayTitle": "I Like To Move It",
+   "artists": [
+    "Reel 2 Real",
+    "The Mad Stuntman",
+    "Erick Morillo"
+   ],
+   "album": "Move It!",
+   "year": 1994,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731f0a732a2c6fc30c3f57710e",
+   "preview": "https://p.scdn.co/mp3-preview/d0e1ea8099d4ff64677bc609433f93ad2da88ded?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 230760,
+   "isrc": "QMRSZ1800990",
+   "popularity": 3
+  },
+  {
+   "id": "spotify:track:1T5Q8MLqpSoiuQDvZ2ygkg",
+   "title": "Allumer le feu",
+   "displayTitle": "Allumer le feu",
+   "artists": [
+    "Johnny Hallyday"
+   ],
+   "album": "70eme Anniversaire",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273cb4ec3f3656969d252f50a66",
+   "preview": "https://p.scdn.co/mp3-preview/243eae5b9447a45e0ffafbc23c49e7488aafaffc?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 329000,
+   "isrc": "FRZ039702160",
+   "popularity": 49
+  },
+  {
+   "id": "spotify:track:1JSTJqkT5qHq8MDJnJbRE1",
+   "title": "Every Breath You Take",
+   "displayTitle": "Every Breath You Take",
+   "artists": [
+    "The Police"
+   ],
+   "album": "Synchronicity (Remastered 2003)",
+   "year": 1983,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e",
+   "preview": "https://p.scdn.co/mp3-preview/92d7997134bb18b99eb5fdc65926e4ef613f9781?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 253920,
+   "isrc": "GBAAM0201110",
+   "popularity": 94
+  },
+  {
+   "id": "spotify:track:62Pp6exz0ywSlBqvNqiY6Z",
+   "title": "Anissa",
+   "displayTitle": "Anissa",
+   "artists": [
+    "Wejdene"
+   ],
+   "album": "Anissa",
+   "year": 2020,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273decbe18221093b44017e92ce",
+   "preview": "https://p.scdn.co/mp3-preview/0440ed88ac73c0ec71eb8d81052c4ff7257a4c4b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 175752,
+   "isrc": "FR9W12009065",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:4CeeEOM32jQcH3eN9Q2dGj",
+   "title": "Smells Like Teen Spirit",
+   "displayTitle": "Smells Like Teen Spirit",
+   "artists": [
+    "Nirvana"
+   ],
+   "album": "Nevermind (Remastered)",
+   "year": 1991,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6",
+   "preview": "https://p.scdn.co/mp3-preview/91219ebc0d0505a1001c4b854f8b2451fcec95b8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 301920,
+   "isrc": "USGF19942501",
+   "popularity": 88
+  },
+  {
+   "id": "spotify:track:1fU9wVDi3yZrawv1Rc4vcS",
+   "title": "Elle a les yeux revolver",
+   "displayTitle": "Elle a les yeux revolver",
+   "artists": [
+    "Marc Lavoine"
+   ],
+   "album": "Marc Lavoine",
+   "year": 1985,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273060b57fc4508ac71bf0fc55c",
+   "preview": "https://p.scdn.co/mp3-preview/a0c9249a679223228d49e6611fecf6058c36db00?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 219973,
+   "isrc": "FR04F8500110",
+   "popularity": 64
+  },
+  {
+   "id": "spotify:track:4J6SkLsDpuN7R52TokaDQk",
+   "title": "Hasta la Vista",
+   "displayTitle": "Hasta la Vista",
+   "artists": [
+    "MC Solaar"
+   ],
+   "album": "Cinquième as",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c1d96c321c15633fe7813893",
+   "preview": "https://p.scdn.co/mp3-preview/b276e1a5a3e8d8bb4816498aa693198c3631b5f3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 202788,
+   "isrc": "FR6V80002279",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:3J7L4214bjQfnry4dKjZZt",
+   "title": "Au soleil",
+   "displayTitle": "Au soleil",
+   "artists": [
+    "Jenifer"
+   ],
+   "album": "Jenifer",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a6c12adb15c4c621f9deae94",
+   "preview": "https://p.scdn.co/mp3-preview/a0161f64f36e1ab299ffe3cd5a6154c02af1cc6b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 219266,
+   "isrc": "FRY030200860",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:2Uy6EhQXAYkXA6MohPgjpV",
+   "title": "One More Time - Radio Edit",
+   "displayTitle": "One More Time",
+   "artists": [
+    "Daft Punk"
+   ],
+   "album": "One More Time",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27338e5c88261ac859cee792916",
+   "preview": "https://p.scdn.co/mp3-preview/732d09842e83175ab96d3b49b32cf5dbdb5c8972?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 235466,
+   "isrc": "GBDUW0000054",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:1fzVYRFjXzmuVS5Qb2DxB1",
+   "title": "Une chanson douce - Le Loup, la biche et le chevalier",
+   "displayTitle": "Une chanson douce - Le Loup, la biche et le chevalier",
+   "artists": [
+    "Henri Salvador"
+   ],
+   "album": "Triple Best Of",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738b366bfd1656633ccb3faf3c",
+   "preview": "https://p.scdn.co/mp3-preview/ee3de1985afd998d40ebc6b05d331410dd46ca9c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 157106,
+   "isrc": "FRZ116801960",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:3unsLiH5FXmaDWtT5Imolu",
+   "title": "Fallin'",
+   "displayTitle": "Fallin'",
+   "artists": [
+    "Alicia Keys"
+   ],
+   "album": "Songs In A Minor (Expanded Edition)",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27318b31906d928fe22eec5e673",
+   "preview": "https://p.scdn.co/mp3-preview/79526addc56f4ca7b29c73df65d063b7a026a46b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 210200,
+   "isrc": "USJAY0100057",
+   "popularity": 1
+  },
+  {
+   "id": "spotify:track:7cUKT1Wiwve4E5iRFOLVmz",
+   "title": "La javanaise",
+   "displayTitle": "La javanaise",
+   "artists": [
+    "Serge Gainsbourg"
+   ],
+   "album": "N°4",
+   "year": 1962,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a8651c4bd7ef6ed154383a1c",
+   "preview": "https://p.scdn.co/mp3-preview/3d93b75bfc58b0311773c98b0476b3197222b70f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 149240,
+   "isrc": "FRZ036304280",
+   "popularity": 52
+  },
+  {
+   "id": "spotify:track:5gJKsGij5oGt5H5RSFYXPa",
+   "title": "Tequila",
+   "displayTitle": "Tequila",
+   "artists": [
+    "The Champs"
+   ],
+   "album": "Greatest Hits / Tequila",
+   "year": 1994,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27339cbd37b54526c3328840edf",
+   "preview": "https://p.scdn.co/mp3-preview/085342e6507ab9202f6b51385e89efd8361e29d3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 135240,
+   "isrc": "USATV0500278",
+   "popularity": 61
+  },
+  {
+   "id": "spotify:track:017PF4Q3l4DBUiWoXk4OWT",
+   "title": "Break My Heart",
+   "displayTitle": "Break My Heart",
+   "artists": [
+    "Dua Lipa"
+   ],
+   "album": "Future Nostalgia",
+   "year": 2020,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c88bae7846e62a8ba59ee0bd",
+   "preview": "https://p.scdn.co/mp3-preview/164813f2c6101cad74d75959edd9f6c7f813666a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 221820,
+   "isrc": "GBAHT1901303",
+   "popularity": 82
+  },
+  {
+   "id": "spotify:track:4CWcaGtaOyAqBDKIeZMUe0",
+   "title": "La kiffance",
+   "displayTitle": "La kiffance",
+   "artists": [
+    "Naps"
+   ],
+   "album": "La kiffance",
+   "year": 2021,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ddf003a3f1fc7e12579e2eea",
+   "preview": "https://p.scdn.co/mp3-preview/742294f35af9390e799dd96c633788410a332e52?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 179426,
+   "isrc": "FR10S2128331",
+   "popularity": 59
+  },
+  {
+   "id": "spotify:track:2vwlzO0Qp8kfEtzTsCXfyE",
+   "title": "Wrecking Ball",
+   "displayTitle": "Wrecking Ball",
+   "artists": [
+    "Miley Cyrus"
+   ],
+   "album": "Bangerz (Deluxe Version)",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c19a3bef3b59347c8070770b",
+   "preview": "https://p.scdn.co/mp3-preview/8cb1217469a600994abed97e86b2762853b05a8e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 221366,
+   "isrc": "USRC11301214",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:27SdWb2rFzO6GWiYDBTD9j",
+   "title": "Cheap Thrills",
+   "displayTitle": "Cheap Thrills",
+   "artists": [
+    "Sia"
+   ],
+   "album": "This Is Acting",
+   "year": 2016,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b9bea8700ca3c305eb9569a3",
+   "preview": "https://p.scdn.co/mp3-preview/c3bde63f7d5847c1c7d7125b454ce407c0a3014b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 211666,
+   "isrc": "USRC11502935",
+   "popularity": 82
+  },
+  {
+   "id": "spotify:track:0PLGnOgmf8RPgZNkaaSYyM",
+   "title": "Like a Prayer",
+   "displayTitle": "Like a Prayer",
+   "artists": [
+    "MadHouse"
+   ],
+   "album": "Absolutely Mad",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273343bbc95fc8f650512b6f679",
+   "preview": "https://p.scdn.co/mp3-preview/1c34b03c1098494eb70324f6ed0b0a30297c0f8b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 264293,
+   "isrc": "FRO060200100",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:0xmjwnQ3FNE6HuWCt2nHdZ",
+   "title": "Where Is The Love?",
+   "displayTitle": "Where Is The Love?",
+   "artists": [
+    "Black Eyed Peas"
+   ],
+   "album": "Elephunk",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735db09bde92cc685403d7068f",
+   "preview": "https://p.scdn.co/mp3-preview/a8e15b9256e129c55789674b78041ede8bf91531?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 272533,
+   "isrc": "USIR10311862",
+   "popularity": 86
+  },
+  {
+   "id": "spotify:track:0B9x2BRHqj3Qer7biM3pU3",
+   "title": "You're The One That I Want - From “Grease”",
+   "displayTitle": "You're The One That I Want",
+   "artists": [
+    "John Travolta",
+    "Olivia Newton-John"
+   ],
+   "album": "Grease (The Original Motion Picture Soundtrack)",
+   "year": 1978,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b68df485f3304211904548a8",
+   "preview": "https://p.scdn.co/mp3-preview/884b80e276aa1c46c5061b205acf1a85fe855e88?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 169840,
+   "isrc": "NLF057890004",
+   "popularity": 75
+  },
+  {
+   "id": "spotify:track:7Kszjzps0xbQXyo1pO4KfE",
+   "title": "Le Freak - 2018 Remaster",
+   "displayTitle": "Le Freak",
+   "artists": [
+    "CHIC"
+   ],
+   "album": "C'est Chic (2018 Remaster)",
+   "year": 1978,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e37d5190acaf635f06cfcc4b",
+   "preview": "https://p.scdn.co/mp3-preview/866259f80fdc5ad407ea3fb300aa74bde9635e62?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 331360,
+   "isrc": "USRH11803129",
+   "popularity": 73
+  },
+  {
+   "id": "spotify:track:1m0UFnuTktOkksvjbF9z0m",
+   "title": "Ramenez la coupe à la maison",
+   "displayTitle": "Ramenez la coupe à la maison",
+   "artists": [
+    "Vegedream"
+   ],
+   "album": "Marchand de sable",
+   "year": 2018,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731172e6fea73f73597a3e7fa6",
+   "preview": "https://p.scdn.co/mp3-preview/b2abcc93893a2ee0f7ac1450ea958cf01cbd4fb8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 235555,
+   "isrc": "UKGD81800015",
+   "popularity": 71
+  },
+  {
+   "id": "spotify:track:1fxXW27caC5yWWt1vFTqnF",
+   "title": "Il y a trop de gens qui t'aiment",
+   "displayTitle": "Il y a trop de gens qui t'aiment",
+   "artists": [
+    "Hélène Ségara"
+   ],
+   "album": "Au Nom D'Une Femme",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273241eafbe1227ba1375894286",
+   "preview": "https://p.scdn.co/mp3-preview/6ee474063a2c1a934bc3414f3127eec7ea1a745f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 267000,
+   "isrc": "FRY929980210",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:5aRh9MryKg4B8NC1X6DvF1",
+   "title": "Le jerk",
+   "displayTitle": "Le jerk",
+   "artists": [
+    "Thierry Hazard"
+   ],
+   "album": "Le jerk",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fed4d143851fd7f7362fa309",
+   "preview": "https://p.scdn.co/mp3-preview/d0c3b691061fa61c7f8dcaf91c787ac762397a04?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 235666,
+   "isrc": "FRZ089000450",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:4Qzdktws811tv59fMf7CBz",
+   "title": "Je suis malade",
+   "displayTitle": "Je suis malade",
+   "artists": [
+    "Serge Lama"
+   ],
+   "album": "Je suis malade",
+   "year": 1973,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735a7c8a0b0f70049079149bf0",
+   "preview": "https://p.scdn.co/mp3-preview/8798b7db0efa41c48b4160fb0955e462ecab2b00?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 249826,
+   "isrc": "FRZ037300050",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:6a7NJa9Yxftb5pyZxzegoz",
+   "title": "Life On Mars'",
+   "displayTitle": "Life On Mars'",
+   "artists": [
+    "David Bowie"
+   ],
+   "album": "Montreal 1983",
+   "year": 1983,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735ab817983a67b084150ecc8a",
+   "preview": "https://p.scdn.co/mp3-preview/a50b6f801162e73f8f537919717b7de257cd054c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 247849,
+   "isrc": "USY251825587",
+   "popularity": 25
+  },
+  {
+   "id": "spotify:track:5dXJ1SoksFkgdx3yxIoYNO",
+   "title": "You're The First, The Last, My Everything",
+   "displayTitle": "You're The First, The Last, My Everything",
+   "artists": [
+    "Barry White"
+   ],
+   "album": "Can't Get Enough",
+   "year": 1974,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273aa3252b7843a8a3426cc34bf",
+   "preview": "https://p.scdn.co/mp3-preview/d40eead0c2d536dd10574dc4d4ac6d1014e82f4f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 276466,
+   "isrc": "USPR37400001",
+   "popularity": 71
+  },
+  {
+   "id": "spotify:track:3pbtBomO4Zt5gGiqsYeiBH",
+   "title": "Upside Down",
+   "displayTitle": "Upside Down",
+   "artists": [
+    "Diana Ross"
+   ],
+   "album": "Diana",
+   "year": 1980,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273abc5193decc1a2984a93f31e",
+   "preview": "https://p.scdn.co/mp3-preview/6facaf561c52c3b088079539ba1e24e87c15f16a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 245600,
+   "isrc": "USMO18000379",
+   "popularity": 72
+  },
+  {
+   "id": "spotify:track:7o2CTH4ctstm8TNelqjb51",
+   "title": "Sweet Child O' Mine",
+   "displayTitle": "Sweet Child O' Mine",
+   "artists": [
+    "Guns N' Roses"
+   ],
+   "album": "Appetite For Destruction",
+   "year": 1987,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27368384dd85fd5e95831252f60",
+   "preview": "https://p.scdn.co/mp3-preview/a941cdd2c0c74206aaa6d7e459e4fdf1d738deaa?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 354520,
+   "isrc": "USGF18714809",
+   "popularity": 15
+  },
+  {
+   "id": "spotify:track:6HMFtoMvv6n6Q2eOyPFyne",
+   "title": "Walk Of Life",
+   "displayTitle": "Walk Of Life",
+   "artists": [
+    "Dire Straits"
+   ],
+   "album": "Brothers In Arms - 20th Anniversary Edition",
+   "year": 1985,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273042dbf8721e37f11843bfeac",
+   "preview": "https://p.scdn.co/mp3-preview/68baef7779ff15a87d17bbed9c259a220046e4f6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 248893,
+   "isrc": "GBF088500675",
+   "popularity": 7
+  },
+  {
+   "id": "spotify:track:1vBXixLz7cVLLTdR4Xe8aL",
+   "title": "Nuit de folie",
+   "displayTitle": "Nuit de folie",
+   "artists": [
+    "Début De Soirée"
+   ],
+   "album": "Jardins d'enfants (Expanded Edition)",
+   "year": 1989,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ebd8cd8cec924a4a4eb2dfea",
+   "preview": "https://p.scdn.co/mp3-preview/7bb774dbf9965abdceeed3bac12399e7c4a6b8bb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 254960,
+   "isrc": "FR1OH8800070",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:7s25THrKz86DM225dOYwnr",
+   "title": "Respect",
+   "displayTitle": "Respect",
+   "artists": [
+    "Aretha Franklin"
+   ],
+   "album": "I Never Loved a Man the Way I Love You",
+   "year": 1967,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736aa9314b7ddfbd8f036ba3ac",
+   "preview": "https://p.scdn.co/mp3-preview/7768dd513193e30ab1ad19deeff2dcc63d2c7555?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 147600,
+   "isrc": "USAT20801240",
+   "popularity": 75
+  },
+  {
+   "id": "spotify:track:1xSl7uE9De7aLDEGXahCJB",
+   "title": "Allez Ola Olé",
+   "displayTitle": "Allez Ola Olé",
+   "artists": [
+    "Jessy Matador"
+   ],
+   "album": "Elektro Soukouss",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739fe87f06a7100f7461ff49d9",
+   "preview": "https://p.scdn.co/mp3-preview/e0e1842b72ba984f412137bf362d2577d368eeb4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 172745,
+   "isrc": "FR6F31000300",
+   "popularity": 57
+  },
+  {
+   "id": "spotify:track:15XYdD283tK9iyJzL738bn",
+   "title": "Désenchantée",
+   "displayTitle": "Désenchantée",
+   "artists": [
+    "Mylène Farmer"
+   ],
+   "album": "L'Autre",
+   "year": 1991,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c01f5670830f5ea89856e36c",
+   "preview": "https://p.scdn.co/mp3-preview/6e5acc5812a1cf4a6160ab7e4bfc8e5760fc1742?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 322760,
+   "isrc": "FRY539100020",
+   "popularity": 61
+  },
+  {
+   "id": "spotify:track:28mwuJqKOjRpqo14GuKSkj",
+   "title": "Je T’aime",
+   "displayTitle": "Je T’aime",
+   "artists": [
+    "Lara Fabian"
+   ],
+   "album": "Pure",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273be54e00a656acaff4723a002",
+   "preview": "https://p.scdn.co/mp3-preview/2cfc78cb8e39c25fc09cca27bbc7d3790468c816?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 261106,
+   "isrc": "GBXT91410173",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:2Foc5Q5nqNiosCNqttzHof",
+   "title": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+   "displayTitle": "Get Lucky",
+   "artists": [
+    "Daft Punk",
+    "Pharrell Williams",
+    "Nile Rodgers"
+   ],
+   "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27319a88dd5c7118e87d7b1619e",
+   "preview": "https://p.scdn.co/mp3-preview/3b96453399be48995037f47ca537b0f8985dfaf2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 247632,
+   "isrc": "USQX91300809",
+   "popularity": 83
+  },
+  {
+   "id": "spotify:track:1mXuMM6zjPgjL4asbBsgnt",
+   "title": "Firework",
+   "displayTitle": "Firework",
+   "artists": [
+    "Katy Perry"
+   ],
+   "album": "Teenage Dream",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca",
+   "preview": "https://p.scdn.co/mp3-preview/f5452ebf843f4c126eacc038fbfdc9502bf0a9b5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 227893,
+   "isrc": "USCA21001262",
+   "popularity": 72
+  },
+  {
+   "id": "spotify:track:6YoBe1FqFL5w10bQbemW16",
+   "title": "Maldòn - Version originale",
+   "displayTitle": "Maldòn",
+   "artists": [
+    "Zouk Machine"
+   ],
+   "album": "Maldòn (La musique dans la peau)",
+   "year": 1989,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731f5959a67260f6e206dca85c",
+   "preview": "https://p.scdn.co/mp3-preview/ec866950b6f322745204a486645d185e27afb25d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 245200,
+   "isrc": "FR6V80245847",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:43q6I1FedtMESlUqzLyYYu",
+   "title": "Ma Baker",
+   "displayTitle": "Ma Baker",
+   "artists": [
+    "Boney M."
+   ],
+   "album": "Daddy Cool",
+   "year": 1993,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733d82fb112c61aa2786e640d2",
+   "preview": "https://p.scdn.co/mp3-preview/30fb883cd663f01b9640fbe9d8ba8c49b9ae61cc?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 276066,
+   "isrc": "DED167700026",
+   "popularity": 45
+  },
+  {
+   "id": "spotify:track:62oaDoBveZxvZb94ziiMXi",
+   "title": "Somebody That I Used to Know",
+   "displayTitle": "Somebody That I Used to Know",
+   "artists": [
+    "Gotye",
+    "Kimbra"
+   ],
+   "album": "Making Mirrors",
+   "year": 2011,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27318e89397db70b2f148e31bde",
+   "preview": "https://p.scdn.co/mp3-preview/36e1e9984c1a58cb9699d80ad72dea8d3b824f95?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 245755,
+   "isrc": "AUZS21100040",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:4oW1lGOw5Q5OLvoJv92qoE",
+   "title": "I Can Help",
+   "displayTitle": "I Can Help",
+   "artists": [
+    "Billy Swan"
+   ],
+   "album": "The Best Of Billy Swan",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d6c066b8cb1cf84f7f9a8ace",
+   "preview": "https://p.scdn.co/mp3-preview/67f2ad8777cf571495bea2e50aa64cf7d911a1e5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 238333,
+   "isrc": "USSM17400216",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:0NOONG1s26JqR0FFHa1Do5",
+   "title": "La bonne du curé",
+   "displayTitle": "La bonne du curé",
+   "artists": [
+    "Annie Cordy"
+   ],
+   "album": "Inoubliable",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27302261698fc3d5ff6949e7f35",
+   "preview": "https://p.scdn.co/mp3-preview/1a07251e31c7603e7ca28bef46972b6ca883e69c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 161040,
+   "isrc": "FRZ087400860",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:0VjIjW4GlUZAMYd2vXMi3b",
+   "title": "Blinding Lights",
+   "displayTitle": "Blinding Lights",
+   "artists": [
+    "The Weeknd"
+   ],
+   "album": "After Hours",
+   "year": 2020,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+   "preview": "https://p.scdn.co/mp3-preview/51c08d92815cce4ac2de94a7335a430b81234624?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 200040,
+   "isrc": "USUG11904206",
+   "popularity": 92
+  },
+  {
+   "id": "spotify:track:6e0LjNPkRqxIAlmmdjWSV8",
+   "title": "Moi... Lolita",
+   "displayTitle": "Moi... Lolita",
+   "artists": [
+    "Alizée"
+   ],
+   "album": "Gourmandises",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734325b1cea7f26a4edaa17de3",
+   "preview": "https://p.scdn.co/mp3-preview/162824ebad86a3e3ab33b844c2982c154023f835?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 264282,
+   "isrc": "FR50T0080020",
+   "popularity": 73
+  },
+  {
+   "id": "spotify:track:4v7DCN09hgXkKazefkznDQ",
+   "title": "Lonely",
+   "displayTitle": "Lonely",
+   "artists": [
+    "Akon"
+   ],
+   "album": "Trouble Deluxe Edition",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736ec7ab30397ea37295340a41",
+   "preview": "https://p.scdn.co/mp3-preview/3bab1970085de0754ac78aa2b6127243430e19f5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 235800,
+   "isrc": "USUR10400235",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:3Uyt0WO3wOopnUBCe9BaXl",
+   "title": "Sur ma route",
+   "displayTitle": "Sur ma route",
+   "artists": [
+    "Black M"
+   ],
+   "album": "Les yeux plus gros que le monde",
+   "year": 2014,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273310ee6bdf4c9a1fc4cebcb47",
+   "preview": "https://p.scdn.co/mp3-preview/5b309537ef14454936b57f2aad17212bfa0f2d2a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 252573,
+   "isrc": "FR7U61200414",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:2U8NXPTXZWG2O0ye2sYRiH",
+   "title": "I Love It (feat. Charli XCX)",
+   "displayTitle": "I Love It",
+   "artists": [
+    "Icona Pop",
+    "Charli xcx"
+   ],
+   "album": "THIS IS... ICONA POP",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27351b4a23b47059a9aef703df6",
+   "preview": "https://p.scdn.co/mp3-preview/2c9d52c4773eec0111847aaaf6f7b9360b8a2a42?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 157152,
+   "isrc": "SEWEE1200301",
+   "popularity": 81
+  },
+  {
+   "id": "spotify:track:19wTIVLYwubMX8XZppB6lH",
+   "title": "Laisse pas traîner ton fils",
+   "displayTitle": "Laisse pas traîner ton fils",
+   "artists": [
+    "Suprême NTM"
+   ],
+   "album": "Suprême NTM",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b0af6c9d26487cf55ba0efd6",
+   "preview": "https://p.scdn.co/mp3-preview/19f297c564e36d615920d7ba8a654d8a9380a6b5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 238040,
+   "isrc": "FRZ089801020",
+   "popularity": 59
+  },
+  {
+   "id": "spotify:track:1dDNz8h95Gsu0W4QdxVVln",
+   "title": "4 Minutes (feat. Justin Timberlake and Timbaland)",
+   "displayTitle": "4 Minutes",
+   "artists": [
+    "Madonna"
+   ],
+   "album": "Hard Candy",
+   "year": 2008,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730254cb69386bd62f83f90c6b",
+   "preview": "https://p.scdn.co/mp3-preview/f9c7b11110eee9e078923d469130d30d8b2875b4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 245080,
+   "isrc": "USWB10800435",
+   "popularity": 76
+  },
+  {
+   "id": "spotify:track:6tNDVXXaYWsBd3Mqhfelvl",
+   "title": "Christine",
+   "displayTitle": "Christine",
+   "artists": [
+    "Christine and the Queens"
+   ],
+   "album": "Chaleur Humaine",
+   "year": 2014,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273f163fa3e84f8f189fe5b2156",
+   "preview": "https://p.scdn.co/mp3-preview/f15d423baae9e4e04c0d1f6ae61e50af76e0078c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 234680,
+   "isrc": "FR6P11400780",
+   "popularity": 57
+  },
+  {
+   "id": "spotify:track:6PypGyiu0Y2lCDBN1XZEnP",
+   "title": "Everybody Hurts",
+   "displayTitle": "Everybody Hurts",
+   "artists": [
+    "R.E.M."
+   ],
+   "album": "Automatic For The People",
+   "year": 1992,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ace3e7aae0b7c78bbe1c4f35",
+   "preview": "https://p.scdn.co/mp3-preview/23bc35da41a99d4f3a686ac24d4da5305a4cdfc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 320266,
+   "isrc": "USWB19901548",
+   "popularity": 78
+  },
+  {
+   "id": "spotify:track:7BSEnYIlIsZdY0BZbNr0yn",
+   "title": "Le chat",
+   "displayTitle": "Le chat",
+   "artists": [
+    "Pow Wow"
+   ],
+   "album": "Regagner Les Plaines",
+   "year": 1992,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e048382cb76fc1ba7773b4f0",
+   "preview": "https://p.scdn.co/mp3-preview/75526ed85791700741e8540cf25d129c6de37efd?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 171200,
+   "isrc": "FRY959211121",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:2qaFgVtoMyWAb53M1UcCjj",
+   "title": "La lettre",
+   "displayTitle": "La lettre",
+   "artists": [
+    "Renan Luce"
+   ],
+   "album": "Repenti",
+   "year": 2006,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738fc055f4f40c677a148606a0",
+   "preview": "https://p.scdn.co/mp3-preview/1564ce4f840b0cd255e4ddca3cca468fdc10f744?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 197306,
+   "isrc": "FRZ010600570",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:2Ms33RTRCT6gArrpcrPxmo",
+   "title": "Feel",
+   "displayTitle": "Feel",
+   "artists": [
+    "Robbie Williams"
+   ],
+   "album": "Escapology",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733a9ad390e0635b43ff01d250",
+   "preview": "https://p.scdn.co/mp3-preview/2f21e7ad58ac37bb9bdb82fb1f3da317cb6ea72b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 263866,
+   "isrc": "GBFFG0200002",
+   "popularity": 80
+  },
+  {
+   "id": "spotify:track:1GAMoIHawNWhdq0a22vT4E",
+   "title": "L'aigle noir",
+   "displayTitle": "L'aigle noir",
+   "artists": [
+    "Barbara"
+   ],
+   "album": "Les 50 Plus Belles Chansons De Barbara",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731cd1b63d5f9759303401c6dc",
+   "preview": "https://p.scdn.co/mp3-preview/42f99cdedd9b05c0c9147086ca3f31f502863461?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 294813,
+   "isrc": "FRZ037000230",
+   "popularity": 45
+  },
+  {
+   "id": "spotify:track:48i055G1OT5KxGGftwFxWy",
+   "title": "Oh, Pretty Woman",
+   "displayTitle": "Oh, Pretty Woman",
+   "artists": [
+    "Roy Orbison"
+   ],
+   "album": "Oh, Pretty Woman",
+   "year": 1962,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27377958c617ea2cb4462db1193",
+   "preview": "https://p.scdn.co/mp3-preview/eaf9a0d1f2c78de07becd0ad6a08fb75d78a97b9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 178929,
+   "isrc": "USSM16401425",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:0Wr98MVkENZXddiLB3bPb0",
+   "title": "J't'emmène au vent",
+   "displayTitle": "J't'emmène au vent",
+   "artists": [
+    "Louise Attaque"
+   ],
+   "album": "Louise Attaque",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730197f123ed91c8f333920ff1",
+   "preview": "https://p.scdn.co/mp3-preview/8b3dc52d01050be4e12fd946d18d1b085faaa725?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 184173,
+   "isrc": "FR5E79700050",
+   "popularity": 69
+  },
+  {
+   "id": "spotify:track:6P8YkdLMTBA7z5nhKXgyi3",
+   "title": "Je danse le Mia",
+   "displayTitle": "Je danse le Mia",
+   "artists": [
+    "IAM"
+   ],
+   "album": "Ombre Est Lumière",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2730598bbed97d3d73ea0ecd835",
+   "preview": "https://p.scdn.co/mp3-preview/43e1eee0326466a823d2450ff20a127f7993db7e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 267240,
+   "isrc": "FRY689310074",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:65uoaqX5qcjXZRheAj1qQT",
+   "title": "Dernière danse",
+   "displayTitle": "Dernière danse",
+   "artists": [
+    "Indila"
+   ],
+   "album": "Mini World",
+   "year": 2014,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2734ae8ff731c49965bf2083405",
+   "preview": "https://p.scdn.co/mp3-preview/25060cf42bd95a9d388464d8f9b17550a3c72699?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 213493,
+   "isrc": "FRUM71301049",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:0mko5sZQMfALeG2bzpWZRy",
+   "title": "All in You",
+   "displayTitle": "All in You",
+   "artists": [
+    "Synapson",
+    "Anna Kova"
+   ],
+   "album": "Convergence",
+   "year": 2015,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27350c3671ce1b96040384db689",
+   "preview": "https://p.scdn.co/mp3-preview/f4402a9c5d2e7d753665c2060376ff9ba9405ce0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 257971,
+   "isrc": "FR4Y91500024",
+   "popularity": 51
+  },
+  {
+   "id": "spotify:track:3OK8lPgSMxSLNEQjzCxQXj",
+   "title": "Le dîner",
+   "displayTitle": "Le dîner",
+   "artists": [
+    "Bénabar"
+   ],
+   "album": "Reprise des négociations",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273edac05ed3451ad16a231d7f1",
+   "preview": "https://p.scdn.co/mp3-preview/0cb1ac72022d668eed0335fb6957a27b6f9c4133?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 180760,
+   "isrc": "FRZ050500169",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:6tFJdAZGXGsHTdMKmc1NjR",
+   "title": "Ma direction",
+   "displayTitle": "Ma direction",
+   "artists": [
+    "Sexion d'Assaut"
+   ],
+   "album": "L'Apogée",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27381e6951f23e0a64449c9e975",
+   "preview": "https://p.scdn.co/mp3-preview/28e3375fd1aa5c8e81b629fa0109cea25de00960?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 263533,
+   "isrc": "FR7U61200003",
+   "popularity": 67
+  },
+  {
+   "id": "spotify:track:15RB3lFt2Mhc16m5fTTYkh",
+   "title": "Hey Oh - Radio Edit",
+   "displayTitle": "Hey Oh",
+   "artists": [
+    "Tragédie"
+   ],
+   "album": "Tragédie (Édition Deluxe)",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738f272f6d6af70eeaceaae96c",
+   "preview": "https://p.scdn.co/mp3-preview/62061c5fa488c21c4a093e44e4f32eafa5b8f8c1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 211759,
+   "isrc": "FR33Y0300022",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:2YWjW3wwQIBLNhxWKBQd16",
+   "title": "Lean On",
+   "displayTitle": "Lean On",
+   "artists": [
+    "Major Lazer",
+    "DJ Snake",
+    "MØ"
+   ],
+   "album": "Peace Is The Mission : Extended",
+   "year": 2015,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ed17a14e09145f2986a42726",
+   "preview": "https://p.scdn.co/mp3-preview/a75157c4074ceab19a6b724128fd436cf701b03b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 176561,
+   "isrc": "QMUY41500008",
+   "popularity": 72
+  },
+  {
+   "id": "spotify:track:43THPstJP6RXLMd7ryXyNf",
+   "title": "Marcia Baïla",
+   "displayTitle": "Marcia Baïla",
+   "artists": [
+    "Les Rita Mitsouko"
+   ],
+   "album": "Rita Mitsouko",
+   "year": 1984,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273cac6eb41ca7a0ceac153e68d",
+   "preview": "https://p.scdn.co/mp3-preview/bd21e0564162fc44206ba94a5301b5fb41f6b448?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 335746,
+   "isrc": "FRZ188400070",
+   "popularity": 62
+  },
+  {
+   "id": "spotify:track:2Dsw0QFS4kM6o4XjlQiRRQ",
+   "title": "Mustapha",
+   "displayTitle": "Mustapha",
+   "artists": [
+    "Bob Azzam"
+   ],
+   "album": "Tres Chic",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a0486d6cf7dce3770cd1d2b5",
+   "preview": "https://p.scdn.co/mp3-preview/114fb4f9cc1c4e0611fd772e7c2f8cc6ad230342?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 166611,
+   "isrc": "GBURZ1003260",
+   "popularity": 27
+  },
+  {
+   "id": "spotify:track:0smyCrJiibi2uwCiq5R1vj",
+   "title": "Save Tonight",
+   "displayTitle": "Save Tonight",
+   "artists": [
+    "Eagle-Eye Cherry"
+   ],
+   "album": "Desireless",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27395127975447a26eb7e31668b",
+   "preview": "https://p.scdn.co/mp3-preview/92ede2b4283630cbfd4cbf508b22cc248ffc740f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 242733,
+   "isrc": "GBAKW9800044",
+   "popularity": 76
+  },
+  {
+   "id": "spotify:track:1MOSRjdAbUhvLNnHCdUEL5",
+   "title": "Mistral gagnant",
+   "displayTitle": "Mistral gagnant",
+   "artists": [
+    "Renaud"
+   ],
+   "album": "Mistral gagnant",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273dd3a17393ca3f47e4c523c26",
+   "preview": "https://p.scdn.co/mp3-preview/4673ee2bd0a8bc15789628e1b400ecee13eb8a2e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 165933,
+   "isrc": "FRZ618500040",
+   "popularity": 61
+  },
+  {
+   "id": "spotify:track:6Pgkp4qUoTmJIPn7ReaGxL",
+   "title": "Without You (feat. Sandro Cavazza)",
+   "displayTitle": "Without You",
+   "artists": [
+    "Avicii",
+    "Sandro Cavazza"
+   ],
+   "album": "AVĪCI (01)",
+   "year": 2017,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a26cc58b4d64c2ece3376389",
+   "preview": "https://p.scdn.co/mp3-preview/45c1b11194cb8964c23c129e04591ccb9c71cbf4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 181672,
+   "isrc": "SE5R71700101",
+   "popularity": 80
+  },
+  {
+   "id": "spotify:track:6pPWRBubXOBAHnjl5ZIujB",
+   "title": "The Best",
+   "displayTitle": "The Best",
+   "artists": [
+    "Tina Turner"
+   ],
+   "album": "Foreign Affair",
+   "year": 1989,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a04b4373fd72bf81c8784adf",
+   "preview": "https://p.scdn.co/mp3-preview/72ecae1737bc2e5e3cb7239966d5d9a6082b03b2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 329800,
+   "isrc": "USCA28900109",
+   "popularity": 80
+  },
+  {
+   "id": "spotify:track:4k5FeWIdUaBx5OZdvrSYP1",
+   "title": "Everywhere - 2017 Remaster",
+   "displayTitle": "Everywhere",
+   "artists": [
+    "Fleetwood Mac"
+   ],
+   "album": "Tango in the Night (2017 Remaster)",
+   "year": 1987,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e8556a4e368fe3871df5de59",
+   "preview": "https://p.scdn.co/mp3-preview/4921b87278a9e93cddc10310efadc09b5952da92?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 226653,
+   "isrc": "USRH11602189",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:6bXd0YhKLCTvlLVc4tErH9",
+   "title": "Tchikita",
+   "displayTitle": "Tchikita",
+   "artists": [
+    "Jul"
+   ],
+   "album": "L'ovni",
+   "year": 2016,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739bc3e80d5e9fb9bde9df0e71",
+   "preview": "https://p.scdn.co/mp3-preview/f3f3ddadbededab95de2d55c4ba3b825ebfc84f2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 194867,
+   "isrc": "FR0U91601184",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:4PLRzGDnoCp7zQP2w6nwIY",
+   "title": "Tous les garçons et les filles",
+   "displayTitle": "Tous les garçons et les filles",
+   "artists": [
+    "Françoise Hardy"
+   ],
+   "album": "Francoise Hardy",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a68e67f6200292dfc560303d",
+   "preview": "https://p.scdn.co/mp3-preview/74dd406541bb0cde929f87655e47d6cc036cfb81?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 185269,
+   "isrc": "DEPZ61004678",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:64gCM9yZv2jpNflclKUnXu",
+   "title": "La tribu de Dana",
+   "displayTitle": "La tribu de Dana",
+   "artists": [
+    "Manau"
+   ],
+   "album": "Panique Celtique",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273548e29326422f7ab62fc4fe5",
+   "preview": "https://p.scdn.co/mp3-preview/254eba0087afa04069f06d4fee35233f499b4bdc?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 287240,
+   "isrc": "FRZ029800880",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:0weAUscowxeqDtpCgtbpgp",
+   "title": "Gettin' Jiggy Wit It",
+   "displayTitle": "Gettin' Jiggy Wit It",
+   "artists": [
+    "Will Smith"
+   ],
+   "album": "Big Willie Style",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ddf2f9edabd166c60047e3c4",
+   "preview": "https://p.scdn.co/mp3-preview/c16a2bdebb583a5af11ab642f7411b87e8f7f396?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 227933,
+   "isrc": "USSM19702582",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:6FH2WiSVFv5qglEg1O8xNn",
+   "title": "Day-O (The Banana Boat Song)",
+   "displayTitle": "Day-O (The Banana Boat Song)",
+   "artists": [
+    "Harry Belafonte"
+   ],
+   "album": "Very Best Of Harry Belafonte",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731b712c9fd9f1df1f923460e9",
+   "preview": "https://p.scdn.co/mp3-preview/2124b8785b69e5a6114f2c7c8dcee97c6ae41b0b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 184693,
+   "isrc": "USRC10101309",
+   "popularity": 46
+  },
+  {
+   "id": "spotify:track:2LjiPAQOVazT8sRyXL3XRs",
+   "title": "Informer",
+   "displayTitle": "Informer",
+   "artists": [
+    "Snow"
+   ],
+   "album": "12 Inches Of Snow",
+   "year": 1993,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739036fd3354a722609bd5f98c",
+   "preview": "https://p.scdn.co/mp3-preview/f705b8603537cdfc8d572ecea841b041cae4f6c5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 268910,
+   "isrc": "USEW19300006",
+   "popularity": 69
+  },
+  {
+   "id": "spotify:track:06hsdMbBxWGqBO0TV0Zrkf",
+   "title": "Cotton Eye Joe",
+   "displayTitle": "Cotton Eye Joe",
+   "artists": [
+    "Rednex"
+   ],
+   "album": "Sex & Violins",
+   "year": 1994,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738833534681a0a01c668c4115",
+   "preview": "https://p.scdn.co/mp3-preview/005ec310693f4013c39e552bd1bf6736e0d81b4f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 194000,
+   "isrc": "DEA319600881",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:3WkibOpDF7cQ5xntM1epyf",
+   "title": "It Wasn't Me",
+   "displayTitle": "It Wasn't Me",
+   "artists": [
+    "Shaggy",
+    "Rik Rok"
+   ],
+   "album": "Hot Shot",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739449f9491c364d28a9668e17",
+   "preview": "https://p.scdn.co/mp3-preview/a0b006f31a20deb4e965c3a2092a975067064c36?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 227600,
+   "isrc": "USMC10000393",
+   "popularity": 85
+  },
+  {
+   "id": "spotify:track:1zusIxNqJu8i4g6P6hJ2Qa",
+   "title": "Mercy",
+   "displayTitle": "Mercy",
+   "artists": [
+    "Duffy"
+   ],
+   "album": "Rockferry",
+   "year": 2008,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273618eb90c1c10d299e51f3822",
+   "preview": "https://p.scdn.co/mp3-preview/52705dd3f43403ad4ea600b86dd8cdc877107387?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 219920,
+   "isrc": "GBUM70711275",
+   "popularity": 72
+  },
+  {
+   "id": "spotify:track:2PpruBYCo4H7WOBJ7Q2EwM",
+   "title": "Hey Ya!",
+   "displayTitle": "Hey Ya!",
+   "artists": [
+    "Outkast"
+   ],
+   "album": "Speakerboxxx/The Love Below",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736e88eb6508fd94cd1b745ce2",
+   "preview": "https://p.scdn.co/mp3-preview/d24b3c4135ced9157b0ea3015a6bcc048e0c2e3a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 235213,
+   "isrc": "USAR10300924",
+   "popularity": 86
+  },
+  {
+   "id": "spotify:track:6DTZwK0zykGzQzhgqupm7P",
+   "title": "Calling You - Bagdad Cafe/Soundtrack Version",
+   "displayTitle": "Calling You - Bagdad Cafe/Soundtrack Version",
+   "artists": [
+    "Jevetta Steele"
+   ],
+   "album": "100 x Liefde 2010",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27307fc376d3920ec32d272b107",
+   "preview": "https://p.scdn.co/mp3-preview/74f467922d24a7c63702bd1a86a91c9a061a0d9b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 320000,
+   "isrc": "USIR20300267",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:1UZGVlCoNGQ6ps64QDvydQ",
+   "title": "Mon mec à moi",
+   "displayTitle": "Mon mec à moi",
+   "artists": [
+    "Patricia Kaas"
+   ],
+   "album": "Mademoiselle Chante",
+   "year": 1988,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737afbb5cc6afdf1662f0cd34a",
+   "preview": "https://p.scdn.co/mp3-preview/60a1e25df20c67579cc91b98d6ecc6334e31fd13?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 253666,
+   "isrc": "FRZ028800510",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:57iDDD9N9tTWe75x6qhStw",
+   "title": "Bitter Sweet Symphony - Remastered 2016",
+   "displayTitle": "Bitter Sweet Symphony",
+   "artists": [
+    "The Verve"
+   ],
+   "album": "Urban Hymns (Remastered 2016)",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273707d13d3f87652e737e94d45",
+   "preview": "https://p.scdn.co/mp3-preview/8b56a0a99ec6675ac20c4c9d69565897e510c491?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 357266,
+   "isrc": "GBUM71601816",
+   "popularity": 88
+  },
+  {
+   "id": "spotify:track:6JGQ98So2ik5GVI9ydQ2Yh",
+   "title": "Don't Speak",
+   "displayTitle": "Don't Speak",
+   "artists": [
+    "No Doubt"
+   ],
+   "album": "The Singles Collection",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273738fbaa134106eafb7772552",
+   "preview": "https://p.scdn.co/mp3-preview/67fa016eafecf63e87ab64a75492dfbcc2c85b57?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 262746,
+   "isrc": "USIR19500279",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:0hO4TgWkyR3XiI6P3x731B",
+   "title": "La ballade des gens heureux",
+   "displayTitle": "La ballade des gens heureux",
+   "artists": [
+    "Gérard Lenorman"
+   ],
+   "album": "Les plus belles chansons de Gérard Lenorman",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736a40e0a9f6666031b7e3c5fb",
+   "preview": "https://p.scdn.co/mp3-preview/d24ca0a9db0fdb7748070ebb322ea772d0ebc9f5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 197613,
+   "isrc": "FRZ087500020",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:2A6yzRGMgSQCUapR2ptm6A",
+   "title": "True Colors",
+   "displayTitle": "True Colors",
+   "artists": [
+    "Cyndi Lauper"
+   ],
+   "album": "True Colors",
+   "year": 1986,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273edbbd1e4dde99597ce850c54",
+   "preview": "https://p.scdn.co/mp3-preview/0f2bc57763e36be71fa3661c9e11a9b2e4360000?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 227590,
+   "isrc": "USSM18600632",
+   "popularity": 71
+  },
+  {
+   "id": "spotify:track:5uFCEQizOH8rJGnrss8GUT",
+   "title": "Alors on danse - Radio Edit",
+   "displayTitle": "Alors on danse",
+   "artists": [
+    "Stromae"
+   ],
+   "album": "Dance Party",
+   "year": 2020,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273de20df848967dbd40623d643",
+   "preview": "https://p.scdn.co/mp3-preview/99f1c6127fd41b0be2b333e1c2d503c558a48c6d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 208146,
+   "isrc": "FRUM70902424",
+   "popularity": 35
+  },
+  {
+   "id": "spotify:track:35hfuechuOqaW31ogdauO7",
+   "title": "It's In The Kiss (The Shoop Shoop Song)",
+   "displayTitle": "It's In The Kiss (The Shoop Shoop Song)",
+   "artists": [
+    "Betty Everett"
+   ],
+   "album": "No Place To Hide",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732d01005d68574e2ec360834b",
+   "preview": "https://p.scdn.co/mp3-preview/fe0cb3bb20ba0f7701bdd9ba6f0647d4e589d5c4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 129758,
+   "isrc": "USA371129279",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:17LZKLjQxH2w67xMa8mWML",
+   "title": "J'irai où tu iras (with Jean-Jacques Goldman)",
+   "displayTitle": "J'irai où tu iras",
+   "artists": [
+    "Céline Dion",
+    "Jean-Jacques Goldman"
+   ],
+   "album": "D'Eux",
+   "year": 1995,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a33e2b9d221b420f2ab1d29f",
+   "preview": "https://p.scdn.co/mp3-preview/1c9688d1651538379032d515cf8a5beaff124636?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 205800,
+   "isrc": "CAC229500010",
+   "popularity": 4
+  },
+  {
+   "id": "spotify:track:14MgTooapmJdLlEMAr2zAM",
+   "title": "Dilemma (feat. Kelly Rowland)",
+   "displayTitle": "Dilemma",
+   "artists": [
+    "Nelly",
+    "Kelly Rowland"
+   ],
+   "album": "Simply Deep",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e2fac5d29f0e10450bf287a9",
+   "preview": "https://p.scdn.co/mp3-preview/7e3ad47941d02b602765e3294d3a72746739c0f4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 289666,
+   "isrc": "USSM10211190",
+   "popularity": 61
+  },
+  {
+   "id": "spotify:track:4BFMQ15vXr626UOoZL8bUI",
+   "title": "(I've Had) The Time of My Life - From \"Dirty Dancing\" Soundtrack",
+   "displayTitle": "(I've Had) The Time of My Life",
+   "artists": [
+    "Bill Medley",
+    "Jennifer Warnes"
+   ],
+   "album": "Platinum & Gold Collection",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273927530e44371f0bc1bb296d4",
+   "preview": "https://p.scdn.co/mp3-preview/01d9f487abc3b441708ddab4b809284f2b41059c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 289066,
+   "isrc": "USRC10300895",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:0iBuBfrOhxRgOWS0OS5GfP",
+   "title": "Vous les copains",
+   "displayTitle": "Vous les copains",
+   "artists": [
+    "Sheila"
+   ],
+   "album": "Écoute ce disque",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735c165929dde4dae330ba33d2",
+   "preview": "https://p.scdn.co/mp3-preview/03b9c3569e27a690f6c9f614fe0eae73bb0effaf?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 133240,
+   "isrc": "FRZ166400010",
+   "popularity": 42
+  },
+  {
+   "id": "spotify:track:09fc4Tyg7MhP9TovMe6zFX",
+   "title": "Adieu monsieur le professeur",
+   "displayTitle": "Adieu monsieur le professeur",
+   "artists": [
+    "Hugues Aufray"
+   ],
+   "album": "Santiano",
+   "year": 1990,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731a33af0f0829ce05885c7bc7",
+   "preview": "https://p.scdn.co/mp3-preview/e34ac242acbf324412986b8d698b0020be59353d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 228333,
+   "isrc": "FRZ016800260",
+   "popularity": 29
+  },
+  {
+   "id": "spotify:track:3U4isOIWM3VvDubwSI3y7a",
+   "title": "All of Me",
+   "displayTitle": "All of Me",
+   "artists": [
+    "John Legend"
+   ],
+   "album": "Love In The Future (Expanded Edition)",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273bdcc3b587b5249932bc415c2",
+   "preview": "https://p.scdn.co/mp3-preview/ebf0e42b2eb2acb22639c23b74d49f07038e5887?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 269556,
+   "isrc": "USSM11303954",
+   "popularity": 88
+  },
+  {
+   "id": "spotify:track:5xzdDMhFYiuUONB0Mha9VS",
+   "title": "The Locomotion",
+   "displayTitle": "The Locomotion",
+   "artists": [
+    "Little Eva"
+   ],
+   "album": "Llllloco-Motion",
+   "year": 1962,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273bac7945a78398a7e4954562f",
+   "preview": "https://p.scdn.co/mp3-preview/32aa78d0b17bc44b909a8d52206a01cf969dd73c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 139120,
+   "isrc": "GBAYE6200144",
+   "popularity": 65
+  },
+  {
+   "id": "spotify:track:0KligwQn4Iy344p2Q5m6k6",
+   "title": "Più bella cosa",
+   "displayTitle": "Più bella cosa",
+   "artists": [
+    "Eros Ramazzotti"
+   ],
+   "album": "Dove c'è musica",
+   "year": 1996,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739a43a891fd44f224e09afd7b",
+   "preview": "https://p.scdn.co/mp3-preview/95f747aa5e302a4676d382bb13105d155f4ddc32?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 267813,
+   "isrc": "ITB009600582",
+   "popularity": 68
+  },
+  {
+   "id": "spotify:track:3wIoQubsIhvsIBHskw6u0w",
+   "title": "C'est chelou",
+   "displayTitle": "C'est chelou",
+   "artists": [
+    "Zaho"
+   ],
+   "album": "Dima",
+   "year": 2008,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2733a0835a865ac1ba312970cce",
+   "preview": "https://p.scdn.co/mp3-preview/9baca132ce059e535735f5ea216fcc40cc8b0228?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 216973,
+   "isrc": "CAD780700014",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2374M0fQpWi3dLnB54qaLX",
+   "title": "Africa",
+   "displayTitle": "Africa",
+   "artists": [
+    "TOTO"
+   ],
+   "album": "Toto IV",
+   "year": 1982,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+   "preview": "https://p.scdn.co/mp3-preview/e7321b4ea1af32a9c622bc8ec3adcd0a0bb06b1e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 295282,
+   "isrc": "USSM19801941",
+   "popularity": 90
+  },
+  {
+   "id": "spotify:track:7iL6o9tox1zgHpKUfh9vuC",
+   "title": "In Da Club",
+   "displayTitle": "In Da Club",
+   "artists": [
+    "50 Cent"
+   ],
+   "album": "Get Rich Or Die Tryin'",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d843fabb75fef14010e30cae",
+   "preview": "https://p.scdn.co/mp3-preview/c0199e9be373d6a82ae89071ae34dd38ec72b99c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 193466,
+   "isrc": "USIR10300033",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:7HKez549fwJQDzx3zLjHKC",
+   "title": "Start Me Up - Remastered 2009",
+   "displayTitle": "Start Me Up",
+   "artists": [
+    "The Rolling Stones"
+   ],
+   "album": "Tattoo You (2009 Re-Mastered)",
+   "year": 1981,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675",
+   "preview": "https://p.scdn.co/mp3-preview/6b6f57d8c70b98d05ac1566144506874ef67ee6f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 213066,
+   "isrc": "GBUM70909474",
+   "popularity": 79
+  },
+  {
+   "id": "spotify:track:3bidbhpOYeV4knp8AIu8Xn",
+   "title": "Can't Hold Us (feat. Ray Dalton)",
+   "displayTitle": "Can't Hold Us",
+   "artists": [
+    "Macklemore",
+    "Ryan Lewis",
+    "Macklemore & Ryan Lewis",
+    "Ray Dalton"
+   ],
+   "album": "The Heist",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27398a02fef3a8b1d80a0f164ec",
+   "preview": "https://p.scdn.co/mp3-preview/8c9523a2742ba6dc93ce1d719e9daa8aaedaa3d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 258342,
+   "isrc": "GMM881200021",
+   "popularity": 81
+  },
+  {
+   "id": "spotify:track:1Cis3BiUs6rLpT3BnRy1TR",
+   "title": "Femmes... Je vous aime",
+   "displayTitle": "Femmes... Je vous aime",
+   "artists": [
+    "Julien Clerc"
+   ],
+   "album": "Femmes, indiscrétion, blasphème",
+   "year": 1982,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27350cdca8425d12427c18c06af",
+   "preview": "https://p.scdn.co/mp3-preview/c9cce41823e512c2cf4387c149dd9d8fd99ed60d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 263066,
+   "isrc": "FRZ608200010",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:4VvTGipG8YaF09z0kfGqaD",
+   "title": "Paroles… paroles…",
+   "displayTitle": "Paroles… paroles…",
+   "artists": [
+    "Dalida",
+    "Alain Delon"
+   ],
+   "album": "40 succès en or",
+   "year": 1997,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736821567fcae84d4e59bdf217",
+   "preview": "https://p.scdn.co/mp3-preview/9b6a0fc7a6dd9503bc83832a306948e2b9c0aebf?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 245666,
+   "isrc": "FRZ017301510",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:3x4yV0hW5Ve3TKhFkXSqFn",
+   "title": "If You Had My Love",
+   "displayTitle": "If You Had My Love",
+   "artists": [
+    "Jennifer Lopez"
+   ],
+   "album": "On The 6",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735c34d7a87663652675cf3264",
+   "preview": "https://p.scdn.co/mp3-preview/66b2949eb1130ee08d723e46f1f8b12b13dab4c7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 266000,
+   "isrc": "USSM19900608",
+   "popularity": 70
+  },
+  {
+   "id": "spotify:track:2dbaIpJoAk2hhrrX2ljKJo",
+   "title": "Surfin' U.S.A. (Mono)",
+   "displayTitle": "Surfin' U.S.A. (Mono)",
+   "artists": [
+    "The Beach Boys"
+   ],
+   "album": "Surfin' USA (Mono & Stereo)",
+   "year": 1963,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fe3588ec525c5242398b0234",
+   "preview": "https://p.scdn.co/mp3-preview/8130f1e8d20947daae09f2cc764cf9f1438cdabd?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 150533,
+   "isrc": "USCA21201943",
+   "popularity": 44
+  },
+  {
+   "id": "spotify:track:7EZC6E7UjZe63f1jRmkWxt",
+   "title": "Zombie",
+   "displayTitle": "Zombie",
+   "artists": [
+    "The Cranberries"
+   ],
+   "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+   "year": 1994,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27372d481a5999197ef5f42f796",
+   "preview": "https://p.scdn.co/mp3-preview/65231f5a64f52177b4afd9892d2136a3f6ae89b5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 306440,
+   "isrc": "USIR29400443",
+   "popularity": 15
+  },
+  {
+   "id": "spotify:track:2T3jgoAMbBXiMMD8pSc6QL",
+   "title": "This Is The Life",
+   "displayTitle": "This Is The Life",
+   "artists": [
+    "Amy Macdonald"
+   ],
+   "album": "This Is The Life (eDeluxe)",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273aa2d1f1ecc9aa8f82fd56f7c",
+   "preview": "https://p.scdn.co/mp3-preview/0b41ee4f76ed5b428dc67193795bb9a29c35ec03?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 184413,
+   "isrc": "GBUM70607840",
+   "popularity": 80
+  },
+  {
+   "id": "spotify:track:5vmRQ3zELMLUQPo2FLQ76x",
+   "title": "Smalltown Boy",
+   "displayTitle": "Smalltown Boy",
+   "artists": [
+    "Bronski Beat"
+   ],
+   "album": "The Age of Consent",
+   "year": 1984,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732ec4aea38b44eba9756767fa",
+   "preview": "https://p.scdn.co/mp3-preview/08b4918efd23294b185b5844ac44ac1e65ed9018?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 302413,
+   "isrc": "GBAAP0200005",
+   "popularity": 86
+  },
+  {
+   "id": "spotify:track:1HOtCYTuOCISpTn9cW6fcz",
+   "title": "Ma philosophie",
+   "displayTitle": "Ma philosophie",
+   "artists": [
+    "Amel Bent"
+   ],
+   "album": "Un Jour D'été",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737643eadf895d043315a5a3e9",
+   "preview": "https://p.scdn.co/mp3-preview/a3abcbbabc9541a1b3dec3db4bd15946f4fd9607?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 203226,
+   "isrc": "FRZ050400283",
+   "popularity": 64
+  },
+  {
+   "id": "spotify:track:1uRKT2LRANv4baowBWHfDS",
+   "title": "(We're Gonna) Rock Around The Clock",
+   "displayTitle": "(We're Gonna) Rock Around The Clock",
+   "artists": [
+    "Bill Haley & His Comets"
+   ],
+   "album": "Rock Around The Clock",
+   "year": 1955,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2739060a2c0a01366ee03274597",
+   "preview": "https://p.scdn.co/mp3-preview/e0c8c95f061db7f75c533dff8aaa3740d3293e38?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 129893,
+   "isrc": "USMC15486163",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:33yAEqzKXexYM3WlOYtTfQ",
+   "title": "D.A.N.C.E.",
+   "displayTitle": "D.A.N.C.E.",
+   "artists": [
+    "Justice"
+   ],
+   "album": "Justice",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731c0bcf8b536295438d26c70d",
+   "preview": "https://p.scdn.co/mp3-preview/0412ef6b21192bc79fc1fb3389d8c95172e2c2bf?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 242266,
+   "isrc": "FR0NT0700420",
+   "popularity": 70
+  },
+  {
+   "id": "spotify:track:1d2eMMrAuIsw85u3YklKoc",
+   "title": "Toosie Slide",
+   "displayTitle": "Toosie Slide",
+   "artists": [
+    "Drake"
+   ],
+   "album": "Toosie Slide",
+   "year": 2020,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737e8020b9fc62cf7353ae0995",
+   "preview": "https://p.scdn.co/mp3-preview/2d6e79780dfb29466edf697a0bd87e8d67dfd866?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 247058,
+   "isrc": "USUG12001282",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:1Q6j1dx7pXzuLZLAexFWuQ",
+   "title": "Belles belles belles",
+   "displayTitle": "Belles belles belles",
+   "artists": [
+    "Claude François"
+   ],
+   "album": "Hommages",
+   "year": 1993,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e6331658f21ef1af5dfc5c39",
+   "preview": "https://p.scdn.co/mp3-preview/8014b4a1f1562e52c72c79c543610dead4b5fb1f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 132826,
+   "isrc": "FRZ036200760",
+   "popularity": 47
+  },
+  {
+   "id": "spotify:track:5VQw18tYjbltQWFYmI3CPw",
+   "title": "Je serai (ta meilleure amie)",
+   "displayTitle": "Je serai (ta meilleure amie)",
+   "artists": [
+    "Lorie"
+   ],
+   "album": "Près de toi",
+   "year": 2001,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b720cfc3ab522f253ebf2247",
+   "preview": "https://p.scdn.co/mp3-preview/ceb68bf7747d9292ab741e8056e5a2d87d1fe0e3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 209066,
+   "isrc": "FR43U0100010",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2M9ro2krNb7nr7HSprkEgo",
+   "title": "Fast Car",
+   "displayTitle": "Fast Car",
+   "artists": [
+    "Tracy Chapman"
+   ],
+   "album": "Tracy Chapman",
+   "year": 1988,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27390b8a540137ee2a718a369f9",
+   "preview": "https://p.scdn.co/mp3-preview/ce0d4429f7d48e488e464ecf03a690ada14da02c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 296800,
+   "isrc": "USEE10180719",
+   "popularity": 85
+  },
+  {
+   "id": "spotify:track:5IVuqXILoxVWvWEPm82Jxr",
+   "title": "Crazy In Love (feat. JAŸ-Z)",
+   "displayTitle": "Crazy In Love",
+   "artists": [
+    "Beyoncé",
+    "JAŸ-Z"
+   ],
+   "album": "Dangerously In Love",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27345680a4a57c97894490a01c1",
+   "preview": "https://p.scdn.co/mp3-preview/28d167ea8ccdb4740f163bf0cf44df80ad69f980?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 236133,
+   "isrc": "USSM10305425",
+   "popularity": 81
+  },
+  {
+   "id": "spotify:track:2XgDgIsVUOt9Lov5G4Wruy",
+   "title": "I Knew You Were Waiting (For Me)",
+   "displayTitle": "I Knew You Were Waiting (For Me)",
+   "artists": [
+    "George Michael",
+    "Aretha Franklin"
+   ],
+   "album": "Ladies And Gentlemen... The Best Of George Michael",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27364c19b24ce947ffa363f8f96",
+   "preview": "https://p.scdn.co/mp3-preview/7ba5945b52a4396b008ac9ba1d0e85d8a306894d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 238000,
+   "isrc": "USAR19800123",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:1p9dxTMtG4gZpLp7yzvT54",
+   "title": "Eté 90",
+   "displayTitle": "Eté 90",
+   "artists": [
+    "Therapie TAXI"
+   ],
+   "album": "Rupture 2 merde",
+   "year": 2021,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a730178c7d0d6cc784adde82",
+   "preview": "https://p.scdn.co/mp3-preview/a98ea627b222387df07e4d688af50aa56d9f0306?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 192613,
+   "isrc": "FR7O52000800",
+   "popularity": 68
+  },
+  {
+   "id": "spotify:track:5Xc9L411IGVexidbaF7CHG",
+   "title": "Don't Call Me Up",
+   "displayTitle": "Don't Call Me Up",
+   "artists": [
+    "Mabel"
+   ],
+   "album": "High Expectations",
+   "year": 2019,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c9645a78c9fba9fc092a0cc5",
+   "preview": "https://p.scdn.co/mp3-preview/d7df3cadb8e72d614eb312bc9dcf1f91c7d73ce4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 178493,
+   "isrc": "GBUM71808052",
+   "popularity": 49
+  },
+  {
+   "id": "spotify:track:3fVhJWtJvWOFWriulfKBh3",
+   "title": "La musique",
+   "displayTitle": "La musique",
+   "artists": [
+    "Nicoletta"
+   ],
+   "album": "Il Est Mort Le Soleil",
+   "year": 2000,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273a45ae5484c46ae2e585f0a83",
+   "preview": "https://p.scdn.co/mp3-preview/1e3cddc8753cf3a954ed081d1f769961340bdf53?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 207440,
+   "isrc": "FRZ016700550",
+   "popularity": 39
+  },
+  {
+   "id": "spotify:track:02XP1MPUox6QwwJedwGfEc",
+   "title": "Quand je vois tes yeux",
+   "displayTitle": "Quand je vois tes yeux",
+   "artists": [
+    "Dany Brillant"
+   ],
+   "album": "Havana",
+   "year": 1996,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e9308a887da0d636bc24261f",
+   "preview": "https://p.scdn.co/mp3-preview/d4fd476230062d77054ef44486d0bcf2af0f71e3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 237439,
+   "isrc": "FRT209600040",
+   "popularity": 45
+  },
+  {
+   "id": "spotify:track:2ICdvchXmDh5mdLyyL2opB",
+   "title": "Basique",
+   "displayTitle": "Basique",
+   "artists": [
+    "Orelsan"
+   ],
+   "album": "La fête est finie",
+   "year": 2017,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b8443d0a4f57b844ab1e0e39",
+   "preview": "https://p.scdn.co/mp3-preview/86b8dbe17301414c52f26906e3154ae7edd7db1d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 163986,
+   "isrc": "FR6F31701060",
+   "popularity": 1
+  },
+  {
+   "id": "spotify:track:53Za5vyGc1x7GxgJVRjRKc",
+   "title": "Ain't Nobody",
+   "displayTitle": "Ain't Nobody",
+   "artists": [
+    "Rufus",
+    "Chaka Khan"
+   ],
+   "album": "Stompin' At The Savoy",
+   "year": 1983,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731ab2a1683ee8b7fcbc997510",
+   "preview": "https://p.scdn.co/mp3-preview/42b58c8f5a5cf66f84ca3716c0bb646a26351741?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 285253,
+   "isrc": "USWB10104850",
+   "popularity": 72
+  },
+  {
+   "id": "spotify:track:4kti5sAkWBOhPyCVItDYf8",
+   "title": "À cause des garçons",
+   "displayTitle": "À cause des garçons",
+   "artists": [
+    "Yelle"
+   ],
+   "album": "Pop-Up",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735da1104c8104431eb16f831c",
+   "preview": "https://p.scdn.co/mp3-preview/4512f20aed99d8fef148ee777a386f8d43b59159?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 226253,
+   "isrc": "FRZ110701248",
+   "popularity": 43
+  },
+  {
+   "id": "spotify:track:7jhKkbM3KZvnuqzMX5fADH",
+   "title": "In the Summertime",
+   "displayTitle": "In the Summertime",
+   "artists": [
+    "Mungo Jerry"
+   ],
+   "album": "Electronically Tested",
+   "year": 1971,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d53f04ba93141804bc191847",
+   "preview": "https://p.scdn.co/mp3-preview/ff172bb52c90828fda4a98a10e81ce89aa3ced58?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 215800,
+   "isrc": "GBAJE7000049",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:4ZfQwNx3FlCN07cnUvekh3",
+   "title": "Ain't That A Shame",
+   "displayTitle": "Ain't That A Shame",
+   "artists": [
+    "Fats Domino"
+   ],
+   "album": "Fats Domino Swings",
+   "year": 1959,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27374e3823e9643fabc830851dd",
+   "preview": "https://p.scdn.co/mp3-preview/4ecb20efc675ee7ad6d816a490c03b2c5f05fe67?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 152200,
+   "isrc": "USEM38700044",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:4QlC4HmIyo2nO0l0bRrgdm",
+   "title": "Dieu m'a donné la foi",
+   "displayTitle": "Dieu m'a donné la foi",
+   "artists": [
+    "Ophélie Winter"
+   ],
+   "album": "Soon",
+   "year": 1996,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273ce4bf1da315f49db8261b53f",
+   "preview": "https://p.scdn.co/mp3-preview/b166e95af9f05abb12c11c0389c3f6102c142283?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 236759,
+   "isrc": "FRZ169500150",
+   "popularity": 51
+  },
+  {
+   "id": "spotify:track:6UEfyhyfhYQsyipxOd95Ie",
+   "title": "The Ketchup Song (Aserejé) - Spanglish Version",
+   "displayTitle": "The Ketchup Song (Aserejé) - Spanglish Version",
+   "artists": [
+    "Las Ketchup"
+   ],
+   "album": "Hijas del Tomate",
+   "year": 2002,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27354dbaa284c53e085523cfec2",
+   "preview": "https://p.scdn.co/mp3-preview/2d8f8773d6efa9d960ddc3cf6d2137c8b76056b2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 213973,
+   "isrc": "ES5110204224",
+   "popularity": 70
+  },
+  {
+   "id": "spotify:track:1xNcBAoUw8Hz6LqK2jt4Ff",
+   "title": "Call on Me - Radio Mix",
+   "displayTitle": "Call on Me",
+   "artists": [
+    "Eric Prydz"
+   ],
+   "album": "Call on Me (Radio Mix)",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2731cd65e046a28cef435feff21",
+   "preview": "https://p.scdn.co/mp3-preview/31bc0a16df83fa78aa422068e79d2aa960ac3249?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 171360,
+   "isrc": "GBCEN0400130",
+   "popularity": 80
+  },
+  {
+   "id": "spotify:track:121uTp31cN6xd6hd1wUZEq",
+   "title": "Macumba",
+   "displayTitle": "Macumba",
+   "artists": [
+    "Jean-Pierre Mader"
+   ],
+   "album": "Microclimats",
+   "year": 1985,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273015056b745314a205e8cabb1",
+   "preview": "https://p.scdn.co/mp3-preview/5ba49521a25203487890a695614bae8e6b3fd055?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 271058,
+   "isrc": "FRY668500090",
+   "popularity": 39
+  },
+  {
+   "id": "spotify:track:4E8hgGDOwG5CpiEke6qZMT",
+   "title": "On s'attache",
+   "displayTitle": "On s'attache",
+   "artists": [
+    "Christophe Maé"
+   ],
+   "album": "Mon paradis",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737d89afe4b41cda21e4a2aca5",
+   "preview": "https://p.scdn.co/mp3-preview/edfbd47aa791ff06ef4ebd3cfc2832b969080457?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 191506,
+   "isrc": "FRZ040700001",
+   "popularity": 65
+  },
+  {
+   "id": "spotify:track:52Zr0sinhWTCRrQhRRY4EP",
+   "title": "Dragostea din tei",
+   "displayTitle": "Dragostea din tei",
+   "artists": [
+    "O-Zone"
+   ],
+   "album": "DiscO-Zone",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736ed1042195c7228f6bd3548e",
+   "preview": "https://p.scdn.co/mp3-preview/80e9ea6cd288991bd8d8cdbfb79ed17d10061ee2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 215386,
+   "isrc": "ROMSA0600487",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:2On7uB8PN8JJmBNsms8unQ",
+   "title": "Compliqué",
+   "displayTitle": "Compliqué",
+   "artists": [
+    "Dadju"
+   ],
+   "album": "Compliqué",
+   "year": 2019,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b090b186b958ea2aa02a2275",
+   "preview": "https://p.scdn.co/mp3-preview/aa1922d2152827aa446e689ca63428a31dc3346e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 213799,
+   "isrc": "FR9W11914201",
+   "popularity": 47
+  },
+  {
+   "id": "spotify:track:5haXbSJqjjM0TCJ5XkfEaC",
+   "title": "I Got You (I Feel Good)",
+   "displayTitle": "I Got You (I Feel Good)",
+   "artists": [
+    "James Brown & The Famous Flames"
+   ],
+   "album": "I Got You (I Feel Good)",
+   "year": 1966,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c813101657895c26f990b719",
+   "preview": "https://p.scdn.co/mp3-preview/8a9fac11f510a6d5d6cd6ff903f6e8cd0c43dd54?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 165800,
+   "isrc": "USF066625050",
+   "popularity": 73
+  },
+  {
+   "id": "spotify:track:4euNfAHxddBZ4XxtG9cv5G",
+   "title": "Toulouse",
+   "displayTitle": "Toulouse",
+   "artists": [
+    "Claude Nougaro"
+   ],
+   "album": "Jazz Et Java",
+   "year": 1999,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273deefaa8f9eafbcec98b39ea9",
+   "preview": "https://p.scdn.co/mp3-preview/1ccd5d38039bdd4f2b8acb20e29cb62248077d97?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 263800,
+   "isrc": "FRZ036700550",
+   "popularity": 20
+  },
+  {
+   "id": "spotify:track:1cl6UxttwMTjJXsdyMDUde",
+   "title": "Toi + Moi",
+   "displayTitle": "Toi + Moi",
+   "artists": [
+    "Grégoire"
+   ],
+   "album": "Toi + Moi",
+   "year": 2008,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2738bd7861f13e40e5df4315a28",
+   "preview": "https://p.scdn.co/mp3-preview/a2ac6508fab2fab30b6784bbb21aed57b40fd442?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 182800,
+   "isrc": "FR0Q90800032",
+   "popularity": 61
+  },
+  {
+   "id": "spotify:track:6QSwxzWUeF0w4N7qRxonbb",
+   "title": "Au bout de mes rêves",
+   "displayTitle": "Au bout de mes rêves",
+   "artists": [
+    "Jean-Jacques Goldman"
+   ],
+   "album": "Quand la musique est bonne",
+   "year": 1982,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736b2847cc0ee2671d82426eac",
+   "preview": "https://p.scdn.co/mp3-preview/933bb4ee9382e1c4b9dd1331c91f033e6248c2f6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 234986,
+   "isrc": "FRZ088200280",
+   "popularity": 61
+  },
+  {
+   "id": "spotify:track:2EdqnePuFG7FDPsiy5YGov",
+   "title": "Besoin de personne",
+   "displayTitle": "Besoin de personne",
+   "artists": [
+    "Véronique Sanson"
+   ],
+   "album": "Exclusivement féminin",
+   "year": 1984,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d63391d5ebbf7a0354dbd146",
+   "preview": "https://p.scdn.co/mp3-preview/820883fe275d74967741be9c65d09859822e13ff?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 167359,
+   "isrc": "FRZ047200050",
+   "popularity": 49
+  },
+  {
+   "id": "spotify:track:4VWbPQUPvLes814r6T11Jz",
+   "title": "Les Champs-Elysées",
+   "displayTitle": "Les Champs-Elysées",
+   "artists": [
+    "Joe Dassin"
+   ],
+   "album": "Les Champs-Elysées",
+   "year": 1969,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273159a5ce13b0c1657c87b96bc",
+   "preview": "https://p.scdn.co/mp3-preview/a9cdc351f92375dafdbb16295935a7c9f2281b86?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 157626,
+   "isrc": "FRZ086900010",
+   "popularity": 65
+  },
+  {
+   "id": "spotify:track:3bHwuIcUkM1mc7c1u7vgbQ",
+   "title": "Je ne suis pas un héros",
+   "displayTitle": "Je ne suis pas un héros",
+   "artists": [
+    "Daniel Balavoine"
+   ],
+   "album": "Un autre monde (Remastered)",
+   "year": 1980,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273cba48ad121b8131c89d0c1c2",
+   "preview": "https://p.scdn.co/mp3-preview/ac82bbea099da454a3fe5ee43300a419d31ed35e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 313480,
+   "isrc": "FRZ018000940",
+   "popularity": 56
+  },
+  {
+   "id": "spotify:track:2Desf0YgquK9YrSkRhkvDN",
+   "title": "Les mots bleus",
+   "displayTitle": "Les mots bleus",
+   "artists": [
+    "Christophe"
+   ],
+   "album": "Les mots bleus",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273154dc5d4a6dbd6f40d7be0d0",
+   "preview": "https://p.scdn.co/mp3-preview/8a807604eee623bcee29919e90f4c720691ea244?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 250613,
+   "isrc": "FR45F7400090",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:4ycebyWnCg9jJXFnhnZqnz",
+   "title": "La Boulette (Génération Nan Nan)",
+   "displayTitle": "La Boulette (Génération Nan Nan)",
+   "artists": [
+    "Diam's"
+   ],
+   "album": "La boulette (Génération nan nan)",
+   "year": 2005,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fdb708c379a1675a9cd97bb5",
+   "preview": "https://p.scdn.co/mp3-preview/e167b96c63025bceda486d58c6a76e7c01b4cddf?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 231440,
+   "isrc": "FRZ110500390",
+   "popularity": 59
+  },
+  {
+   "id": "spotify:track:2sIysPOzPzM95TidgUimn3",
+   "title": "Moi, je m'en fous",
+   "displayTitle": "Moi, je m'en fous",
+   "artists": [
+    "Yves Montand"
+   ],
+   "album": "125 chansons de la Libération",
+   "year": 2011,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735e745c87ca018f2683524489",
+   "preview": "https://p.scdn.co/mp3-preview/f3f79da9d5284bf4f513b47c0765c3c7ab1150a7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 174711,
+   "isrc": "FR67W1100327",
+   "popularity": 22
+  },
+  {
+   "id": "spotify:track:3PQLYVskjUeRmRIfECsL0X",
+   "title": "No Woman No Cry",
+   "displayTitle": "No Woman No Cry",
+   "artists": [
+    "Bob Marley & The Wailers"
+   ],
+   "album": "Natty Dread",
+   "year": 1974,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b5a0ee94e2741374ce5c71a2",
+   "preview": "https://p.scdn.co/mp3-preview/0cb785f6f18060e343c72fa22eddcc9b2bfd38ee?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 226240,
+   "isrc": "GBAAN7490002",
+   "popularity": 63
+  },
+  {
+   "id": "spotify:track:7e89621JPkKaeDSTQ3avtg",
+   "title": "Sweet Home Alabama",
+   "displayTitle": "Sweet Home Alabama",
+   "artists": [
+    "Lynyrd Skynyrd"
+   ],
+   "album": "Second Helping (Expanded Edition)",
+   "year": 1974,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27317e1907923e91181f38290ac",
+   "preview": "https://p.scdn.co/mp3-preview/125986ae6eb995983b84776b7e0d368f6a74cbbf?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 283800,
+   "isrc": "USMC17446153",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:58bRgUVRgeHrrGfqR7v96k",
+   "title": "On ira tous au paradis",
+   "displayTitle": "On ira tous au paradis",
+   "artists": [
+    "Michel Polnareff"
+   ],
+   "album": "Best Of 2003",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273395bdbeaec7add0233517a9d",
+   "preview": "https://p.scdn.co/mp3-preview/3b6b2d0a8050eabdc9e0511d205bc2fd59f933b4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 273266,
+   "isrc": "FRZ017202240",
+   "popularity": 48
+  },
+  {
+   "id": "spotify:track:3rmo8F54jFF8OgYsqTxm5d",
+   "title": "Bad Habits",
+   "displayTitle": "Bad Habits",
+   "artists": [
+    "Ed Sheeran"
+   ],
+   "album": "=",
+   "year": 2021,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273dc806722f6802a8ea9953c89",
+   "preview": "https://p.scdn.co/mp3-preview/5fdbca85fd9643aaa554dfd22e7adfa1010bf78b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 230746,
+   "isrc": "GBAHS2100318",
+   "popularity": 84
+  },
+  {
+   "id": "spotify:track:68t93W7Mdwlvia5CpHNsBM",
+   "title": "Petite fille",
+   "displayTitle": "Petite fille",
+   "artists": [
+    "Booba"
+   ],
+   "album": "Trône",
+   "year": 2017,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737b56fb8f7a5b37d234d53238",
+   "preview": "https://p.scdn.co/mp3-preview/b5174256f12cb3282e4d093247a5aac205927057?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 215453,
+   "isrc": "FR8R61700007",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:1fxoAloBlcKe3t49QwIL4m",
+   "title": "Non non rien n'a changé",
+   "displayTitle": "Non non rien n'a changé",
+   "artists": [
+    "Les Poppys"
+   ],
+   "album": "Les Annees Barclay",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d19a1762432be85a063df3bf",
+   "preview": "https://p.scdn.co/mp3-preview/f8d9cac59e55f2be4bd5c9ea17f81e4191db09ca?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 189666,
+   "isrc": "FRZ017100940",
+   "popularity": 53
+  },
+  {
+   "id": "spotify:track:1vELwZM3uBYWd8HrtddD4l",
+   "title": "Bella",
+   "displayTitle": "Bella",
+   "artists": [
+    "GIMS"
+   ],
+   "album": "Subliminal (La face cachée)",
+   "year": 2013,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273596368082712ceff7ae95649",
+   "preview": "https://p.scdn.co/mp3-preview/5d88c040d348ad88f3300ab44f16f202fff8e35f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 226480,
+   "isrc": "FR7U61200156",
+   "popularity": 71
+  },
+  {
+   "id": "spotify:track:6120uJUyg6QDzaAJUosTx5",
+   "title": "Knock On Wood",
+   "displayTitle": "Knock On Wood",
+   "artists": [
+    "Amii Stewart"
+   ],
+   "album": "Greatest Hits",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2737962998d8941673c1cea3083",
+   "preview": "https://p.scdn.co/mp3-preview/4f44028ffcaf46052b64cb03cf08d0720af2cb6d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 250520,
+   "isrc": "USA561379853",
+   "popularity": 2
+  },
+  {
+   "id": "spotify:track:3xuGzgRYAXHmj0dT1EOtzv",
+   "title": "Comme des enfants",
+   "displayTitle": "Comme des enfants",
+   "artists": [
+    "Cœur De Pirate"
+   ],
+   "album": "Cœur De Pirate",
+   "year": 2009,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273fea4f5a1fda85e8a62fd1a8a",
+   "preview": "https://p.scdn.co/mp3-preview/54562d603463e83cc8bdd33d8e5387aeebc64fe6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 166013,
+   "isrc": "CAD430890713",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2XK2R8ElT2woHH2tfn6PgJ",
+   "title": "Je l'aime à mourir",
+   "displayTitle": "Je l'aime à mourir",
+   "artists": [
+    "Francis Cabrel"
+   ],
+   "album": "L'essentiel / 1977 - 2007",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e469df85fd7e606fa00f684b",
+   "preview": "https://p.scdn.co/mp3-preview/613afe41f34332ede66189d007e886d160b24e97?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 163253,
+   "isrc": "FRZ087801050",
+   "popularity": 58
+  },
+  {
+   "id": "spotify:track:08ntOTgpfOo1ZCqUgsxeGo",
+   "title": "Laissez-moi danser",
+   "displayTitle": "Laissez-moi danser",
+   "artists": [
+    "Dalida"
+   ],
+   "album": "LES NUMEROS UN DE DALIDA",
+   "year": 2018,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27346e897ca0725455ed8130187",
+   "preview": "https://p.scdn.co/mp3-preview/e13af96346e9673b86d1077523593de0fb60af21?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 225840,
+   "isrc": "FRZ017901910",
+   "popularity": 50
+  },
+  {
+   "id": "spotify:track:5ZULALImTm80tzUbYQYM9d",
+   "title": "Dance Monkey",
+   "displayTitle": "Dance Monkey",
+   "artists": [
+    "Tones And I"
+   ],
+   "album": "The Kids Are Coming",
+   "year": 2019,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273de3320e55bece6410679caa1",
+   "preview": "https://p.scdn.co/mp3-preview/b4073905b9e6c7899b538cccced85f412d7d46cd?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 209438,
+   "isrc": "QZES71982312",
+   "popularity": 68
+  },
+  {
+   "id": "spotify:track:7sKDftgGirHWTVFMtJoDoh",
+   "title": "Djadja",
+   "displayTitle": "Djadja",
+   "artists": [
+    "Aya Nakamura"
+   ],
+   "album": "NAKAMURA",
+   "year": 2018,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27356feea19a0436ec52a9217c9",
+   "preview": "https://p.scdn.co/mp3-preview/91ade42c0b8f8f8f5d3dd75b24e5e5969bf6a362?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 171133,
+   "isrc": "FRZ041800369",
+   "popularity": 74
+  },
+  {
+   "id": "spotify:track:6QfS2wq5sSC1xAJCQsTSlj",
+   "title": "Shallow - Radio Edit",
+   "displayTitle": "Shallow",
+   "artists": [
+    "Lady Gaga",
+    "Bradley Cooper"
+   ],
+   "album": "A Star Is Born Soundtrack (Without Dialogue)",
+   "year": 2018,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b5d4b4ed17ec86c4b3944af2",
+   "preview": "https://p.scdn.co/mp3-preview/c24eedd14e6ba0dc3a70618eb784840216f0ceb5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 217212,
+   "isrc": "USUM71815945",
+   "popularity": 70
+  },
+  {
+   "id": "spotify:track:4HlFJV71xXKIGcU3kRyttv",
+   "title": "Hey, Soul Sister",
+   "displayTitle": "Hey, Soul Sister",
+   "artists": [
+    "Train"
+   ],
+   "album": "Save Me, San Francisco (Golden Gate Edition)",
+   "year": 2010,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736ff8bc258e3ebc835ffe14ca",
+   "preview": "https://p.scdn.co/mp3-preview/518c823cf0f8b862bed0fa45e34cc63db5ea58e4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 216773,
+   "isrc": "USSM10904113",
+   "popularity": 85
+  },
+  {
+   "id": "spotify:track:76hALuEMbodTfbJtyfnAAT",
+   "title": "Le Sens de la vie",
+   "displayTitle": "Le Sens de la vie",
+   "artists": [
+    "TAL"
+   ],
+   "album": "Le droit de rêver (Audio Version)",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736fe22e5c629faa7c9882deaa",
+   "preview": "https://p.scdn.co/mp3-preview/ae9d305918cf48bf3761ed0f24e4152343863cc6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 208533,
+   "isrc": "FRZ041100474",
+   "popularity": 37
+  },
+  {
+   "id": "spotify:track:5VBkCAHFgfoXoBy54SSl8i",
+   "title": "Tombe la neige",
+   "displayTitle": "Tombe la neige",
+   "artists": [
+    "Salvatore Adamo"
+   ],
+   "album": "Gold",
+   "year": 1978,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27321c2e94f8b89e7f76f213b59",
+   "preview": "https://p.scdn.co/mp3-preview/2fbe5bde85ad780215f511c7da90b47d0fcf91ca?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 171600,
+   "isrc": "FRZ087800530",
+   "popularity": 0
+  },
+  {
+   "id": "spotify:track:2YNWgxevUxpjZDgW4i5Aky",
+   "title": "Je suis un homme",
+   "displayTitle": "Je suis un homme",
+   "artists": [
+    "Zazie"
+   ],
+   "album": "Totem",
+   "year": 2007,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273e4d60902dc45119d023d3f36",
+   "preview": "https://p.scdn.co/mp3-preview/90360d5c26574695c1a1ff45636cd55868732ace?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 249466,
+   "isrc": "FRZ030601850",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:0UAJH0k4k3slcE83a9UGCe",
+   "title": "Lola",
+   "displayTitle": "Lola",
+   "artists": [
+    "The Kinks"
+   ],
+   "album": "Lola Versus Powerman and the Moneygoround, Pt. One",
+   "year": 1970,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27322874c7fad7dee046bd69594",
+   "preview": "https://p.scdn.co/mp3-preview/f94cad9e017ec344d390fe1d9c0c6034abbda35f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 241040,
+   "isrc": "GBAJE0701939",
+   "popularity": 2
+  },
+  {
+   "id": "spotify:track:71yCMlsD6qbD7NmNUEoVNR",
+   "title": "Ca plane pour moi",
+   "displayTitle": "Ca plane pour moi",
+   "artists": [
+    "Plastic Bertrand"
+   ],
+   "album": "Plastic Bertrand",
+   "year": 1998,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273168b00b7ccd04a5cf38cd74e",
+   "preview": "https://p.scdn.co/mp3-preview/0d6325eb28db824c81f613989c05288895bddc23?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 182133,
+   "isrc": "BEB017765001",
+   "popularity": 3
+  },
+  {
+   "id": "spotify:track:0PZiPbrDCdORrSW6IIICRG",
+   "title": "Qui de nous deux",
+   "displayTitle": "Qui de nous deux",
+   "artists": [
+    "-M-"
+   ],
+   "album": "Qui de nous deux",
+   "year": 2003,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2735c5bf4e1935fcf6308dd5ad6",
+   "preview": "https://p.scdn.co/mp3-preview/ad9485e54c2fce54fdc96b2757348be37152a93c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 225720,
+   "isrc": "FRY680300141",
+   "popularity": 49
+  },
+  {
+   "id": "spotify:track:0Wh6e5EkmQseBGVeJqzC9X",
+   "title": "Quand la musique est bonne",
+   "displayTitle": "Quand la musique est bonne",
+   "artists": [
+    "Jean-Jacques Goldman"
+   ],
+   "album": "Quand la musique est bonne",
+   "year": 1982,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2736b2847cc0ee2671d82426eac",
+   "preview": "https://p.scdn.co/mp3-preview/6c4865d8528b9133d3c511b2d7bb5b9c2efaabde?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 232440,
+   "isrc": "FRZ088200250",
+   "popularity": 62
+  },
+  {
+   "id": "spotify:track:2jX5c5RFp0A9E1GDsvGxIa",
+   "title": "Balance ton quoi",
+   "displayTitle": "Balance ton quoi",
+   "artists": [
+    "Angèle"
+   ],
+   "album": "Brol",
+   "year": 2018,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732433cb43f0f2f0f23b7c8b82",
+   "preview": "https://p.scdn.co/mp3-preview/430a5b3547b6180e1d81b3dbac26a2768542c528?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 189480,
+   "isrc": "BE8HB1800006",
+   "popularity": 67
+  },
+  {
+   "id": "spotify:track:4j2W1eM03mz5MVN5LvR7VH",
+   "title": "These Boots Are Made for Walkin'",
+   "displayTitle": "These Boots Are Made for Walkin'",
+   "artists": [
+    "Nancy Sinatra"
+   ],
+   "album": "Full Metal Jacket (Original Motion Picture Soundtrack)",
+   "year": 1987,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c9e646bdfea2776e7f6f9751",
+   "preview": "https://p.scdn.co/mp3-preview/04d6355395f1ac99409e4167ee6dd7d4ddc90d7b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 162866,
+   "isrc": "USWB10102872",
+   "popularity": 55
+  },
+  {
+   "id": "spotify:track:6IRA4KOVbtiGiTdYoEThJN",
+   "title": "Ne me quitte pas",
+   "displayTitle": "Ne me quitte pas",
+   "artists": [
+    "Jacques Brel"
+   ],
+   "album": "La Valse A Mille Temps (Vol.4)",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273d2fd135e270391bc72623986",
+   "preview": "https://p.scdn.co/mp3-preview/08f777f6930dfcf064e377092e1ac1a2738b6921?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 229400,
+   "isrc": "FRZ035900280",
+   "popularity": 60
+  },
+  {
+   "id": "spotify:track:7zjkSx1EUums3s1Yg2jPJD",
+   "title": "Le sud",
+   "displayTitle": "Le sud",
+   "artists": [
+    "Nino Ferrer"
+   ],
+   "album": "Nino Ferrer",
+   "year": 2004,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273b1f55df876611438658fd16c",
+   "preview": "https://p.scdn.co/mp3-preview/6897eca2a84c5a17e3e7322d8e5a954f4fab4875?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 275040,
+   "isrc": "FRZLH7480010",
+   "popularity": 58
+  },
+  {
+   "id": "spotify:track:7gCeodIXjhCLDWC5H1LOmT",
+   "title": "Your Song",
+   "displayTitle": "Your Song",
+   "artists": [
+    "Elton John"
+   ],
+   "album": "Elton John",
+   "year": 1970,
+   "cover": "https://i.scdn.co/image/ab67616d0000b273c05ee7800dca138ffb6274ff",
+   "preview": "https://p.scdn.co/mp3-preview/4192a9e0cf48b97537fbba6c9cdc1fc1075ef655?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 244226,
+   "isrc": "GBAMB9500072",
+   "popularity": 52
+  },
+  {
+   "id": "spotify:track:3Dy4REq8O09IlgiwuHQ3sk",
+   "title": "Waterloo",
+   "displayTitle": "Waterloo",
+   "artists": [
+    "ABBA"
+   ],
+   "album": "Waterloo",
+   "year": 1974,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27311c24dc7f5ef909381c0a7d6",
+   "preview": "https://p.scdn.co/mp3-preview/080b052681fc89186ce46d77e96032b53e7f0ee8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 168960,
+   "isrc": "SEAYD7415010",
+   "popularity": 75
+  },
+  {
+   "id": "spotify:track:7dblNGnRXEBrVJunazs2U5",
+   "title": "All I Have to Do Is Dream",
+   "displayTitle": "All I Have to Do Is Dream",
+   "artists": [
+    "The Everly Brothers"
+   ],
+   "album": "The Very Best of The Everly Brothers",
+   "year": 1964,
+   "cover": "https://i.scdn.co/image/ab67616d0000b2732627493744745fdca9d5cc9b",
+   "preview": "https://p.scdn.co/mp3-preview/52af526679dde2ec1b9f48df3c3dee611b2ab871?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 143333,
+   "isrc": "USWB19903268",
+   "popularity": 66
+  },
+  {
+   "id": "spotify:track:3xUhchyBGEUNAwelO2yzqp",
+   "title": "Elle me dit",
+   "displayTitle": "Elle me dit",
+   "artists": [
+    "MIKA"
+   ],
+   "album": "The Origin Of Love",
+   "year": 2012,
+   "cover": "https://i.scdn.co/image/ab67616d0000b27334bcf8eb3912d9f2312d6232",
+   "preview": "https://p.scdn.co/mp3-preview/b13675dc959d18fb2020838aa32665d16a991f54?cid=9950ac751e34487dbbe027c4fd7f8e99",
+   "durationMs": 218906,
+   "isrc": "USC7R1100001",
+   "popularity": 63
+  }
+ ]
+}
