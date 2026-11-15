@@ -67,3 +67,8 @@ export function validateTeams(
     }
   return { ok: errors.length === 0, errors };
 }
+
+/** « Les Flamants » → « Flamants » (titres courts). */
+export function shortName(name: string): string {
+  return name.replace(/^Les\s+/i, '');
+}

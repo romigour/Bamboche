@@ -6,7 +6,8 @@
   import { drawQuickCards } from './logic/deck';
   import { findDuplicates, replaceWord, toCards, type TeamWords } from './logic/dedupe';
   import { createGame } from './logic/game';
-  import type { Card, WordEntry as Word } from '../../lib/teams';
+  import { untrack } from 'svelte';
+  import { validateTeams, type Card, type WordEntry as Word } from '../../lib/teams';
   import { pruneTeams, teamsDraft } from './setup';
   import { startGame } from './session';
   import { timeup } from './module';
@@ -27,7 +28,11 @@
     | { kind: 'entry'; teamIndex: number }
     | { kind: 'dup' };
 
-  let step = $state<Step>({ kind: (() => initialStep)() });
+  // « Rejouer » ouvre l'étape Mode, sauf si les équipes ont été perdues (rechargement) ou ne sont plus valides.
+  const startAt = untrack(() =>
+    initialStep === 'mode' && validateTeams(pruneTeams(get(teamsDraft), get(players)), 2, 2).ok ? 'mode' : 'teams',
+  );
+  let step = $state<Step>({ kind: startAt });
   let wordsPerTeam = $state(5);
   let entries = $state<TeamWords[]>([]);
   let lastHolder = $state<string | null>(null);

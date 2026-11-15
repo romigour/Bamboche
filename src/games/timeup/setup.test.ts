@@ -32,3 +32,13 @@ test('shuffleTeams répartit tout le monde en gardant au moins 2 équipes', () =
   expect(t).toHaveLength(2);
   expect(t.flatMap((x) => x.playerIds).sort()).toEqual(['a', 'b', 'c', 'd', 'e']);
 });
+
+test('draftsFromGame reconstruit les équipes depuis une partie', async () => {
+  const { draftsFromGame } = await import('./setup');
+  const { createGame } = await import('./logic/game');
+  const s = createGame(T().map((t) => ({ ...t, playerIds: [...t.playerIds, 'z'] })), ['a', 'b', 'c'].map((id) => ({ id, name: id })), [], { turnSeconds: 60, rounds: 1 });
+  expect(draftsFromGame(s)).toEqual([
+    { id: 'A', name: 'Les Flamants', color: 'blindtest', playerIds: ['a', 'b'] },
+    { id: 'B', name: 'Les Pingouins', color: 'hipster', playerIds: ['c'] },
+  ]);
+});

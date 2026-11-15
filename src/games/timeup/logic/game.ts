@@ -176,3 +176,13 @@ export function totals(s: TimeUpState): { teamId: string; total: number; rank: n
     .sort((a, b) => b.total - a.total);
   return list.map((x) => ({ ...x, rank: list.findIndex((y) => y.total === x.total) + 1 }));
 }
+
+/** Annule une annulation en récap (le mot redevient trouvé). */
+export function redoFound(s: TimeUpState, cardId: string): TimeUpState {
+  if (s.phase !== 'turnRecap' || !s.turn || s.turn.foundIds.includes(cardId) || !s.deck.includes(cardId)) return s;
+  return {
+    ...s,
+    deck: s.deck.filter((id) => id !== cardId),
+    turn: { ...s.turn, foundIds: [...s.turn.foundIds, cardId] },
+  };
+}

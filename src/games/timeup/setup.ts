@@ -2,6 +2,7 @@ import { get, writable } from 'svelte/store';
 import type { Player } from '../../lib/players';
 import { newTeam, randomAssign, type TeamDraft } from '../../lib/teams';
 import type { Rng } from '../../lib/random';
+import type { TimeUpState } from './logic/game';
 
 /**
  * Équipes en préparation. Gardées en mémoire de session (pas en localStorage) :
@@ -46,4 +47,9 @@ export function cyclePlayer(teams: TeamDraft[], playerId: string): TeamDraft[] {
     if (i === to) ids = [...ids, playerId];
     return { ...t, playerIds: ids };
   });
+}
+
+/** Équipes d'une partie (pour « Rejouer », même après un rechargement de la page). */
+export function draftsFromGame(s: TimeUpState): TeamDraft[] {
+  return s.teams.map((t) => ({ id: t.id, name: t.name, color: t.color, playerIds: t.players.map((p) => p.id) }));
 }

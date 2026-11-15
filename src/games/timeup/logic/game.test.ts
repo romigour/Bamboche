@@ -238,3 +238,15 @@ test('totals : classement décroissant, égalité au même rang', () => {
     ['A', 2],
   ]);
 });
+
+test('redoFound rétablit un mot annulé en récap', async () => {
+  const { redoFound } = await import('./game');
+  let s = inTurn();
+  s = markFound(s, 1);
+  s = endTurnIfExpired(s, 61000);
+  s = undoFound(s, 'c0');
+  s = redoFound(s, 'c0');
+  expect(s.turn!.foundIds).toEqual(['c0']);
+  expect(s.deck).not.toContain('c0');
+  expect(redoFound(s, 'c0')).toBe(s);
+});

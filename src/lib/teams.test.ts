@@ -38,3 +38,9 @@ test('validateTeams : un joueur dans deux équipes est signalé', () => {
 test('validateTeams : 2 équipes de 2 sont valides', () => {
   expect(validateTeams([team('A', ['a', 'b']), team('B', ['c', 'd'])], 2, 2)).toEqual({ ok: true, errors: [] });
 });
+
+test('shortName retire « Les »', async () => {
+  const { shortName } = await import('./teams');
+  expect(shortName('Les Flamants')).toBe('Flamants');
+  expect(shortName('Équipe 9')).toBe('Équipe 9');
+});
