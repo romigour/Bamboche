@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { untrack } from 'svelte';
   import type { GameModule } from '../games/types';
   import { getSettings, setSetting } from '../lib/settings';
   import BigButton from '../lib/ui/BigButton.svelte';
@@ -8,7 +9,8 @@
 
   let { game, onback }: { game: GameModule; onback: () => void } = $props();
 
-  let values = $state(getSettings(game));
+  // le jeu ne change pas tant que l'écran est monté (App le recrée par {#key})
+  let values = $state(getSettings(untrack(() => game)));
 
   function change(key: string, v: number) {
     setSetting(game.id, key, v);

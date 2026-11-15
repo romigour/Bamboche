@@ -15,7 +15,7 @@
 {#if $route.path === '/joueurs'}
   <Players onback={() => back()} />
 {:else if settingsGame}
-  <GameSettings game={settingsGame} onback={() => back(settingsGame.route)} />
+  {#key settingsGame.id}<GameSettings game={settingsGame} onback={() => back(settingsGame.route)} />{/key}
 {:else}
   <Home
     playerCount={$players.length}
