@@ -5,12 +5,13 @@
 export interface MusicSource {
   /** Rejette si le navigateur refuse la lecture. À appeler directement dans un tap (iOS). */
   play(url: string, fromMs?: number): Promise<void>;
-  /** Précharge l'extrait suivant (pendant la révélation). */
+  /** Précharge l'extrait suivant dans le cache (la lecture garde l'élément débloqué par iOS). */
   preload(url: string): void;
   pause(): void;
   /** Pause et retour au début. */
   stop(): void;
   positionMs(): number;
+  playing(): boolean;
   onEnded(cb: () => void): () => void;
   onError(cb: () => void): () => void;
 }
@@ -55,13 +56,6 @@ export class PreviewSource implements MusicSource {
   }
 
   play(url: string, fromMs = 0): Promise<void> {
-    if (this.spare && this.spare.src === url) {
-      // l'extrait suivant a été préchargé : on échange les deux éléments
-      const old = this.main;
-      this.main = this.spare;
-      this.spare = old;
-      old.pause();
-    }
     const el = this.main;
     if (el.src !== url) el.src = url;
     el.currentTime = fromMs / 1000;
@@ -100,6 +94,10 @@ export class PreviewSource implements MusicSource {
 
   positionMs(): number {
     return (this.main.currentTime || 0) * 1000;
+  }
+
+  playing(): boolean {
+    return !this.main.paused;
   }
 
   onEnded(cb: () => void): () => void {

@@ -7,3 +7,7 @@ export const playlists: Playlist[] = [hitsDeToujours as Playlist];
 export function playlistById(id: string): Playlist | undefined {
   return playlists.find((p) => p.id === id);
 }
+
+export function trackById(playlistId: string, trackId: string) {
+  return playlistById(playlistId)?.tracks.find((t) => t.id === trackId);
+}

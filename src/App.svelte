@@ -1,5 +1,7 @@
 <script lang="ts">
   import { gameById } from './games/registry';
+  import BlindtestApp from './games/blindtest/BlindtestApp.svelte';
+  import BlindtestPlay from './games/blindtest/Play.svelte';
   import Play from './games/timeup/Play.svelte';
   import TimeUpApp from './games/timeup/TimeUpApp.svelte';
   import { totals } from './games/timeup/logic/game';
@@ -66,6 +68,12 @@
   {/key}
 {:else if $route.path === '/timeup/partie'}
   <Play />
+{:else if $route.path === '/blindtest'}
+  {#key $route.query.etape}
+    <BlindtestApp initialStep={$route.query.etape === 'playlist' ? 'playlist' : 'players'} onhome={() => navigate('/')} />
+  {/key}
+{:else if $route.path === '/blindtest/partie'}
+  <BlindtestPlay />
 {:else}
   <Home
     playerCount={$players.length}

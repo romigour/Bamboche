@@ -54,7 +54,7 @@ export function validateTeams(
   const errors: string[] = [];
   if (teams.length < minTeams) errors.push(`Il faut au moins ${minTeams} équipes.`);
   for (const t of teams)
-    if (t.playerIds.length < minPlayersPerTeam) errors.push(`${t.name} : au moins ${minPlayersPerTeam} joueurs.`);
+    if (t.playerIds.length < minPlayersPerTeam) errors.push(`${t.name} : au moins ${minPlayersPerTeam} joueur${minPlayersPerTeam > 1 ? 's' : ''}.`);
   const seen = new Set<string>();
   const reported = new Set<string>();
   for (const t of teams)

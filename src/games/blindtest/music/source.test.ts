@@ -96,11 +96,21 @@ test('onEnded se désabonne', () => {
   expect(cb).toHaveBeenCalledOnce();
 });
 
-test('preload puis play de la même URL utilise l’élément préchargé', () => {
+test('play utilise toujours le même élément (celui que iOS a débloqué), même après preload', () => {
   const { src, made } = setup();
   void src.play('https://p/1');
   src.preload('https://p/2');
   void src.play('https://p/2');
-  const pre = made.find((a) => a.src === 'https://p/2')!;
-  expect(pre.play).toHaveBeenCalledOnce();
+  expect(made[0].src).toBe('https://p/2');
+  expect(made[0].play).toHaveBeenCalledTimes(2);
+  expect(made[1].src).toBe('https://p/2'); // préchargé pour le cache
+  expect(made[1].play).not.toHaveBeenCalled();
+});
+
+test('playing() reflète la lecture', () => {
+  const { src, made } = setup();
+  (made[0] as unknown as { paused: boolean }).paused = true;
+  expect(src.playing()).toBe(false);
+  (made[0] as unknown as { paused: boolean }).paused = false;
+  expect(src.playing()).toBe(true);
 });
