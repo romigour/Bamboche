@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { wordFontSize } from '../logic/wordSize';
   import TransitionScreen from '../../../lib/ui/TransitionScreen.svelte';
 
   /**
@@ -26,10 +27,6 @@
   });
   const done = guard(() => onseen());
 
-  // Réduit la taille des mots longs pour tenir sur 375 px de large.
-  const wordSize = $derived(
-    word === null ? 96 : word.length <= 7 ? 96 : word.length <= 10 ? 72 : word.length <= 13 ? 56 : 44,
-  );
 </script>
 
 {#if !shown}
@@ -44,7 +41,7 @@
 {:else if word !== null}
   <TransitionScreen color="var(--undercover)" actionLabel={doneLabel} onaction={done}>
     <span class="label">Ton mot</span>
-    <span class="word" style:font-size="{wordSize}px">{word}</span>
+    <span class="word" style:font-size="{wordFontSize(word)}px">{word}</span>
   </TransitionScreen>
 {:else}
   <TransitionScreen
@@ -63,6 +60,8 @@
     font-weight: 700;
     line-height: 1;
     max-width: 100%;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
   }
 </style>
