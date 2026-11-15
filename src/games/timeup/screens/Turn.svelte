@@ -45,10 +45,8 @@
       lastSecond = sec;
     }
     if (s.turn?.endsAt !== null && s.turn && now >= s.turn.endsAt) {
-      play('end');
-      vibrate([200, 100, 200]);
       clearInterval(timer);
-      onexpire();
+      onexpire(); // le signal de fin est joué par Play, quelle que soit la façon dont le tour se termine
     }
   }
 
@@ -79,14 +77,23 @@
     return true;
   }
 
+  /** Temps écoulé mais pas encore vu par l'intervalle : on termine le tour au lieu de compter. */
+  function timeIsUp(): boolean {
+    if (timeLeft(s, Date.now()) > 0) return false;
+    clearInterval(timer);
+    onexpire();
+    return true;
+  }
+
   function found() {
-    if (!ready()) return;
+    if (timeIsUp() || !ready()) return;
     play('found');
     vibrate(30);
     onfound();
   }
   function pass() {
-    if (!ready()) return;
+    // une seule carte : « Passer » ne fait rien, donc ni son ni vibration
+    if (s.deck.length < 2 || timeIsUp() || !ready()) return;
     play('pass');
     vibrate(15);
     onpass();
@@ -99,7 +106,7 @@
   function down(e: PointerEvent) {
     startX = e.clientX;
     pointerId = e.pointerId;
-    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+    (e.currentTarget as HTMLElement).setPointerCapture?.(e.pointerId);
   }
   function moveCard(e: PointerEvent) {
     if (startX !== null && e.pointerId === pointerId) dx = e.clientX - startX;

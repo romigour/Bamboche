@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onDestroy, onMount } from 'svelte';
+  import { play, vibrate } from '../../lib/feedback';
   import { navigate } from '../../lib/router';
   import { keepAwake, releaseAwake } from '../../lib/wakelock';
   import {
@@ -45,7 +46,13 @@
     const cur = $game;
     if (!cur) return;
     const next = f(cur);
-    if (next !== cur) game.set(next);
+    if (next === cur) return;
+    // fin du chrono (tour fini avec des cartes restantes) : signal sonore et vibration, une seule fois
+    if (cur.phase === 'turn' && next.phase === 'turnRecap' && next.deck.length > 0) {
+      play('end');
+      vibrate([200, 100, 200]);
+    }
+    game.set(next);
   }
 
   function launch() {

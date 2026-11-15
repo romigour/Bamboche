@@ -15,11 +15,13 @@
   const roundTotal = $derived((s.scores[team.id]?.[s.round - 1] ?? 0) + found.size);
   const text = (id: string) => s.cards.find((c) => c.id === id)?.text ?? '';
   const emptied = $derived(s.deck.length === 0);
+  /** Raison de la fin du tour, figée à l'ouverture : annuler un mot ne la change pas. */
+  const endedByEmptyDeck = untrack(() => s.deck.length === 0);
 </script>
 
 <div class="page">
   <div class="head">
-    <span class="eyebrow">{emptied ? 'Plus de cartes !' : 'Temps écoulé !'}</span>
+    <span class="eyebrow">{endedByEmptyDeck ? 'Plus de cartes !' : 'Temps écoulé !'}</span>
     <div class="big"><span class="n">{found.size}</span><span class="l">mot{found.size > 1 ? 's' : ''} trouvé{found.size > 1 ? 's' : ''}</span></div>
     <span class="sub"><span style:color="var(--{team.color})">{team.name}</span> · {roundTotal} point{roundTotal > 1 ? 's' : ''} sur la manche</span>
   </div>
