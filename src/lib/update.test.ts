@@ -8,6 +8,7 @@ type FakeReg = { update: ReturnType<typeof vi.fn>; installing: object | null; wa
 let opts: Opts;
 let updateSW: ReturnType<typeof vi.fn<(reload?: boolean) => Promise<void>>>;
 let reg: FakeReg;
+let reload: ReturnType<typeof vi.fn<() => void>>;
 
 /** Simule `registerSW` : capture les callbacks, renvoie `updateSW`. */
 function setup(registered = true) {
@@ -17,7 +18,8 @@ function setup(registered = true) {
     opts = o;
     return updateSW;
   };
-  initUpdater(register);
+  reload = vi.fn<() => void>();
+  initUpdater(register, { reload });
   if (registered) opts.onRegisteredSW?.('sw.js', reg as unknown as ServiceWorkerRegistration);
 }
 
@@ -117,4 +119,16 @@ test('erreur : update() rejette → error', async () => {
   reg.update.mockRejectedValue(new Error('réseau'));
   await checkForUpdate();
   expect(get(updateStatus)).toBe('error');
+});
+
+test('installation demandée mais pas de redémarrage → rechargement forcé au bout de 3 s', async () => {
+  vi.useFakeTimers();
+  setup();
+  opts.onNeedRefresh?.();
+  await checkForUpdate();
+  expect(updateSW).toHaveBeenCalledWith(true);
+  await vi.advanceTimersByTimeAsync(2_999);
+  expect(reload).not.toHaveBeenCalled();
+  await vi.advanceTimersByTimeAsync(1);
+  expect(reload).toHaveBeenCalledOnce();
 });

@@ -46,3 +46,10 @@ test('version téléchargée → libellé « Installer la mise à jour »', asyn
   await tick();
   expect(screen.getByRole('button', { name: 'Installer la mise à jour' })).toBeInTheDocument();
 });
+
+test('toute la ligne est le bouton, le message en est la description', () => {
+  render(Players, { onback: () => {} });
+  const btn = screen.getByRole('button', { name: 'Rechercher une mise à jour' });
+  expect(btn).toHaveAccessibleDescription('Indisponible');
+  expect(btn.querySelector('svg')).not.toBeNull(); // l'icône fait partie de la zone tactile
+});

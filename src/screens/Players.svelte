@@ -122,21 +122,23 @@
         }}><span></span></button
       >
     </div>
-    <div class="pref update">
+    <button
+      type="button"
+      class="pref update"
+      aria-labelledby="maj-libelle"
+      aria-describedby="maj-etat"
+      disabled={$updateStatus === 'checking' || $updateStatus === 'unsupported'}
+      onclick={() => {
+        tap();
+        checkForUpdate();
+      }}
+    >
       <span class="pref-icon"><Icon name="refresh" size={24} /></span>
-      <div class="update-text">
-        <button
-          type="button"
-          class="update-btn"
-          disabled={$updateStatus === 'checking' || $updateStatus === 'unsupported'}
-          onclick={() => {
-            tap();
-            checkForUpdate();
-          }}>{$updateStatus === 'available' ? 'Installer la mise à jour' : 'Rechercher une mise à jour'}</button
-        >
-        <span class="update-msg" aria-live="polite">{updateMessage}</span>
-      </div>
-    </div>
+      <span class="update-text">
+        <span class="update-label" id="maj-libelle">{$updateStatus === 'available' ? 'Installer la mise à jour' : 'Rechercher une mise à jour'}</span>
+        <span class="update-msg" id="maj-etat" aria-live="polite">{updateMessage}</span>
+      </span>
+    </button>
   </section>
 
   {#if extra}{@render extra()}{/if}
@@ -234,8 +236,10 @@
   .pref-icon { color: var(--pop); display: flex; }
   .pref label { flex-grow: 1; font-family: var(--font-display); font-weight: 600; font-size: 18px; }
   .update-text { flex-grow: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-  .update-btn { text-align: left; font-family: var(--font-display); font-weight: 600; font-size: 18px; }
-  .update-btn:disabled { cursor: default; opacity: 0.6; }
+  .update { width: 100%; text-align: left; min-height: 60px; }
+  .update:disabled { cursor: default; }
+  .update:disabled .update-label { opacity: 0.6; }
+  .update-label { font-family: var(--font-display); font-weight: 600; font-size: 18px; }
   .update-msg { font-size: 14px; color: var(--texte-doux); }
   .switch {
     width: 60px;

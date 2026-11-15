@@ -15,6 +15,8 @@ export type RegisterFn = (opts: {
 }) => (reload?: boolean) => Promise<void>;
 
 const TIMEOUT_MS = 10_000;
+/** Filet de sécurité : si le redémarrage promis par workbox n'arrive pas, on recharge nous-mêmes. */
+const RELOAD_FALLBACK_MS = 3_000;
 
 const status = writable<UpdateStatus>('unsupported');
 export const updateStatus: Readable<UpdateStatus> = { subscribe: status.subscribe };
@@ -24,13 +26,15 @@ let registration: ServiceWorkerRegistration | undefined;
 let updateSW: ((reload?: boolean) => Promise<void>) | undefined;
 let needRefresh = false;
 let onNeedRefreshWaiter: (() => void) | undefined;
+let reloadPage: () => void = () => location.reload();
 
 function set(s: UpdateStatus) {
   current = s;
   status.set(s);
 }
 
-export function initUpdater(register: RegisterFn): void {
+export function initUpdater(register: RegisterFn, opts: { reload?: () => void } = {}): void {
+  if (opts.reload) reloadPage = opts.reload;
   updateSW = register({
     onRegisteredSW(_url, reg) {
       if (!reg) return;
@@ -45,11 +49,17 @@ export function initUpdater(register: RegisterFn): void {
   });
 }
 
+/** Active la version en attente ; workbox recharge la page, sinon on le fait après un délai. */
+async function install(): Promise<void> {
+  await updateSW?.(true);
+  setTimeout(() => reloadPage(), RELOAD_FALLBACK_MS);
+}
+
 /** Cherche une nouvelle version ; si elle existe, l'installe et recharge l'appli. */
 export async function checkForUpdate(): Promise<void> {
   if (current === 'unsupported' || current === 'checking' || !registration) return;
   if (needRefresh) {
-    await updateSW?.(true);
+    await install();
     return;
   }
   if (typeof navigator !== 'undefined' && navigator.onLine === false) {
@@ -73,7 +83,7 @@ export async function checkForUpdate(): Promise<void> {
     const result = await Promise.race([work, timeout]);
     if (result === 'timeout') set('error');
     else if (result === 'none') set('upToDate');
-    else await updateSW?.(true);
+    else await install();
   } catch {
     set('error');
   } finally {
@@ -88,5 +98,6 @@ export function resetUpdaterForTests(): void {
   updateSW = undefined;
   needRefresh = false;
   onNeedRefreshWaiter = undefined;
+  reloadPage = () => location.reload();
   set('unsupported');
 }
