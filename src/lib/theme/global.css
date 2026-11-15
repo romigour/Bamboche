@@ -8,13 +8,14 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 html, body { height: 100%; }
+/* Sur html (et non body) : seul endroit où Chrome bloque le « tirer pour recharger ». */
+html { overscroll-behavior: none; }
 body {
   margin: 0;
   background: var(--nuit);
   color: var(--texte);
   font-family: var(--font-text);
   -webkit-tap-highlight-color: transparent;
-  overscroll-behavior: none;
   -webkit-font-smoothing: antialiased;
   user-select: none;
   -webkit-user-select: none;
