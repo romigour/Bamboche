@@ -17,16 +17,27 @@
     onpause: () => void;
   } = $props();
 
-  const guard = deadTime();
+  /** Nouveau temps mort à chaque changement de vue : un double tap ne traverse pas la grille vers la confirmation. */
+  let guard = deadTime();
   let picked = $state<{ id: string; name: string } | null>(null);
   let confirmed = $state(false);
 
-  const pick = (c: { id: string; name: string }) => guard(() => (picked = c));
-  function confirm() {
-    if (confirmed || !picked) return;
-    confirmed = true;
-    onconfirm(picked.id);
-  }
+  const pick = (c: { id: string; name: string }) => () =>
+    guard(() => {
+      picked = c;
+      guard = deadTime();
+    })();
+  const cancel = () =>
+    guard(() => {
+      picked = null;
+      guard = deadTime();
+    })();
+  const confirm = () =>
+    guard(() => {
+      if (confirmed || !picked) return;
+      confirmed = true;
+      onconfirm(picked.id);
+    })();
 </script>
 
 <Screen color="undercover" title="Qui est éliminé ?" back={onback}>
@@ -36,7 +47,7 @@
   {#if picked}
     <p class="ask">Éliminer {picked.name} ?</p>
     <BigButton variant="ko" disabled={confirmed} onclick={confirm}>Oui, éliminer</BigButton>
-    <BigButton variant="secondary" disabled={confirmed} onclick={() => (picked = null)}>Annuler</BigButton>
+    <BigButton variant="secondary" disabled={confirmed} onclick={cancel}>Annuler</BigButton>
   {:else}
     <div class="grid">
       {#each candidates as c (c.id)}
