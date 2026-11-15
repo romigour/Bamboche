@@ -110,7 +110,9 @@ function finishTurn(s: TimeUpState, deck: string[], foundIds: string[]): TimeUpS
 
 export function endTurnIfExpired(s: TimeUpState, now: number): TimeUpState {
   if (!running(s) || now < s.turn!.endsAt!) return s;
-  return finishTurn(s, s.deck, s.turn!.foundIds);
+  // la carte qu'on était en train de faire deviner repart sous le paquet (pas d'avantage à l'équipe suivante)
+  const deck = s.deck.length > 1 ? [...s.deck.slice(1), s.deck[0]] : s.deck;
+  return finishTurn(s, deck, s.turn!.foundIds);
 }
 
 export function markFound(s: TimeUpState, now: number): TimeUpState {

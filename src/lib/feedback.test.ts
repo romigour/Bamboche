@@ -68,3 +68,26 @@ test('soundOn est persisté et vaut vrai par défaut', async () => {
   soundOn.set(false);
   expect(localStorage.getItem('bamboche:v1:soundOn')).toBe('false');
 });
+
+test('un contexte audio interrompu (iOS) est relancé au déblocage', async () => {
+  let resumed = 0;
+  class Interrupted extends FakeAudioContext {
+    state = 'interrupted';
+    resume = vi.fn(async () => {
+      resumed++;
+    });
+  }
+  vi.stubGlobal('AudioContext', Interrupted);
+  const { unlockAudio } = await import('./feedback');
+  unlockAudio();
+  expect(resumed).toBe(1);
+});
+
+test('installAudioUnlock débloque au relâchement du doigt (touchend) et au clic', async () => {
+  vi.stubGlobal('AudioContext', FakeAudioContext);
+  const { installAudioUnlock, play } = await import('./feedback');
+  installAudioUnlock(window);
+  window.dispatchEvent(new Event('touchend'));
+  play('found');
+  expect(oscillators).toBeGreaterThan(0);
+});

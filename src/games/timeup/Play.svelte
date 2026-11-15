@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onDestroy, onMount } from 'svelte';
   import { navigate } from '../../lib/router';
   import { keepAwake, releaseAwake } from '../../lib/wakelock';
   import {
@@ -32,6 +33,10 @@
     else navigate('/');
   }
 
+  // Écran allumé pendant toute la partie (passage du téléphone, récap, scores), pas seulement le tour.
+  onMount(() => void keepAwake());
+  onDestroy(() => void releaseAwake());
+
   let menuOpen = $state(false);
   const s = $derived($game);
   const paused = $derived(s?.phase === 'turn' && s.turn?.endsAt === null);
@@ -64,7 +69,6 @@
   }
   function next() {
     apply(confirmTurn);
-    void releaseAwake();
   }
 </script>
 

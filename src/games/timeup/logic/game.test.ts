@@ -250,3 +250,8 @@ test('redoFound rétablit un mot annulé en récap', async () => {
   expect(s.deck).not.toContain('c0');
   expect(redoFound(s, 'c0')).toBe(s);
 });
+
+test('à la fin du chrono, la carte affichée repart sous le paquet', () => {
+  const s = endTurnIfExpired(inTurn(), 61000);
+  expect(s.deck).toEqual(['c1', 'c2', 'c0']);
+});

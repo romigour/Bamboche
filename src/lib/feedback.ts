@@ -15,11 +15,30 @@ export function unlockAudio(): void {
     const Ctor = (globalThis as { AudioContext?: typeof AudioContext; webkitAudioContext?: typeof AudioContext })
       .AudioContext ?? (globalThis as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
     if (!Ctor) return;
-    if (!ctx) ctx = new Ctor();
-    if (ctx.state === 'suspended') void ctx.resume();
+    if (!ctx) {
+      ctx = new Ctor();
+      // iOS : jouer un échantillon silencieux pendant le geste « déverrouille » vraiment le son
+      try {
+        const buf = ctx.createBuffer(1, 1, 22050);
+        const src = ctx.createBufferSource();
+        src.buffer = buf;
+        src.connect(ctx.destination);
+        src.start(0);
+      } catch {
+        // pas de tampon : sans importance
+      }
+    }
+    // 'suspended' ou 'interrupted' (iOS après un appel ou une mise en veille)
+    if ((ctx.state as string) !== 'running') void ctx.resume();
   } catch {
     ctx = null;
   }
+}
+
+/** Débloque le son sur tous les gestes qui comptent comme activation (iOS exige touchend/click). */
+export function installAudioUnlock(target: Pick<Window, 'addEventListener'>): void {
+  for (const ev of ['pointerdown', 'pointerup', 'touchend', 'click', 'keydown'])
+    target.addEventListener(ev, unlockAudio, { passive: true });
 }
 
 type Note = { f: number; to?: number; at: number; dur: number; type?: OscillatorType; vol?: number };

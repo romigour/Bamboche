@@ -5,7 +5,7 @@
   import { totals } from './games/timeup/logic/game';
   import { abandonGame, loadSavedGame } from './games/timeup/session';
   import { getActiveGame } from './lib/activeGame';
-  import { unlockAudio } from './lib/feedback';
+  import { installAudioUnlock } from './lib/feedback';
   import { players } from './lib/players';
   import { navigate, route } from './lib/router';
   import { shortName } from './lib/teams';
@@ -19,26 +19,27 @@
     $route.path.startsWith('/reglages/') ? gameById($route.path.slice('/reglages/'.length)) : undefined,
   );
 
-  /** Proposition de reprise : une seule fois, au lancement de l'app sur l'accueil. */
+  /** Proposition de reprise : chaque fois qu'on arrive sur l'accueil avec une partie sauvegardée. */
   function resumeOffer() {
     const active = getActiveGame();
     if (!active || active.gameId !== 'timeup') return null;
     const s = loadSavedGame(Date.now());
-    if (!s) {
-      abandonGame();
-      return null;
-    }
+    if (!s || !s.teams[s.currentTeam]) return null;
     const score = totals(s)
-      .map((t) => `${shortName(s.teams.find((x) => x.id === t.teamId)!.name)} ${t.total}`)
+      .map((t) => `${shortName(s.teams.find((x) => x.id === t.teamId)?.name ?? '')} ${t.total}`)
       .join(' – ');
     const lines = [`Time Up · Manche ${s.round}`, score];
     if (s.phase !== 'podium') lines.push(`Au tour des ${shortName(s.teams[s.currentTeam].name)}`);
     return { game: gameById('timeup')!, lines };
   }
-  let offer = $state($route.path === '/' ? resumeOffer() : null);
+  let refresh = $state(0);
+  const offer = $derived.by(() => {
+    void refresh; // recalcul après « Abandonner »
+    return $route.path === '/' ? resumeOffer() : null;
+  });
+  installAudioUnlock(window);
 </script>
 
-<svelte:window onpointerdown={unlockAudio} />
 
 {#if $route.path === '/joueurs'}
   <Players onback={() => back()} />
@@ -60,13 +61,10 @@
     <ResumeSheet
       game={offer.game}
       lines={offer.lines}
-      onresume={() => {
-        offer = null;
-        navigate('/timeup/partie');
-      }}
+      onresume={() => navigate('/timeup/partie')}
       onabandon={() => {
-        offer = null;
         abandonGame();
+        refresh++;
       }}
     />
   {/if}
