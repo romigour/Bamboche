@@ -1,5 +1,6 @@
 <script lang="ts">
   import { gameById } from './games/registry';
+  import { unlockAudio } from './lib/feedback';
   import { players } from './lib/players';
   import { navigate, route } from './lib/router';
   import GameSettings from './screens/GameSettings.svelte';
@@ -11,6 +12,8 @@
     $route.path.startsWith('/reglages/') ? gameById($route.path.slice('/reglages/'.length)) : undefined,
   );
 </script>
+
+<svelte:window onpointerdown={unlockAudio} />
 
 {#if $route.path === '/joueurs'}
   <Players onback={() => back()} />

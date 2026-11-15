@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { tap } from '../lib/feedback';
+  import { soundOn, tap } from '../lib/feedback';
   import { addPlayer, players, removePlayer, renamePlayer } from '../lib/players';
   import Icon from '../lib/ui/Icon.svelte';
   import IconButton from '../lib/ui/IconButton.svelte';
@@ -93,6 +93,25 @@
     {/each}
   </ul>
 
+  <section>
+    <div class="label">Préférences</div>
+    <div class="pref">
+      <span class="pref-icon"><Icon name={$soundOn ? 'volume' : 'volumeoff'} size={24} /></span>
+      <label for="son">Sons et vibrations</label>
+      <button
+        id="son"
+        type="button"
+        role="switch"
+        class="switch"
+        aria-checked={$soundOn}
+        onclick={() => {
+          soundOn.update((v) => !v);
+          tap();
+        }}><span></span></button
+      >
+    </div>
+  </section>
+
   {#if extra}{@render extra()}{/if}
 </div>
 
@@ -184,6 +203,21 @@
     font-size: 18px;
     outline: none;
   }
+  .pref { display: flex; align-items: center; gap: 12px; background: var(--surface); border-radius: 18px; padding: 12px 14px; }
+  .pref-icon { color: var(--pop); display: flex; }
+  .pref label { flex-grow: 1; font-family: var(--font-display); font-weight: 600; font-size: 18px; }
+  .switch {
+    width: 60px;
+    height: 36px;
+    border-radius: 999px;
+    background: var(--surface-plus);
+    padding: 4px;
+    display: flex;
+    justify-content: flex-start;
+    transition: background 0.15s ease;
+  }
+  .switch[aria-checked='true'] { background: var(--ok); justify-content: flex-end; }
+  .switch span { width: 28px; height: 28px; border-radius: 50%; background: var(--nuit); }
   .ok {
     width: 44px;
     height: 44px;
