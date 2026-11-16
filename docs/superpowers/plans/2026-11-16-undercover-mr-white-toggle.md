@@ -61,5 +61,5 @@
   - Nouveau `'libellé et explication de Mr White visibles'` : 5 joueurs → `getByText('Mr White')` et `getByText('Un joueur sans mot, qui doit bluffer')` présents, switch `aria-checked="false"`, `queryByRole('button', { name: 'Oui' })` absent ; après clic sur le switch → `get(mrWhiteOn)` vaut `true` et `getByText('1 undercover · 1 Mr White · 3 civils')` présent.
 - [ ] **Step 2:** `npx vitest run src/games/undercover/screens/Setup.test.ts` → FAIL.
 - [ ] **Step 3:** Remplacer `<Pills …/>` par `<Switch checked={$mrWhiteOn} label="Mr White" description="Un joueur sans mot, qui doit bluffer" onchange={(v) => mrWhiteOn.set(v)} />` ; retirer l'import `Pills`.
-- [ ] **Step 4:** `npm test` puis `npx svelte-check` (ou le script de vérif du projet) → PASS, 0 erreur.
+- [ ] **Step 4:** `npm test` puis `npm run check` → PASS, 0 erreur.
 - [ ] **Step 5: Commit** `feat(undercover): Mr White en interrupteur libellé avec explication`
