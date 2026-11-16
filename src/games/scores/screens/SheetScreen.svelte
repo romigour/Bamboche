@@ -37,8 +37,14 @@
     return () => void releaseAwake();
   });
 
-  /** Tampon du pavé : la proposition (Belote) ou vide. */
+  /** Tampon du pavé : valeur à corriger, proposition (Belote) ou vide. */
   function freshBuffer(s: Sheet): Buffer {
+    if (s.editing) {
+      // Correction : on repart de la valeur actuelle (Suivant la garde, taper la remplace).
+      const { round, index } = s.editing;
+      const v = round < s.rounds.length ? s.rounds[round][index] : s.pending[index];
+      return { text: String(v ?? 0), replace: true };
+    }
     const d = scoreGameById(s.gameId);
     const sug = d ? suggestion(d, s) : null;
     return sug === null ? { text: '', replace: false } : { text: String(sug), replace: true };

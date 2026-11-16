@@ -43,6 +43,14 @@ describe('SheetScreen', () => {
     expect(pending()[1]).toBeNull();
   });
 
+  it('toucher une cellule passée puis Suivant garde sa valeur', async () => {
+    currentSheet.set({ ...skyjo(), rounds: [[10, 20, 30]] });
+    render(SheetScreen);
+    await fireEvent.click(screen.getByRole('button', { name: /20/ }));
+    await next();
+    expect(get(currentSheet)!.rounds[0]).toEqual([10, 20, 30]);
+  });
+
   it('Suivant sur vide vaut 0', async () => {
     currentSheet.set(skyjo());
     render(SheetScreen);
