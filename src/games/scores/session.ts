@@ -52,14 +52,27 @@ export function loadHistory(): FinishedGame[] {
 
 /** Feuille en cours, enregistrée à chaque changement (supprimée si null). */
 export const currentSheet = writable<Sheet | null>(loadSavedSheet());
+let currentReady = false;
 currentSheet.subscribe((s) => {
+  // Le premier appel est la valeur chargée : on ne réécrit rien, pour ne pas effacer une sauvegarde illisible ici.
+  if (!currentReady) {
+    currentReady = true;
+    return;
+  }
   if (s) save(KEY_CURRENT, s);
   else remove(KEY_CURRENT);
 });
 
 /** Parties terminées, enregistrées à chaque changement. */
 export const scoreHistory = writable<FinishedGame[]>(loadHistory());
-scoreHistory.subscribe((h) => save(KEY_HISTORY, h));
+let historyReady = false;
+scoreHistory.subscribe((h) => {
+  if (!historyReady) {
+    historyReady = true;
+    return;
+  }
+  save(KEY_HISTORY, h);
+});
 
 export function endValueFor(gameId: ScoreGameId): number {
   const def = scoreGameById(gameId);

@@ -1,4 +1,4 @@
-import { beforeEach, expect, test } from 'vitest';
+import { beforeEach, expect, test, vi } from 'vitest';
 import { get } from 'svelte/store';
 import { players } from '../../lib/players';
 import { load, save } from '../../lib/storage';
@@ -119,4 +119,20 @@ test('replay démarre une feuille vide du même jeu, mêmes noms, même endValue
   expect(s.participants.map((p) => p.name)).toEqual(['Léa', 'Tom']);
   expect(s.participants.map((p) => p.id)).not.toEqual(g.participants.map((p) => p.id));
   expect(location.hash).toBe('#/scores/partie');
+});
+
+test('charger le module ne réécrit pas (et n’efface donc pas) les données d’une autre version', async () => {
+  const futur = { version: 2, id: 'z', gameId: 'skyjo' };
+  const ancien = { ...sheet(), version: 1 };
+  save('scores:history', [futur]);
+  save('scores:current', { ...ancien, version: 2 });
+  vi.resetModules();
+  const frais = await import('./session');
+  expect(get(frais.scoreHistory)).toEqual([]);
+  expect(get(frais.currentSheet)).toBeNull();
+  expect(load('scores:history', [])).toEqual([futur]);
+  expect(load('scores:current', null)).toEqual({ ...ancien, version: 2 });
+  // un vrai changement sauvegarde bien
+  frais.currentSheet.set(sheet());
+  expect(load('scores:current', null)).toEqual(sheet());
 });
