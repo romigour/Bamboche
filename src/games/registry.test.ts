@@ -6,8 +6,8 @@ test('les ids des jeux sont uniques', () => {
   expect(new Set(ids).size).toBe(ids.length);
 });
 
-test("l'ordre d'affichage est timeup, blindtest, hipster, undercover", () => {
-  expect(games.map((g) => g.id)).toEqual(['timeup', 'blindtest', 'hipster', 'undercover']);
+test("l'ordre d'affichage est timeup, blindtest, undercover", () => {
+  expect(games.map((g) => g.id)).toEqual(['timeup', 'blindtest', 'undercover']);
 });
 
 test('Time Up est disponible pour 4 joueurs minimum (2 équipes de 2)', () => {
@@ -23,10 +23,6 @@ test('Undercover est disponible, route /undercover, 3 joueurs minimum', () => {
   expect(u.status).toBe('disponible');
   expect(u.route).toBe('/undercover');
   expect(u.players.min).toBe(3);
-});
-
-test('Hipster est « bientôt »', () => {
-  expect(gameById('hipster')!.status).toBe('bientot');
 });
 
 test('le Blindtest est disponible avec ses réglages', () => {

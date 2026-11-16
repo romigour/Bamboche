@@ -2,7 +2,7 @@
 
 Jeux de soirée sur un seul téléphone, qu'on se passe de main en main. Application web installable (PWA), qui fonctionne hors ligne, sans compte ni serveur.
 
-Jeux disponibles : **Time Up**, **Blindtest** (qui a besoin d'Internet pour la musique) et **Undercover**. Bientôt : Hipster.
+Jeux disponibles : **Time Up**, **Blindtest** (qui a besoin d'Internet pour la musique) et **Undercover**.
 
 ## Lancer en local
 
