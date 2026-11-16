@@ -28,8 +28,14 @@
   let newName = $state('');
   let endValue = $state(untrack(() => (def ? endValueFor(def.id) : 0)));
 
-  const roster = $derived($players.map((p, i) => ({ ...p, team: teamOf[p.id] ?? (i % 2) + 1 })));
-  const picked = $derived(roster.filter((p) => !unchecked[p.id]));
+  const picked = $derived.by(() => {
+    // Équipe par défaut : alternance dans l'ordre de la liste, parmi les joueurs cochés.
+    let rank = 0;
+    return $players
+      .filter((p) => !unchecked[p.id])
+      .map((p) => ({ ...p, team: teamOf[p.id] ?? (rank++ % 2) + 1 }));
+  });
+  const teamById = $derived(new Map(picked.map((p) => [p.id, p.team])));
 
   const error = $derived.by(() => {
     if (!def) return '';
@@ -65,7 +71,7 @@
 {#if def}
   <Screen color={def.color} eyebrow="Feuille de score" title={def.name} back={() => navigate('/scores')}>
     <div class="list">
-      {#each roster as p (p.id)}
+      {#each $players as p (p.id)}
         {@const on = !unchecked[p.id]}
         <div class="item">
           <button type="button" role="checkbox" aria-checked={on} class="row" onclick={() => (unchecked[p.id] = on)}>
@@ -80,7 +86,7 @@
                   { value: 1, label: 'Équipe 1' },
                   { value: 2, label: 'Équipe 2' },
                 ]}
-                value={p.team}
+                value={teamById.get(p.id) ?? 1}
                 onchange={(v) => (teamOf[p.id] = v)}
               />
             </div>

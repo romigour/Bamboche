@@ -56,6 +56,15 @@ describe('Setup', () => {
     expect(s.endValue).toBe(1000);
   });
 
+  it('Belote : équipes par défaut alternées parmi les joueurs cochés', async () => {
+    players.set(joueurs('Joueur1', 'Joueur2', 'Joueur3', 'Joueur4', 'Joueur5'));
+    render(Setup, { gameId: 'belote' });
+    await fireEvent.click(caseDe('Joueur2'));
+    expect(lancer()).toBeEnabled();
+    await fireEvent.click(lancer());
+    expect(get(currentSheet)!.participants.map((p) => p.name)).toEqual(['Joueur1 & Joueur4', 'Joueur3 & Joueur5']);
+  });
+
   it('Belote à 5 cochés : la belote se joue à 4', () => {
     players.set(joueurs('A', 'B', 'C', 'D', 'E'));
     render(Setup, { gameId: 'belote' });
