@@ -1,6 +1,8 @@
 import { fireEvent, render, screen } from '@testing-library/svelte';
 import { tick } from 'svelte';
+import { get } from 'svelte/store';
 import { beforeEach, expect, test, vi } from 'vitest';
+import { soundOn } from '../lib/feedback';
 import { initUpdater, resetUpdaterForTests, type RegisterFn } from '../lib/update';
 import Players from './Players.svelte';
 
@@ -52,4 +54,19 @@ test('toute la ligne est le bouton, le message en est la description', () => {
   const btn = screen.getByRole('button', { name: 'Rechercher une mise à jour' });
   expect(btn).toHaveAccessibleDescription('Indisponible');
   expect(btn.querySelector('svg')).not.toBeNull(); // l'icône fait partie de la zone tactile
+});
+
+test('activer les sons confirme par une vibration, les couper reste silencieux', async () => {
+  const vib = vi.fn();
+  Object.defineProperty(navigator, 'vibrate', { value: vib, configurable: true });
+  soundOn.set(false);
+  render(Players, { onback: () => {} });
+  const sw = screen.getByRole('switch', { name: 'Sons et vibrations' });
+  await fireEvent.click(sw);
+  expect(get(soundOn)).toBe(true);
+  expect(vib).toHaveBeenCalledOnce();
+  vib.mockClear();
+  await fireEvent.click(sw);
+  expect(get(soundOn)).toBe(false);
+  expect(vib).not.toHaveBeenCalled();
 });

@@ -28,8 +28,9 @@
   aria-labelledby="{id}-libelle"
   aria-describedby={description ? `${id}-explication` : undefined}
   onclick={() => {
-    tap();
+    // L'option d'abord, puis le retour : activer les sons se confirme par un son.
     onchange(!checked);
+    tap();
   }}
 >
   {@render icon?.()}
