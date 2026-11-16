@@ -9,6 +9,7 @@
     onchange,
     lessLabel = 'Moins',
     moreLabel = 'Plus',
+    step: stepSize = 1,
   }: {
     value: number;
     min: number;
@@ -17,10 +18,11 @@
     onchange: (n: number) => void;
     lessLabel?: string;
     moreLabel?: string;
+    step?: number;
   } = $props();
 
   function step(d: number) {
-    const next = Math.min(max, Math.max(min, value + d));
+    const next = Math.min(max, Math.max(min, value + d * stepSize));
     if (next !== value) {
       tap();
       onchange(next);
