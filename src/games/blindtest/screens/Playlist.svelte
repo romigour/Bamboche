@@ -1,31 +1,19 @@
 <script lang="ts">
   import { tap } from '../../../lib/feedback';
-  import { getSettings, setSetting } from '../../../lib/settings';
   import BigButton from '../../../lib/ui/BigButton.svelte';
   import Icon from '../../../lib/ui/Icon.svelte';
-  import Pills from '../../../lib/ui/Pills.svelte';
   import Screen from '../../../lib/ui/Screen.svelte';
-  import { blindtest } from '../module';
   import { playlists } from '../playlists';
 
-  /** « Quelle musique ? » : playlist, nombre d'extraits, durée d'écoute. */
+  /** « Quelle musique ? » : choix de la playlist. */
   let { onback, onstart }: { onback: () => void; onstart: (playlistId: string) => void } = $props();
 
   const SOON = ['Années 80'];
   let selected = $state(playlists[0].id);
-  let values = $state(getSettings(blindtest));
-  const opts = (key: string, unit = '') => {
-    const d = blindtest.settings.find((s) => s.key === key)!;
-    return d.type === 'choice' ? d.options.map((v) => ({ value: v, label: unit ? `${v} ${unit}` : String(v) })) : [];
-  };
   const decade = (years: (number | null)[]) => {
     const ys = years.filter((y): y is number => !!y);
     return ys.length ? `des années ${String(Math.floor(Math.min(...ys) / 10) * 10).slice(2)} à aujourd'hui` : '';
   };
-  function change(key: string, v: number) {
-    setSetting('blindtest', key, v);
-    values = { ...values, [key]: v };
-  }
 </script>
 
 <Screen color="blindtest" eyebrow="Blindtest · étape 2 sur 2" title="Quelle musique ?" back={onback} backLabel="Retour aux joueurs">
@@ -49,15 +37,6 @@
   {/each}
   <div class="soon">
     {#each SOON as name}<div class="sc"><span class="sn">{name}</span><span class="sb">Bientôt</span></div>{/each}
-  </div>
-
-  <div class="field">
-    <div class="label">Nombre d'extraits</div>
-    <Pills label="Nombre d'extraits" options={opts('tracks')} value={values.tracks} onchange={(v) => change('tracks', v)} />
-  </div>
-  <div class="field">
-    <div class="label">Durée d'écoute</div>
-    <Pills label="Durée d'écoute" options={opts('listenSeconds', 's')} value={values.listenSeconds} onchange={(v) => change('listenSeconds', v)} />
   </div>
 
   {#snippet footer()}
@@ -97,7 +76,5 @@
   .sc { border: 3px dashed var(--ligne); border-radius: 20px; padding: 12px; display: flex; flex-direction: column; gap: 2px; }
   .sn { font-family: var(--font-display); font-weight: 600; font-size: 17px; }
   .sb { font-size: 13px; font-weight: 800; color: var(--blindtest); }
-  .field { display: flex; flex-direction: column; gap: 8px; }
-  .label { font-size: 13px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; color: var(--texte-doux); }
   .tip { margin: 0; text-align: center; font-size: 14px; color: var(--texte-doux); font-weight: 700; }
 </style>
