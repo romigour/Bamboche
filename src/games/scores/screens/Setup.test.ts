@@ -2,6 +2,7 @@ import { fireEvent, render, screen } from '@testing-library/svelte';
 import { get } from 'svelte/store';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { players } from '../../../lib/players';
+import { createSheet } from '../logic/sheet';
 import { currentSheet } from '../session';
 import Setup from './Setup.svelte';
 
@@ -87,6 +88,35 @@ describe('Setup', () => {
     await fireEvent.click(screen.getByRole('button', { name: 'Ajouter' }));
     expect(caseDe('Inès')).toBeChecked();
     expect(get(players).map((p) => p.name)).toContain('Inès');
+  });
+
+  describe('avec une feuille déjà en cours', () => {
+    const enCours = () => createSheet('flip7', [{ id: 'x', name: 'Zoé', members: ['Zoé'] }, { id: 'y', name: 'Max', members: ['Max'] }], 200, 1, 'old');
+
+    it("C'est parti demande confirmation et ne touche pas à la feuille", async () => {
+      players.set(joueurs('Léa', 'Tom'));
+      currentSheet.set(enCours());
+      render(Setup, { gameId: 'skyjo' });
+      await fireEvent.click(lancer());
+      expect(screen.getByText('La partie de Flip 7 en cours sera abandonnée.')).toBeInTheDocument();
+      expect(get(currentSheet)!.id).toBe('old');
+      await fireEvent.click(screen.getByRole('button', { name: 'Annuler' }));
+      expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+      expect(get(currentSheet)!.id).toBe('old');
+      expect(location.hash).toBe('#/scores/nouvelle');
+    });
+
+    it('Abandonner et commencer remplace la feuille', async () => {
+      players.set(joueurs('Léa', 'Tom'));
+      currentSheet.set(enCours());
+      render(Setup, { gameId: 'skyjo' });
+      await fireEvent.click(lancer());
+      await fireEvent.click(screen.getByRole('button', { name: 'Abandonner et commencer' }));
+      const s = get(currentSheet)!;
+      expect(s.id).not.toBe('old');
+      expect(s.gameId).toBe('skyjo');
+      expect(location.hash).toBe('#/scores/partie');
+    });
   });
 
   it('jeu inconnu : retour au sous-menu', () => {

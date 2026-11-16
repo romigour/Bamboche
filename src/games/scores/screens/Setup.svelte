@@ -1,5 +1,6 @@
 <script lang="ts">
   import { untrack } from 'svelte';
+  import { get } from 'svelte/store';
   import { uid } from '../../../lib/id';
   import { addPlayer, players } from '../../../lib/players';
   import { navigate } from '../../../lib/router';
@@ -11,7 +12,8 @@
   import { endLabel, scoreGameById } from '../defs';
   import { createSheet, type Participant } from '../logic/sheet';
   import { nameConflict } from '../logic/stats';
-  import { endValueFor, startSheet } from '../session';
+  import { abandonSheet, currentSheet, endValueFor, startSheet } from '../session';
+  import ReplaceConfirm from '../ui/ReplaceConfirm.svelte';
 
   /** Préparation d'une feuille : joueurs cochés, équipes (Belote) et fin de partie. */
   let { gameId }: { gameId: string } = $props();
@@ -49,12 +51,28 @@
     return '';
   });
 
-  function add() {
+  function add(e?: Event) {
+    e?.preventDefault();
     if (addPlayer(newName)) newName = '';
   }
 
+  let asking = $state(false);
+
   function start() {
     if (!def || error) return;
+    // Une feuille est déjà en cours : on ne l'écrase qu'avec l'accord du joueur.
+    if (get(currentSheet)) asking = true;
+    else launch();
+  }
+
+  function replace() {
+    asking = false;
+    abandonSheet();
+    launch();
+  }
+
+  function launch() {
+    if (!def) return;
     let participants: Participant[];
     if (def.teams) {
       participants = [1, 2].map((t) => {
@@ -95,32 +113,45 @@
       {/each}
     </div>
 
-    <div class="add">
+    <form class="add" onsubmit={add}>
       <input
         type="text"
         aria-label="Ajouter un joueur"
         placeholder="Ajouter un joueur"
         bind:value={newName}
+        maxlength="24"
         autocomplete="off"
-        onkeydown={(e) => e.key === 'Enter' && add()}
+        enterkeyhint="done"
       />
-      <BigButton variant="secondary" size="md" disabled={!newName.trim()} onclick={add}>Ajouter</BigButton>
-    </div>
+      <button type="submit" class="addbtn" aria-label="Ajouter" disabled={!newName.trim()}>
+        <Icon name="plus" size={26} stroke={3} />
+      </button>
+    </form>
 
-    <Stepper
-      value={endValue}
-      min={def.end.min}
-      max={def.end.max}
-      step={def.end.step}
-      format={(n) => endLabel(def, n)}
-      onchange={(v) => (endValue = v)}
-    />
+    <div>
+      <Stepper
+        value={endValue}
+        min={def.end.min}
+        max={def.end.max}
+        step={def.end.step}
+        format={(n) => endLabel(def, n)}
+        onchange={(v) => (endValue = v)}
+      />
+    </div>
 
     {#snippet footer()}
       {#if error}<p class="error" aria-live="polite">{error}</p>{/if}
       <BigButton variant="pop" disabled={!!error} onclick={start}>C'est parti<Icon name="chevron" size={22} stroke={3} /></BigButton>
     {/snippet}
   </Screen>
+
+  {#if asking && $currentSheet}
+    <ReplaceConfirm
+      gameName={scoreGameById($currentSheet.gameId)?.name ?? ''}
+      onconfirm={replace}
+      oncancel={() => (asking = false)}
+    />
+  {/if}
 {/if}
 
 <style>
@@ -143,7 +174,7 @@
   .name { font-family: var(--font-display); font-weight: 600; font-size: 19px; }
   .add { display: flex; gap: 10px; align-items: center; }
   .add input {
-    flex: 1;
+    flex-grow: 1;
     min-width: 0;
     height: 56px;
     border-radius: 20px;
@@ -153,5 +184,20 @@
     border: 3px solid var(--ligne);
     font-size: 17px;
   }
+  /* Bouton secondaire : le seul bouton jaune de l'écran est « C'est parti ». */
+  .addbtn {
+    width: 56px;
+    height: 56px;
+    border-radius: 20px;
+    background: var(--surface-plus);
+    color: var(--texte);
+    box-shadow: 0 4px 0 var(--secondary-ombre);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .addbtn:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 var(--secondary-ombre); }
+  .addbtn:disabled { opacity: 0.45; }
   .error { margin: 0; color: var(--ko); font-weight: 800; font-size: 15px; text-align: center; }
 </style>

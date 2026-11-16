@@ -36,23 +36,12 @@ describe('Menu', () => {
     expect(location.hash).toBe('#/scores/partie');
   });
 
-  it('avec une feuille, toucher Skyjo demande confirmation puis abandonne', async () => {
+  it('avec une feuille, toucher Skyjo ouvre la préparation sans toucher à la feuille', async () => {
     currentSheet.set(createSheet('flip7', [solo('a', 'Léa'), solo('b', 'Tom')], 200, 1, 's1'));
     render(Menu);
     await fireEvent.click(screen.getByRole('button', { name: /Skyjo/ }));
-    expect(screen.getByText('La partie de Flip 7 en cours sera abandonnée.')).toBeInTheDocument();
-    expect(get(currentSheet)).not.toBeNull();
-    await fireEvent.click(screen.getByRole('button', { name: 'Abandonner et commencer' }));
-    expect(get(currentSheet)).toBeNull();
     expect(location.hash).toBe('#/scores/nouvelle?jeu=skyjo');
-  });
-
-  it('Annuler referme la confirmation', async () => {
-    currentSheet.set(createSheet('flip7', [solo('a', 'Léa'), solo('b', 'Tom')], 200, 1, 's1'));
-    render(Menu);
-    await fireEvent.click(screen.getByRole('button', { name: /Skyjo/ }));
-    await fireEvent.click(screen.getByRole('button', { name: 'Annuler' }));
-    expect(screen.queryByText('La partie de Flip 7 en cours sera abandonnée.')).not.toBeInTheDocument();
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
     expect(get(currentSheet)).not.toBeNull();
   });
 

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { scoreGames } from '../games/scores/defs';
   import { currentSheet } from '../games/scores/session';
   import { games } from '../games/registry';
   import type { GameModule } from '../games/types';
@@ -20,7 +21,7 @@
   ];
   function noteFor(g: GameModule): string | undefined {
     if (g.id === 'blindtest' && !$online) return 'Connexion requise';
-    if (g.id === 'scores') return $currentSheet ? 'Partie en cours' : '5 jeux';
+    if (g.id === 'scores') return $currentSheet ? 'Partie en cours' : `${scoreGames.length} jeux`;
     return undefined;
   }
   const playersLabel = $derived(
