@@ -30,7 +30,7 @@
     void cursor?.round;
     void cursor?.index;
     // scrollIntoView n'existe pas partout (jsdom) : appel optionnel
-    wrap?.querySelector<HTMLElement>('[aria-current="true"]')?.scrollIntoView?.({ inline: 'nearest', block: 'nearest' });
+    wrap?.querySelector<HTMLElement>('[aria-current="true"]')?.scrollIntoView?.({ block: 'nearest', inline: 'nearest' });
   });
 </script>
 
@@ -67,16 +67,25 @@
 </div>
 
 <style>
-  .wrap { overflow-x: auto; background: var(--surface); border-radius: 18px; }
+  /* scroll-padding : la colonne courante ne se cache jamais sous les colonnes collantes Joueur / Total. */
+  .wrap {
+    overflow-x: auto;
+    background: var(--surface);
+    border-radius: 18px;
+    touch-action: manipulation;
+    scroll-padding-inline: 110px 64px;
+  }
   table { border-collapse: separate; border-spacing: 0; width: 100%; font-family: var(--font-display); }
-  th, td { padding: 8px 10px; text-align: center; min-width: 56px; font-weight: 600; }
+  /* Hauteur fixe : une ligne ne change jamais de taille selon son contenu. */
+  th, td { height: 58px; padding: 0 4px; box-sizing: border-box; text-align: center; min-width: 56px; font-weight: 600; }
+  thead th { height: 40px; }
   th[scope='col'] { color: var(--texte-doux); font-size: 14px; }
   .name, .total { position: sticky; background: var(--surface); z-index: 1; }
   .name { left: 0; text-align: left; font-weight: 700; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .total { right: 0; font-weight: 700; }
   td button {
     min-width: 56px;
-    min-height: 56px;
+    height: 56px;
     border-radius: 12px;
     background: var(--surface-plus);
     color: var(--texte);

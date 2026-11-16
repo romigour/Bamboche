@@ -104,6 +104,7 @@
     eyebrow={def.name}
     title={`Manche ${s.rounds.length + 1}`}
     back={() => navigate('/scores')}
+    fit
   >
     {#snippet actions()}
       <IconButton icon="settings" label="Options" tone="onColor" onclick={() => (panel = 'menu')} />
@@ -117,8 +118,11 @@
       draft={buffer.text}
       onselect={onSelect}
     />
-    <p class="progress">{progressLine(def, s)}</p>
-    <Keypad onkey={(k: Key) => (buffer = applyKey(buffer, k))} onnext={onNext} />
+
+    {#snippet footer()}
+      <p class="progress">{progressLine(def, s)}</p>
+      <Keypad onkey={(k: Key) => (buffer = applyKey(buffer, k))} onnext={onNext} />
+    {/snippet}
   </Screen>
 
   {#if panel}
@@ -169,7 +173,16 @@
 {/if}
 
 <style>
-  .progress { margin: 0; text-align: center; font-weight: 800; font-size: 16px; color: var(--texte-doux); }
+  .progress {
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--texte-doux);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   .overlay { position: fixed; inset: 0; background: rgba(15, 9, 32, 0.8); display: flex; flex-direction: column; justify-content: flex-end; z-index: 10; }
   .sheet {
     background: var(--surface);

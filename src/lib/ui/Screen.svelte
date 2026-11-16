@@ -13,6 +13,7 @@
     actions,
     children,
     footer,
+    fit = false,
   }: {
     color?: GameColor;
     eyebrow?: string;
@@ -22,10 +23,12 @@
     actions?: Snippet;
     children: Snippet;
     footer?: Snippet;
+    /** Occupe exactement la hauteur de la fenêtre : le contenu défile, le pied reste visible. */
+    fit?: boolean;
   } = $props();
 </script>
 
-<div class="screen">
+<div class="screen" class:fit>
   {#if color || title || back}
     <header class:colored={!!color} style:--hc={color ? `var(--${color})` : undefined}>
       {#if back || actions}
@@ -48,6 +51,10 @@
 
 <style>
   .screen { flex: 1; display: flex; flex-direction: column; min-height: 100dvh; }
+  .screen.fit { height: 100dvh; min-height: 0; }
+  .screen.fit main { min-height: 0; overflow-y: auto; padding-block: 10px; }
+  .screen.fit header { padding: calc(10px + env(safe-area-inset-top)) 20px 14px; gap: 6px; }
+  .screen.fit h1 { font-size: 26px; }
   header {
     padding: calc(20px + env(safe-area-inset-top)) 20px 22px;
     display: flex;

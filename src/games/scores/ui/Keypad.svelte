@@ -24,11 +24,11 @@
       <button type="button" aria-label={label} onclick={() => press(key)}>{key}</button>
     {/each}
   </div>
-  <BigButton variant="pop" onclick={onnext}>Suivant</BigButton>
+  <BigButton variant="pop" size="md" onclick={onnext}>Suivant</BigButton>
 </div>
 
 <style>
-  .pad { display: flex; flex-direction: column; gap: 10px; }
+  .pad { display: flex; flex-direction: column; gap: 10px; touch-action: manipulation; }
   .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
   .grid button {
     min-height: 56px;
