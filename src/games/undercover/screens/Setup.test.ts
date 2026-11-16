@@ -25,7 +25,7 @@ test('5 joueurs sans Mr White : composition et lancement', async () => {
 test('3 joueurs avec Mr White : erreur et Lancer désactivé', async () => {
   players.set(joueurs(3));
   render(Setup, { onstart: () => {}, onback: () => {} });
-  await fireEvent.click(screen.getByRole('button', { name: 'Oui' }));
+  await fireEvent.click(screen.getByRole('switch', { name: 'Mr White' }));
   expect(screen.getByText('Avec Mr White, il faut au moins 4 joueurs.')).toBeInTheDocument();
   expect(lancer()).toBeDisabled();
   expect(get(mrWhiteOn)).toBe(true);
@@ -35,6 +35,19 @@ test('5 joueurs avec Mr White : la composition l’indique', () => {
   players.set(joueurs(5));
   mrWhiteOn.set(true);
   render(Setup, { onstart: () => {}, onback: () => {} });
+  expect(screen.getByText('1 undercover · 1 Mr White · 3 civils')).toBeInTheDocument();
+});
+
+test('libellé et explication de Mr White visibles', async () => {
+  players.set(joueurs(5));
+  render(Setup, { onstart: () => {}, onback: () => {} });
+  expect(screen.getByText('Mr White')).toBeInTheDocument();
+  expect(screen.getByText('Un joueur sans mot, qui doit bluffer')).toBeInTheDocument();
+  const sw = screen.getByRole('switch', { name: 'Mr White' });
+  expect(sw).toHaveAttribute('aria-checked', 'false');
+  expect(screen.queryByRole('button', { name: 'Oui' })).not.toBeInTheDocument();
+  await fireEvent.click(sw);
+  expect(get(mrWhiteOn)).toBe(true);
   expect(screen.getByText('1 undercover · 1 Mr White · 3 civils')).toBeInTheDocument();
 });
 

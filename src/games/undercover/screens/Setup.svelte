@@ -4,8 +4,8 @@
   import { TEAM_COLORS } from '../../../lib/teams';
   import BigButton from '../../../lib/ui/BigButton.svelte';
   import Icon from '../../../lib/ui/Icon.svelte';
-  import Pills from '../../../lib/ui/Pills.svelte';
   import Screen from '../../../lib/ui/Screen.svelte';
+  import Switch from '../../../lib/ui/Switch.svelte';
   import { composition } from '../logic/game';
   import { mrWhiteOn, validateSetup } from '../setup';
 
@@ -32,14 +32,11 @@
     </BigButton>
   </div>
 
-  <Pills
+  <Switch
+    checked={$mrWhiteOn}
     label="Mr White"
-    options={[
-      { value: 0, label: 'Non' },
-      { value: 1, label: 'Oui' },
-    ]}
-    value={$mrWhiteOn ? 1 : 0}
-    onchange={(v) => mrWhiteOn.set(v === 1)}
+    description="Un joueur sans mot, qui doit bluffer"
+    onchange={(v) => mrWhiteOn.set(v)}
   />
 
   {#if check.ok}<p class="compo">{compo}</p>{/if}
