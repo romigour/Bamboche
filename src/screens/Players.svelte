@@ -4,6 +4,7 @@
   import { addPlayer, players, removePlayer, renamePlayer } from '../lib/players';
   import Icon from '../lib/ui/Icon.svelte';
   import IconButton from '../lib/ui/IconButton.svelte';
+  import Switch from '../lib/ui/Switch.svelte';
   import { checkForUpdate, updateStatus } from '../lib/update';
   import { versionLabel } from '../lib/version';
 
@@ -106,22 +107,9 @@
 
   <section>
     <div class="label">Préférences</div>
-    <div class="pref">
-      <span class="pref-icon"><Icon name={$soundOn ? 'volume' : 'volumeoff'} size={24} /></span>
-      <label for="son">Sons et vibrations</label>
-      <button
-        id="son"
-        type="button"
-        role="switch"
-        aria-label="Sons et vibrations"
-        class="switch"
-        aria-checked={$soundOn}
-        onclick={() => {
-          soundOn.update((v) => !v);
-          tap();
-        }}><span></span></button
-      >
-    </div>
+    <Switch checked={$soundOn} label="Sons et vibrations" onchange={(v) => soundOn.set(v)}>
+      {#snippet icon()}<span class="pref-icon"><Icon name={$soundOn ? 'volume' : 'volumeoff'} size={24} /></span>{/snippet}
+    </Switch>
     <button
       type="button"
       class="pref update"
@@ -234,25 +222,12 @@
   }
   .pref { display: flex; align-items: center; gap: 12px; background: var(--surface); border-radius: 18px; padding: 12px 14px; }
   .pref-icon { color: var(--pop); display: flex; }
-  .pref label { flex-grow: 1; font-family: var(--font-display); font-weight: 600; font-size: 18px; }
   .update-text { flex-grow: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
   .update { width: 100%; text-align: left; min-height: 60px; }
   .update:disabled { cursor: default; }
   .update:disabled .update-label { opacity: 0.6; }
   .update-label { font-family: var(--font-display); font-weight: 600; font-size: 18px; }
   .update-msg { font-size: 14px; color: var(--texte-doux); }
-  .switch {
-    width: 60px;
-    height: 36px;
-    border-radius: 999px;
-    background: var(--surface-plus);
-    padding: 4px;
-    display: flex;
-    justify-content: flex-start;
-    transition: background 0.15s ease;
-  }
-  .switch[aria-checked='true'] { background: var(--ok); justify-content: flex-end; }
-  .switch span { width: 28px; height: 28px; border-radius: 50%; background: var(--nuit); }
   .ok {
     width: 44px;
     height: 44px;
