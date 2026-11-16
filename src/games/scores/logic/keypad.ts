@@ -24,5 +24,5 @@ export function applyKey(b: Buffer, k: Key): Buffer {
 
 export function bufferValue(b: Buffer): number {
   const n = Number(b.text);
-  return Number.isFinite(n) ? n : 0;
+  return Number.isFinite(n) ? n || 0 : 0; // « -0 » vaut 0
 }

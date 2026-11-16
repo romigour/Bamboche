@@ -75,8 +75,8 @@
   .name { left: 0; text-align: left; font-weight: 700; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .total { right: 0; font-weight: 700; }
   td button {
-    min-width: 48px;
-    min-height: 44px;
+    min-width: 56px;
+    min-height: 56px;
     border-radius: 12px;
     background: var(--surface-plus);
     color: var(--texte);

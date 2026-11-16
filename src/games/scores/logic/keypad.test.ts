@@ -16,6 +16,7 @@ describe('applyKey', () => {
   });
   it('± bascule le signe', () => expect(tape(['4', '±', '±']).text).toBe('4'));
   it('« - » seul vaut 0', () => expect(bufferValue(tape(['±']))).toBe(0));
+  it('« -0 » vaut 0 (pas -0)', () => expect(Object.is(bufferValue({ text: '-0', replace: false }), 0)).toBe(true));
   it('vide vaut 0', () => expect(bufferValue({ text: '', replace: false })).toBe(0));
   it('⌫ sur vide ne fait rien', () => expect(tape(['⌫']).text).toBe(''));
   it('⌫ retire le dernier caractère', () => expect(tape(['1', '2', '⌫']).text).toBe('1'));
