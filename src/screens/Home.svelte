@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { currentSheet } from '../games/scores/session';
   import { games } from '../games/registry';
   import type { GameModule } from '../games/types';
   import { tap } from '../lib/feedback';
@@ -17,6 +18,11 @@
     ['B', 'pop'], ['a', 'timeup'], ['m', 'blindtest'], ['b', 'undercover'],
     ['o', 'hipster'], ['c', 'pop'], ['h', 'timeup'], ['e', 'blindtest'],
   ];
+  function noteFor(g: GameModule): string | undefined {
+    if (g.id === 'blindtest' && !$online) return 'Connexion requise';
+    if (g.id === 'scores') return $currentSheet ? 'Partie en cours' : '5 jeux';
+    return undefined;
+  }
   const playersLabel = $derived(
     playerCount === 0 ? 'Ajoute les joueurs' : `${playerCount} joueur${playerCount > 1 ? 's' : ''}`,
   );
@@ -37,7 +43,7 @@
 
   <div class="grid">
     {#each games as g (g.id)}
-      <GameCard game={g} note={g.id === 'blindtest' && !$online ? 'Connexion requise' : undefined} onclick={() => onopen(g)} />
+      <GameCard game={g} note={noteFor(g)} onclick={() => onopen(g)} />
     {/each}
   </div>
 

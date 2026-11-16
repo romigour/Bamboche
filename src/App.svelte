@@ -12,6 +12,12 @@
   import { abandonUndercover, loadSavedUndercover, resumeLines } from './games/undercover/session';
   import UndercoverApp from './games/undercover/UndercoverApp.svelte';
   import UndercoverPlay from './games/undercover/Play.svelte';
+  import GameDetail from './games/scores/screens/GameDetail.svelte';
+  import History from './games/scores/screens/History.svelte';
+  import ScoresMenu from './games/scores/screens/Menu.svelte';
+  import Result from './games/scores/screens/Result.svelte';
+  import ScoresSetup from './games/scores/screens/Setup.svelte';
+  import SheetScreen from './games/scores/screens/SheetScreen.svelte';
   import { getActiveGame } from './lib/activeGame';
   import { installAudioUnlock } from './lib/feedback';
   import { players } from './lib/players';
@@ -86,6 +92,18 @@
   <UndercoverApp onhome={() => navigate('/')} />
 {:else if $route.path === '/undercover/partie'}
   <UndercoverPlay />
+{:else if $route.path === '/scores'}
+  <ScoresMenu />
+{:else if $route.path === '/scores/nouvelle'}
+  {#key $route.query.jeu}<ScoresSetup gameId={$route.query.jeu} />{/key}
+{:else if $route.path === '/scores/partie'}
+  <SheetScreen />
+{:else if $route.path === '/scores/resultat'}
+  <Result id={$route.query.id} />
+{:else if $route.path === '/scores/historique'}
+  {#key $route.query.jeu}<History gameId={$route.query.jeu} />{/key}
+{:else if $route.path === '/scores/historique/partie'}
+  <GameDetail id={$route.query.id} />
 {:else}
   <Home
     playerCount={$players.length}

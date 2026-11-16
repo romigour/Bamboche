@@ -6,8 +6,15 @@ test('les ids des jeux sont uniques', () => {
   expect(new Set(ids).size).toBe(ids.length);
 });
 
-test("l'ordre d'affichage est timeup, blindtest, undercover", () => {
-  expect(games.map((g) => g.id)).toEqual(['timeup', 'blindtest', 'undercover']);
+test("l'ordre d'affichage est timeup, blindtest, undercover, scores", () => {
+  expect(games.map((g) => g.id)).toEqual(['timeup', 'blindtest', 'undercover', 'scores']);
+});
+
+test('la Feuille de score est disponible, route /scores', () => {
+  const s = gameById('scores')!;
+  expect(s.name).toBe('Feuille de score');
+  expect(s.route).toBe('/scores');
+  expect(s.status).toBe('disponible');
 });
 
 test('Time Up est disponible pour 4 joueurs minimum (2 équipes de 2)', () => {
