@@ -51,8 +51,8 @@
 
 <style>
   .screen { flex: 1; display: flex; flex-direction: column; min-height: 100dvh; }
-  .screen.fit { height: 100dvh; min-height: 0; }
-  .screen.fit main { min-height: 0; overflow-y: auto; padding-block: 10px; }
+  .screen.fit { flex: 0 0 auto; height: 100dvh; max-height: 100dvh; min-height: 0; }
+  .screen.fit main { flex: 1 1 0; min-height: 0; overflow-y: auto; padding-block: 10px; }
   .screen.fit header { padding: calc(10px + env(safe-area-inset-top)) 20px 14px; gap: 6px; }
   .screen.fit h1 { font-size: 26px; }
   header {
