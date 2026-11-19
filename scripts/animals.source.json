@@ -1,0 +1,12 @@
+[
+ { "id": "vache", "name": "Vache", "level": "facile", "family": "ferme", "sound": "File:Mudchute cow 1.ogg", "photo": "File:Cow female black white.jpg" },
+ { "id": "coq", "name": "Coq", "level": "facile", "family": "ferme", "sound": "File:Medium rooster crowing.ogg", "photo": "File:Kruppert Cubalaya cropped.JPG" },
+ { "id": "chien", "name": "Chien", "level": "facile", "family": "maison", "sound": "File:Barking of a dog 2.ogg", "photo": "File:Greenland 467 (35130903436) (cropped).jpg" },
+ { "id": "chat", "name": "Chat", "level": "facile", "family": "maison", "sound": "File:Meow of a pleading cat.oga", "photo": "File:Cat grooming.jpg" },
+ { "id": "loup", "name": "Loup", "level": "facile", "family": "sauvages", "sound": "File:Wolf howls.ogg", "photo": "File:Eurasian wolf 2.jpg" },
+ { "id": "coucou", "name": "Coucou", "level": "facile", "family": "oiseaux", "sound": "File:Kuckuck.ogg", "photo": "File:Cuculus canorus vogelartinfo chris romeiks CHR0791 cropped.jpg" },
+ { "id": "hulotte", "name": "Chouette hulotte", "level": "difficile", "family": "nuit", "sound": "File:Strix aluco - Tawny Owl XC565861.mp3", "photo": "File:Strix aluco aluco.jpg" },
+ { "id": "effraie", "name": "Chouette effraie", "level": "difficile", "family": "nuit", "sound": "File:Tyto alba - Western Barn Owl XC436946.mp3", "photo": "File:Tyto alba close up.jpg" },
+ { "id": "grand-duc", "name": "Hibou grand-duc", "level": "difficile", "family": "nuit", "sound": "File:Bubo bubo - Eurasian Eagle-Owl XC461330.mp3", "photo": "File:Hubro (Bubo bubo).JPG" },
+ { "id": "cheveche", "name": "Chevêche d'Athéna", "level": "difficile", "family": "nuit", "sound": "File:Athene noctua - Little Owl XC431980.mp3", "photo": "File:Athene noctua, Ambula, Montenegro 2.jpg" }
+]
