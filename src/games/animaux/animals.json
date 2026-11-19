@@ -1,1 +1,202 @@
-[]
+[
+ {
+  "id": "chat",
+  "name": "Chat",
+  "level": "facile",
+  "family": "maison",
+  "sound": "animaux/992d5a1c81.mp3",
+  "photo": "animaux/992d5a1c81.webp",
+  "credits": {
+   "sound": {
+    "author": "Heismark",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Meow_of_a_pleading_cat.oga"
+   },
+   "photo": {
+    "author": "TeamK (Karin Laurila) https://pixabay.com/en/users/TeamK-222368/",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cat_grooming.jpg"
+   }
+  }
+ },
+ {
+  "id": "cheveche",
+  "name": "Chevêche d'Athéna",
+  "level": "difficile",
+  "family": "nuit",
+  "sound": "animaux/9ca5f4a29e.mp3",
+  "photo": "animaux/9ca5f4a29e.webp",
+  "credits": {
+   "sound": {
+    "author": "Joost van Bruggen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Athene_noctua_-_Little_Owl_XC431980.mp3"
+   },
+   "photo": {
+    "author": "Frank Vassen from Brussels, Belgium",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Athene_noctua,_Ambula,_Montenegro_2.jpg"
+   }
+  }
+ },
+ {
+  "id": "chien",
+  "name": "Chien",
+  "level": "facile",
+  "family": "maison",
+  "sound": "animaux/95d14838e6.mp3",
+  "photo": "animaux/95d14838e6.webp",
+  "credits": {
+   "sound": {
+    "author": "Amada44",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog_2.ogg"
+   },
+   "photo": {
+    "author": "Markus Trienke",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Greenland_467_(35130903436)_(cropped).jpg"
+   }
+  }
+ },
+ {
+  "id": "effraie",
+  "name": "Chouette effraie",
+  "level": "difficile",
+  "family": "nuit",
+  "sound": "animaux/3ada7e372b.mp3",
+  "photo": "animaux/3ada7e372b.webp",
+  "credits": {
+   "sound": {
+    "author": "Joost van Bruggen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tyto_alba_-_Western_Barn_Owl_XC436946.mp3"
+   },
+   "photo": {
+    "author": "Stevie B",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tyto_alba_close_up.jpg"
+   }
+  }
+ },
+ {
+  "id": "hulotte",
+  "name": "Chouette hulotte",
+  "level": "difficile",
+  "family": "nuit",
+  "sound": "animaux/e0680336ae.mp3",
+  "photo": "animaux/e0680336ae.webp",
+  "credits": {
+   "sound": {
+    "author": "Alvaro Ortiz Troncoso",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Strix_aluco_-_Tawny_Owl_XC565861.mp3"
+   },
+   "photo": {
+    "author": "Chrumps",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Strix_aluco_aluco.jpg"
+   }
+  }
+ },
+ {
+  "id": "coq",
+  "name": "Coq",
+  "level": "facile",
+  "family": "ferme",
+  "sound": "animaux/c14fff986f.mp3",
+  "photo": "animaux/c14fff986f.webp",
+  "credits": {
+   "sound": {
+    "author": "alys",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Medium_rooster_crowing.ogg"
+   },
+   "photo": {
+    "author": "Kruppert_Cubalaya.JPG: Kruppert",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kruppert_Cubalaya_cropped.JPG"
+   }
+  }
+ },
+ {
+  "id": "coucou",
+  "name": "Coucou",
+  "level": "facile",
+  "family": "oiseaux",
+  "sound": "animaux/c5b6251d65.mp3",
+  "photo": "animaux/c5b6251d65.webp",
+  "credits": {
+   "sound": {
+    "author": "Jugrü",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kuckuck.ogg"
+   },
+   "photo": {
+    "author": "GabrielBuissart",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cuculus_canorus2.jpg"
+   }
+  }
+ },
+ {
+  "id": "grand-duc",
+  "name": "Hibou grand-duc",
+  "level": "difficile",
+  "family": "nuit",
+  "sound": "animaux/edd01dac30.mp3",
+  "photo": "animaux/edd01dac30.webp",
+  "credits": {
+   "sound": {
+    "author": "Mirko Tomasi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_-_Eurasian_Eagle-Owl_XC461330.mp3"
+   },
+   "photo": {
+    "author": "Marton Berntsen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hubro_(Bubo_bubo).JPG"
+   }
+  }
+ },
+ {
+  "id": "loup",
+  "name": "Loup",
+  "level": "facile",
+  "family": "sauvages",
+  "sound": "animaux/4e7d62eff9.mp3",
+  "photo": "animaux/4e7d62eff9.webp",
+  "credits": {
+   "sound": {
+    "author": "Auteur inconnu",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg"
+   },
+   "photo": {
+    "author": "User:Mas3cf",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg"
+   }
+  }
+ },
+ {
+  "id": "vache",
+  "name": "Vache",
+  "level": "facile",
+  "family": "ferme",
+  "sound": "animaux/5659934874.mp3",
+  "photo": "animaux/5659934874.webp",
+  "credits": {
+   "sound": {
+    "author": "Secretlondon",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mudchute_cow_1.ogg"
+   },
+   "photo": {
+    "author": "Keith Weller/USDA",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Cow_female_black_white.jpg"
+   }
+  }
+ }
+]
