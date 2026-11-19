@@ -12,6 +12,8 @@
   import { abandonUndercover, loadSavedUndercover, resumeLines } from './games/undercover/session';
   import UndercoverApp from './games/undercover/UndercoverApp.svelte';
   import UndercoverPlay from './games/undercover/Play.svelte';
+  import AnimauxApp from './games/animaux/AnimauxApp.svelte';
+  import AnimauxPlay from './games/animaux/Play.svelte';
   import { abandonAnimaux, loadSavedAnimaux, resumeLines as animauxLines } from './games/animaux/session';
   import GameDetail from './games/scores/screens/GameDetail.svelte';
   import History from './games/scores/screens/History.svelte';
@@ -98,6 +100,12 @@
   <UndercoverApp onhome={() => navigate('/')} />
 {:else if $route.path === '/undercover/partie'}
   <UndercoverPlay />
+{:else if $route.path === '/animaux'}
+  <AnimauxApp onhome={() => navigate('/')} />
+{:else if $route.path === '/animaux/credits'}
+  <AnimauxApp view="credits" onhome={() => navigate('/')} />
+{:else if $route.path === '/animaux/partie'}
+  <AnimauxPlay />
 {:else if $route.path === '/scores'}
   <ScoresMenu />
 {:else if $route.path === '/scores/nouvelle'}

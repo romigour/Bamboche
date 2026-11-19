@@ -32,6 +32,14 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff,woff2,json}'],
         navigateFallback: 'index.html',
+        // sons et photos des Cris d'animaux : hors précache, téléchargés à la première partie
+        runtimeCaching: [
+          {
+            urlPattern: /\/animaux\/[^/]+\.(?:mp3|webp)$/,
+            handler: 'CacheFirst',
+            options: { cacheName: 'bamboche-animaux' },
+          },
+        ],
       },
     }),
   ],
