@@ -1,6 +1,6 @@
 import type { IconName } from '../lib/ui/icons';
 
-export type GameColor = 'pop' | 'timeup' | 'blindtest' | 'hipster' | 'undercover' | 'ok' | 'ko';
+export type GameColor = 'pop' | 'timeup' | 'blindtest' | 'hipster' | 'undercover' | 'animaux' | 'ok' | 'ko';
 
 export type SettingDef =
   | { key: string; label: string; type: 'choice'; options: number[]; unit?: string; default: number }

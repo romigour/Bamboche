@@ -12,6 +12,7 @@
   import { abandonUndercover, loadSavedUndercover, resumeLines } from './games/undercover/session';
   import UndercoverApp from './games/undercover/UndercoverApp.svelte';
   import UndercoverPlay from './games/undercover/Play.svelte';
+  import { abandonAnimaux, loadSavedAnimaux, resumeLines as animauxLines } from './games/animaux/session';
   import GameDetail from './games/scores/screens/GameDetail.svelte';
   import History from './games/scores/screens/History.svelte';
   import ScoresMenu from './games/scores/screens/Menu.svelte';
@@ -60,6 +61,11 @@
       const s = loadSavedUndercover();
       if (!s) return null;
       return { game: gameById('undercover')!, lines: resumeLines(s), route: '/undercover/partie', abandon: abandonUndercover };
+    }
+    if (active?.gameId === 'animaux') {
+      const s = loadSavedAnimaux();
+      if (!s) return null;
+      return { game: gameById('animaux')!, lines: animauxLines(s), route: '/animaux/partie', abandon: abandonAnimaux };
     }
     return null;
   }

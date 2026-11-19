@@ -6,8 +6,21 @@ test('les ids des jeux sont uniques', () => {
   expect(new Set(ids).size).toBe(ids.length);
 });
 
-test("l'ordre d'affichage est timeup, blindtest, undercover, scores", () => {
-  expect(games.map((g) => g.id)).toEqual(['timeup', 'blindtest', 'undercover', 'scores']);
+test("l'ordre d'affichage est timeup, blindtest, undercover, animaux, scores", () => {
+  expect(games.map((g) => g.id)).toEqual(['timeup', 'blindtest', 'undercover', 'animaux', 'scores']);
+});
+
+test("Cris d'animaux est disponible, route /animaux, 2 joueurs minimum, avec ses réglages", () => {
+  const g = gameById('animaux')!;
+  expect(g.name).toBe("Cris d'animaux");
+  expect(g.status).toBe('disponible');
+  expect(g.route).toBe('/animaux');
+  expect(g.players).toEqual({ min: 2, max: 20 });
+  expect(g.color).toBe('animaux');
+  expect(g.icon).toBe('paw');
+  const byKey = Object.fromEntries(g.settings.map((x) => [x.key, x]));
+  expect(byKey.sounds).toMatchObject({ type: 'choice', options: [10, 15, 20], default: 10 });
+  expect(byKey.choices).toMatchObject({ type: 'choice', options: [3, 4, 6], default: 4 });
 });
 
 test('la Feuille de score est disponible, route /scores', () => {

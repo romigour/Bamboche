@@ -1,7 +1,7 @@
 export type IconName =
   | 'play' | 'back' | 'settings' | 'users' | 'timer' | 'music' | 'disc' | 'eye' | 'eyeoff'
   | 'check' | 'cross' | 'pause' | 'plus' | 'minus' | 'shuffle' | 'chevron' | 'trash' | 'edit'
-  | 'undo' | 'trophy' | 'volume' | 'volumeoff' | 'skip' | 'home' | 'refresh';
+  | 'undo' | 'trophy' | 'volume' | 'volumeoff' | 'skip' | 'home' | 'refresh' | 'paw';
 
 /** Tracés 24×24 au trait arrondi. `fill: true` pour les formes pleines. */
 export const ICONS: Record<IconName, { d: string; circles?: [number, number, number][]; fill?: boolean }> = {
@@ -29,5 +29,10 @@ export const ICONS: Record<IconName, { d: string; circles?: [number, number, num
   volumeoff: { d: 'M4 9.5v5h3.5L12 19V5L7.5 9.5zM16 9.5l5 5M21 9.5l-5 5' },
   skip: { d: 'M5 5l8 7-8 7zM17 5v14' },
   home: { d: 'M4 11l8-7 8 7M6 9.5V20h12V9.5' },
+  paw: {
+    d: 'M12 12.5c-2.6 0-5 2.4-5 4.6 0 1.6 1.3 2.4 2.7 2.4 1 0 1.6-.5 2.3-.5s1.3.5 2.3.5c1.4 0 2.7-.8 2.7-2.4 0-2.2-2.4-4.6-5-4.6z',
+    circles: [[5.8, 10.2, 2.1], [9.4, 6, 2.1], [14.6, 6, 2.1], [18.2, 10.2, 2.1]],
+    fill: true,
+  },
   refresh: { d: 'M20 12a8 8 0 0 1-14 5.3M4 12a8 8 0 0 1 14-5.3M18 3v3.7h-3.7M6 21v-3.7h3.7' },
 };

@@ -63,6 +63,7 @@
   .v-blindtest { --bg: var(--blindtest); --sh: var(--blindtest-ombre); }
   .v-hipster { --bg: var(--hipster); --sh: var(--hipster-ombre); }
   .v-undercover { --bg: var(--undercover); --sh: var(--undercover-ombre); }
+  .v-animaux { --bg: var(--animaux); --sh: var(--animaux-ombre); }
   .v-ok { --bg: var(--ok); --sh: var(--ok-ombre); }
   .v-ko { --bg: var(--ko); --sh: var(--ko-ombre); }
   .v-secondary { --bg: var(--secondary); --sh: var(--secondary-ombre); color: var(--texte); }
