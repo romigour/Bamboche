@@ -16,7 +16,14 @@ const WORK = resolve('scripts/.animaux-candidats');
 const ORIG = join(WORK, 'originaux');
 const PUBLIC = resolve('public/animaux');
 const CATALOG = resolve('src/games/animaux/animals.json');
-const UA = { 'User-Agent': 'Bamboche-import/1.0 (script local)' };
+/**
+ * Wikimedia limite fortement les scripts sans contact (https://w.wiki/4wJS).
+ * Facultatif : WIKIMEDIA_CONTACT="adresse ou URL" ajoute ce contact à l'en-tête User-Agent.
+ */
+const contact = process.env.WIKIMEDIA_CONTACT?.trim();
+const UA = { 'User-Agent': `Bamboche-import/1.0 (${contact || 'script local'})` };
+/** Commons ne sert les miniatures qu'en tailles standard (https://w.wiki/GHai) : on demande 500 px, ffmpeg réduit à 480. */
+const THUMB_REQUEST = 500;
 const THUMB = 480;
 const BUDGET = 10 * 1024 * 1024;
 
@@ -42,7 +49,7 @@ function ffmpeg(args: string[]) {
 async function fetchInfos(titles: string[]): Promise<Record<string, FileInfo>> {
   const out: Record<string, FileInfo> = {};
   for (let i = 0; i < titles.length; i += 50) {
-    const res = await get(commonsQueryUrl(titles.slice(i, i + 50), THUMB));
+    const res = await get(commonsQueryUrl(titles.slice(i, i + 50), THUMB_REQUEST));
     Object.assign(out, parseImageInfo(await res.json()));
   }
   return out;
