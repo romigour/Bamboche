@@ -51,6 +51,20 @@ test('sans démarrage dans le délai, le son est considéré introuvable', async
   off();
 });
 
+test('réécouter pendant la lecture ne déclare pas le son introuvable', async () => {
+  vi.useFakeTimers();
+  const el = Object.assign(fakeAudio(), { paused: true, readyState: 0 });
+  const p = createAnimalPlayer(() => el as unknown as HTMLAudioElement);
+  const cb = vi.fn();
+  p.onError(cb);
+  await p.play('a.mp3');
+  Object.assign(el, { paused: false, readyState: 4 });
+  el.dispatchEvent(new Event('playing'));
+  await p.play('a.mp3');
+  vi.advanceTimersByTime(LOAD_TIMEOUT_MS + 1);
+  expect(cb).not.toHaveBeenCalled();
+});
+
 test('le son qui démarre annule le délai ; stop met en pause', async () => {
   vi.useFakeTimers();
   const el = fakeAudio();

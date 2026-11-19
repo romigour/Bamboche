@@ -30,8 +30,10 @@ export function createAnimalPlayer(createAudio: () => HTMLAudioElement = () => n
     play(url) {
       clear();
       if (!el.src.endsWith(url)) el.src = url;
+      // déjà en lecture avec des données : le navigateur ne renverra pas « playing », pas de délai à surveiller
+      const alreadyPlaying = !el.paused && el.readyState >= 3;
       el.currentTime = 0;
-      timer = setTimeout(fail, LOAD_TIMEOUT_MS);
+      if (!alreadyPlaying) timer = setTimeout(fail, LOAD_TIMEOUT_MS);
       return el.play().catch((e) => {
         clear();
         throw e;

@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 import { VitePWA } from 'vite-plugin-pwa';
 import { buildDefines } from './build-info.mjs';
+import { animauxRuntimeCaching } from './src/games/animaux/runtimeCaching';
 
 export default defineConfig({
   base: './',
@@ -33,13 +34,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff,woff2,json}'],
         navigateFallback: 'index.html',
         // sons et photos des Cris d'animaux : hors précache, téléchargés à la première partie
-        runtimeCaching: [
-          {
-            urlPattern: /\/animaux\/[^/]+\.(?:mp3|webp)$/,
-            handler: 'CacheFirst',
-            options: { cacheName: 'bamboche-animaux' },
-          },
-        ],
+        runtimeCaching: [animauxRuntimeCaching],
       },
     }),
   ],

@@ -70,6 +70,10 @@
       </div>
     {/if}
 
+    {#if compact && listen === 'blocked'}
+      <p class="blocked" role="status">Le son est bloqué : touche le haut-parleur pour écouter.</p>
+    {/if}
+
     {#if missingSound}
       <div class="missing" role="alert">
         <strong>Son introuvable</strong>
@@ -158,6 +162,7 @@
   .hero-text { display: flex; flex-direction: column; gap: 4px; }
   h1 { font-weight: 700; font-size: 26px; line-height: 1.05; }
   .hero-text p { margin: 0; font-size: 15px; color: var(--texte-doux); font-weight: 700; }
+  .blocked { margin: 0; font-size: 15px; font-weight: 800; color: var(--animaux); }
   .missing { background: var(--surface); border-radius: 18px; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
   .missing strong { color: var(--ko); font-size: 17px; }
   .options { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }

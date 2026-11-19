@@ -66,6 +66,17 @@ test('lecture au toucher ; si le navigateur refuse, le bouton invite à toucher'
   expect(await screen.findByRole('button', { name: 'Touche pour écouter' })).toBeEnabled();
 });
 
+test('à plus de 4 joueurs aussi, un son bloqué est signalé à l’écran', async () => {
+  const player = fakePlayer(async () => {
+    throw new Error('NotAllowedError');
+  });
+  const many = game({ players: ['Léa', 'Tom', 'Max', 'Inès', 'Hugo', 'Sam'].map((name, i) => ({ id: `p${i}`, name, color: 'ok' as const })) });
+  render(Sound, props({ s: many, player }));
+  expect(screen.queryByText(/Le son est bloqué/)).toBeNull();
+  await fireEvent.click(screen.getByRole('button', { name: 'Écouter le cri' }));
+  expect(await screen.findByText(/Le son est bloqué/)).toBeInTheDocument();
+});
+
 test('après une première écoute, le bouton propose de réécouter', async () => {
   render(Sound, props());
   await fireEvent.click(screen.getByRole('button', { name: 'Écouter le cri' }));
