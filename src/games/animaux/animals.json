@@ -1,5 +1,145 @@
 [
  {
+  "id": "abeille",
+  "name": "Abeille",
+  "level": "facile",
+  "family": "insectes",
+  "sound": "animaux/7860c2d819.mp3",
+  "photo": "animaux/7860c2d819.webp",
+  "credits": {
+   "sound": {
+    "author": "Free Sounds Library User Spanac",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Bee_buzzing_sound_(animal_noises).opus"
+   },
+   "photo": {
+    "author": "Vasily Reinkymov",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_-_iNaturalist_217394043.jpeg"
+   }
+  }
+ },
+ {
+  "id": "ane",
+  "name": "Âne",
+  "level": "facile",
+  "family": "ferme",
+  "sound": "animaux/ea59fc643d.mp3",
+  "photo": "animaux/ea59fc643d.webp",
+  "credits": {
+   "sound": {
+    "author": "felix-blume",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:157763_felix-blume_a-donkey-is-braying-in-his-enclosure-in-south-of-france.wav"
+   },
+   "photo": {
+    "author": "Adrian Pingstone",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Donkey_in_Clovelly,_North_Devon,_England.jpg"
+   }
+  }
+ },
+ {
+  "id": "baleine",
+  "name": "Baleine à bosse",
+  "level": "facile",
+  "family": "mer",
+  "sound": "animaux/d2d7128c93.mp3",
+  "photo": "animaux/d2d7128c93.webp",
+  "credits": {
+   "sound": {
+    "author": "copyrighy free sound-effect",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sound_Effect_Humpback_Whale.ogg"
+   },
+   "photo": {
+    "author": "Dr. Louis M. Herman.",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Humpback_whales_in_singing_position.jpg"
+   }
+  }
+ },
+ {
+  "id": "cacatoes",
+  "name": "Cacatoès",
+  "level": "difficile",
+  "family": "exotiques",
+  "sound": "animaux/73804c18d1.mp3",
+  "photo": "animaux/73804c18d1.webp",
+  "credits": {
+   "sound": {
+    "author": "Ronnievonjohnson",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_-_Pink_and_grey_cockatoo_(galah)_call,_near_the_Swan_River_in_Perth,_Western_Australia.ogg"
+   },
+   "photo": {
+    "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cacatua_galerita_Tas_2.jpg"
+   }
+  }
+ },
+ {
+  "id": "canard",
+  "name": "Canard",
+  "level": "facile",
+  "family": "ferme",
+  "sound": "animaux/0021c1d8d0.mp3",
+  "photo": "animaux/0021c1d8d0.webp",
+  "credits": {
+   "sound": {
+    "author": "Marie-Lan Taÿ Pamart",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_-_Mallard_XC518422.mp3"
+   },
+   "photo": {
+    "author": "Rolf Dietrich Brecher from Germany",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_(mixed_pair)_(32428014687).jpg"
+   }
+  }
+ },
+ {
+  "id": "cerf",
+  "name": "Cerf",
+  "level": "difficile",
+  "family": "foret",
+  "sound": "animaux/b5c6489292.mp3",
+  "photo": "animaux/b5c6489292.webp",
+  "credits": {
+   "sound": {
+    "author": "Auteur inconnu",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Red_Deer_(Cervus_elaphus)_(W1CDR0001424_BD3).ogg"
+   },
+   "photo": {
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Red_deer_(Cervus_elaphus)_hind.jpg"
+   }
+  }
+ },
+ {
+  "id": "chacal",
+  "name": "Chacal doré",
+  "level": "difficile",
+  "family": "canides",
+  "sound": "animaux/20770f68c1.mp3",
+  "photo": "animaux/20770f68c1.webp",
+  "credits": {
+   "sound": {
+    "author": "Wail Zaidi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:African_golden_wolf.ogg"
+   },
+   "photo": {
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:033_Golden_jackal_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg"
+   }
+  }
+ },
+ {
   "id": "chat",
   "name": "Chat",
   "level": "facile",
@@ -40,6 +180,46 @@
   }
  },
  {
+  "id": "chevre",
+  "name": "Chèvre",
+  "level": "facile",
+  "family": "ferme",
+  "sound": "animaux/f371a00080.mp3",
+  "photo": "animaux/f371a00080.webp",
+  "credits": {
+   "sound": {
+    "author": "Gasybeaugosse2020",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Goat_in_Vezo.ogg"
+   },
+   "photo": {
+    "author": "DataBase Center for Life Science (DBCLS)",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:202406_Goat.svg"
+   }
+  }
+ },
+ {
+  "id": "chevreuil",
+  "name": "Chevreuil",
+  "level": "difficile",
+  "family": "foret",
+  "sound": "animaux/752c9ba4ae.mp3",
+  "photo": "animaux/752c9ba4ae.webp",
+  "credits": {
+   "sound": {
+    "author": "1bumer",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Male_roe_deer_growl.ogg"
+   },
+   "photo": {
+    "author": "Jerzystrzelecki",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Capreolus_(js)11.jpg"
+   }
+  }
+ },
+ {
   "id": "chien",
   "name": "Chien",
   "level": "facile",
@@ -56,6 +236,26 @@
     "author": "Markus Trienke",
     "license": "CC BY-SA 2.0",
     "url": "https://commons.wikimedia.org/wiki/File:Greenland_467_(35130903436)_(cropped).jpg"
+   }
+  }
+ },
+ {
+  "id": "chimpanze",
+  "name": "Chimpanzé",
+  "level": "facile",
+  "family": "primates",
+  "sound": "animaux/54d4dcd875.mp3",
+  "photo": "animaux/54d4dcd875.webp",
+  "credits": {
+   "sound": {
+    "author": "Pawel Fedurek et al.",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Pant-hoot_call_made_by_a_male_chimpanzee.ogg"
+   },
+   "photo": {
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:013_Alpha_male_chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg"
    }
   }
  },
@@ -100,6 +300,26 @@
   }
  },
  {
+  "id": "cigale",
+  "name": "Cigale",
+  "level": "facile",
+  "family": "insectes",
+  "sound": "animaux/d9b82379ef.mp3",
+  "photo": "animaux/d9b82379ef.webp",
+  "credits": {
+   "sound": {
+    "author": "Tlee6552",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Northern_Dog-day_Cicada_(Neotibicen_canicularis)_singing.webm"
+   },
+   "photo": {
+    "author": "Jodelet / Lépinay",
+    "license": "CC BY-SA 2.0 fr",
+    "url": "https://commons.wikimedia.org/wiki/File:Cigale_france.jpg"
+   }
+  }
+ },
+ {
   "id": "coq",
   "name": "Coq",
   "level": "facile",
@@ -116,6 +336,26 @@
     "author": "Kruppert_Cubalaya.JPG: Kruppert",
     "license": "CC BY-SA 3.0",
     "url": "https://commons.wikimedia.org/wiki/File:Kruppert_Cubalaya_cropped.JPG"
+   }
+  }
+ },
+ {
+  "id": "corbeau",
+  "name": "Corbeau",
+  "level": "facile",
+  "family": "oiseaux",
+  "sound": "animaux/0b4a6e8b57.mp3",
+  "photo": "animaux/0b4a6e8b57.webp",
+  "credits": {
+   "sound": {
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_-_XC101590.ogg"
+   },
+   "photo": {
+    "author": "Accipiter (R. Altenkamp, Berlin)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Corvus_corax_ad_berlin_090516.jpg"
    }
   }
  },
@@ -140,6 +380,246 @@
   }
  },
  {
+  "id": "crapaud",
+  "name": "Crapaud",
+  "level": "difficile",
+  "family": "mare",
+  "sound": "animaux/9644d59316.mp3",
+  "photo": "animaux/9644d59316.webp",
+  "credits": {
+   "sound": {
+    "author": "Auteur inconnu",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_call1.ogg"
+   },
+   "photo": {
+    "author": "Taka",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_2_(2005_07_11).jpg"
+   }
+  }
+ },
+ {
+  "id": "dindon",
+  "name": "Dindon",
+  "level": "facile",
+  "family": "ferme",
+  "sound": "animaux/d34866c673.mp3",
+  "photo": "animaux/d34866c673.webp",
+  "credits": {
+   "sound": {
+    "author": "bod",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Gobbler.ogg"
+   },
+   "photo": {
+    "author": "Judy Gallagher",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Wild_Turkey_(female)_-_Meleagris_gallopavo,_Occoquan_Bay_National_Wildlife_Refuge,_Woodbridge,_Virginia.jpg"
+   }
+  }
+ },
+ {
+  "id": "engoulevent",
+  "name": "Engoulevent",
+  "level": "difficile",
+  "family": "nuit",
+  "sound": "animaux/04011b58d4.mp3",
+  "photo": "animaux/04011b58d4.webp",
+  "credits": {
+   "sound": {
+    "author": "Joost van Bruggen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Caprimulgus_europaeus_-_European_Nightjar_XC436589.mp3"
+   },
+   "photo": {
+    "author": "P.Taszynski",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Caprimulgus_europaeus_g.JPG"
+   }
+  }
+ },
+ {
+  "id": "flamant",
+  "name": "Flamant rose",
+  "level": "difficile",
+  "family": "exotiques",
+  "sound": "animaux/af52ea77fd.mp3",
+  "photo": "animaux/af52ea77fd.webp",
+  "credits": {
+   "sound": {
+    "author": "Joost van Bruggen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Phoenicopterus_roseus_-_Greater_Flamingo_XC432217.mp3"
+   },
+   "photo": {
+    "author": "El Golli Mohamed",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Flamant_rose_Thyna009.jpg"
+   }
+  }
+ },
+ {
+  "id": "geai",
+  "name": "Geai des chênes",
+  "level": "difficile",
+  "family": "oiseaux",
+  "sound": "animaux/ceb5084970.mp3",
+  "photo": "animaux/ceb5084970.webp",
+  "credits": {
+   "sound": {
+    "author": "Marie-Lan Taÿ Pamart",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Eurasian_Jay_-_Garrulus_glandarius_XC496673.mp3"
+   },
+   "photo": {
+    "author": "Luc Viatour",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_1_Luc_Viatour.jpg"
+   }
+  }
+ },
+ {
+  "id": "gibbon",
+  "name": "Gibbon",
+  "level": "difficile",
+  "family": "primates",
+  "sound": "animaux/e3029c217e.mp3",
+  "photo": "animaux/e3029c217e.webp",
+  "credits": {
+   "sound": {
+    "author": "FunkMonk",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lar_Gibbon_hoots.ogg"
+   },
+   "photo": {
+    "author": "JJ Harrison (jjharrison89@facebook.com)",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hylobates_lar_-_Kaeng_Krachan_WB.jpg"
+   }
+  }
+ },
+ {
+  "id": "goeland",
+  "name": "Goéland",
+  "level": "facile",
+  "family": "mer",
+  "sound": "animaux/e2d7e7a7e3.mp3",
+  "photo": "animaux/e2d7e7a7e3.webp",
+  "credits": {
+   "sound": {
+    "author": "Sonothèque ADVL",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:XC707075_-_European_Herring_Gull_-_Larus_argentatus.mp3"
+   },
+   "photo": {
+    "author": "Kulac",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Larus_argentatus01.jpg"
+   }
+  }
+ },
+ {
+  "id": "sauterelle",
+  "name": "Grande sauterelle verte",
+  "level": "difficile",
+  "family": "insectes",
+  "sound": "animaux/bade1b488b.mp3",
+  "photo": "animaux/bade1b488b.webp",
+  "credits": {
+   "sound": {
+    "author": "Gunther Tschuch",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tettigonia_viridissima_song_23C.wav"
+   },
+   "photo": {
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Tettigonia_viridissima_on_Avena_fatua.jpg"
+   }
+  }
+ },
+ {
+  "id": "grenouille",
+  "name": "Grenouille",
+  "level": "facile",
+  "family": "mare",
+  "sound": "animaux/4e0ee9d029.mp3",
+  "photo": "animaux/4e0ee9d029.webp",
+  "credits": {
+   "sound": {
+    "author": "Llivermore",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Marsh_frog_(Pelophylax_ridibundus)_call.ogg"
+   },
+   "photo": {
+    "author": "Sebaho",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Seefrosch.JPG"
+   }
+  }
+ },
+ {
+  "id": "ouaouaron",
+  "name": "Grenouille taureau",
+  "level": "difficile",
+  "family": "mare",
+  "sound": "animaux/5ef38bb259.mp3",
+  "photo": "animaux/5ef38bb259.webp",
+  "credits": {
+   "sound": {
+    "author": "Carl Sandburg",
+    "license": "Public Domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Cornhuskers_02_05_Young_Bullfrogs.ogg"
+   },
+   "photo": {
+    "author": "DataBase Center for Life Science (DBCLS)",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:202312_American_bullfrog.svg"
+   }
+  }
+ },
+ {
+  "id": "grillon",
+  "name": "Grillon",
+  "level": "facile",
+  "family": "insectes",
+  "sound": "animaux/706c9872a4.mp3",
+  "photo": "animaux/706c9872a4.webp",
+  "credits": {
+   "sound": {
+    "author": "Harald Süpfle",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gryllus_campestris_02_(HS).ogg"
+   },
+   "photo": {
+    "author": "Roberto Zanon",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gryllus_campestris_3.jpg"
+   }
+  }
+ },
+ {
+  "id": "guepard",
+  "name": "Guépard",
+  "level": "difficile",
+  "family": "felins",
+  "sound": "animaux/8125dd50d2.mp3",
+  "photo": "animaux/8125dd50d2.webp",
+  "credits": {
+   "sound": {
+    "author": "Smirnova D, Volodin I, Demina T, Volodina E",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-(Acinonyx-pone.0158546.s001.oga"
+   },
+   "photo": {
+    "author": "James Temple",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:TheCheethcat.jpg"
+   }
+  }
+ },
+ {
   "id": "grand-duc",
   "name": "Hibou grand-duc",
   "level": "difficile",
@@ -160,10 +640,90 @@
   }
  },
  {
+  "id": "moyen-duc",
+  "name": "Hibou moyen-duc",
+  "level": "difficile",
+  "family": "nuit",
+  "sound": "animaux/9437343834.mp3",
+  "photo": "animaux/9437343834.webp",
+  "credits": {
+   "sound": {
+    "author": "Vidar",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Asio_otus_-_Long-eared_Owl_XC571684.mp3"
+   },
+   "photo": {
+    "author": "Mykola Swarnyk",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Asio_otus_Downsview_Park_Toronto2.jpg"
+   }
+  }
+ },
+ {
+  "id": "hyene",
+  "name": "Hyène",
+  "level": "difficile",
+  "family": "savane",
+  "sound": "animaux/7c464b163b.mp3",
+  "photo": "animaux/7c464b163b.webp",
+  "credits": {
+   "sound": {
+    "author": "Auteur inconnu",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Spotted_Hyaena_(Crocuta_crocuta)_(W1CDR0000381_BD12).ogg"
+   },
+   "photo": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hiena_manchada_(Crocuta_crocuta),_parque_nacional_Kruger,_Sud%C3%A1frica,_2018-07-26,_DD_22.jpg"
+   }
+  }
+ },
+ {
+  "id": "kookaburra",
+  "name": "Kookaburra",
+  "level": "difficile",
+  "family": "exotiques",
+  "sound": "animaux/c5bebf687a.mp3",
+  "photo": "animaux/c5bebf687a.webp",
+  "credits": {
+   "sound": {
+    "author": "Powys, V.",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dacelo_novaeguineae_ANWC_X00520.opus"
+   },
+   "photo": {
+    "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dacelo_novaeguineae_waterworks.jpg"
+   }
+  }
+ },
+ {
+  "id": "lion",
+  "name": "Lion",
+  "level": "facile",
+  "family": "felins",
+  "sound": "animaux/c28ef4ce2d.mp3",
+  "photo": "animaux/c28ef4ce2d.webp",
+  "credits": {
+   "sound": {
+    "author": "Bilberryerer",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lion_Mad.ogg"
+   },
+   "photo": {
+    "author": "GinaFranchi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:PZ_lion_pride.jpg"
+   }
+  }
+ },
+ {
   "id": "loup",
   "name": "Loup",
   "level": "facile",
-  "family": "sauvages",
+  "family": "canides",
   "sound": "animaux/4e7d62eff9.mp3",
   "photo": "animaux/4e7d62eff9.webp",
   "credits": {
@@ -176,6 +736,446 @@
     "author": "User:Mas3cf",
     "license": "CC BY-SA 4.0",
     "url": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg"
+   }
+  }
+ },
+ {
+  "id": "lemur",
+  "name": "Maki catta",
+  "level": "difficile",
+  "family": "primates",
+  "sound": "animaux/aa0ad7a3a9.mp3",
+  "photo": "animaux/aa0ad7a3a9.webp",
+  "credits": {
+   "sound": {
+    "author": "Chris Mercer",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lemur_catta--clicks3.ogg"
+   },
+   "photo": {
+    "author": "Alex Dunkel (Maky)",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lemur_catta_001.jpg"
+   }
+  }
+ },
+ {
+  "id": "manchot",
+  "name": "Manchot",
+  "level": "difficile",
+  "family": "mer",
+  "sound": "animaux/5a4eb13b57.mp3",
+  "photo": "animaux/5a4eb13b57.webp",
+  "credits": {
+   "sound": {
+    "author": "Favaro L, Gamba M, Alfieri C, Pessani D, McElligott A",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Vocal-individuality-cues-in-the-African-penguin-(Spheniscus-demersus)-a-source-filter-theory-srep17255-s2.oga"
+   },
+   "photo": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ping%C3%BCino_de_El_Cabo_(Spheniscus_demersus),_Playa_de_Boulders,_Simon%27s_Town,_Sud%C3%A1frica,_2018-07-23,_DD_11.jpg"
+   }
+  }
+ },
+ {
+  "id": "merle",
+  "name": "Merle",
+  "level": "difficile",
+  "family": "oiseaux",
+  "sound": "animaux/bb28a52cb3.mp3",
+  "photo": "animaux/bb28a52cb3.webp",
+  "credits": {
+   "sound": {
+    "author": "Joost van Bruggen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC436361.mp3"
+   },
+   "photo": {
+    "author": "Hobbyfotowiki",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Amselm%C3%A4nnchen_der_Unterart_T._m._azorensis_auf_Terceira.jpg"
+   }
+  }
+ },
+ {
+  "id": "mesange",
+  "name": "Mésange charbonnière",
+  "level": "difficile",
+  "family": "oiseaux",
+  "sound": "animaux/4382dde7f3.mp3",
+  "photo": "animaux/4382dde7f3.webp",
+  "credits": {
+   "sound": {
+    "author": "Nikita Panfilov",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Parus_major_-_Great_Tit_XC568273.mp3"
+   },
+   "photo": {
+    "author": "Frank Vassen from Brussels, Belgium",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Great_tit_(Parus_major),_Parc_de_Woluw%C3%A9,_Brussels_(13042792905).jpg"
+   }
+  }
+ },
+ {
+  "id": "moineau",
+  "name": "Moineau",
+  "level": "facile",
+  "family": "oiseaux",
+  "sound": "animaux/563309463c.mp3",
+  "photo": "animaux/563309463c.webp",
+  "credits": {
+   "sound": {
+    "author": "Joost van Bruggen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_House_Sparrow_XC433158.mp3"
+   },
+   "photo": {
+    "author": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg"
+   }
+  }
+ },
+ {
+  "id": "mouton",
+  "name": "Mouton",
+  "level": "facile",
+  "family": "ferme",
+  "sound": "animaux/dc32665109.mp3",
+  "photo": "animaux/dc32665109.webp",
+  "credits": {
+   "sound": {
+    "author": "earthcalling",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Sheep_bleating.ogg"
+   },
+   "photo": {
+    "author": "AnRo0002",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:20180513Ovis_aries1.jpg"
+   }
+  }
+ },
+ {
+  "id": "oie",
+  "name": "Oie",
+  "level": "facile",
+  "family": "ferme",
+  "sound": "animaux/6d81435fa4.mp3",
+  "photo": "animaux/6d81435fa4.webp",
+  "credits": {
+   "sound": {
+    "author": "Jens Loose",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Anser_anser_-_Greylag_Goose_XC518305.mp3"
+   },
+   "photo": {
+    "author": "W. Bulach",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:00_3688_Graugans_(Anser_anser).jpg"
+   }
+  }
+ },
+ {
+  "id": "orque",
+  "name": "Orque",
+  "level": "difficile",
+  "family": "mer",
+  "sound": "animaux/0b94b8af3c.mp3",
+  "photo": "animaux/0b94b8af3c.webp",
+  "credits": {
+   "sound": {
+    "author": "Auteur inconnu",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Killer_whale_simple.ogg"
+   },
+   "photo": {
+    "author": "Robert Pittman",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Killerwhales_jumping.jpg"
+   }
+  }
+ },
+ {
+  "id": "ours",
+  "name": "Ours brun",
+  "level": "facile",
+  "family": "foret",
+  "sound": "animaux/bb66c2a060.mp3",
+  "photo": "animaux/bb66c2a060.webp",
+  "credits": {
+   "sound": {
+    "author": "NPS & MSU Acoustic Atlas / Jennifer Jerrett",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Yellowstone_sound_library_-_Grizzly_Bears_Roar_-_001.mp3"
+   },
+   "photo": {
+    "author": "Robert F. Tobler",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kamchatka_Brown_Bear_near_Dvuhyurtochnoe_on_2015-07-23.jpg"
+   }
+  }
+ },
+ {
+  "id": "paon",
+  "name": "Paon",
+  "level": "difficile",
+  "family": "exotiques",
+  "sound": "animaux/3813401ac7.mp3",
+  "photo": "animaux/3813401ac7.webp",
+  "credits": {
+   "sound": {
+    "author": "Ke4roh",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Pavo_cristatus_(call).ogg"
+   },
+   "photo": {
+    "author": "Praveenp",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Indian_Peacock_in_Tholpetty_Wildlife_Sanctuary_01.JPG"
+   }
+  }
+ },
+ {
+  "id": "perroquet",
+  "name": "Perroquet gris",
+  "level": "facile",
+  "family": "maison",
+  "sound": "animaux/71c7bb412c.mp3",
+  "photo": "animaux/71c7bb412c.webp",
+  "credits": {
+   "sound": {
+    "author": "Geoprofi Lars",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Psittacus_erithacus_speaking.oga"
+   },
+   "photo": {
+    "author": "Florettesokeng",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg"
+   }
+  }
+ },
+ {
+  "id": "pic-vert",
+  "name": "Pic vert",
+  "level": "difficile",
+  "family": "oiseaux",
+  "sound": "animaux/c93f9a73dc.mp3",
+  "photo": "animaux/c93f9a73dc.webp",
+  "credits": {
+   "sound": {
+    "author": "Benoît Van Hecke",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Picus_viridis_-_European_Green_Woodpecker_XC573514.mp3"
+   },
+   "photo": {
+    "author": "Sven Teschke, Büdingen",
+    "license": "CC BY-SA 2.0 de",
+    "url": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCnspecht_Picus_viridis.jpg"
+   }
+  }
+ },
+ {
+  "id": "pie",
+  "name": "Pie",
+  "level": "facile",
+  "family": "oiseaux",
+  "sound": "animaux/9e7ba77365.mp3",
+  "photo": "animaux/9e7ba77365.webp",
+  "credits": {
+   "sound": {
+    "author": "Spyros Papanastasiou",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Pica_pica-2015.6.11-part_9.flac"
+   },
+   "photo": {
+    "author": "Alexis Lours",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Eurasian_magpie_2024_03_03_02.jpg"
+   }
+  }
+ },
+ {
+  "id": "pigeon",
+  "name": "Pigeon",
+  "level": "facile",
+  "family": "oiseaux",
+  "sound": "animaux/87dcc750a9.mp3",
+  "photo": "animaux/87dcc750a9.webp",
+  "credits": {
+   "sound": {
+    "author": "Sharadapte",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Blue_rock_pigeon_song_recorded_in_May_2012_at_Sangli.wav"
+   },
+   "photo": {
+    "author": "william_stephens",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Columba_livia_(Rock_Dove,_wild),_Duncansby_Head,_Caithness,_Scotland_1.jpg"
+   }
+  }
+ },
+ {
+  "id": "pintade",
+  "name": "Pintade",
+  "level": "difficile",
+  "family": "ferme",
+  "sound": "animaux/30d5b7e580.mp3",
+  "photo": "animaux/30d5b7e580.webp",
+  "credits": {
+   "sound": {
+    "author": "JMK",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Numida_meleagris_coronatus,_skemerroepe,_Skeerpoort,_2021-12-31_18h13,_b.mp3"
+   },
+   "photo": {
+    "author": "New Jersey Birds",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Numida_meleagris_-Kruger_National_Park,_South_Africa-8a.jpg"
+   }
+  }
+ },
+ {
+  "id": "renard",
+  "name": "Renard",
+  "level": "difficile",
+  "family": "canides",
+  "sound": "animaux/3e824ceb71.mp3",
+  "photo": "animaux/3e824ceb71.webp",
+  "credits": {
+   "sound": {
+    "author": "Alexander Kurthy",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Vulpes_vulpes,_at_Henclov%C3%A1,_Slovakia_XC108315.mp3"
+   },
+   "photo": {
+    "author": "ClaudiaTen",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg"
+   }
+  }
+ },
+ {
+  "id": "rossignol",
+  "name": "Rossignol",
+  "level": "difficile",
+  "family": "oiseaux",
+  "sound": "animaux/93a05567ae.mp3",
+  "photo": "animaux/93a05567ae.webp",
+  "credits": {
+   "sound": {
+    "author": "GESHORS Yann",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Luscinia_megarhynchos_-_Common_Nightingale_XC546355.mp3"
+   },
+   "photo": {
+    "author": "Արարատ Թրվանց",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%D5%80%D5%A1%D6%80%D5%A1%D5%BE%D5%A1%D5%B5%D5%AB%D5%B6_%D5%BD%D5%B8%D5%AD%D5%A1%D5%AF.jpg"
+   }
+  }
+ },
+ {
+  "id": "rouge-gorge",
+  "name": "Rouge-gorge",
+  "level": "difficile",
+  "family": "oiseaux",
+  "sound": "animaux/26af9aa0c2.mp3",
+  "photo": "animaux/26af9aa0c2.webp",
+  "credits": {
+   "sound": {
+    "author": "Marie-Lan Taÿ Pamart",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_-_European_Robin_XC509375.mp3"
+   },
+   "photo": {
+    "author": "Francis C. Franklin",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_with_cocked_head.jpg"
+   }
+  }
+ },
+ {
+  "id": "hurleur",
+  "name": "Singe hurleur",
+  "level": "difficile",
+  "family": "primates",
+  "sound": "animaux/fa0a34d97d.mp3",
+  "photo": "animaux/fa0a34d97d.webp",
+  "credits": {
+   "sound": {
+    "author": "David O'Hara",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Howler_monkey.ogg"
+   },
+   "photo": {
+    "author": "© Leonardo C. Fleck (leonardofleck@yahoo.com.br)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Allouataadulto_500px.jpg"
+   }
+  }
+ },
+ {
+  "id": "tigre",
+  "name": "Tigre",
+  "level": "facile",
+  "family": "felins",
+  "sound": "animaux/39ec53b9da.mp3",
+  "photo": "animaux/39ec53b9da.webp",
+  "credits": {
+   "sound": {
+    "author": "Bilberryerer",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tiger_Mad.ogg"
+   },
+   "photo": {
+    "author": "Seemaleena",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Adult_male_Royal_Bengal_tiger.jpg"
+   }
+  }
+ },
+ {
+  "id": "toucan",
+  "name": "Toucan",
+  "level": "difficile",
+  "family": "exotiques",
+  "sound": "animaux/f0c511264d.mp3",
+  "photo": "animaux/f0c511264d.webp",
+  "credits": {
+   "sound": {
+    "author": "Fabrício Grigolin",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Toco_Toucan_call_(Ramphastos_toco).ogg"
+   },
+   "photo": {
+    "author": "Ttschleuder",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Keel_billed_toucan_costa_rica_(cropped).jpg"
+   }
+  }
+ },
+ {
+  "id": "tourterelle",
+  "name": "Tourterelle turque",
+  "level": "difficile",
+  "family": "oiseaux",
+  "sound": "animaux/1cdfab0037.mp3",
+  "photo": "animaux/1cdfab0037.webp",
+  "credits": {
+   "sound": {
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Streptopelia_decaocto_-_Eurasian_Collared_Dove_-_XC82758.ogg"
+   },
+   "photo": {
+    "author": "xulescu_g",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Streptopelia_decaocto,_H%C4%83rman,_Rom%C3%A2nia_(34881606270).jpg"
    }
   }
  },

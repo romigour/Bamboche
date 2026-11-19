@@ -2,7 +2,7 @@
 
 Jeux de soirée sur un seul téléphone, qu'on se passe de main en main. Application web installable (PWA), qui fonctionne hors ligne, sans compte ni serveur.
 
-Jeux disponibles : **Time Up**, **Blindtest** (qui a besoin d'Internet pour la musique) et **Undercover**.
+Jeux disponibles : **Time Up**, **Blindtest** (qui a besoin d'Internet pour la musique), **Undercover** et **Cris d'animaux** (sons téléchargés à la première partie, puis hors ligne).
 
 ## Lancer en local
 
@@ -84,3 +84,23 @@ Les extraits et les pochettes sont lus depuis les serveurs de Spotify : ils ne s
 ## Paires de l'Undercover
 
 Les paires de mots sont dans `src/games/undercover/words.json` : une liste d'objets `{ "a": "…", "b": "…" }`. Le test refuse les doublons (accents, majuscules et ordre des deux mots ignorés).
+
+## Banque de sons des Cris d'animaux
+
+Les cris et les photos viennent de [Wikimedia Commons](https://commons.wikimedia.org/) (licences CC0, domaine public, CC BY ou CC BY-SA seulement ; les crédits sont affichés dans le jeu). Ils sont rangés dans `public/animaux/` sous des noms neutres et décrits par `src/games/animaux/animals.json`. L'app ne les met pas dans le précache : ils sont téléchargés à la première partie.
+
+1. Décrire les animaux dans `scripts/animals.source.json` : `id`, `name`, `level` (`facile` ou `difficile`), `family`, titres Commons du son et de la photo (`File:…`), et au besoin `start` / `end` (en secondes) pour la découpe.
+2. Préparer les candidats (ffmpeg est fourni par la dépendance `ffmpeg-static`). Wikimedia ralentit fortement les scripts sans contact : en donner un est recommandé.
+
+```bash
+WIKIMEDIA_CONTACT="adresse ou URL" npm run import-animals -- candidats
+```
+
+3. Ouvrir `scripts/.animaux-candidats/ecoute.html`, écouter, cocher Garder ou Jeter, puis « Exporter la sélection ».
+4. Construire la banque (sans fichier de sélection : tous les candidats) :
+
+```bash
+npm run import-animals -- banque chemin/vers/selection.json
+```
+
+Le script affiche la taille de la banque (objectif : moins de 10 Mo) et prévient quand une famille a moins de 4 animaux (niveau Expert) ou quand il y a moins de 30 animaux faciles.
